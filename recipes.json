@@ -1,23 +1,220 @@
 [
   {
-    "name": "Food Casserole",
+    "name": "Cocoa Nut Almond Butter",
+    "categories": [
+      "dessert"
+    ],
     "ingredients": [
-      { "name": "butter", "amount": "1", "unit": "Tablespoon" }
+      "2 tablespoons cocoa powder",
+      "1/8 teaspoon salt",
+      "1 1/4 cup almonds",
+      "2 tablespoons coconut flakes"
     ],
     "instructions": [
-      "Mix butter into bowl",
-      "Go nuts"
+      "Add ingredients to blender twister jar.  Blend medium to medium high speed for 40 seconds"
     ]
   },
   {
-    "name": "Cheese Blend",
+    "name": "Tuna Melt",
+    "categories": [
+      "simple"
+    ],
     "ingredients": [
-      { "name": "Mozzarella", "amount": "1", "unit": "Cup" },
-      { "name": "Swiss", "amount": "1", "unit": "Cup" },
-      { "name": "Provelone", "amount": "1", "unit": "Cup" }
+      "mayo",
+      "salsa",
+      "Canned Tuna (or chicken)",
+      "Shredded Cheese (mozzarella)",
+      "Flour tortilla"
     ],
     "instructions": [
-      "Mix cheese in bowl"
+      "Combine and mix tuna, mayo, salsa in bowl",
+      "Put mixture onto half of tortilla.  Put cheese on top of tuna",
+      "Fold in half, melt on press/grill"
+    ]
+  },
+  {
+    "name": "Turkey Melt",
+    "categories": [
+      "simple"
+    ],
+    "ingredients": [
+      "Sliced Turkey",
+      "Flatbread",
+      "Lettuce",
+      "Salad Dressing (Honey Mustard)",
+      "Sriracha",
+      "Shredded Cheese (cheddar)"
+    ],
+    "instructions": [
+      "Finely chop lettuce.  Add to bowl and mix with salad dressing",
+      "Place cheese on flatbread.  Place turkey on cheese.  Place lettuce on turkey",
+      "Fold in half and grill/press"
+    ]
+  },
+  {
+    "name": "Avocado Toast",
+    "categories": [
+      "simple"
+    ],
+    "ingredients": [
+      "Pickles",
+      "Avocado",
+      "jarred roasted peppers",
+      "bread (regular is fine)"
+    ],
+    "instructions": [
+      "Brush bread with some oil and toast.  Optional, brush with garlic.",
+      "Add avocado",
+      "Slice and add pickle",
+      "Add roasted red peppers"
+    ]
+  },
+  {
+    "name": "Lettuce Wraps",
+    "categories": [
+      "simple"
+    ],
+    "ingredients": [
+      "Roast Beef lunch meat slices",
+      "Lettuce",
+      "Carrots (shredded)",
+      "Sesame Seeds",
+      "Soy Sauce"
+    ],
+    "instructions": [
+      "Heat oil in pan and fry/steam carrots to soften.",
+      "Shred up roast beef slices, add to carrots, continue to fry to soften the beef.",
+      "Add soy sauce and sesame seeds.",
+      "Add to lettuce wraps"
+    ]
+  },
+  {
+    "name": "Chili Beef/Pork Lettuce Wraps",
+    "note": "This is awesome!  Maybe a little too intense, don't go crazy on brown sugar.",
+    "video": "https://www.youtube.com/watch?v=UzFoThs2Qpw",
+    "ingredients": [
+      "lettuce (baby gem, napa)",
+      "Ground Pork (can be half pork and half beef)",
+      "Chili",
+      "fish sauce",
+      "lime",
+      "cilantro",
+      "spring onions"
+    ],
+    "instructions": [
+      "Season ground meat.  Add oil to very hot pan and fry meat dark brown and crispy.  Break up with spoon.",
+      "Remove and drain off oil through sive.  Wipe out pan.",
+      "Add 1tsp sesame oil, chili, ginger, garlic to pan.",
+      "Add brown sugar, add back in meat.  Add fish sauce.",
+      "Add zest of lime and lime juice.  Add spring onions.",
+      "Dipping sauce - 1tsp brown sugar, soy sauce, 1Tbsp sesame oil, 1Tbsp olive oil, 1tsp fish sauce, lime juice",
+      "Add diced chili (keep seeds in).  Add diced cilantro"
+    ]
+  },
+  {
+    "name": "Egg rolls",
+    "ingredients": [
+      "egg roll wrappers",
+      "cabbage (napa, chinese) chopped",
+      "carrots (shredded)",
+      "ground pork"
+    ],
+    "instructions": [
+      "Heat oil in a wok, add scallions, ginger and garlic",
+      "Add carrots (shredded), cabbage and peppers, wilt down",
+      "Push to side of wok, add ground pork and fry it for color",
+      "Bring together.  Add soy sauce, sesame oil, oyster sauce, sugar for flavor",
+      "Add to egg roll wrapper, wrap it up",
+      "Heat oil in wok and fry it to finish"
+    ]
+  },
+  {
+    "name": "Lo Mein",
+    "categories": [
+      "revise"
+    ],
+    "ingredients": [
+      "Lo Mein Noodles (or spaghetti)",
+      "Pork (Loin, cut to strips)"
+    ],
+    "instructions": [
+      "Cook Pasta, drain, set aside",
+      "Heat oil in wok, add pork strips, get color on strips; remove pork strips",
+      "Add ginger and garlic to oil.  Cook for a bit.  Add carrot, yellow onion, peppers, cook",
+      "Add back in pork strips, add sesame oil, add scallions, add sugar and soy sauce",
+      "drop in noodles, mix and serve"
+    ]
+  },
+  {
+    "name": "Beef and Brocolli",
+    "categories": [
+      "revise"
+    ],
+    "ingredients": [
+      "Beef (Rump, tenderloin, ribeye) sliced thin",
+      "broccoli"
+    ],
+    "instructions": [
+      "Whisk soy sauce, cornstarch, oyester sauce and cooking wine to make a sauce",
+      "Marinade meat in soy sauce and sesame oil",
+      "Add water to wok, add broccoli and salt.  Slightly steam broccoli until water is gone",
+      "Clear Wok, add oil and beef for color.  Remove beef",
+      "Add oil, scallions, ginger and garlic, cook",
+      "Add back in broccoli, heat for a bit, add back in beef.  Add sauce, as it heats it will thicken.",
+      "Add sesame seeds"
+    ]
+  },
+  {
+    "name": "General Tso's Chicken",
+    "ingredients": [
+      "boneless chicken thighs, bite sized pieces"
+    ],
+    "instructions": [
+      "Beat egg, add soy sauce, cornstarch, wine, baking powder.  Mix together.",
+      "Add chicken thighs.  Marinade for a few hours",
+      "In a clean bowl, add baking powder and cornstarch",
+      "In another bowl, mix soy sauce, wine, rice vinegar, sugar, cornstarch, chili flakes",
+      "Drege chicken through powder bowl and deep fry it 350-370 degrees",
+      "In a wok, heat oil and fry scallions, ginger and garlic",
+      "Add sauce, let thicken, add chicken, coat with sauce",
+      "Add sesame seeds, serve over rice"
+    ]
+  },
+  {
+    "name": "Gumbo",
+    "categories": [
+      "cold weather"
+    ],
+    "video": "https://www.youtube.com/watch?v=76JXtB7JFQY",
+    "ingredients": [
+      "1 pound chicken thighs",
+      "1 pound sausage (andouille, smoked)",
+      "Grapeseed Oil (for higher smoke point)",
+      "2 ribs celery",
+      "1 green bell pepper",
+      "1 small yellow onion",
+      "1 jalapeno pepper",
+      "amber-style beer",
+      "6 large cloves of garlic",
+      "1 quart stock (chicken or seafood)",
+      "fresh thyme",
+      "5 bay leaves",
+      "creole seasoning (optional)",
+      "shrimp (optional)",
+      "green onions",
+      "rice"
+    ],
+    "instructions": [
+      "Season chicken with salt, pepper and oil.  Broil until golden.  Deglaze with beer.",
+      "Dice onion, green bell pepper, and celery.  Mince jalapeno.  Can use food processor.  Mince garlic",
+      "In a large pot, add sausage and brown.  Remove sausage and add 1/3 cup oil to the fat.  Add 4 tablespoons butter.  Add 1/3 cup flour to make a roux.  Keep whisking and cook until dark.  Go low and slow.  Takes about 30 minutes.",
+      "Add onions, cook 5 minutes.  Add peppers and celery.  Five more minutes. Add garlic.  Cook for another minute.",
+      "Add 1 cup of beer, cook off alcohol",
+      "Add 1 quart stock.  Add creole seasoning.  Stir while adding.  Add in chicken and fond.  Add 5 bay leaves, thyme.  Add salt.  About 1 tablespoon (less if using creole seasoning).  Add about 1 tsp of black pepper.  Add some cayenne pepper.",
+      "Add sausage.  Let it simmer for 3 hours, stir every 30 minutes.  Skim off fat during simmer.",
+      "Take out bay leaves, add green onions.",
+      "Add shrimp, cook for 7 minutes (optional)",
+      "Serve over rice"
     ]
   }
 ]
