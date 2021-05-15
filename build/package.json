@@ -2,6 +2,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
+    "publish": "git subtree push --prefix build origin gh-pages",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
