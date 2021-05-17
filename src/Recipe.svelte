@@ -11,6 +11,7 @@
   {#if expanded}
     {#if recipe.note}<div><strong>Note: {recipe.note}</strong></div>{/if}
     {#if recipe.video}<div><a class="external_link" target="_blank" href={recipe.video}>{recipe.video}</a></div>{/if}
+    {#if recipe.link}<div><a class="external_link" target="_blank" href={recipe.link}>{recipe.link}</a></div>{/if}
     <h3>Ingredients</h3>
     <ul>
       {#each recipe.ingredients as ingredient}
