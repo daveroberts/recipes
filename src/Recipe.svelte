@@ -5,9 +5,10 @@
 </script>
 <style>
   .external_link{ text-decoration: underline; }
+  .fakelink:hover{ cursor: pointer }
 </style>
 <div>
-  <h2><a href={'#'} on:click={()=>{expanded=!expanded}}>{recipe.name}</a></h2>
+  <h2><span class="fakelink" on:click={()=>{expanded=!expanded}}>{recipe.name}</span></h2>
   {#if expanded}
     {#if recipe.note}<div><strong>Note: {recipe.note}</strong></div>{/if}
     {#if recipe.video}<div><a class="external_link" target="_blank" href={recipe.video}>{recipe.video}</a></div>{/if}

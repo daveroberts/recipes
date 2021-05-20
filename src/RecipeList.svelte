@@ -18,7 +18,7 @@
     }
     if(search){
       recipes = recipes.filter(r=>{
-        return JSON.stringify(r).toLowerCase().includes(search)
+        return JSON.stringify(r).toLowerCase().includes(search.toLowerCase())
       })
     }
     recipes.sort((a,b)=>a.name > b.name ? 1 : -1)
@@ -26,7 +26,7 @@
 </script>
 <style>
   .category_area{ margin-bottom: 1em; }
-  .category_checkbox{ margin-right: 3em;}
+  .category_checkbox{ margin-right: 10pt;}
 </style>
 <div>
   <div class="category_area">

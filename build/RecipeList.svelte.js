@@ -65,7 +65,7 @@ function create_each_block_1(ctx) {
 			input.__value = input_value_value = /*category*/ ctx[10];
 			input.value = input.__value;
 			/*$$binding_groups*/ ctx[5][0].push(input);
-			attr(label, "class", "category_checkbox svelte-m61way");
+			attr(label, "class", "category_checkbox svelte-fdvs8s");
 		},
 		m(target, anchor) {
 			insert(target, label, anchor);
@@ -319,7 +319,7 @@ function create_fragment(ctx) {
 			if (if_block0) if_block0.c();
 			t3 = space();
 			if_block1.c();
-			attr(div0, "class", "category_area svelte-m61way");
+			attr(div0, "class", "category_area svelte-fdvs8s");
 		},
 		m(target, anchor) {
 			insert(target, div2, anchor);
@@ -467,7 +467,7 @@ function instance($$self, $$props, $$invalidate) {
 
 				if (search) {
 					$$invalidate(2, recipes = recipes.filter(r => {
-						return JSON.stringify(r).toLowerCase().includes(search);
+						return JSON.stringify(r).toLowerCase().includes(search.toLowerCase());
 					}));
 				}
 

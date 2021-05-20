@@ -29,7 +29,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (11:2) {#if expanded}
+// (12:2) {#if expanded}
 function create_if_block(ctx) {
 	let t0;
 	let t1;
@@ -215,7 +215,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (12:4) {#if recipe.note}
+// (13:4) {#if recipe.note}
 function create_if_block_3(ctx) {
 	let div;
 	let strong;
@@ -245,7 +245,7 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (13:4) {#if recipe.video}
+// (14:4) {#if recipe.video}
 function create_if_block_2(ctx) {
 	let div;
 	let a;
@@ -258,7 +258,7 @@ function create_if_block_2(ctx) {
 			div = element("div");
 			a = element("a");
 			t = text(t_value);
-			attr(a, "class", "external_link svelte-15oq5q4");
+			attr(a, "class", "external_link svelte-1rvhot6");
 			attr(a, "target", "_blank");
 			attr(a, "href", a_href_value = /*recipe*/ ctx[0].video);
 		},
@@ -280,7 +280,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (14:4) {#if recipe.link}
+// (15:4) {#if recipe.link}
 function create_if_block_1(ctx) {
 	let div;
 	let a;
@@ -293,7 +293,7 @@ function create_if_block_1(ctx) {
 			div = element("div");
 			a = element("a");
 			t = text(t_value);
-			attr(a, "class", "external_link svelte-15oq5q4");
+			attr(a, "class", "external_link svelte-1rvhot6");
 			attr(a, "target", "_blank");
 			attr(a, "href", a_href_value = /*recipe*/ ctx[0].link);
 		},
@@ -315,7 +315,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (17:6) {#each recipe.ingredients as ingredient}
+// (18:6) {#each recipe.ingredients as ingredient}
 function create_each_block_1(ctx) {
 	let li;
 	let t_value = /*ingredient*/ ctx[6] + "";
@@ -339,7 +339,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (23:6) {#each recipe.instructions as instruction}
+// (24:6) {#each recipe.instructions as instruction}
 function create_each_block(ctx) {
 	let li;
 	let t_value = /*instruction*/ ctx[3] + "";
@@ -366,10 +366,9 @@ function create_each_block(ctx) {
 function create_fragment(ctx) {
 	let div;
 	let h2;
-	let a;
+	let span;
 	let t0_value = /*recipe*/ ctx[0].name + "";
 	let t0;
-	let a_href_value;
 	let t1;
 	let mounted;
 	let dispose;
@@ -379,22 +378,22 @@ function create_fragment(ctx) {
 		c() {
 			div = element("div");
 			h2 = element("h2");
-			a = element("a");
+			span = element("span");
 			t0 = text(t0_value);
 			t1 = space();
 			if (if_block) if_block.c();
-			attr(a, "href", a_href_value = "#");
+			attr(span, "class", "fakelink svelte-1rvhot6");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
 			append(div, h2);
-			append(h2, a);
-			append(a, t0);
+			append(h2, span);
+			append(span, t0);
 			append(div, t1);
 			if (if_block) if_block.m(div, null);
 
 			if (!mounted) {
-				dispose = listen(a, "click", /*click_handler*/ ctx[2]);
+				dispose = listen(span, "click", /*click_handler*/ ctx[2]);
 				mounted = true;
 			}
 		},
