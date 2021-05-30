@@ -1,6 +1,6 @@
 // [snowpack] add styles to the page (skip if no document exists)
 if (typeof document !== 'undefined') {
-  const code = ".external_link.svelte-1rvhot6{text-decoration:underline}.fakelink.svelte-1rvhot6:hover{cursor:pointer }";
+  const code = ".external_link.svelte-15oq5q4{text-decoration:underline}";
 
   const styleEl = document.createElement("style");
   const codeEl = document.createTextNode(code);

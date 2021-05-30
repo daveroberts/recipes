@@ -55,17 +55,6 @@ function attr(node, attribute, value) {
   else if (node.getAttribute(attribute) !== value)
     node.setAttribute(attribute, value);
 }
-function get_binding_group_value(group, __value, checked) {
-  const value = new Set();
-  for (let i = 0; i < group.length; i += 1) {
-    if (group[i].checked)
-      value.add(group[i].__value);
-  }
-  if (!checked) {
-    value.delete(__value);
-  }
-  return Array.from(value);
-}
 function children(element2) {
   return Array.from(element2.childNodes);
 }
@@ -76,6 +65,12 @@ function set_data(text2, data) {
 }
 function set_input_value(input, value) {
   input.value = value == null ? "" : value;
+}
+function set_style(node, key, value, important) {
+  node.style.setProperty(key, value, important ? "important" : "");
+}
+function toggle_class(element2, name, toggle) {
+  element2.classList[toggle ? "add" : "remove"](name);
 }
 let current_component;
 function set_current_component(component) {
@@ -284,4 +279,4 @@ class SvelteComponent {
   }
 }
 
-export { SvelteComponent, append, attr, check_outros, create_component, destroy_component, destroy_each, detach, element, empty, get_binding_group_value, group_outros, init, insert, listen, mount_component, noop, safe_not_equal, set_data, set_input_value, space, text, transition_in, transition_out };
+export { SvelteComponent, append, attr, check_outros, create_component, destroy_component, destroy_each, detach, element, empty, group_outros, init, insert, listen, mount_component, noop, run_all, safe_not_equal, set_data, set_input_value, set_style, space, text, toggle_class, transition_in, transition_out };

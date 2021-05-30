@@ -7,6 +7,7 @@ import {
 	destroy_each,
 	detach,
 	element,
+	empty,
 	init,
 	insert,
 	listen,
@@ -29,29 +30,28 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (12:2) {#if expanded}
+function get_each_context_2(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[9] = list[i];
+	return child_ctx;
+}
+
+function get_each_context_3(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[12] = list[i];
+	return child_ctx;
+}
+
+// (11:2) {#if expanded}
 function create_if_block(ctx) {
 	let t0;
 	let t1;
 	let t2;
-	let h30;
-	let t4;
-	let ul;
-	let t5;
-	let h31;
-	let t7;
-	let ol;
-	let if_block0 = /*recipe*/ ctx[0].note && create_if_block_3(ctx);
-	let if_block1 = /*recipe*/ ctx[0].video && create_if_block_2(ctx);
-	let if_block2 = /*recipe*/ ctx[0].link && create_if_block_1(ctx);
-	let each_value_1 = /*recipe*/ ctx[0].ingredients;
-	let each_blocks_1 = [];
-
-	for (let i = 0; i < each_value_1.length; i += 1) {
-		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
-	}
-
-	let each_value = /*recipe*/ ctx[0].instructions;
+	let each_1_anchor;
+	let if_block0 = /*recipe*/ ctx[0].notes && create_if_block_6(ctx);
+	let if_block1 = /*recipe*/ ctx[0].video && create_if_block_5(ctx);
+	let if_block2 = /*recipe*/ ctx[0].link && create_if_block_4(ctx);
+	let each_value = /*recipe*/ ctx[0].versions;
 	let each_blocks = [];
 
 	for (let i = 0; i < each_value.length; i += 1) {
@@ -66,24 +66,12 @@ function create_if_block(ctx) {
 			t1 = space();
 			if (if_block2) if_block2.c();
 			t2 = space();
-			h30 = element("h3");
-			h30.textContent = "Ingredients";
-			t4 = space();
-			ul = element("ul");
-
-			for (let i = 0; i < each_blocks_1.length; i += 1) {
-				each_blocks_1[i].c();
-			}
-
-			t5 = space();
-			h31 = element("h3");
-			h31.textContent = "Instructions";
-			t7 = space();
-			ol = element("ol");
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].c();
 			}
+
+			each_1_anchor = empty();
 		},
 		m(target, anchor) {
 			if (if_block0) if_block0.m(target, anchor);
@@ -92,29 +80,19 @@ function create_if_block(ctx) {
 			insert(target, t1, anchor);
 			if (if_block2) if_block2.m(target, anchor);
 			insert(target, t2, anchor);
-			insert(target, h30, anchor);
-			insert(target, t4, anchor);
-			insert(target, ul, anchor);
-
-			for (let i = 0; i < each_blocks_1.length; i += 1) {
-				each_blocks_1[i].m(ul, null);
-			}
-
-			insert(target, t5, anchor);
-			insert(target, h31, anchor);
-			insert(target, t7, anchor);
-			insert(target, ol, anchor);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
-				each_blocks[i].m(ol, null);
+				each_blocks[i].m(target, anchor);
 			}
+
+			insert(target, each_1_anchor, anchor);
 		},
 		p(ctx, dirty) {
-			if (/*recipe*/ ctx[0].note) {
+			if (/*recipe*/ ctx[0].notes) {
 				if (if_block0) {
 					if_block0.p(ctx, dirty);
 				} else {
-					if_block0 = create_if_block_3(ctx);
+					if_block0 = create_if_block_6(ctx);
 					if_block0.c();
 					if_block0.m(t0.parentNode, t0);
 				}
@@ -127,7 +105,7 @@ function create_if_block(ctx) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 				} else {
-					if_block1 = create_if_block_2(ctx);
+					if_block1 = create_if_block_5(ctx);
 					if_block1.c();
 					if_block1.m(t1.parentNode, t1);
 				}
@@ -140,7 +118,7 @@ function create_if_block(ctx) {
 				if (if_block2) {
 					if_block2.p(ctx, dirty);
 				} else {
-					if_block2 = create_if_block_1(ctx);
+					if_block2 = create_if_block_4(ctx);
 					if_block2.c();
 					if_block2.m(t2.parentNode, t2);
 				}
@@ -150,30 +128,7 @@ function create_if_block(ctx) {
 			}
 
 			if (dirty & /*recipe*/ 1) {
-				each_value_1 = /*recipe*/ ctx[0].ingredients;
-				let i;
-
-				for (i = 0; i < each_value_1.length; i += 1) {
-					const child_ctx = get_each_context_1(ctx, each_value_1, i);
-
-					if (each_blocks_1[i]) {
-						each_blocks_1[i].p(child_ctx, dirty);
-					} else {
-						each_blocks_1[i] = create_each_block_1(child_ctx);
-						each_blocks_1[i].c();
-						each_blocks_1[i].m(ul, null);
-					}
-				}
-
-				for (; i < each_blocks_1.length; i += 1) {
-					each_blocks_1[i].d(1);
-				}
-
-				each_blocks_1.length = each_value_1.length;
-			}
-
-			if (dirty & /*recipe*/ 1) {
-				each_value = /*recipe*/ ctx[0].instructions;
+				each_value = /*recipe*/ ctx[0].versions;
 				let i;
 
 				for (i = 0; i < each_value.length; i += 1) {
@@ -184,7 +139,7 @@ function create_if_block(ctx) {
 					} else {
 						each_blocks[i] = create_each_block(child_ctx);
 						each_blocks[i].c();
-						each_blocks[i].m(ol, null);
+						each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
 					}
 				}
 
@@ -202,25 +157,74 @@ function create_if_block(ctx) {
 			if (detaching) detach(t1);
 			if (if_block2) if_block2.d(detaching);
 			if (detaching) detach(t2);
-			if (detaching) detach(h30);
-			if (detaching) detach(t4);
-			if (detaching) detach(ul);
-			destroy_each(each_blocks_1, detaching);
-			if (detaching) detach(t5);
-			if (detaching) detach(h31);
-			if (detaching) detach(t7);
-			if (detaching) detach(ol);
 			destroy_each(each_blocks, detaching);
+			if (detaching) detach(each_1_anchor);
 		}
 	};
 }
 
-// (13:4) {#if recipe.note}
-function create_if_block_3(ctx) {
+// (12:4) {#if recipe.notes}
+function create_if_block_6(ctx) {
+	let each_1_anchor;
+	let each_value_3 = /*recipe*/ ctx[0].notes;
+	let each_blocks = [];
+
+	for (let i = 0; i < each_value_3.length; i += 1) {
+		each_blocks[i] = create_each_block_3(get_each_context_3(ctx, each_value_3, i));
+	}
+
+	return {
+		c() {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			each_1_anchor = empty();
+		},
+		m(target, anchor) {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(target, anchor);
+			}
+
+			insert(target, each_1_anchor, anchor);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1) {
+				each_value_3 = /*recipe*/ ctx[0].notes;
+				let i;
+
+				for (i = 0; i < each_value_3.length; i += 1) {
+					const child_ctx = get_each_context_3(ctx, each_value_3, i);
+
+					if (each_blocks[i]) {
+						each_blocks[i].p(child_ctx, dirty);
+					} else {
+						each_blocks[i] = create_each_block_3(child_ctx);
+						each_blocks[i].c();
+						each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
+					}
+				}
+
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
+				}
+
+				each_blocks.length = each_value_3.length;
+			}
+		},
+		d(detaching) {
+			destroy_each(each_blocks, detaching);
+			if (detaching) detach(each_1_anchor);
+		}
+	};
+}
+
+// (13:6) {#each recipe.notes as note}
+function create_each_block_3(ctx) {
 	let div;
 	let strong;
 	let t0;
-	let t1_value = /*recipe*/ ctx[0].note + "";
+	let t1_value = /*note*/ ctx[12] + "";
 	let t1;
 
 	return {
@@ -237,7 +241,7 @@ function create_if_block_3(ctx) {
 			append(strong, t1);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t1_value !== (t1_value = /*recipe*/ ctx[0].note + "")) set_data(t1, t1_value);
+			if (dirty & /*recipe*/ 1 && t1_value !== (t1_value = /*note*/ ctx[12] + "")) set_data(t1, t1_value);
 		},
 		d(detaching) {
 			if (detaching) detach(div);
@@ -245,8 +249,8 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (14:4) {#if recipe.video}
-function create_if_block_2(ctx) {
+// (17:4) {#if recipe.video}
+function create_if_block_5(ctx) {
 	let div;
 	let a;
 	let t_value = /*recipe*/ ctx[0].video + "";
@@ -258,7 +262,7 @@ function create_if_block_2(ctx) {
 			div = element("div");
 			a = element("a");
 			t = text(t_value);
-			attr(a, "class", "external_link svelte-1rvhot6");
+			attr(a, "class", "external_link svelte-15oq5q4");
 			attr(a, "target", "_blank");
 			attr(a, "href", a_href_value = /*recipe*/ ctx[0].video);
 		},
@@ -280,8 +284,8 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (15:4) {#if recipe.link}
-function create_if_block_1(ctx) {
+// (18:4) {#if recipe.link}
+function create_if_block_4(ctx) {
 	let div;
 	let a;
 	let t_value = /*recipe*/ ctx[0].link + "";
@@ -293,7 +297,7 @@ function create_if_block_1(ctx) {
 			div = element("div");
 			a = element("a");
 			t = text(t_value);
-			attr(a, "class", "external_link svelte-1rvhot6");
+			attr(a, "class", "external_link svelte-15oq5q4");
 			attr(a, "target", "_blank");
 			attr(a, "href", a_href_value = /*recipe*/ ctx[0].link);
 		},
@@ -315,10 +319,99 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (18:6) {#each recipe.ingredients as ingredient}
-function create_each_block_1(ctx) {
+// (20:6) {#if version.name}
+function create_if_block_3(ctx) {
+	let h3;
+	let t_value = /*version*/ ctx[3].name + "";
+	let t;
+
+	return {
+		c() {
+			h3 = element("h3");
+			t = text(t_value);
+		},
+		m(target, anchor) {
+			insert(target, h3, anchor);
+			append(h3, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*version*/ ctx[3].name + "")) set_data(t, t_value);
+		},
+		d(detaching) {
+			if (detaching) detach(h3);
+		}
+	};
+}
+
+// (21:6) {#if version.ingredients}
+function create_if_block_2(ctx) {
+	let h4;
+	let t1;
+	let ul;
+	let each_value_2 = /*version*/ ctx[3].ingredients;
+	let each_blocks = [];
+
+	for (let i = 0; i < each_value_2.length; i += 1) {
+		each_blocks[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
+	}
+
+	return {
+		c() {
+			h4 = element("h4");
+			h4.textContent = "Ingredients";
+			t1 = space();
+			ul = element("ul");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+		},
+		m(target, anchor) {
+			insert(target, h4, anchor);
+			insert(target, t1, anchor);
+			insert(target, ul, anchor);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(ul, null);
+			}
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1) {
+				each_value_2 = /*version*/ ctx[3].ingredients;
+				let i;
+
+				for (i = 0; i < each_value_2.length; i += 1) {
+					const child_ctx = get_each_context_2(ctx, each_value_2, i);
+
+					if (each_blocks[i]) {
+						each_blocks[i].p(child_ctx, dirty);
+					} else {
+						each_blocks[i] = create_each_block_2(child_ctx);
+						each_blocks[i].c();
+						each_blocks[i].m(ul, null);
+					}
+				}
+
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
+				}
+
+				each_blocks.length = each_value_2.length;
+			}
+		},
+		d(detaching) {
+			if (detaching) detach(h4);
+			if (detaching) detach(t1);
+			if (detaching) detach(ul);
+			destroy_each(each_blocks, detaching);
+		}
+	};
+}
+
+// (24:10) {#each version.ingredients as ingredient}
+function create_each_block_2(ctx) {
 	let li;
-	let t_value = /*ingredient*/ ctx[6] + "";
+	let t_value = /*ingredient*/ ctx[9] + "";
 	let t;
 
 	return {
@@ -331,7 +424,7 @@ function create_each_block_1(ctx) {
 			append(li, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*ingredient*/ ctx[6] + "")) set_data(t, t_value);
+			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*ingredient*/ ctx[9] + "")) set_data(t, t_value);
 		},
 		d(detaching) {
 			if (detaching) detach(li);
@@ -339,10 +432,80 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (24:6) {#each recipe.instructions as instruction}
-function create_each_block(ctx) {
+// (29:6) {#if version.instructions}
+function create_if_block_1(ctx) {
+	let h4;
+	let t1;
+	let ol;
+	let t2;
+	let each_value_1 = /*version*/ ctx[3].instructions;
+	let each_blocks = [];
+
+	for (let i = 0; i < each_value_1.length; i += 1) {
+		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+	}
+
+	return {
+		c() {
+			h4 = element("h4");
+			h4.textContent = "Instructions";
+			t1 = space();
+			ol = element("ol");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			t2 = space();
+		},
+		m(target, anchor) {
+			insert(target, h4, anchor);
+			insert(target, t1, anchor);
+			insert(target, ol, anchor);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(ol, null);
+			}
+
+			append(ol, t2);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1) {
+				each_value_1 = /*version*/ ctx[3].instructions;
+				let i;
+
+				for (i = 0; i < each_value_1.length; i += 1) {
+					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+
+					if (each_blocks[i]) {
+						each_blocks[i].p(child_ctx, dirty);
+					} else {
+						each_blocks[i] = create_each_block_1(child_ctx);
+						each_blocks[i].c();
+						each_blocks[i].m(ol, t2);
+					}
+				}
+
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
+				}
+
+				each_blocks.length = each_value_1.length;
+			}
+		},
+		d(detaching) {
+			if (detaching) detach(h4);
+			if (detaching) detach(t1);
+			if (detaching) detach(ol);
+			destroy_each(each_blocks, detaching);
+		}
+	};
+}
+
+// (32:10) {#each version.instructions as instruction}
+function create_each_block_1(ctx) {
 	let li;
-	let t_value = /*instruction*/ ctx[3] + "";
+	let t_value = /*instruction*/ ctx[6] + "";
 	let t;
 
 	return {
@@ -355,10 +518,87 @@ function create_each_block(ctx) {
 			append(li, t);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*instruction*/ ctx[3] + "")) set_data(t, t_value);
+			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*instruction*/ ctx[6] + "")) set_data(t, t_value);
 		},
 		d(detaching) {
 			if (detaching) detach(li);
+		}
+	};
+}
+
+// (19:4) {#each recipe.versions as version}
+function create_each_block(ctx) {
+	let t0;
+	let t1;
+	let if_block2_anchor;
+	let if_block0 = /*version*/ ctx[3].name && create_if_block_3(ctx);
+	let if_block1 = /*version*/ ctx[3].ingredients && create_if_block_2(ctx);
+	let if_block2 = /*version*/ ctx[3].instructions && create_if_block_1(ctx);
+
+	return {
+		c() {
+			if (if_block0) if_block0.c();
+			t0 = space();
+			if (if_block1) if_block1.c();
+			t1 = space();
+			if (if_block2) if_block2.c();
+			if_block2_anchor = empty();
+		},
+		m(target, anchor) {
+			if (if_block0) if_block0.m(target, anchor);
+			insert(target, t0, anchor);
+			if (if_block1) if_block1.m(target, anchor);
+			insert(target, t1, anchor);
+			if (if_block2) if_block2.m(target, anchor);
+			insert(target, if_block2_anchor, anchor);
+		},
+		p(ctx, dirty) {
+			if (/*version*/ ctx[3].name) {
+				if (if_block0) {
+					if_block0.p(ctx, dirty);
+				} else {
+					if_block0 = create_if_block_3(ctx);
+					if_block0.c();
+					if_block0.m(t0.parentNode, t0);
+				}
+			} else if (if_block0) {
+				if_block0.d(1);
+				if_block0 = null;
+			}
+
+			if (/*version*/ ctx[3].ingredients) {
+				if (if_block1) {
+					if_block1.p(ctx, dirty);
+				} else {
+					if_block1 = create_if_block_2(ctx);
+					if_block1.c();
+					if_block1.m(t1.parentNode, t1);
+				}
+			} else if (if_block1) {
+				if_block1.d(1);
+				if_block1 = null;
+			}
+
+			if (/*version*/ ctx[3].instructions) {
+				if (if_block2) {
+					if_block2.p(ctx, dirty);
+				} else {
+					if_block2 = create_if_block_1(ctx);
+					if_block2.c();
+					if_block2.m(if_block2_anchor.parentNode, if_block2_anchor);
+				}
+			} else if (if_block2) {
+				if_block2.d(1);
+				if_block2 = null;
+			}
+		},
+		d(detaching) {
+			if (if_block0) if_block0.d(detaching);
+			if (detaching) detach(t0);
+			if (if_block1) if_block1.d(detaching);
+			if (detaching) detach(t1);
+			if (if_block2) if_block2.d(detaching);
+			if (detaching) detach(if_block2_anchor);
 		}
 	};
 }
@@ -382,7 +622,7 @@ function create_fragment(ctx) {
 			t0 = text(t0_value);
 			t1 = space();
 			if (if_block) if_block.c();
-			attr(span, "class", "fakelink svelte-1rvhot6");
+			attr(span, "class", "fakelink");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
