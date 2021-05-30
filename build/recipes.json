@@ -680,7 +680,7 @@
   {
     "name": "Garlicky Smashed Cucumbers",
     "notes": ["Good for leftover cucumbers"],
-    "categories": [],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -1014,7 +1014,7 @@
   {
     "name": "One Pot Lasagna",
     "link": "https://www.youtube.com/watch?v=cs8OYby6RrA",
-    "categories": ["italian", "to try"],
+    "categories": ["italian"],
     "versions": [
       {
         "ingredients": [
@@ -1258,36 +1258,58 @@
   },
   {
     "name": "Shepherd's Pie",
+    "link": "https://www.youtube.com/watch?v=zXQ9wX4cKlQ",
     "categories": ["cold weather"],
     "versions": [
       {
         "ingredients": [
+          "russet potatoes, 2.5 pounds, peeled, diced",
+          "cheese, grueyere preferred for potatoes, parmesan for top",
+          "ground beef, 1 1/2 pounds",
+          "mushrooms, 6 diced",
+          "thyme, chopped, ~1 Tbsp",
+          "rosemary, chopped, ~1 Tbsp",
+          "beef stock, 1 cup",
+          "yellow onion, diced",
+          "celery, 1 rib, diced",
+          "carrot, 1 large, diced",
+          "garlic, 4 cloves, diced",
+          "Tomato paste, 2 Tbsp",
+          "red wine, 1/2 cup",
+          "worchestershire sauce, 2 Tbsp",
+          "frozen peas, 1 cup",
+          "butter",
+          "whole milk, 1/2 cup"
         ],
         "instructions": [
+          "Peel potatoes, dice into large chunks, boil until piercable then drain and mash.",
+          "Add butter (8 Tbsp) and milk (1/2 cup) to saucepan, heat until butter melted, add to mashed potatoes.  Grate in cheese.  Season with salt and pepper",
+          "Add ground beef to dutch oven and brown.  Mash it up w/ potato masher, season w/ salt and pepper.  Dump out ground beef.",
+          "Add 1 Tbsp butter to empty dutch oven.  Melt the butter and add diced mushrooms, let them brown.",
+          "Add onion, celery, carrot and garlic.  Season with salt and pepper.  Let soften for a few minutes.  Not too long or pie will be too mushy",
+          "Add tomato paste, saute for a couple of minutes, deglaze with red wine, add worchestershire sauce, bring to a boil",
+          "Preheat oven to 375F",
+          "Add thyme and rosemary, reduce until liquid is gone.  Add beef stock and frozen peas.  Once peas are added, ready for caserole dish",
+          "Add mixture to casterole dish, pack it in tight and spread it out, add mashed potatoes, spread them on top.  Grate plenty of cheese on top.  Pop into preheated oven for 20 minutes or until top is brown.",
+          "Let sit for 20 minutes"
         ]
       }
     ]
   },
   {
-    "name": "",
-    "categories": [],
+    "name": "Chocolate Mousse",
+    "link": "https://www.youtube.com/watch?v=czPV8PpyqvM",
+    "categories": ["dessert"],
     "versions": [
       {
         "ingredients": [
+          "Ricotta cheese",
+          "Semi sweet chocolate chips"
         ],
         "instructions": [
-        ]
-      }
-    ]
-  },
-  {
-    "name": "",
-    "categories": [],
-    "versions": [
-      {
-        "ingredients": [
-        ],
-        "instructions": [
+          "Add 2 cups ricotta cheese to food processor.  Process until smooth",
+          "Add 3 Tbsp sugar. Pinch of salt",
+          "Melt 4oz semi sweet chocolate chips. Add to food processor"
         ]
       }
     ]

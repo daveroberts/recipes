@@ -42,7 +42,96 @@ function get_each_context_3(ctx, list, i) {
 	return child_ctx;
 }
 
-// (11:2) {#if expanded}
+function get_each_context_4(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[15] = list[i];
+	return child_ctx;
+}
+
+// (16:6) {#if recipe.categories}
+function create_if_block_7(ctx) {
+	let span;
+	let each_value_4 = /*recipe*/ ctx[0].categories;
+	let each_blocks = [];
+
+	for (let i = 0; i < each_value_4.length; i += 1) {
+		each_blocks[i] = create_each_block_4(get_each_context_4(ctx, each_value_4, i));
+	}
+
+	return {
+		c() {
+			span = element("span");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			attr(span, "class", "categories svelte-bxojpr");
+		},
+		m(target, anchor) {
+			insert(target, span, anchor);
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(span, null);
+			}
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1) {
+				each_value_4 = /*recipe*/ ctx[0].categories;
+				let i;
+
+				for (i = 0; i < each_value_4.length; i += 1) {
+					const child_ctx = get_each_context_4(ctx, each_value_4, i);
+
+					if (each_blocks[i]) {
+						each_blocks[i].p(child_ctx, dirty);
+					} else {
+						each_blocks[i] = create_each_block_4(child_ctx);
+						each_blocks[i].c();
+						each_blocks[i].m(span, null);
+					}
+				}
+
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
+				}
+
+				each_blocks.length = each_value_4.length;
+			}
+		},
+		d(detaching) {
+			if (detaching) detach(span);
+			destroy_each(each_blocks, detaching);
+		}
+	};
+}
+
+// (18:10) {#each recipe.categories as category}
+function create_each_block_4(ctx) {
+	let span;
+	let t_value = /*category*/ ctx[15] + "";
+	let t;
+
+	return {
+		c() {
+			span = element("span");
+			t = text(t_value);
+			attr(span, "class", "category svelte-bxojpr");
+		},
+		m(target, anchor) {
+			insert(target, span, anchor);
+			append(span, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*category*/ ctx[15] + "")) set_data(t, t_value);
+		},
+		d(detaching) {
+			if (detaching) detach(span);
+		}
+	};
+}
+
+// (25:2) {#if expanded}
 function create_if_block(ctx) {
 	let t0;
 	let t1;
@@ -163,7 +252,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (12:4) {#if recipe.notes}
+// (26:4) {#if recipe.notes}
 function create_if_block_6(ctx) {
 	let each_1_anchor;
 	let each_value_3 = /*recipe*/ ctx[0].notes;
@@ -219,7 +308,7 @@ function create_if_block_6(ctx) {
 	};
 }
 
-// (13:6) {#each recipe.notes as note}
+// (27:6) {#each recipe.notes as note}
 function create_each_block_3(ctx) {
 	let div;
 	let strong;
@@ -249,7 +338,7 @@ function create_each_block_3(ctx) {
 	};
 }
 
-// (17:4) {#if recipe.video}
+// (31:4) {#if recipe.video}
 function create_if_block_5(ctx) {
 	let div;
 	let a;
@@ -262,7 +351,7 @@ function create_if_block_5(ctx) {
 			div = element("div");
 			a = element("a");
 			t = text(t_value);
-			attr(a, "class", "external_link svelte-15oq5q4");
+			attr(a, "class", "external_link svelte-bxojpr");
 			attr(a, "target", "_blank");
 			attr(a, "href", a_href_value = /*recipe*/ ctx[0].video);
 		},
@@ -284,7 +373,7 @@ function create_if_block_5(ctx) {
 	};
 }
 
-// (18:4) {#if recipe.link}
+// (32:4) {#if recipe.link}
 function create_if_block_4(ctx) {
 	let div;
 	let a;
@@ -297,7 +386,7 @@ function create_if_block_4(ctx) {
 			div = element("div");
 			a = element("a");
 			t = text(t_value);
-			attr(a, "class", "external_link svelte-15oq5q4");
+			attr(a, "class", "external_link svelte-bxojpr");
 			attr(a, "target", "_blank");
 			attr(a, "href", a_href_value = /*recipe*/ ctx[0].link);
 		},
@@ -319,7 +408,7 @@ function create_if_block_4(ctx) {
 	};
 }
 
-// (20:6) {#if version.name}
+// (34:6) {#if version.name}
 function create_if_block_3(ctx) {
 	let h3;
 	let t_value = /*version*/ ctx[3].name + "";
@@ -343,7 +432,7 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (21:6) {#if version.ingredients}
+// (35:6) {#if version.ingredients}
 function create_if_block_2(ctx) {
 	let h4;
 	let t1;
@@ -408,7 +497,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (24:10) {#each version.ingredients as ingredient}
+// (38:10) {#each version.ingredients as ingredient}
 function create_each_block_2(ctx) {
 	let li;
 	let t_value = /*ingredient*/ ctx[9] + "";
@@ -432,7 +521,7 @@ function create_each_block_2(ctx) {
 	};
 }
 
-// (29:6) {#if version.instructions}
+// (43:6) {#if version.instructions}
 function create_if_block_1(ctx) {
 	let h4;
 	let t1;
@@ -502,7 +591,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (32:10) {#each version.instructions as instruction}
+// (46:10) {#each version.instructions as instruction}
 function create_each_block_1(ctx) {
 	let li;
 	let t_value = /*instruction*/ ctx[6] + "";
@@ -526,7 +615,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (19:4) {#each recipe.versions as version}
+// (33:4) {#each recipe.versions as version}
 function create_each_block(ctx) {
 	let t0;
 	let t1;
@@ -604,60 +693,80 @@ function create_each_block(ctx) {
 }
 
 function create_fragment(ctx) {
-	let div;
-	let h2;
-	let span;
+	let div2;
+	let div1;
+	let div0;
 	let t0_value = /*recipe*/ ctx[0].name + "";
 	let t0;
 	let t1;
+	let t2;
 	let mounted;
 	let dispose;
-	let if_block = /*expanded*/ ctx[1] && create_if_block(ctx);
+	let if_block0 = /*recipe*/ ctx[0].categories && create_if_block_7(ctx);
+	let if_block1 = /*expanded*/ ctx[1] && create_if_block(ctx);
 
 	return {
 		c() {
-			div = element("div");
-			h2 = element("h2");
-			span = element("span");
+			div2 = element("div");
+			div1 = element("div");
+			div0 = element("div");
 			t0 = text(t0_value);
 			t1 = space();
-			if (if_block) if_block.c();
-			attr(span, "class", "fakelink");
+			if (if_block0) if_block0.c();
+			t2 = space();
+			if (if_block1) if_block1.c();
+			attr(div0, "class", "recipe-title fakelink svelte-bxojpr");
 		},
 		m(target, anchor) {
-			insert(target, div, anchor);
-			append(div, h2);
-			append(h2, span);
-			append(span, t0);
-			append(div, t1);
-			if (if_block) if_block.m(div, null);
+			insert(target, div2, anchor);
+			append(div2, div1);
+			append(div1, div0);
+			append(div0, t0);
+			append(div0, t1);
+			if (if_block0) if_block0.m(div0, null);
+			append(div2, t2);
+			if (if_block1) if_block1.m(div2, null);
 
 			if (!mounted) {
-				dispose = listen(span, "click", /*click_handler*/ ctx[2]);
+				dispose = listen(div0, "click", /*click_handler*/ ctx[2]);
 				mounted = true;
 			}
 		},
 		p(ctx, [dirty]) {
 			if (dirty & /*recipe*/ 1 && t0_value !== (t0_value = /*recipe*/ ctx[0].name + "")) set_data(t0, t0_value);
 
-			if (/*expanded*/ ctx[1]) {
-				if (if_block) {
-					if_block.p(ctx, dirty);
+			if (/*recipe*/ ctx[0].categories) {
+				if (if_block0) {
+					if_block0.p(ctx, dirty);
 				} else {
-					if_block = create_if_block(ctx);
-					if_block.c();
-					if_block.m(div, null);
+					if_block0 = create_if_block_7(ctx);
+					if_block0.c();
+					if_block0.m(div0, null);
 				}
-			} else if (if_block) {
-				if_block.d(1);
-				if_block = null;
+			} else if (if_block0) {
+				if_block0.d(1);
+				if_block0 = null;
+			}
+
+			if (/*expanded*/ ctx[1]) {
+				if (if_block1) {
+					if_block1.p(ctx, dirty);
+				} else {
+					if_block1 = create_if_block(ctx);
+					if_block1.c();
+					if_block1.m(div2, null);
+				}
+			} else if (if_block1) {
+				if_block1.d(1);
+				if_block1 = null;
 			}
 		},
 		i: noop,
 		o: noop,
 		d(detaching) {
-			if (detaching) detach(div);
-			if (if_block) if_block.d();
+			if (detaching) detach(div2);
+			if (if_block0) if_block0.d();
+			if (if_block1) if_block1.d();
 			mounted = false;
 			dispose();
 		}

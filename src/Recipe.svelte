@@ -5,9 +5,23 @@
 </script>
 <style>
   .external_link{ text-decoration: underline; }
+  .recipe-title{ font-size: 1.5rem; margin: 0.75rem 0; }
+  .categories{ margin-bottom: 5pt; }
+  .category{ background-color: #2964d3; color: white; padding: 3pt; margin-right: 5pt; border-radius: 3pt; font-size: 1rem; }
 </style>
 <div>
-  <h2><span class="fakelink" on:click={()=>{expanded=!expanded}}>{recipe.name}</span></h2>
+  <div>
+    <div class="recipe-title fakelink" on:click={()=>{expanded=!expanded}}>
+      {recipe.name}
+      {#if recipe.categories}
+        <span class="categories">
+          {#each recipe.categories as category}
+            <span class="category">{category}</span>
+          {/each}
+        </span>
+      {/if}
+    </div>
+  </div>
   {#if expanded}
     {#if recipe.notes}
       {#each recipe.notes as note}

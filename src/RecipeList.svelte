@@ -53,10 +53,8 @@
   .category_area{ margin-bottom: 1em; }
   .category_box{ border: 1px solid white; display: inline-block; box-sizing: border-box; margin-right: 5pt; }
   .category-name{ padding: 3pt; }
-  .category_button{ background-color: white; border-width: 0; color: #515151; position: relative; padding: 4pt 13pt; }
+  .category_button{ background-color: white; border-width: 0; color: #515151; position: relative; padding: 2pt 5pt; }
   .selected{ background-color: #99FF66; }
-  .invisible{ visibility: hidden; }
-  .checkmark{ position: absolute; left: 2pt; color: black; font-weight: bold; }
 </style>
 <div>
   <div class="category_area">
@@ -67,13 +65,11 @@
             class="category_element category_button"
             class:selected={filtered_categories.included.includes(category)}
             on:click={()=>{toggle_include(category)}}>
-              <span class="checkmark" class:invisible={!filtered_categories.included.includes(category)}>✓</span>
               In
           </button><button
             class="category_element category_button"
             class:selected={filtered_categories.excluded.includes(category)}
             on:click={()=>{toggle_exclude(category)}}>
-              <span class="checkmark" class:invisible={!filtered_categories.excluded.includes(category)}>✓</span>
               Out
             </button>
         </div>
@@ -81,7 +77,6 @@
     </div>
   </div>
   <div style="font-size: 18pt;">Search: <input style="font-size: 18pt" bind:value={search} /></div>
-  {#if search}<div>Searching for {search}</div>{/if}
   
   {#if recipes.length > 0}
     {#each recipes as recipe}

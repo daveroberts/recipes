@@ -44,19 +44,15 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (64:6) {#each categories as category}
+// (62:6) {#each categories as category}
 function create_each_block_1(ctx) {
 	let div;
-	let span0;
+	let span;
 	let t0_value = /*category*/ ctx[12] + "";
 	let t0;
 	let button0;
-	let span1;
-	let t2;
 	let button1;
-	let span2;
-	let t4;
-	let t5;
+	let t3;
 	let mounted;
 	let dispose;
 
@@ -71,39 +67,27 @@ function create_each_block_1(ctx) {
 	return {
 		c() {
 			div = element("div");
-			span0 = element("span");
+			span = element("span");
 			t0 = text(t0_value);
 			button0 = element("button");
-			span1 = element("span");
-			span1.textContent = "✓";
-			t2 = text("\n              In\n          ");
+			button0.textContent = "In\n          ";
 			button1 = element("button");
-			span2 = element("span");
-			span2.textContent = "✓";
-			t4 = text("\n              Out");
-			t5 = space();
-			attr(span0, "class", "category_element category-name svelte-flbahi");
-			attr(span1, "class", "checkmark svelte-flbahi");
-			toggle_class(span1, "invisible", !/*filtered_categories*/ ctx[1].included.includes(/*category*/ ctx[12]));
-			attr(button0, "class", "category_element category_button svelte-flbahi");
+			button1.textContent = "Out";
+			t3 = space();
+			attr(span, "class", "category_element category-name svelte-lkor4m");
+			attr(button0, "class", "category_element category_button svelte-lkor4m");
 			toggle_class(button0, "selected", /*filtered_categories*/ ctx[1].included.includes(/*category*/ ctx[12]));
-			attr(span2, "class", "checkmark svelte-flbahi");
-			toggle_class(span2, "invisible", !/*filtered_categories*/ ctx[1].excluded.includes(/*category*/ ctx[12]));
-			attr(button1, "class", "category_element category_button svelte-flbahi");
+			attr(button1, "class", "category_element category_button svelte-lkor4m");
 			toggle_class(button1, "selected", /*filtered_categories*/ ctx[1].excluded.includes(/*category*/ ctx[12]));
-			attr(div, "class", "category_box svelte-flbahi");
+			attr(div, "class", "category_box svelte-lkor4m");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
-			append(div, span0);
-			append(span0, t0);
+			append(div, span);
+			append(span, t0);
 			append(div, button0);
-			append(button0, span1);
-			append(button0, t2);
 			append(div, button1);
-			append(button1, span2);
-			append(button1, t4);
-			append(div, t5);
+			append(div, t3);
 
 			if (!mounted) {
 				dispose = [
@@ -118,15 +102,7 @@ function create_each_block_1(ctx) {
 			ctx = new_ctx;
 
 			if (dirty & /*filtered_categories, categories*/ 10) {
-				toggle_class(span1, "invisible", !/*filtered_categories*/ ctx[1].included.includes(/*category*/ ctx[12]));
-			}
-
-			if (dirty & /*filtered_categories, categories*/ 10) {
 				toggle_class(button0, "selected", /*filtered_categories*/ ctx[1].included.includes(/*category*/ ctx[12]));
-			}
-
-			if (dirty & /*filtered_categories, categories*/ 10) {
-				toggle_class(span2, "invisible", !/*filtered_categories*/ ctx[1].excluded.includes(/*category*/ ctx[12]));
 			}
 
 			if (dirty & /*filtered_categories, categories*/ 10) {
@@ -141,33 +117,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (84:2) {#if search}
-function create_if_block_1(ctx) {
-	let div;
-	let t0;
-	let t1;
-
-	return {
-		c() {
-			div = element("div");
-			t0 = text("Searching for ");
-			t1 = text(/*search*/ ctx[0]);
-		},
-		m(target, anchor) {
-			insert(target, div, anchor);
-			append(div, t0);
-			append(div, t1);
-		},
-		p(ctx, dirty) {
-			if (dirty & /*search*/ 1) set_data(t1, /*search*/ ctx[0]);
-		},
-		d(detaching) {
-			if (detaching) detach(div);
-		}
-	};
-}
-
-// (90:2) {:else}
+// (85:2) {:else}
 function create_else_block(ctx) {
 	let div;
 	let t0;
@@ -198,7 +148,7 @@ function create_else_block(ctx) {
 	};
 }
 
-// (86:2) {#if recipes.length > 0}
+// (81:2) {#if recipes.length > 0}
 function create_if_block(ctx) {
 	let each_1_anchor;
 	let current;
@@ -282,7 +232,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (87:4) {#each recipes as recipe}
+// (82:4) {#each recipes as recipe}
 function create_each_block(ctx) {
 	let recipe;
 	let current;
@@ -325,9 +275,8 @@ function create_fragment(ctx) {
 	let t1;
 	let input;
 	let t2;
-	let t3;
 	let current_block_type_index;
-	let if_block1;
+	let if_block;
 	let current;
 	let mounted;
 	let dispose;
@@ -338,7 +287,6 @@ function create_fragment(ctx) {
 		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
 	}
 
-	let if_block0 = /*search*/ ctx[0] && create_if_block_1(ctx);
 	const if_block_creators = [create_if_block, create_else_block];
 	const if_blocks = [];
 
@@ -348,7 +296,7 @@ function create_fragment(ctx) {
 	}
 
 	current_block_type_index = select_block_type(ctx, -1);
-	if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
 	return {
 		c() {
@@ -365,10 +313,8 @@ function create_fragment(ctx) {
 			t1 = text("Search: ");
 			input = element("input");
 			t2 = space();
-			if (if_block0) if_block0.c();
-			t3 = space();
-			if_block1.c();
-			attr(div1, "class", "category_area svelte-flbahi");
+			if_block.c();
+			attr(div1, "class", "category_area svelte-lkor4m");
 			set_style(input, "font-size", "18pt");
 			set_style(div2, "font-size", "18pt");
 		},
@@ -387,8 +333,6 @@ function create_fragment(ctx) {
 			append(div2, input);
 			set_input_value(input, /*search*/ ctx[0]);
 			append(div3, t2);
-			if (if_block0) if_block0.m(div3, null);
-			append(div3, t3);
 			if_blocks[current_block_type_index].m(div3, null);
 			current = true;
 
@@ -425,19 +369,6 @@ function create_fragment(ctx) {
 				set_input_value(input, /*search*/ ctx[0]);
 			}
 
-			if (/*search*/ ctx[0]) {
-				if (if_block0) {
-					if_block0.p(ctx, dirty);
-				} else {
-					if_block0 = create_if_block_1(ctx);
-					if_block0.c();
-					if_block0.m(div3, t3);
-				}
-			} else if (if_block0) {
-				if_block0.d(1);
-				if_block0 = null;
-			}
-
 			let previous_block_index = current_block_type_index;
 			current_block_type_index = select_block_type(ctx, dirty);
 
@@ -451,32 +382,31 @@ function create_fragment(ctx) {
 				});
 
 				check_outros();
-				if_block1 = if_blocks[current_block_type_index];
+				if_block = if_blocks[current_block_type_index];
 
-				if (!if_block1) {
-					if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-					if_block1.c();
+				if (!if_block) {
+					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+					if_block.c();
 				} else {
-					if_block1.p(ctx, dirty);
+					if_block.p(ctx, dirty);
 				}
 
-				transition_in(if_block1, 1);
-				if_block1.m(div3, null);
+				transition_in(if_block, 1);
+				if_block.m(div3, null);
 			}
 		},
 		i(local) {
 			if (current) return;
-			transition_in(if_block1);
+			transition_in(if_block);
 			current = true;
 		},
 		o(local) {
-			transition_out(if_block1);
+			transition_out(if_block);
 			current = false;
 		},
 		d(detaching) {
 			if (detaching) detach(div3);
 			destroy_each(each_blocks, detaching);
-			if (if_block0) if_block0.d();
 			if_blocks[current_block_type_index].d();
 			mounted = false;
 			dispose();
