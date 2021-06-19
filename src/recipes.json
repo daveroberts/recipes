@@ -1313,5 +1313,89 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Pancakes",
+    "link": "https://www.youtube.com/watch?v=IY5ykPd3coo",
+    "versions": [
+      {
+        "ingredients": [
+          "2 Tablespoons butter",
+          "2 Tablespoons sugar",
+          "1 egg",
+          "splash vanilla",
+          "1 heaped Tablespoon baking powder",
+          "water or milk",
+          "Flour, bread or regular (almond flour won't work)"
+        ],
+        "instructions": [
+          "Barely melt butter into big pyrex jug (~30 seconds)",
+          "Add sugar, whish with fork",
+          "Add egg and a splash of vanilla, 1 teaspoon of salt, 1 Tablespoon of baking powder, whisk together",
+          "Add liquid to fill to 2 cup line",
+          "Add flour, about 1 cup and a half, until consistency like pancakes, fold with liquid"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pizza!",
+    "link": "https://www.youtube.com/watch?v=9TjUWnAK0cg",
+    "categories": ["simple"],
+    "versions": [
+      {
+        "name": "Dough",
+        "ingredients": [
+          "1 cup bread flour",
+          "1/2 teaspoon salt",
+          "1/2 teaspoon sugar",
+          "1/2 teaspoon dry yeast",
+          "glug of olive oil (~2 teaspoons)",
+          "garlic powder",
+          "1/2 cup water"
+        ],
+        "instructions": [
+          "mix ingredients",
+          "Form into a ball, put back in bowl, let it rise on the counter for an hour or two (or let rise in the fridge overnight)",
+          "Put some olive oil into a nonstick pan.  Add oregano, basil, salt, chili flakes, coat the bottom of pan",
+          "Place dough onto pan, stretch into to edges. Rub olive oil on top.  Let it rise in the pan for ~30 minutes"
+        ]
+      },
+      {
+        "name": "Sauce",
+        "ingredients": [
+          "~1/3 cup crushed or ground tomatoes",
+          "marjoram, oregano, basil, chili flakes, sugar, black pepper, olive oil"
+        ],
+        "instructions": [
+          "Mix together"
+        ]
+      },
+      {
+        "name": "Pizza!",
+        "ingredients":[
+          "Shredded Mozzarella.  Low-Moisture Part-Skim is best.  Grate it yourself",
+          "Fake Parmesan Cheese"
+        ],
+        "instructions": [
+          "Heat dough in pan on range without any toppings applied until bottom is brown",
+          "Add sauce, cheese, toppings",
+          "Place under broiler"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "",
+    "link": "",
+    "categories": [""],
+    "versions": [
+      {
+        "ingredients": [
+        ],
+        "instructions": [
+        ]
+      }
+    ]
   }
 ]
