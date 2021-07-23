@@ -1388,7 +1388,6 @@
   {
     "name": "Cilantro sandwich sauce",
     "link": "https://www.youtube.com/watch?v=oIKwRRR21jU",
-    "categories": [""],
     "versions": [
       {
         "ingredients": [
@@ -1407,6 +1406,76 @@
           "Add to blender: lime juice, cut greens blend it up",
           "add to blender: oil (1/2 cup to 1 cup), agave (~2 Tbsp), mayo (~1/2 cup), salt (~1 tsp), add 1 avocado",
           "add more lime juice if you want it more acidic"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Filipino-style Picadillo",
+    "link": "https://www.youtube.com/watch?v=ZUFIQpbr9Fs",
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "1 tablespoon canola oil",
+          "1 onion, peeled and chopped",
+          "2 cloves garlic, peeled and minced",
+          "1 1/2 pounds ground beef",
+          "2 tablespoons fish sauce",
+          "1 cup tomato sauce",
+          "1/2 cup crushed tomatoes",
+          "1/2 cup water or beef broth",
+          "2 medium potatoes, peeled and cubed",
+          "peas and carrots",
+          "2 tablespoons raisins",
+          "salt and pepper to taste"
+        ],
+        "instructions": [
+          "In a pan over medium heat, heat oil. Add onions and garlic and cook until limp.",
+          "Add ground beef and cook, breaking to pieces with the back of a spoon, until lightly browned. Drain excess fat, if any. ",
+          "Add fish sauce and cook for about 1 to 2 minutes.",
+          "Add tomato sauce and crushed tomatoes.",
+          "Add water and bring to a boil. Lower heat, cover and cook for about 10 to 15 minutes or until beef is cooked through. ",
+          "Add potatoes, carrots, peas, raisins. Cover and continue to simmer for about 3 to 5 minutes or until tender. ",
+          "Continue to cook until sauce is reduced and thickened. Season with salt and pepper to taste."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Garlic Naan",
+    "link": "https://www.youtube.com/watch?v=xqBJ0Lv7D-k",
+    "versions": [
+      {
+        "name": "naan dough",
+        "ingredients": [
+          "2 tsp active dry yeast",
+          "1 tsp sugar",
+          "1/2 cup lukewarm water",
+          "1 large egg",
+          "1/3 cup avocado oil",
+          "1/4 cup plain yoghurt",
+          "2 3/4 cups ap flour",
+          "3/4 tsp salt"
+        ]
+      },
+      {
+        "name": "garlic butter",
+        "ingredients": [
+          "1 stick unsalted butter",
+          "3 cloves minced garlic",
+          "3/4 cup chopped cilantro",
+          "salt and pepper to taste"
+        ]
+      },
+      {
+        "instructions": [
+          "Add water, sugar and yeast to mixing bowl, light mix, add oil, egg and yogurt, whisk together",
+          "Lay flour on table, make well in center, pour wet into middle, knead the dough, add more flour if too sticky",
+          "Form into ball, place into bowl, cover with towel, leave somewhere warm to rise",
+          "Cut dough into eight pieces, roll into flat circles",
+          "Heat cast iron, place dough onto dry pan, cook for about one minute, see bubbles form, flip, another minute of heat",
+          "Brush with garlic butter and add flaky salt"
         ]
       }
     ]
