@@ -2,15 +2,15 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build && cp .nojekyll build/",
-    "push": "git subtree push --prefix build origin gh-pages",
+    "push": "./deploy.sh",
     "publish": "npm run build && npm run push",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
-    "@snowpack/plugin-svelte": "^3.6.1",
-    "snowpack": "^3.0.1"
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "snowpack": "^3.8.8"
   },
   "dependencies": {
-    "svelte": "^3.38.2"
+    "svelte": "^3.42.5"
   }
 }
