@@ -206,7 +206,7 @@ function make_dirty(component, i) {
   }
   component.$$.dirty[i / 31 | 0] |= 1 << i % 31;
 }
-function init(component, options, instance, create_fragment, not_equal2, props, dirty = [-1]) {
+function init(component, options, instance, create_fragment, not_equal2, props, append_styles2, dirty = [-1]) {
   const parent_component = current_component;
   set_current_component(component);
   const $$ = component.$$ = {
@@ -224,8 +224,10 @@ function init(component, options, instance, create_fragment, not_equal2, props, 
     context: new Map(parent_component ? parent_component.$$.context : options.context || []),
     callbacks: blank_object(),
     dirty,
-    skip_bound: false
+    skip_bound: false,
+    root: options.target || parent_component.$$.root
   };
+  append_styles2 && append_styles2($$.root);
   let ready = false;
   $$.ctx = instance ? instance(component, options.props || {}, (i, ret, ...rest) => {
     const value = rest.length ? rest[0] : ret;
