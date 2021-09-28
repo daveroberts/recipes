@@ -1601,13 +1601,36 @@
     "versions": [
       {
         "ingredients": [
-          "1 cup rolled oats ",
+          "1 cup rolled oats",
           "Cover 1 inch over with your milk of choice ",
           "Sprinkle of cinnamon ",
           "2 tsp chia seeds ",
           "1/4 cup yogurt"
         ],
         "instructions": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Smashed Burger",
+    "link": "https://www.youtube.com/watch?v=8zGo2RrY6Hw",
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [
+          "Brioche Buns",
+          "Ground beef (lean preferred)",
+          "American cheese",
+          "Onion"
+        ],
+        "instructions": [
+          "Heat a cast iron skillet",
+          "toast your buns",
+          "Carmelize onions with salt.  To speed up process, you can add some sugar",
+          "Remove onions and get the skillet hot, add burgers and smush them down",
+          "Season with salt and pepper",
+          "Flip, season again, cook a bit, then add cheese to melt"
         ]
       }
     ]
