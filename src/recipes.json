@@ -1694,5 +1694,132 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Golden milk",
+    "link": "https://minimalistbaker.com/5-minute-vegan-golden-milk/",
+    "categories": ["dessert","cold weather","to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "1 ½ cups light coconut milk (canned is best, but carton or homemade works too)",
+          "1 ½ cups unsweetened plain almond milk (DIY or store-bought)",
+          "1 ½ tsp ground turmeric",
+          "1/4 tsp ground ginger (or 1 tsp freshly grated ginger*)",
+          "1 whole cinnamon stick (or 1/4 tsp ground cinnamon)",
+          "1 Tbsp coconut oil (optional for richness // see notes for oil-free)",
+          "1 pinch ground black pepper",
+          "Sweetener of choice (i.e. maple syrup, coconut sugar, or stevia to taste)"
+        ],
+        "instructions": [
+          "To a small saucepan, add coconut milk, almond milk, turmeric, ginger, cinnamon, coconut oil (optional), black pepper, and sweetener of choice (I usually add 1 Tbsp (15 ml) maple syrup // adjust amount if altering number of servings).",
+          "Whisk to combine and warm over medium heat. Heat until hot to the touch but not boiling – about 4 minutes – whisking frequently.",
+          "Turn off heat and taste to adjust flavor. Add more sweetener to taste or more turmeric or ginger for intense spice + flavor.",
+          "Serve immediately, dividing between two glasses and leaving the cinnamon stick behind. Best when fresh, though leftovers can be stored covered in the refrigerator for 2-3 days. Reheat on the stovetop or microwave until hot."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beef Enchiladas",
+    "link": "https://www.onceuponachef.com/recipes/beef-enchiladas.html",
+    "categories": ["cold weather", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "ground beef",
+          "tortillas",
+          "onion",
+          "jalapenos",
+          "shredded mexican cheese",
+          "baking soda",
+          "chicken broth",
+          "tomato sauce",
+          "garlic",
+          "chili powder",
+          "cumin",
+          "oregano",
+          "flour"
+        ],
+        "instructions": [
+          "Tenderize the Meat: In a medium bowl, combine the beef, baking soda, and salt. beef, salt, baking soda in bowl. Mash with your hands until evenly combined and let sit on the counter for at least 20 minutes. As it rests, the baking soda raises the pH of the meat, helping to lock in moisture and making the beef tender.",
+          "Prep: While the beef rests, chop the onion, jalapeño, and garlic and prep your other ingredients.",
+          "Make the Sauce: Heat the oil in a large nonstick skillet over medium-high heat and add the meat.  Cook, breaking it up with a wooden spoon, until browned, about 5 minutes. Using a slotted spoon, transfer the browned meat to a plate.  Add the onion, jalapeño pepper, and garlic to the skillet.  Cook, stirring frequently, until the onion is softened, 3 to 4 minutes. Do not brown; reduce the heat if necessary.",
+          "Add the chili powder, cumin, oregano, and flour. adding spices and flour to the pan.  Cook, stirring constantly, to toast the flour and spices for 1 minute more.  Stir in the tomato sauce.  Gradually pour in the chicken broth, stirring to combine.  Add the beef.",
+          "Bring to a boil, then reduce the heat and vigorously simmer until the sauce is thickened, 12 to 14 minutes. Taste and adjust the seasoning, if necessary.",
+          "Soften the Tortillas: Pour the oil into a small bowl or ramekin. Using a pastry brush, brush both sides of each tortilla with oil, then stack them on a plate and microwave until hot and steamy, about 1-1/2 minutes. This makes them pliable; if you skip this step, they’ll likely tear when you roll them.brushing corn tortillas with oil",
+          "Assemble the Enchiladas and Bake. Spoon about 1 cup of the sauce evenly into the bottom of a 13×9-inch baking dish.",
+          "Working directly on the stack of tortillas, put about 3 tablespoons of cheese and 2 generous tablespoons of the sauce in the center of the top tortilla.",
+          "Place it seam-side down in the pan, and repeat with the remaining tortillas, nestling each one against the last. (You’ll have two rows of 5 enchiladas.)",
+          "Spoon the remaining sauce over the rolled tortillas and sprinkle with the remaining cheese. (I like to sprinkle the cheese over the center of each row of enchiladas, rather than all over, so that the tortillas are partially exposed during baking.)",
+          "Bake until the sauce bubbles and the cheese is melted, about 15 minutes."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Barbacoa",
+    "link": "https://www.youtube.com/watch?v=VVcRFMG46fg",
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+        ],
+        "instructions": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shrimp Eggrolls",
+    "link": "https://www.youtube.com/watch?v=-8v5JxL01hE",
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+        ],
+        "instructions": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lamb Pulao",
+    "link": "https://joshicooks.com/lamb-pulao-instant-pot-recipe/",
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+        ],
+        "instructions": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Easy Whole Chicken Stew",
+    "link": "https://www.google.com/search?client=firefox-b-1-d&q=chicken+stew+instant+pot",
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+        ],
+        "instructions": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "",
+    "link": "",
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [
+        ],
+        "instructions": [
+        ]
+      }
+    ]
   }
 ]
