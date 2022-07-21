@@ -21,7 +21,7 @@
   {
     "name": "Tuna Melt",
     "categories": [
-      "simple"
+      "easy"
     ],
     "versions": [
       {
@@ -43,7 +43,7 @@
   {
     "name": "Turkey Melt",
     "categories": [
-      "simple"
+      "easy"
     ],
     "versions": [
       {
@@ -66,7 +66,7 @@
   {
     "name": "Avocado Toast",
     "categories": [
-      "simple"
+      "easy"
     ],
     "versions": [
       {
@@ -88,7 +88,7 @@
   {
     "name": "Lettuce Wraps",
     "categories": [
-      "simple",
+      "easy",
       "thai"
     ],
     "versions": [
@@ -145,7 +145,7 @@
     "name": "Egg rolls",
     "categories": [
       "chinese",
-      "simple"
+      "easy"
     ],
     "versions": [
       {
@@ -378,7 +378,7 @@
     "name": "Indian Coconut Curry",
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "categories": [
-      "simple",
+      "easy",
       "indian"
     ],
     "versions": [
@@ -403,7 +403,7 @@
     "name": "Indian Eggplant Curry",
     "categories": [
       "indian",
-      "simple"
+      "easy"
     ],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
@@ -579,7 +579,7 @@
   {
     "name": "Chicken / Turkey Wraps",
     "categories": [
-      "simple"
+      "easy"
     ],
     "versions": [
       {
@@ -703,8 +703,8 @@
     ]
   },
   {
-    "name": "Simple Braised Beef",
-    "categories": ["simple"],
+    "name": "easy Braised Beef",
+    "categories": ["easy"],
     "versions": [
       {
         "ingredients": [
@@ -746,7 +746,7 @@
   {
     "name": "Garlicky Smashed Cucumbers",
     "notes": ["Good for leftover cucumbers"],
-    "categories": ["simple"],
+    "categories": ["easy"],
     "versions": [
       {
         "ingredients": [
@@ -1407,7 +1407,7 @@
   {
     "name": "Pizza!",
     "link": "https://www.youtube.com/watch?v=9TjUWnAK0cg",
-    "categories": ["simple"],
+    "categories": ["easy"],
     "versions": [
       {
         "name": "Dough",
@@ -2061,7 +2061,7 @@
     ]
   },
   {
-    "name": "Simple Queso",
+    "name": "easy Queso",
     "link": "https://www.youtube.com/watch?v=vhc6331LTIA",
     "categories": ["easy"],
     "versions": [
