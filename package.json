@@ -1,11 +1,9 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build && cp .nojekyll build/",
-    "push": "git subtree push --prefix build origin gh-pages",
-    "_push:force_note": "On windows, the nested command in the `backticks` doesn't work.  You need to run the command separately",
-    "push:force": "git push origin `git subtree split --prefix build master`:gh-pages --force",
-    "publish": "npm run build && npm run push",
+    "publish:build": "snowpack build && cp .nojekyll build/ && git add . && git commit -m WIP",
+    "publish:push": "git branch -D gh-pages && git checkout -b gh-pages && git push -f --set-upstream origin gh-pages && git checkout master",
+    "publish": "npm run publish:build && npm run publish:push",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
