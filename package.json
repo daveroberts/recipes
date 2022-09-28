@@ -2,7 +2,7 @@
   "scripts": {
     "start": "snowpack dev",
     "publish:build": "snowpack build && shx cp .nojekyll build/ && git add . && git commit -m WIP && git push",
-    "publish:push": "git branch -D gh-pages && git checkout -b gh-pages && git push -f --set-upstream origin gh-pages && git checkout master",
+    "publish:push": "git branch -D gh-pages 1>nul 2>nul && git checkout -b gh-pages && git push -f --set-upstream origin gh-pages && git checkout master",
     "publish": "npm run publish:build && npm run publish:push",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
