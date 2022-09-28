@@ -67,7 +67,11 @@ function set_input_value(input, value) {
   input.value = value == null ? "" : value;
 }
 function set_style(node, key, value, important) {
-  node.style.setProperty(key, value, important ? "important" : "");
+  if (value === null) {
+    node.style.removeProperty(key);
+  } else {
+    node.style.setProperty(key, value, important ? "important" : "");
+  }
 }
 function toggle_class(element2, name, toggle) {
   element2.classList[toggle ? "add" : "remove"](name);
@@ -91,20 +95,20 @@ function schedule_update() {
 function add_render_callback(fn) {
   render_callbacks.push(fn);
 }
-let flushing = false;
 const seen_callbacks = new Set();
+let flushidx = 0;
 function flush() {
-  if (flushing)
-    return;
-  flushing = true;
+  const saved_component = current_component;
   do {
-    for (let i = 0; i < dirty_components.length; i += 1) {
-      const component = dirty_components[i];
+    while (flushidx < dirty_components.length) {
+      const component = dirty_components[flushidx];
+      flushidx++;
       set_current_component(component);
       update(component.$$);
     }
     set_current_component(null);
     dirty_components.length = 0;
+    flushidx = 0;
     while (binding_callbacks.length)
       binding_callbacks.pop()();
     for (let i = 0; i < render_callbacks.length; i += 1) {
@@ -120,8 +124,8 @@ function flush() {
     flush_callbacks.pop()();
   }
   update_scheduled = false;
-  flushing = false;
   seen_callbacks.clear();
+  set_current_component(saved_component);
 }
 function update($$) {
   if ($$.fragment !== null) {
@@ -168,6 +172,8 @@ function transition_out(block, local, detach2, callback) {
       }
     });
     block.o(local);
+  } else if (callback) {
+    callback();
   }
 }
 function create_component(block) {
@@ -206,7 +212,7 @@ function make_dirty(component, i) {
   }
   component.$$.dirty[i / 31 | 0] |= 1 << i % 31;
 }
-function init(component, options, instance, create_fragment, not_equal2, props, dirty = [-1]) {
+function init(component, options, instance, create_fragment, not_equal2, props, append_styles2, dirty = [-1]) {
   const parent_component = current_component;
   set_current_component(component);
   const $$ = component.$$ = {
@@ -221,11 +227,13 @@ function init(component, options, instance, create_fragment, not_equal2, props, 
     on_disconnect: [],
     before_update: [],
     after_update: [],
-    context: new Map(parent_component ? parent_component.$$.context : options.context || []),
+    context: new Map(options.context || (parent_component ? parent_component.$$.context : [])),
     callbacks: blank_object(),
     dirty,
-    skip_bound: false
+    skip_bound: false,
+    root: options.target || parent_component.$$.root
   };
+  append_styles2 && append_styles2($$.root);
   let ready = false;
   $$.ctx = instance ? instance(component, options.props || {}, (i, ret, ...rest) => {
     const value = rest.length ? rest[0] : ret;

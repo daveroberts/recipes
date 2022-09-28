@@ -454,34 +454,6 @@
     ]
   },
   {
-    "name": "Peanutty Pork Stir Fry",
-    "video": "https://www.youtube.com/watch?v=Acs7ZnIdo4o",
-    "categories": [],
-    "versions": [
-      {
-        "ingredients": [
-          "pork chops (1 pound); cubed (I had a package of 1.5 pounds and it work great)",
-          "celery; diced",
-          "scallions, diced",
-          "yellow onion, diced",
-          "fresno or serrano chili",
-          "peanuts: 1/3 cup, diced",
-          "soy sauce, rice vinegar"
-        ],
-        "instructions": [
-          "Mix stir fry sauce: 2 Tbsp soy sauce, 2Tbsp rice vinegar, 1tsp sugar, 5 cloves grated garlic, 2 knobs grated ginger (or ginger garlic paste), 2.5tsp corn starch",
-          "1 pound pork chops, cut into cubes.  Fry in skillet/wok with neutral oil until brown.  Remove from pan",
-          "Dice six (6) celery ribs, one bunch scallions, one fresno/serrano chili (finely diced), 1 onion.  Add to skillet and constantly stir and heat until soft.",
-          "Re-add pork to skillet and heat.  Add in stir fry sauce and heat until thickened.",
-          "Chop and add peanuts and mix.  Serve over rice  "
-        ]
-      }
-    ],
-    "notes": [
-      "This was great!  1/4 cup soy sauce and two chilis made it too intense.  I trimmed the fat from the pork chops and fried it up first.  This rendered out the fat and eliminated the need to add oil to the pan.  make again with 2 Tbsp soy sauce and one chili.  Was too weak.  Maybe 2 Tbsp + 2 chilis for just right?"
-    ]
-  },
-  {
     "name": "Indian naan",
     "categories": [
       "revise",
@@ -988,36 +960,6 @@
           "Add one can of black beans, season with salt/pepper.  Cook for a few more minutes.",
           "Add to blender, puree.  Or just use a potato masher.",
           "Assemble taco - Add puree, avocado slice, cheese, "
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Celery Stir Fry Pork",
-    "link": "https://www.youtube.com/watch?v=BFgSfC0kaN4",
-    "categories": ["to try","chinese"],
-    "versions": [
-      {
-        "ingredients": [
-          "1/2 pound pork shoulder",
-          "1 bunch Chinese Celery or regular celery is fine",
-          "2 chili peppers or 2 jalapeno peppers or 2 bell peppers",
-          "2 teaspoons chinese cooking wine",
-          "1/4 teaspoon salt",
-          "1/4 teaspoon baking soda",
-          "1 Tablespoon soy sauce",
-          "2 teaspoons corn starch",
-          "~5 cloves of garlic"
-        ],
-        "instructions": [
-          "Put meat in freezer for 30 minutes to make it easier to slice",
-          "Slice pork into thin strips",
-          "Marinate pork with salt, baking soda, soy sauce, chinese cooking wine, corn starch and chili flakes (optional).  Let sit for 20 minutes",
-          "Cut Chinese Celery.  Discard all leaves and the root.  Cut the stems into 1.5 inch long pieces",
-          "Slice peppers thinly, OK to keep seeds, but discard most of center.  Crush cloves of garlic, but don't chop.  Add all to bowl with celery",
-          "heat wok to smoke point, then add oil.",
-          "Add pork and quickly stir it around.  High heat, fast action, lots of smoke.  Take meat off wok when done",
-          "Add more oil to wok, heat to smoke point, add veggies, add salt while mixing"
         ]
       }
     ]
@@ -2122,6 +2064,93 @@
           "spread onto parchment paper",
           "Bake at 450F for about 20 minutes",
           "Add toppings, broil for two minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Brazilian Stroganoff",
+    "link": "https://braziliankitchenabroad.com/brazilian-chicken-stroganoff-recipe/",
+    "categories": ["easy"],
+    "versions": [
+      {
+        "ingredients": [
+          "Chicken (breasts or thighs)",
+          "Butter",
+          "Diced onion",
+          "Mminced garlic",
+          "Tomato sauce",
+          "Ketchup",
+          "Heavy cream (or crema)",
+          "Salt and pepper",
+          "Mushrooms (optional)"
+        ],
+        "instructions": [
+          "Saute chicken, remove chicken from pan",
+          "Saute diced onion then garlic",
+          "Add tomato sauce, ketchup and cream, simmer",
+          "Optionally add mushrooms",
+          "Dice the cooked chicken, add back into pan",
+          "season with salt and pepper"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Simple Stir Fry",
+    "link": "https://www.youtube.com/shorts/SvfOK9eKfhg",
+    "categories": ["easy"],
+    "versions": [
+      {
+        "ingredients": [
+          "protein (chicken, beef, pork, shrimp, etc)",
+          "white rice",
+          "cabbage",
+          "spring onions",
+          "carrots",
+          "zuchini",
+          "broccoli",
+          "garlic",
+          "ginger",
+          "soy sauce",
+          "stir fry sauce"
+        ],
+        "instructions": [
+          "Make more than enough rice",
+          "Fry protein in wok, remove and let sit",
+          "Fry hardest vegetables in wok (carrots, onions)",
+          "Add ginger, garlic next",
+          "add soft vegetables (cabbage, zuchini, brocoli",
+          "season with soy sauce",
+          "Dice and reintroduce protein",
+          "Serve with stir fry sauce on the side"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red and Green Salsa",
+    "link": "https://www.youtube.com/watch?v=Hpd_p7LRk_k",
+    "categories": ["easy","side"],
+    "versions": [
+      {
+        "ingredients": [
+          "3-5 red tomatoes (cheap is fine, roma)",
+          "6 tomatillos",
+          "4, 10, or 20 chile de arbol (mild, medium, hot)",
+          "pepper (habanero preferred, jalapeno, bell, poblano, serrano, etc works too)",
+          "2-4 cloves of garlic",
+          "cilantro",
+          "1/2 onion"
+        ]
+      },
+      {
+        "instructions": [
+          "Roast red tomatoes, garlic and onion in pan under broiler, burn them",
+          "Boil tomatillos, all chile de arbol, habaneo, drain once water boiling",
+          "Put roasted tomatoes into bowl, add half cup water",
+          "Green salsa: blend tomatillos, habaneo and half chile de arbol, half garlic, 20 sprigs cilantro, 1/4 onion and salt",
+          "Red salsa: Blend red tomatoes, half chile de arbol, half clove garlic, 1/4 onion, oregano"
         ]
       }
     ]
