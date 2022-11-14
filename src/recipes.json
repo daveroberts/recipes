@@ -2189,6 +2189,23 @@
     ]
   },
   {
+    "name": "Two ingredient pumpkin bread",
+    "link": "https://www.youtube.com/watch?v=IyVYJ-WLVsQ",
+    "categories": ["easy", "dessert"],
+    "versions": [
+      {
+        "ingredients": [
+          "Spice cake mix",
+          "pumpkin puree"
+        ],
+        "instructions": [
+          "Mix cake mix and puree in mixer",
+          "Bake at 350 for 40 minutes"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "link": "",
     "categories": [],
