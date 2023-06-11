@@ -19,7 +19,7 @@
     ]
   },
   {
-    "name": "Tuna Melt",
+    "name": "Chicken or Tuna Sandwich",
     "categories": [
       "easy"
     ],
@@ -27,9 +27,9 @@
       {
         "ingredients": [
           "mayo",
-          "salsa",
-          "Canned Tuna (or chicken)",
-          "Shredded Cheese (mozzarella)",
+          "salsa (optional)",
+          "Tuna or Chicken (canned or sous vide)",
+          "Shredded Cheese (optional, mozzarella)",
           "Flour tortilla"
         ],
         "instructions": [
@@ -2206,6 +2206,27 @@
           "puree and strain out liquid",
           "Add liquid, sweetened condensed milk and ice to blender",
           "blend and enjoy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "French Toast Pull Aparts",
+    "link": "https://www.youtube.com/watch?v=sqS3_-MHT0Y",
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [
+          "6 pieces of bread",
+          "4 eggs",
+          "2 Tbsp Cream (or milk)",
+          "1 Tbsp Vanilla",
+          "cinnamon"
+        ],
+        "instructions": [
+          "Mix all ingredients in a large bowl other than bread",
+          "Cut bread into bite sized pieces, put into bowl and soal up all liquid",
+          "Fry the toast"
         ]
       }
     ]
