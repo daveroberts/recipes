@@ -34,7 +34,7 @@ import {
 } from "./_snowpack/pkg/svelte/internal.js";
 
 import all_recipes from './recipes.json.proxy.js';
-import Recipe from './Recipe.svelte.js';
+import RecipeTitle from './RecipeTitle.svelte.js';
 const file = "src/RecipeList.svelte";
 
 function get_each_context(ctx, list, i) {
@@ -49,7 +49,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (62:6) {#each categories as category}
+// (64:6) {#each categories as category}
 function create_each_block_1(ctx) {
 	let div;
 	let span;
@@ -79,16 +79,16 @@ function create_each_block_1(ctx) {
 			button1 = element("button");
 			button1.textContent = "Out";
 			t3 = space();
-			attr_dev(span, "class", "category_element category-name svelte-lkor4m");
-			add_location(span, file, 63, 10, 2612);
-			attr_dev(button0, "class", "category_element category_button svelte-lkor4m");
+			attr_dev(span, "class", "category_element category-name svelte-14wmt40");
+			add_location(span, file, 65, 10, 2691);
+			attr_dev(button0, "class", "category_element category_button svelte-14wmt40");
 			toggle_class(button0, "selected", /*filtered_categories*/ ctx[1].included.includes(/*category*/ ctx[12]));
-			add_location(button0, file, 63, 72, 2674);
-			attr_dev(button1, "class", "category_element category_button svelte-lkor4m");
+			add_location(button0, file, 65, 72, 2753);
+			attr_dev(button1, "class", "category_element category_button svelte-14wmt40");
 			toggle_class(button1, "selected", /*filtered_categories*/ ctx[1].excluded.includes(/*category*/ ctx[12]));
-			add_location(button1, file, 68, 19, 2903);
-			attr_dev(div, "class", "category_box svelte-lkor4m");
-			add_location(div, file, 62, 8, 2575);
+			add_location(button1, file, 70, 19, 2982);
+			attr_dev(div, "class", "category_box svelte-14wmt40");
+			add_location(div, file, 64, 8, 2654);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div, anchor);
@@ -129,14 +129,14 @@ function create_each_block_1(ctx) {
 		block,
 		id: create_each_block_1.name,
 		type: "each",
-		source: "(62:6) {#each categories as category}",
+		source: "(64:6) {#each categories as category}",
 		ctx
 	});
 
 	return block;
 }
 
-// (85:2) {:else}
+// (87:2) {:else}
 function create_else_block(ctx) {
 	let div;
 	let t0;
@@ -149,7 +149,7 @@ function create_else_block(ctx) {
 			t0 = text("No recipes found with `");
 			t1 = text(/*search*/ ctx[0]);
 			t2 = text("`");
-			add_location(div, file, 85, 4, 3411);
+			add_location(div, file, 87, 4, 3567);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div, anchor);
@@ -171,14 +171,14 @@ function create_else_block(ctx) {
 		block,
 		id: create_else_block.name,
 		type: "else",
-		source: "(85:2) {:else}",
+		source: "(87:2) {:else}",
 		ctx
 	});
 
 	return block;
 }
 
-// (81:2) {#if recipes.length > 0}
+// (83:2) {#if recipes.length > 0}
 function create_if_block(ctx) {
 	let each_1_anchor;
 	let current;
@@ -213,7 +213,7 @@ function create_if_block(ctx) {
 			current = true;
 		},
 		p: function update(ctx, dirty) {
-			if (dirty & /*recipes*/ 4) {
+			if (dirty & /*encodeURIComponent, recipes*/ 4) {
 				each_value = /*recipes*/ ctx[2];
 				validate_each_argument(each_value);
 				let i;
@@ -269,47 +269,59 @@ function create_if_block(ctx) {
 		block,
 		id: create_if_block.name,
 		type: "if",
-		source: "(81:2) {#if recipes.length > 0}",
+		source: "(83:2) {#if recipes.length > 0}",
 		ctx
 	});
 
 	return block;
 }
 
-// (82:4) {#each recipes as recipe}
+// (84:4) {#each recipes as recipe}
 function create_each_block(ctx) {
-	let recipe;
+	let a;
+	let recipetitle;
+	let a_href_value;
 	let current;
 
-	recipe = new Recipe({
+	recipetitle = new RecipeTitle({
 			props: { recipe: /*recipe*/ ctx[9] },
 			$$inline: true
 		});
 
 	const block = {
 		c: function create() {
-			create_component(recipe.$$.fragment);
+			a = element("a");
+			create_component(recipetitle.$$.fragment);
+			attr_dev(a, "class", "recipe-link svelte-14wmt40");
+			attr_dev(a, "href", a_href_value = `#recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`);
+			add_location(a, file, 84, 6, 3430);
 		},
 		m: function mount(target, anchor) {
-			mount_component(recipe, target, anchor);
+			insert_dev(target, a, anchor);
+			mount_component(recipetitle, a, null);
 			current = true;
 		},
 		p: function update(ctx, dirty) {
-			const recipe_changes = {};
-			if (dirty & /*recipes*/ 4) recipe_changes.recipe = /*recipe*/ ctx[9];
-			recipe.$set(recipe_changes);
+			const recipetitle_changes = {};
+			if (dirty & /*recipes*/ 4) recipetitle_changes.recipe = /*recipe*/ ctx[9];
+			recipetitle.$set(recipetitle_changes);
+
+			if (!current || dirty & /*recipes*/ 4 && a_href_value !== (a_href_value = `#recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`)) {
+				attr_dev(a, "href", a_href_value);
+			}
 		},
 		i: function intro(local) {
 			if (current) return;
-			transition_in(recipe.$$.fragment, local);
+			transition_in(recipetitle.$$.fragment, local);
 			current = true;
 		},
 		o: function outro(local) {
-			transition_out(recipe.$$.fragment, local);
+			transition_out(recipetitle.$$.fragment, local);
 			current = false;
 		},
 		d: function destroy(detaching) {
-			destroy_component(recipe, detaching);
+			if (detaching) detach_dev(a);
+			destroy_component(recipetitle);
 		}
 	};
 
@@ -317,7 +329,7 @@ function create_each_block(ctx) {
 		block,
 		id: create_each_block.name,
 		type: "each",
-		source: "(82:4) {#each recipes as recipe}",
+		source: "(84:4) {#each recipes as recipe}",
 		ctx
 	});
 
@@ -326,13 +338,15 @@ function create_each_block(ctx) {
 
 function create_fragment(ctx) {
 	let div3;
+	let h1;
+	let t1;
 	let div1;
 	let div0;
-	let t0;
-	let div2;
-	let t1;
-	let input;
 	let t2;
+	let div2;
+	let t3;
+	let input;
+	let t4;
 	let current_block_type_index;
 	let if_block;
 	let current;
@@ -360,6 +374,9 @@ function create_fragment(ctx) {
 	const block = {
 		c: function create() {
 			div3 = element("div");
+			h1 = element("h1");
+			h1.textContent = "Recipes";
+			t1 = space();
 			div1 = element("div");
 			div0 = element("div");
 
@@ -367,26 +384,29 @@ function create_fragment(ctx) {
 				each_blocks[i].c();
 			}
 
-			t0 = space();
-			div2 = element("div");
-			t1 = text("Search: ");
-			input = element("input");
 			t2 = space();
+			div2 = element("div");
+			t3 = text("Search: ");
+			input = element("input");
+			t4 = space();
 			if_block.c();
-			add_location(div0, file, 60, 4, 2524);
-			attr_dev(div1, "class", "category_area svelte-lkor4m");
-			add_location(div1, file, 59, 2, 2492);
+			add_location(h1, file, 60, 2, 2552);
+			add_location(div0, file, 62, 4, 2603);
+			attr_dev(div1, "class", "category_area svelte-14wmt40");
+			add_location(div1, file, 61, 2, 2571);
 			set_style(input, "font-size", "18pt");
-			add_location(input, file, 78, 40, 3225);
+			add_location(input, file, 80, 40, 3304);
 			set_style(div2, "font-size", "18pt");
-			add_location(div2, file, 78, 2, 3187);
-			add_location(div3, file, 58, 0, 2484);
+			add_location(div2, file, 80, 2, 3266);
+			add_location(div3, file, 59, 0, 2544);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div3, anchor);
+			append_dev(div3, h1);
+			append_dev(div3, t1);
 			append_dev(div3, div1);
 			append_dev(div1, div0);
 
@@ -396,12 +416,12 @@ function create_fragment(ctx) {
 				}
 			}
 
-			append_dev(div3, t0);
+			append_dev(div3, t2);
 			append_dev(div3, div2);
-			append_dev(div2, t1);
+			append_dev(div2, t3);
 			append_dev(div2, input);
 			set_input_value(input, /*search*/ ctx[0]);
-			append_dev(div3, t2);
+			append_dev(div3, t4);
 			if_blocks[current_block_type_index].m(div3, null);
 			current = true;
 
@@ -549,7 +569,7 @@ function instance($$self, $$props, $$invalidate) {
 	$$self.$capture_state = () => ({
 		all_recipes,
 		categories,
-		Recipe,
+		RecipeTitle,
 		search,
 		filtered_categories,
 		recipes,

@@ -4,15 +4,18 @@ import {
 	add_location,
 	append_dev,
 	attr_dev,
+	check_outros,
+	construct_svelte_component_dev,
 	create_component,
 	destroy_component,
 	detach_dev,
 	dispatch_dev,
 	element,
+	globals,
+	group_outros,
 	init,
 	insert_dev,
 	mount_component,
-	noop,
 	safe_not_equal,
 	space,
 	transition_in,
@@ -20,27 +23,40 @@ import {
 	validate_slots
 } from "./_snowpack/pkg/svelte/internal.js";
 
+const { console: console_1 } = globals;
 import RecipeList from './RecipeList.svelte.js';
+import RecipeSingle from './RecipeSingle.svelte.js';
 const file = "src/App.svelte";
 
 function create_fragment(ctx) {
 	let div;
 	let header;
 	let t;
-	let recipelist;
+	let switch_instance;
 	let current;
-	recipelist = new RecipeList({ $$inline: true });
+	var switch_value = /*page*/ ctx[0];
+
+	function switch_props(ctx) {
+		return {
+			props: { name: /*name*/ ctx[1] },
+			$$inline: true
+		};
+	}
+
+	if (switch_value) {
+		switch_instance = construct_svelte_component_dev(switch_value, switch_props(ctx));
+	}
 
 	const block = {
 		c: function create() {
 			div = element("div");
 			header = element("header");
 			t = space();
-			create_component(recipelist.$$.fragment);
+			if (switch_instance) create_component(switch_instance.$$.fragment);
 			attr_dev(header, "class", "App-header");
-			add_location(header, file, 8, 2, 148);
+			add_location(header, file, 21, 2, 609);
 			attr_dev(div, "class", "App");
-			add_location(div, file, 7, 0, 128);
+			add_location(div, file, 20, 0, 589);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -49,22 +65,49 @@ function create_fragment(ctx) {
 			insert_dev(target, div, anchor);
 			append_dev(div, header);
 			append_dev(div, t);
-			mount_component(recipelist, div, null);
+			if (switch_instance) mount_component(switch_instance, div, null);
 			current = true;
 		},
-		p: noop,
+		p: function update(ctx, [dirty]) {
+			const switch_instance_changes = {};
+			if (dirty & /*name*/ 2) switch_instance_changes.name = /*name*/ ctx[1];
+
+			if (dirty & /*page*/ 1 && switch_value !== (switch_value = /*page*/ ctx[0])) {
+				if (switch_instance) {
+					group_outros();
+					const old_component = switch_instance;
+
+					transition_out(old_component.$$.fragment, 1, 0, () => {
+						destroy_component(old_component, 1);
+					});
+
+					check_outros();
+				}
+
+				if (switch_value) {
+					switch_instance = construct_svelte_component_dev(switch_value, switch_props(ctx));
+					create_component(switch_instance.$$.fragment);
+					transition_in(switch_instance.$$.fragment, 1);
+					mount_component(switch_instance, div, null);
+				} else {
+					switch_instance = null;
+				}
+			} else if (switch_value) {
+				switch_instance.$set(switch_instance_changes);
+			}
+		},
 		i: function intro(local) {
 			if (current) return;
-			transition_in(recipelist.$$.fragment, local);
+			if (switch_instance) transition_in(switch_instance.$$.fragment, local);
 			current = true;
 		},
 		o: function outro(local) {
-			transition_out(recipelist.$$.fragment, local);
+			if (switch_instance) transition_out(switch_instance.$$.fragment, local);
 			current = false;
 		},
 		d: function destroy(detaching) {
 			if (detaching) detach_dev(div);
-			destroy_component(recipelist);
+			if (switch_instance) destroy_component(switch_instance);
 		}
 	};
 
@@ -82,14 +125,46 @@ function create_fragment(ctx) {
 function instance($$self, $$props, $$invalidate) {
 	let { $$slots: slots = {}, $$scope } = $$props;
 	validate_slots('App', slots, []);
+	let page = RecipeList;
+	let name = null;
+
+	function change_page() {
+		if (window.location.hash.startsWith(`#recipe/`)) {
+			$$invalidate(0, page = RecipeSingle);
+			$$invalidate(1, name = decodeURIComponent(window.location.hash.replace(`#recipe/`, ``)));
+		} else {
+			$$invalidate(0, page = RecipeList);
+		}
+
+		console.log(`The hash has changed: ${window.location.hash}`);
+	}
+
+	window.addEventListener("hashchange", change_page, false);
+	change_page();
 	const writable_props = [];
 
 	Object.keys($$props).forEach(key => {
-		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<App> was created with unknown prop '${key}'`);
+		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console_1.warn(`<App> was created with unknown prop '${key}'`);
 	});
 
-	$$self.$capture_state = () => ({ RecipeList });
-	return [];
+	$$self.$capture_state = () => ({
+		RecipeList,
+		RecipeSingle,
+		page,
+		name,
+		change_page
+	});
+
+	$$self.$inject_state = $$props => {
+		if ('page' in $$props) $$invalidate(0, page = $$props.page);
+		if ('name' in $$props) $$invalidate(1, name = $$props.name);
+	};
+
+	if ($$props && "$$inject" in $$props) {
+		$$self.$inject_state($$props.$$inject);
+	}
+
+	return [page, name];
 }
 
 class App extends SvelteComponentDev {
