@@ -1,28 +1,11 @@
-<!-- Recipe.svelte -->
+<!-- RecipeDetail.svelte -->
 <script>
   export let recipe;
-  let expanded = false
 </script>
 <style>
-  .external_link{ text-decoration: underline; }
-  .recipe-title{ font-size: 1.5rem; margin: 0.75rem 0; }
-  .categories{ margin-bottom: 5pt; }
-  .category{ background-color: #2964d3; color: white; padding: 3pt; margin-right: 5pt; border-radius: 3pt; font-size: 1rem; }
 </style>
 <div>
-  <div>
-    <div class="recipe-title fakelink" on:click={()=>{expanded=!expanded}}>
-      {recipe.name}
-      {#if recipe.categories}
-        <span class="categories">
-          {#each recipe.categories as category}
-            <span class="category">{category}</span>
-          {/each}
-        </span>
-      {/if}
-    </div>
-  </div>
-  {#if expanded}
+  {#if recipe}
     {#if recipe.notes}
       {#each recipe.notes as note}
         <div><strong>Note: {note}</strong></div>

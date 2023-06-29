@@ -3,7 +3,7 @@
   import all_recipes from './recipes.json'
   let categories = all_recipes.map(r=>r.categories).flat().filter((v,i,a)=>a.indexOf(v)===i).filter(cat=>!!cat)
   categories.sort((a,b)=>a>b ? 1 : -1)
-  import Recipe from './Recipe.svelte'
+  import RecipeTitle from './RecipeTitle.svelte'
   let search = ""
   let filtered_categories = { included: [], excluded: [] }
 
@@ -55,8 +55,10 @@
   .category-name{ padding: 3pt; }
   .category_button{ background-color: white; border-width: 0; color: #515151; position: relative; padding: 2pt 5pt; }
   .selected{ background-color: #99FF66; }
+  .recipe-link{ display: block; padding: 3pt 0; }
 </style>
 <div>
+  <h1>Recipes</h1>
   <div class="category_area">
     <div>
       {#each categories as category}
@@ -80,7 +82,7 @@
   
   {#if recipes.length > 0}
     {#each recipes as recipe}
-      <Recipe recipe={recipe}></Recipe>
+      <a class="recipe-link" href={`#recipe/${encodeURIComponent(recipe.name)}`}><RecipeTitle recipe={recipe} /></a>
     {/each}
   {:else}
     <div>No recipes found with `{search}`</div>
