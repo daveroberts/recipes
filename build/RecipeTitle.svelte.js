@@ -15,6 +15,7 @@ import {
 	noop,
 	safe_not_equal,
 	set_data_dev,
+	set_style,
 	space,
 	text,
 	validate_each_argument,
@@ -29,7 +30,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (10:0) {#if recipe}
+// (9:0) {#if recipe}
 function create_if_block(ctx) {
 	let div;
 	let span;
@@ -45,9 +46,12 @@ function create_if_block(ctx) {
 			t0 = text(t0_value);
 			t1 = space();
 			if (if_block) if_block.c();
-			attr_dev(span, "class", "recipe-title svelte-1sb698d");
-			add_location(span, file, 11, 4, 311);
-			add_location(div, file, 10, 2, 301);
+			attr_dev(span, "class", "recipe-title svelte-1pz9dij");
+			add_location(span, file, 10, 4, 334);
+			set_style(div, "display", "flex");
+			set_style(div, "align-items", "center");
+			set_style(div, "column-gap", "10pt");
+			add_location(div, file, 9, 2, 262);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div, anchor);
@@ -82,14 +86,14 @@ function create_if_block(ctx) {
 		block,
 		id: create_if_block.name,
 		type: "if",
-		source: "(10:0) {#if recipe}",
+		source: "(9:0) {#if recipe}",
 		ctx
 	});
 
 	return block;
 }
 
-// (13:4) {#if recipe.categories}
+// (12:4) {#if recipe.categories}
 function create_if_block_1(ctx) {
 	let span;
 	let each_value = /*recipe*/ ctx[0].categories;
@@ -108,8 +112,8 @@ function create_if_block_1(ctx) {
 				each_blocks[i].c();
 			}
 
-			attr_dev(span, "class", "categories svelte-1sb698d");
-			add_location(span, file, 13, 6, 393);
+			attr_dev(span, "class", "categories");
+			add_location(span, file, 12, 6, 416);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, span, anchor);
@@ -155,14 +159,14 @@ function create_if_block_1(ctx) {
 		block,
 		id: create_if_block_1.name,
 		type: "if",
-		source: "(13:4) {#if recipe.categories}",
+		source: "(12:4) {#if recipe.categories}",
 		ctx
 	});
 
 	return block;
 }
 
-// (15:8) {#each recipe.categories as category}
+// (14:8) {#each recipe.categories as category}
 function create_each_block(ctx) {
 	let span;
 	let t_value = /*category*/ ctx[1] + "";
@@ -172,8 +176,8 @@ function create_each_block(ctx) {
 		c: function create() {
 			span = element("span");
 			t = text(t_value);
-			attr_dev(span, "class", "category svelte-1sb698d");
-			add_location(span, file, 15, 10, 475);
+			attr_dev(span, "class", "category svelte-1pz9dij");
+			add_location(span, file, 14, 10, 498);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, span, anchor);
@@ -191,7 +195,7 @@ function create_each_block(ctx) {
 		block,
 		id: create_each_block.name,
 		type: "each",
-		source: "(15:8) {#each recipe.categories as category}",
+		source: "(14:8) {#each recipe.categories as category}",
 		ctx
 	});
 
