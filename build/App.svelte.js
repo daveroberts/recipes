@@ -54,9 +54,9 @@ function create_fragment(ctx) {
 			t = space();
 			if (switch_instance) create_component(switch_instance.$$.fragment);
 			attr_dev(header, "class", "App-header");
-			add_location(header, file, 21, 2, 609);
+			add_location(header, file, 21, 2, 611);
 			attr_dev(div, "class", "App");
-			add_location(div, file, 20, 0, 589);
+			add_location(div, file, 20, 0, 591);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -129,9 +129,9 @@ function instance($$self, $$props, $$invalidate) {
 	let name = null;
 
 	function change_page() {
-		if (window.location.hash.startsWith(`#recipe/`)) {
+		if (window.location.hash.startsWith(`#/recipe/`)) {
 			$$invalidate(0, page = RecipeSingle);
-			$$invalidate(1, name = decodeURIComponent(window.location.hash.replace(`#recipe/`, ``)));
+			$$invalidate(1, name = decodeURIComponent(window.location.hash.replace(`#/recipe/`, ``)));
 		} else {
 			$$invalidate(0, page = RecipeList);
 		}

@@ -14,6 +14,7 @@ import {
 	noop,
 	safe_not_equal,
 	set_data_dev,
+	set_style,
 	space,
 	text,
 	validate_each_argument,
@@ -265,7 +266,8 @@ function create_each_block_3(ctx) {
 			strong = element("strong");
 			t0 = text("Note: ");
 			t1 = text(t1_value);
-			add_location(strong, file, 10, 13, 178);
+			add_location(strong, file, 10, 41, 206);
+			set_style(div, "margin-bottom", "5pt");
 			add_location(div, file, 10, 8, 173);
 		},
 		m: function mount(target, anchor) {
@@ -297,28 +299,31 @@ function create_each_block_3(ctx) {
 function create_if_block_5(ctx) {
 	let div;
 	let a;
-	let t_value = /*recipe*/ ctx[0].video + "";
-	let t;
+	let t0_value = /*recipe*/ ctx[0].video + "";
+	let t0;
+	let t1;
 	let a_href_value;
 
 	const block = {
 		c: function create() {
 			div = element("div");
 			a = element("a");
-			t = text(t_value);
+			t0 = text(t0_value);
+			t1 = text(" ↗");
 			attr_dev(a, "class", "external_link");
 			attr_dev(a, "target", "_blank");
 			attr_dev(a, "href", a_href_value = /*recipe*/ ctx[0].video);
-			add_location(a, file, 13, 27, 265);
-			add_location(div, file, 13, 22, 260);
+			add_location(a, file, 13, 27, 293);
+			add_location(div, file, 13, 22, 288);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div, anchor);
 			append_dev(div, a);
-			append_dev(a, t);
+			append_dev(a, t0);
+			append_dev(a, t1);
 		},
 		p: function update(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*recipe*/ ctx[0].video + "")) set_data_dev(t, t_value);
+			if (dirty & /*recipe*/ 1 && t0_value !== (t0_value = /*recipe*/ ctx[0].video + "")) set_data_dev(t0, t0_value);
 
 			if (dirty & /*recipe*/ 1 && a_href_value !== (a_href_value = /*recipe*/ ctx[0].video)) {
 				attr_dev(a, "href", a_href_value);
@@ -344,28 +349,31 @@ function create_if_block_5(ctx) {
 function create_if_block_4(ctx) {
 	let div;
 	let a;
-	let t_value = /*recipe*/ ctx[0].link + "";
-	let t;
+	let t0_value = /*recipe*/ ctx[0].link + "";
+	let t0;
+	let t1;
 	let a_href_value;
 
 	const block = {
 		c: function create() {
 			div = element("div");
 			a = element("a");
-			t = text(t_value);
+			t0 = text(t0_value);
+			t1 = text(" ↗");
 			attr_dev(a, "class", "external_link");
 			attr_dev(a, "target", "_blank");
 			attr_dev(a, "href", a_href_value = /*recipe*/ ctx[0].link);
-			add_location(a, file, 14, 26, 382);
-			add_location(div, file, 14, 21, 377);
+			add_location(a, file, 14, 26, 412);
+			add_location(div, file, 14, 21, 407);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div, anchor);
 			append_dev(div, a);
-			append_dev(a, t);
+			append_dev(a, t0);
+			append_dev(a, t1);
 		},
 		p: function update(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t_value !== (t_value = /*recipe*/ ctx[0].link + "")) set_data_dev(t, t_value);
+			if (dirty & /*recipe*/ 1 && t0_value !== (t0_value = /*recipe*/ ctx[0].link + "")) set_data_dev(t0, t0_value);
 
 			if (dirty & /*recipe*/ 1 && a_href_value !== (a_href_value = /*recipe*/ ctx[0].link)) {
 				attr_dev(a, "href", a_href_value);
@@ -397,7 +405,7 @@ function create_if_block_3(ctx) {
 		c: function create() {
 			h3 = element("h3");
 			t = text(t_value);
-			add_location(h3, file, 16, 24, 534);
+			add_location(h3, file, 16, 24, 566);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, h3, anchor);
@@ -446,8 +454,8 @@ function create_if_block_2(ctx) {
 				each_blocks[i].c();
 			}
 
-			add_location(h4, file, 18, 8, 603);
-			add_location(ul, file, 19, 8, 632);
+			add_location(h4, file, 18, 8, 635);
+			add_location(ul, file, 19, 8, 664);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, h4, anchor);
@@ -514,7 +522,7 @@ function create_each_block_2(ctx) {
 		c: function create() {
 			li = element("li");
 			t = text(t_value);
-			add_location(li, file, 21, 12, 701);
+			add_location(li, file, 21, 12, 733);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, li, anchor);
@@ -565,8 +573,8 @@ function create_if_block_1(ctx) {
 			}
 
 			t2 = space();
-			add_location(h4, file, 26, 8, 808);
-			add_location(ol, file, 27, 8, 838);
+			add_location(h4, file, 26, 8, 840);
+			add_location(ol, file, 27, 8, 870);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, h4, anchor);
@@ -635,7 +643,7 @@ function create_each_block_1(ctx) {
 		c: function create() {
 			li = element("li");
 			t = text(t_value);
-			add_location(li, file, 29, 12, 909);
+			add_location(li, file, 29, 12, 941);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, li, anchor);

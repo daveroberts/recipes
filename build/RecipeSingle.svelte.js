@@ -54,17 +54,17 @@ function create_fragment(ctx) {
 			div2 = element("div");
 			div0 = element("div");
 			a = element("a");
-			a.textContent = "Back to recipe list";
+			a.textContent = "← Back to recipe list";
 			t1 = space();
 			div1 = element("div");
 			create_component(recipetitle.$$.fragment);
 			t2 = space();
 			create_component(recipedetail.$$.fragment);
-			attr_dev(a, "href", "/");
+			attr_dev(a, "href", "#/");
 			add_location(a, file, 19, 4, 469);
 			add_location(div0, file, 18, 2, 459);
 			set_style(div1, "margin", "2em 0");
-			add_location(div1, file, 21, 2, 516);
+			add_location(div1, file, 21, 2, 519);
 			add_location(div2, file, 17, 0, 451);
 		},
 		l: function claim(nodes) {

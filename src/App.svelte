@@ -5,9 +5,9 @@
   let page = RecipeList
   let name = null
   function change_page(){
-    if (window.location.hash.startsWith(`#recipe/`)){
+    if (window.location.hash.startsWith(`#/recipe/`)){
       page = RecipeSingle
-      name = decodeURIComponent(window.location.hash.replace(`#recipe/`,``))
+      name = decodeURIComponent(window.location.hash.replace(`#/recipe/`,``))
     }
     else { page = RecipeList }
     console.log(`The hash has changed: ${window.location.hash}`);

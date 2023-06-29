@@ -82,7 +82,7 @@
   
   {#if recipes.length > 0}
     {#each recipes as recipe}
-      <a class="recipe-link" href={`#recipe/${encodeURIComponent(recipe.name)}`}><RecipeTitle recipe={recipe} /></a>
+      <a class="recipe-link" href={`#/recipe/${encodeURIComponent(recipe.name)}`}><RecipeTitle recipe={recipe} /></a>
     {/each}
   {:else}
     <div>No recipes found with `{search}`</div>

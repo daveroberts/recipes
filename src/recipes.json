@@ -2250,7 +2250,7 @@
     ]
   },
   {
-    "name": "Air Fryer Chicken Breasts",
+    "name": "Air Fryer Pulled Chicken",
     "link": "https://www.youtube.com/watch?v=NCP6VPf505A",
     "categories": ["Air Fryer"],
     "versions": [
@@ -2270,14 +2270,19 @@
     ]
   },
   {
-    "name": "",
-    "link": "",
-    "categories": [],
+    "name": "Cottage Cheese Ice Cream",
+    "link": "https://www.youtube.com/watch?v=2Mr9GDb30zk",
+    "categories": ["dessert","simple"],
     "versions": [
       {
         "ingredients": [
+          "cottage cheese (full fat)",
+          "honey (optional)",
+          "peanut butter (optional)"
         ],
         "instructions": [
+          "blend all ingredients, put into tupperware and freeze",
+          "Take out of freezer, pop into microwave and enjoy!"
         ]
       }
     ]

@@ -149,7 +149,7 @@ function create_else_block(ctx) {
 			t0 = text("No recipes found with `");
 			t1 = text(/*search*/ ctx[0]);
 			t2 = text("`");
-			add_location(div, file, 87, 4, 3567);
+			add_location(div, file, 87, 4, 3568);
 		},
 		m: function mount(target, anchor) {
 			insert_dev(target, div, anchor);
@@ -293,7 +293,7 @@ function create_each_block(ctx) {
 			a = element("a");
 			create_component(recipetitle.$$.fragment);
 			attr_dev(a, "class", "recipe-link svelte-14wmt40");
-			attr_dev(a, "href", a_href_value = `#recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`);
+			attr_dev(a, "href", a_href_value = `#/recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`);
 			add_location(a, file, 84, 6, 3430);
 		},
 		m: function mount(target, anchor) {
@@ -306,7 +306,7 @@ function create_each_block(ctx) {
 			if (dirty & /*recipes*/ 4) recipetitle_changes.recipe = /*recipe*/ ctx[9];
 			recipetitle.$set(recipetitle_changes);
 
-			if (!current || dirty & /*recipes*/ 4 && a_href_value !== (a_href_value = `#recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`)) {
+			if (!current || dirty & /*recipes*/ 4 && a_href_value !== (a_href_value = `#/recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`)) {
 				attr_dev(a, "href", a_href_value);
 			}
 		},

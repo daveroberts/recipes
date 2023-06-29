@@ -8,11 +8,11 @@
   {#if recipe}
     {#if recipe.notes}
       {#each recipe.notes as note}
-        <div><strong>Note: {note}</strong></div>
+        <div style="margin-bottom: 5pt;"><strong>Note: {note}</strong></div>
       {/each}
     {/if}
-    {#if recipe.video}<div><a class="external_link" target="_blank" href={recipe.video}>{recipe.video}</a></div>{/if}
-    {#if recipe.link}<div><a class="external_link" target="_blank" href={recipe.link}>{recipe.link}</a></div>{/if}
+    {#if recipe.video}<div><a class="external_link" target="_blank" href={recipe.video}>{recipe.video} ↗</a></div>{/if}
+    {#if recipe.link}<div><a class="external_link" target="_blank" href={recipe.link}>{recipe.link} ↗</a></div>{/if}
     {#each recipe.versions as version}
       {#if version.name}<h3>{version.name}</h3>{/if}
       {#if version.ingredients}
