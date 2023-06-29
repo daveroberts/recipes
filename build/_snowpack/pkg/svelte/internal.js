@@ -1,5 +1,10 @@
 function noop() {
 }
+function add_location(element2, file, line, column, char) {
+  element2.__svelte_meta = {
+    loc: {file, line, column, char}
+  };
+}
 function run(fn) {
   return fn();
 }
@@ -25,7 +30,9 @@ function insert(target, node, anchor) {
   target.insertBefore(node, anchor || null);
 }
 function detach(node) {
-  node.parentNode.removeChild(node);
+  if (node.parentNode) {
+    node.parentNode.removeChild(node);
+  }
 }
 function destroy_each(iterations, detaching) {
   for (let i = 0; i < iterations.length; i += 1) {
@@ -58,16 +65,11 @@ function attr(node, attribute, value) {
 function children(element2) {
   return Array.from(element2.childNodes);
 }
-function set_data(text2, data) {
-  data = "" + data;
-  if (text2.wholeText !== data)
-    text2.data = data;
-}
 function set_input_value(input, value) {
   input.value = value == null ? "" : value;
 }
 function set_style(node, key, value, important) {
-  if (value === null) {
+  if (value == null) {
     node.style.removeProperty(key);
   } else {
     node.style.setProperty(key, value, important ? "important" : "");
@@ -76,15 +78,20 @@ function set_style(node, key, value, important) {
 function toggle_class(element2, name, toggle) {
   element2.classList[toggle ? "add" : "remove"](name);
 }
+function custom_event(type, detail, {bubbles = false, cancelable = false} = {}) {
+  const e = document.createEvent("CustomEvent");
+  e.initCustomEvent(type, bubbles, cancelable, detail);
+  return e;
+}
 let current_component;
 function set_current_component(component) {
   current_component = component;
 }
 const dirty_components = [];
 const binding_callbacks = [];
-const render_callbacks = [];
+let render_callbacks = [];
 const flush_callbacks = [];
-const resolved_promise = Promise.resolve();
+const resolved_promise = /* @__PURE__ */ Promise.resolve();
 let update_scheduled = false;
 function schedule_update() {
   if (!update_scheduled) {
@@ -98,13 +105,22 @@ function add_render_callback(fn) {
 const seen_callbacks = new Set();
 let flushidx = 0;
 function flush() {
+  if (flushidx !== 0) {
+    return;
+  }
   const saved_component = current_component;
   do {
-    while (flushidx < dirty_components.length) {
-      const component = dirty_components[flushidx];
-      flushidx++;
-      set_current_component(component);
-      update(component.$$);
+    try {
+      while (flushidx < dirty_components.length) {
+        const component = dirty_components[flushidx];
+        flushidx++;
+        set_current_component(component);
+        update(component.$$);
+      }
+    } catch (e) {
+      dirty_components.length = 0;
+      flushidx = 0;
+      throw e;
     }
     set_current_component(null);
     dirty_components.length = 0;
@@ -136,6 +152,13 @@ function update($$) {
     $$.fragment && $$.fragment.p($$.ctx, dirty);
     $$.after_update.forEach(add_render_callback);
   }
+}
+function flush_render_callbacks(fns) {
+  const filtered = [];
+  const targets = [];
+  render_callbacks.forEach((c) => fns.indexOf(c) === -1 ? filtered.push(c) : targets.push(c));
+  targets.forEach((c) => c());
+  render_callbacks = filtered;
 }
 const outroing = new Set();
 let outros;
@@ -180,13 +203,13 @@ function create_component(block) {
   block && block.c();
 }
 function mount_component(component, target, anchor, customElement) {
-  const {fragment, on_mount, on_destroy: on_destroy2, after_update} = component.$$;
+  const {fragment, after_update} = component.$$;
   fragment && fragment.m(target, anchor);
   if (!customElement) {
     add_render_callback(() => {
-      const new_on_destroy = on_mount.map(run).filter(is_function);
-      if (on_destroy2) {
-        on_destroy2.push(...new_on_destroy);
+      const new_on_destroy = component.$$.on_mount.map(run).filter(is_function);
+      if (component.$$.on_destroy) {
+        component.$$.on_destroy.push(...new_on_destroy);
       } else {
         run_all(new_on_destroy);
       }
@@ -198,6 +221,7 @@ function mount_component(component, target, anchor, customElement) {
 function destroy_component(component, detaching) {
   const $$ = component.$$;
   if ($$.fragment !== null) {
+    flush_render_callbacks($$.after_update);
     run_all($$.on_destroy);
     $$.fragment && $$.fragment.d(detaching);
     $$.on_destroy = $$.fragment = null;
@@ -217,7 +241,7 @@ function init(component, options, instance, create_fragment, not_equal2, props, 
   set_current_component(component);
   const $$ = component.$$ = {
     fragment: null,
-    ctx: null,
+    ctx: [],
     props,
     update: noop,
     not_equal: not_equal2,
@@ -270,6 +294,9 @@ class SvelteComponent {
     this.$destroy = noop;
   }
   $on(type, callback) {
+    if (!is_function(callback)) {
+      return noop;
+    }
     const callbacks = this.$$.callbacks[type] || (this.$$.callbacks[type] = []);
     callbacks.push(callback);
     return () => {
@@ -286,5 +313,83 @@ class SvelteComponent {
     }
   }
 }
+function dispatch_dev(type, detail) {
+  document.dispatchEvent(custom_event(type, Object.assign({version: "3.59.2"}, detail), {bubbles: true}));
+}
+function append_dev(target, node) {
+  dispatch_dev("SvelteDOMInsert", {target, node});
+  append(target, node);
+}
+function insert_dev(target, node, anchor) {
+  dispatch_dev("SvelteDOMInsert", {target, node, anchor});
+  insert(target, node, anchor);
+}
+function detach_dev(node) {
+  dispatch_dev("SvelteDOMRemove", {node});
+  detach(node);
+}
+function listen_dev(node, event, handler, options, has_prevent_default, has_stop_propagation, has_stop_immediate_propagation) {
+  const modifiers = options === true ? ["capture"] : options ? Array.from(Object.keys(options)) : [];
+  if (has_prevent_default)
+    modifiers.push("preventDefault");
+  if (has_stop_propagation)
+    modifiers.push("stopPropagation");
+  if (has_stop_immediate_propagation)
+    modifiers.push("stopImmediatePropagation");
+  dispatch_dev("SvelteDOMAddEventListener", {node, event, handler, modifiers});
+  const dispose = listen(node, event, handler, options);
+  return () => {
+    dispatch_dev("SvelteDOMRemoveEventListener", {node, event, handler, modifiers});
+    dispose();
+  };
+}
+function attr_dev(node, attribute, value) {
+  attr(node, attribute, value);
+  if (value == null)
+    dispatch_dev("SvelteDOMRemoveAttribute", {node, attribute});
+  else
+    dispatch_dev("SvelteDOMSetAttribute", {node, attribute, value});
+}
+function set_data_dev(text2, data) {
+  data = "" + data;
+  if (text2.data === data)
+    return;
+  dispatch_dev("SvelteDOMSetData", {node: text2, data});
+  text2.data = data;
+}
+function validate_each_argument(arg) {
+  if (typeof arg !== "string" && !(arg && typeof arg === "object" && "length" in arg)) {
+    let msg = "{#each} only iterates over array-like objects.";
+    if (typeof Symbol === "function" && arg && Symbol.iterator in arg) {
+      msg += " You can use a spread to convert this iterable into an array.";
+    }
+    throw new Error(msg);
+  }
+}
+function validate_slots(name, slot, keys) {
+  for (const slot_key of Object.keys(slot)) {
+    if (!~keys.indexOf(slot_key)) {
+      console.warn(`<${name}> received an unexpected slot "${slot_key}".`);
+    }
+  }
+}
+class SvelteComponentDev extends SvelteComponent {
+  constructor(options) {
+    if (!options || !options.target && !options.$$inline) {
+      throw new Error("'target' is a required option");
+    }
+    super();
+  }
+  $destroy() {
+    super.$destroy();
+    this.$destroy = () => {
+      console.warn("Component was already destroyed");
+    };
+  }
+  $capture_state() {
+  }
+  $inject_state() {
+  }
+}
 
-export { SvelteComponent, append, attr, check_outros, create_component, destroy_component, destroy_each, detach, element, empty, group_outros, init, insert, listen, mount_component, noop, run_all, safe_not_equal, set_data, set_input_value, set_style, space, text, toggle_class, transition_in, transition_out };
+export { SvelteComponentDev, add_location, append_dev, attr_dev, check_outros, create_component, destroy_component, destroy_each, detach_dev, dispatch_dev, element, empty, group_outros, init, insert_dev, listen_dev, mount_component, noop, run_all, safe_not_equal, set_data_dev, set_input_value, set_style, space, text, toggle_class, transition_in, transition_out, validate_each_argument, validate_slots };

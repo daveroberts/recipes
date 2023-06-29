@@ -21,7 +21,7 @@
   {
     "name": "Chicken or Tuna Sandwich",
     "categories": [
-      "easy"
+      "simple"
     ],
     "versions": [
       {
@@ -43,7 +43,7 @@
   {
     "name": "Turkey Melt",
     "categories": [
-      "easy"
+      "simple"
     ],
     "versions": [
       {
@@ -66,7 +66,7 @@
   {
     "name": "Avocado Toast",
     "categories": [
-      "easy"
+      "simple"
     ],
     "versions": [
       {
@@ -88,7 +88,7 @@
   {
     "name": "Lettuce Wraps",
     "categories": [
-      "easy",
+      "simple",
       "thai"
     ],
     "versions": [
@@ -144,8 +144,8 @@
   {
     "name": "Egg rolls",
     "categories": [
-      "chinese",
-      "easy"
+      "Chinese",
+      "simple"
     ],
     "versions": [
       {
@@ -170,7 +170,7 @@
     "name": "Lo Mein",
     "categories": [
       "revise",
-      "chinese"
+      "Chinese"
     ],
     "versions": [
       {
@@ -192,7 +192,7 @@
     "name": "Beef and Brocolli",
     "categories": [
       "revise",
-      "chinese"
+      "Chinese"
     ],
     "versions": [
       {
@@ -215,7 +215,7 @@
   {
     "name": "General Tso's Chicken",
     "categories": [
-      "chinese"
+      "Chinese"
     ],
     "versions": [
       {
@@ -378,7 +378,7 @@
     "name": "Indian Coconut Curry",
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "categories": [
-      "easy",
+      "simple",
       "indian"
     ],
     "versions": [
@@ -403,7 +403,7 @@
     "name": "Indian Eggplant Curry",
     "categories": [
       "indian",
-      "easy"
+      "simple"
     ],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
@@ -472,9 +472,7 @@
   },
   {
     "name": "Coconut Chickpea Rice",
-    "categories": [
-      "cantonese"
-    ],
+    "categories": [],
     "video": "https://www.youtube.com/watch?v=i9EmC0pM1YE",
     "versions": [
       {
@@ -551,7 +549,7 @@
   {
     "name": "Chicken / Turkey Wraps",
     "categories": [
-      "easy"
+      "simple"
     ],
     "versions": [
       {
@@ -676,7 +674,7 @@
   },
   {
     "name": "easy Braised Beef",
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -718,7 +716,7 @@
   {
     "name": "Garlicky Smashed Cucumbers",
     "notes": ["Good for leftover cucumbers"],
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -968,7 +966,7 @@
     "name": "Chicken Fried Rice",
     "note": "Good for day-old rice",
     "link": "https://www.youtube.com/watch?v=7AxydboW8v8",
-    "categories": ["to try","chinese"],
+    "categories": ["to try","Chinese"],
     "versions": [
       {
         "name": "Rice",
@@ -1051,7 +1049,7 @@
   {
     "name": "Curried Lentil Soup",
     "link": "https://justthedarnrecipe.com/curried-lentil-soup",
-    "categories": ["to try"],
+    "categories": ["to try", "cold weather"],
     "versions": [
       {
         "ingredients": [
@@ -1142,7 +1140,7 @@
   {
     "name": "Sweet and Sour Chicken",
     "link": "https://www.youtube.com/watch?v=lxXN4JOX4ak",
-    "categories": ["chinese"],
+    "categories": ["Chinese"],
     "versions": [
       {
         "ingredients": [
@@ -1349,7 +1347,7 @@
   {
     "name": "Pizza!",
     "link": "https://www.youtube.com/watch?v=9TjUWnAK0cg",
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "name": "Dough",
@@ -1396,7 +1394,7 @@
   {
     "name": "Filipino-style Picadillo",
     "link": "https://www.youtube.com/watch?v=ZUFIQpbr9Fs",
-    "categories": ["to try"],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -1781,7 +1779,7 @@
   {
     "name": "Lamb Pulao",
     "link": "https://joshicooks.com/lamb-pulao-instant-pot-recipe/",
-    "categories": ["to try"],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -1807,7 +1805,7 @@
   {
     "name": "Buffalo Chicken Dip",
     "link": "https://www.youtube.com/watch?v=uNvQ-YIOaKk",
-    "categories": ["to try", "easy"],
+    "categories": ["to try", "simple"],
     "versions": [
       {
         "ingredients": [
@@ -1859,7 +1857,7 @@
   {
     "name": "Crockpot Barbacoa",
     "link": "https://www.youtube.com/watch?v=VVcRFMG46fg",
-    "categories": ["to try", "easy"],
+    "categories": ["to try", "simple"],
     "versions": [
       {
         "ingredients": [
@@ -1966,7 +1964,7 @@
   {
     "name": "easy Queso",
     "link": "https://www.youtube.com/watch?v=vhc6331LTIA",
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -2011,7 +2009,7 @@
     "name": "Meatza Pizza Crust",
     "link": "https://www.youtube.com/watch?v=qmhAuXfTRVg",
     "notes": ["This was a banger!"],
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -2032,7 +2030,7 @@
   {
     "name": "Brazilian Stroganoff",
     "link": "https://braziliankitchenabroad.com/brazilian-chicken-stroganoff-recipe/",
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -2060,7 +2058,7 @@
   {
     "name": "Simple Stir Fry",
     "link": "https://www.youtube.com/shorts/SvfOK9eKfhg",
-    "categories": ["easy"],
+    "categories": ["simple"],
     "versions": [
       {
         "ingredients": [
@@ -2092,7 +2090,7 @@
   {
     "name": "Red and Green Salsa",
     "link": "https://www.youtube.com/watch?v=Hpd_p7LRk_k",
-    "categories": ["easy","side"],
+    "categories": ["simple","side"],
     "versions": [
       {
         "ingredients": [
@@ -2152,7 +2150,7 @@
   {
     "name": "Two ingredient pumpkin bread",
     "link": "https://www.youtube.com/watch?v=IyVYJ-WLVsQ",
-    "categories": ["easy", "dessert"],
+    "categories": ["simple", "dessert"],
     "versions": [
       {
         "ingredients": [
@@ -2227,6 +2225,26 @@
           "Mix all ingredients in a large bowl other than bread",
           "Cut bread into bite sized pieces, put into bowl and soal up all liquid",
           "Fry the toast"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oatmeal Cookies",
+    "link": "https://www.youtube.com/watch?v=4ZeK_iLauko",
+    "categories": ["simple","dessert"],
+    "versions": [
+      {
+        "ingredients": [
+          "bananas",
+          "oatmeal",
+          "sugar free maple syrup (optional)",
+          "peanut butter (optional)"
+        ],
+        "instructions": [
+          "mix and mash all ingrediants",
+          "put on parchment paper, smoosh cookies flat",
+          "bake at 350 for 20 minutes"
         ]
       }
     ]
