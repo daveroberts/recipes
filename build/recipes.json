@@ -2410,6 +2410,69 @@
     ]
   },
   {
+    "name": "Ary Fryer Peruvian Chicken",
+    "link": "https://www.youtube.com/watch?v=1_l6EXvmV-M",
+    "categories": ["Air Fryer"],
+    "versions": [
+      {
+        "ingredients": [
+          "4 Chicken Thighs (skin on preferred)",
+          "cilantro",
+          "lime juice",
+          "honey",
+          "plain greek yogurt",
+          "cumin",
+          "paprika",
+          "garlic"
+        ],
+        "instructions": [
+        ]
+      },
+      {
+        "name": "marinade chicken",
+        "ingredients": [
+          "3 cloves of garlic, minced",
+          "2 tsp paprika",
+          "1 tsp cumin",
+          "1 tsp salt",
+          "1/4 tsp black pepper",
+          "lime juice",
+          "~2 Tbsp olive oil"
+        ],
+        "instructions": [
+          "Add chicken to a ziploc bag.  Add garlic, paprika, cumin, salt, pepper, lime juice, olive oil.  Massage ingredients into the chicken.  Put into the fridge for a while"
+        ]
+      },
+      {
+        "name": "Cilantro Lime Crema Sauce",
+        "ingredients": [
+          "1 cup of cilantro",
+          "1/2 of a jalapeno, deseeded",
+          "1 clove garlic",
+          "half a cup of greek yogurt (~1 prepackaged cup)",
+          "1 tsp honey",
+          "1 tsp salt",
+          "2 Tbsp olive oil",
+          "(optional) mayo",
+          "(optional) sour cream"
+        ],
+        "instructions": [
+          "Add cilantro, jalapeno, garlic, yogurt, honey, salt, olive oil to a blender, twister jar is recommended",
+          "optionally add mayo and/or sour cream to make creamier",
+          "blend, add liquid if blender can't start"
+        ]
+      },
+      {
+        "name": "Air fry",
+        "ingredients": [
+        ],
+        "instructions": [
+          "Fry up the chicken at 370 for 18-25 minutes depending on chicken size (less for boneless, more for bone-in)"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "link": "",
     "categories": [],
