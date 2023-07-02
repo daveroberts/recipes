@@ -2288,6 +2288,128 @@
     ]
   },
   {
+    "name": "Simple Cheap Fast Oatmeal Breakfast",
+    "link": "https://www.youtube.com/watch?v=kmqWyyjCjTw",
+    "categories": ["simple","breakfast"],
+    "versions": [
+      {
+        "name": "Main Dish",
+        "ingredients": [
+          "quick oats",
+          "grated apple or applesauce",
+          "yogurt (plain or vanilla)",
+          "cinnamon"
+        ],
+        "instructions": [
+          "mix quick oats, yogurt, cinnamon and either apple sauce or grated apple in a bowl, let sit for 10 minutes"
+        ]
+      },
+      {
+        "name": "(Optional) Toppings",
+        "ingredients": [
+          "quick oats",
+          "almonds",
+          "honey or maple syrup",
+          "diced apple"
+        ],
+        "instructions": [
+          "Toast almonds, oats and some diced apples",
+          "Top bowls with toasted mix and honey or maple sytrup"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halal Chicken and Rice",
+    "link": "https://www.youtube.com/watch?v=g728DTEUUlw",
+    "categories": [],
+    "versions": [
+      {
+        "name": "Marinade chicken",
+        "ingredients": [
+          "boneless skinless chicken thighs",
+          "olive oil",
+          "dried thyme",
+          "dried oregano",
+          "garlic powder",
+          "onion powder",
+          "green cardamom powder",
+          "turmeric",
+          "paprika",
+          "allspice",
+          "black pepper",
+          "lemon juice"
+        ],
+        "instructions": [
+          "Mix dry ingredients.  Use 1/2 in marinade and save the other half",
+          "Mix and marinate until you loose patience"
+        ]
+      },
+      {
+        "name": "Sauce",
+        "ingredients": [
+          "mayo",
+          "plain yogurt",
+          "lemon juice",
+          "garlic powder",
+          "salt",
+          "(optional) dried flakes like parsley or oregano"
+        ],
+        "instructions": [
+          "mix"
+        ]
+      },
+      {
+        "name": "Chicken and rice",
+        "ingredients": [
+          "rice",
+          "(optional) stock"
+        ],
+        "instructions": [
+          "Fry chicken in some oil, remove chicken when cooked",
+          "Add rest of seasoning mix, add some more oil, add rice, toast for a bit",
+          "Add water or stock, bring to a boil, cover and simmer"
+        ]
+      },
+      {
+        "name": "Serve",
+        "ingredients": [
+          "Lettuce",
+          "Tomatoes"
+        ],
+        "instructions": [
+          "Dice lettuce and tomatoes",
+          "Serve chicken, rice, lettuce, tomatoes and sauce"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Healthy Blondies",
+    "link": "https://www.youtube.com/watch?v=j9kHJJzXSCc",
+    "notes": [
+      "https://www.tiktok.com/@_jacobking/video/7227438764623170842",
+      "Recipes disagree on PB amount",
+      "There are other recipes with more ingredients.  This is a simple version"
+    ],
+    "categories": ["simple", "dessert","totry"],
+    "versions": [
+      {
+        "ingredients": [
+          "Natural smooth peanut butter, amount varies between 2 1/2 cups or one 16oz jar",
+          "2 cans chickpeas, drained",
+          "5 tablespoons maple syrup",
+          "dark chocolate chips"
+        ],
+        "instructions": [
+          "Mix PB, chickpeats and maple syrup in a food processor",
+          "fold in dark chocolate chips",
+          "Add to baking pan, bake at 350 for 25 minutes"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "link": "",
     "categories": [],
