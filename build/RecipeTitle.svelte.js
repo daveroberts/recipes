@@ -40,7 +40,7 @@ function create_if_block(ctx) {
 			t0 = text(t0_value);
 			t1 = space();
 			if (if_block) if_block.c();
-			attr(span, "class", "recipe-title svelte-1pz9dij");
+			attr(span, "class", "recipe-title svelte-wnybx2");
 			set_style(div, "display", "flex");
 			set_style(div, "align-items", "center");
 			set_style(div, "column-gap", "10pt");
@@ -143,7 +143,7 @@ function create_each_block(ctx) {
 		c() {
 			span = element("span");
 			t = text(t_value);
-			attr(span, "class", "category svelte-1pz9dij");
+			attr(span, "class", "category svelte-wnybx2");
 		},
 		m(target, anchor) {
 			insert(target, span, anchor);

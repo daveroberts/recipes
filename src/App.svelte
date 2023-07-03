@@ -8,9 +8,12 @@
     if (window.location.hash.startsWith(`#/recipe/`)){
       page = RecipeSingle
       name = decodeURIComponent(window.location.hash.replace(`#/recipe/`,``))
+      document.title = name
     }
-    else { page = RecipeList }
-    console.log(`The hash has changed: ${window.location.hash}`);
+    else {
+      page = RecipeList
+      document.title = "Recipes"
+    }
   }
   window.addEventListener("hashchange", change_page, false );
   change_page()

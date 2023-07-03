@@ -109,11 +109,11 @@ function instance($$self, $$props, $$invalidate) {
 		if (window.location.hash.startsWith(`#/recipe/`)) {
 			$$invalidate(0, page = RecipeSingle);
 			$$invalidate(1, name = decodeURIComponent(window.location.hash.replace(`#/recipe/`, ``)));
+			document.title = name;
 		} else {
 			$$invalidate(0, page = RecipeList);
+			document.title = "Recipes";
 		}
-
-		console.log(`The hash has changed: ${window.location.hash}`);
 	}
 
 	window.addEventListener("hashchange", change_page, false);

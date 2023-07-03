@@ -4,7 +4,7 @@
 </script>
 <style>
   .recipe-title{ font-size: 2rem; }
-  .category{ background-color: #2964d3; color: white; padding: 3pt; margin-right: 5pt; border-radius: 3pt; font-size: 1rem; }
+  .category{ user-select: none; background-color: #2964d3; color: white; padding: 3pt; margin-right: 5pt; border-radius: 3pt; font-size: 1rem; }
 </style>
 {#if recipe}
   <div style="display: flex; align-items: center; column-gap: 10pt;">
