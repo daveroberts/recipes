@@ -2131,7 +2131,7 @@
   {
     "name": "Chili Colorado",
     "link": "https://www.youtube.com/watch?v=N8bgX6QsAnc",
-    "notes": "official recipe calls for 4 cups stock, 3 was plenty.  Mine was undercooked but I cut larger chunks",
+    "notes": ["official recipe calls for 4 cups stock, 3 was plenty.  Mine was undercooked but I cut larger chunks"],
     "categories": ["Slow Cooker"],
     "versions": [
       {
