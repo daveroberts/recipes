@@ -3,7 +3,6 @@
   import all_recipes from './recipes.json'
   let categories = all_recipes.map(r=>r.categories).flat().filter((v,i,a)=>a.indexOf(v)===i).filter(cat=>!!cat)
   categories.sort((a,b)=>a>b ? 1 : -1)
-  import RecipeTitle from './RecipeTitle.svelte'
   let search = ""
   let filtered_categories = { included: [], excluded: [] }
 
@@ -51,10 +50,13 @@
 </script>
 <style>
   .category_area{ margin-bottom: 1em; }
-  .category_box{ border: 1px solid white; display: inline-block; box-sizing: border-box; margin-right: 5pt; }
+  .category-box{ display: inline-block; border: 1px solid white; box-sizing: border-box; margin: 5pt; }
   .category-name{ padding: 3pt; }
   .category_button{ background-color: white; border-width: 0; color: #515151; position: relative; padding: 2pt 5pt; }
   .selected{ background-color: #99FF66; }
+  .search-box{ margin: 10pt 0; }
+  .search-box input{ font-size: 2em; width: 100%; }
+  .list-recipe-title{ font-size: 1.5em; }
   .recipe-link{ display: block; padding: 3pt 0; }
 </style>
 <div>
@@ -62,7 +64,7 @@
   <div class="category_area">
     <div>
       {#each categories as category}
-        <div class="category_box">
+        <span class="category-box">
           <span class="category_element category-name">{category}</span><button
             class="category_element category_button"
             class:selected={filtered_categories.included.includes(category)}
@@ -74,15 +76,26 @@
             on:click={()=>{toggle_exclude(category)}}>
               Out
             </button>
-        </div>
+          </span>
       {/each}
     </div>
   </div>
-  <div style="font-size: 18pt;">Search: <input style="font-size: 18pt" bind:value={search} /></div>
+  <div class="search-box"><input bind:value={search} placeholder="Search..." autofocus/></div>
   
   {#if recipes.length > 0}
     {#each recipes as recipe}
-      <a class="recipe-link" href={`#/recipe/${encodeURIComponent(recipe.name)}`}><RecipeTitle recipe={recipe} /></a>
+      <div style="display: flex; align-items: center; column-gap: 10pt;">
+        <a class="recipe-link" href={`#/recipe/${encodeURIComponent(recipe.name)}`}>
+          <span class="list-recipe-title">{recipe.name}</span>
+        </a>
+        {#if recipe.categories}
+          <span class="categories">
+            {#each recipe.categories as category}
+              <span class="category">{category}</span>
+            {/each}
+          </span>
+        {/if}
+      </div>
     {/each}
   {:else}
     <div>No recipes found with `{search}`</div>

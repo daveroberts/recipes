@@ -1,6 +1,5 @@
 <!-- RecipeSingle.svelte -->
 <script>
-  import RecipeTitle from './RecipeTitle.svelte'
   import RecipeDetail from './RecipeDetail.svelte'
   import all_recipes from './recipes.json'
   import { onMount as on_mount } from 'svelte'
@@ -14,13 +13,25 @@
   })
 </script>
 <style>
+  .recipe-title{ font-size: 2em; }
 </style>
 <div>
   <div>
     <a href="#/">← Back to recipe list</a>
   </div>
-  <div style="margin: 2em 0">
-    <RecipeTitle recipe={recipe} />
-  </div>
-  <RecipeDetail recipe={recipe} />
+  {#if recipe}
+    <div style="margin: 2em 0">
+      <span style="display: flex; align-items: center; column-gap: 10pt;">
+        <span class="recipe-title">{recipe.name}</span>
+        {#if recipe.categories}
+          <span class="categories">
+            {#each recipe.categories as category}
+              <span class="category">{category}</span>
+            {/each}
+          </span>
+        {/if}
+      </span>
+    </div>
+    <RecipeDetail recipe={recipe} />
+  {/if}
 </div>

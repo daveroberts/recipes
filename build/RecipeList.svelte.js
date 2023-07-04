@@ -4,18 +4,13 @@ import {
 	SvelteComponent,
 	append,
 	attr,
-	check_outros,
-	create_component,
-	destroy_component,
 	destroy_each,
 	detach,
 	element,
 	empty,
-	group_outros,
 	init,
 	insert,
 	listen,
-	mount_component,
 	noop,
 	run_all,
 	safe_not_equal,
@@ -24,13 +19,10 @@ import {
 	set_style,
 	space,
 	text,
-	toggle_class,
-	transition_in,
-	transition_out
+	toggle_class
 } from "./_snowpack/pkg/svelte/internal.js";
 
 import all_recipes from './recipes.json.proxy.js';
-import RecipeTitle from './RecipeTitle.svelte.js';
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
@@ -44,10 +36,16 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (64:6) {#each categories as category}
-function create_each_block_1(ctx) {
-	let div;
-	let span;
+function get_each_context_2(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[12] = list[i];
+	return child_ctx;
+}
+
+// (66:6) {#each categories as category}
+function create_each_block_2(ctx) {
+	let span1;
+	let span0;
 	let t0_value = /*category*/ ctx[12] + "";
 	let t0;
 	let button0;
@@ -66,28 +64,28 @@ function create_each_block_1(ctx) {
 
 	return {
 		c() {
-			div = element("div");
-			span = element("span");
+			span1 = element("span");
+			span0 = element("span");
 			t0 = text(t0_value);
 			button0 = element("button");
 			button0.textContent = "In\n          ";
 			button1 = element("button");
 			button1.textContent = "Out";
 			t3 = space();
-			attr(span, "class", "category_element category-name svelte-14wmt40");
-			attr(button0, "class", "category_element category_button svelte-14wmt40");
+			attr(span0, "class", "category_element category-name svelte-so1bbo");
+			attr(button0, "class", "category_element category_button svelte-so1bbo");
 			toggle_class(button0, "selected", /*filtered_categories*/ ctx[1].included.includes(/*category*/ ctx[12]));
-			attr(button1, "class", "category_element category_button svelte-14wmt40");
+			attr(button1, "class", "category_element category_button svelte-so1bbo");
 			toggle_class(button1, "selected", /*filtered_categories*/ ctx[1].excluded.includes(/*category*/ ctx[12]));
-			attr(div, "class", "category_box svelte-14wmt40");
+			attr(span1, "class", "category-box svelte-so1bbo");
 		},
 		m(target, anchor) {
-			insert(target, div, anchor);
-			append(div, span);
-			append(span, t0);
-			append(div, button0);
-			append(div, button1);
-			append(div, t3);
+			insert(target, span1, anchor);
+			append(span1, span0);
+			append(span0, t0);
+			append(span1, button0);
+			append(span1, button1);
+			append(span1, t3);
 
 			if (!mounted) {
 				dispose = [
@@ -110,14 +108,14 @@ function create_each_block_1(ctx) {
 			}
 		},
 		d(detaching) {
-			if (detaching) detach(div);
+			if (detaching) detach(span1);
 			mounted = false;
 			run_all(dispose);
 		}
 	};
 }
 
-// (87:2) {:else}
+// (100:2) {:else}
 function create_else_block(ctx) {
 	let div;
 	let t0;
@@ -140,28 +138,21 @@ function create_else_block(ctx) {
 		p(ctx, dirty) {
 			if (dirty & /*search*/ 1) set_data(t1, /*search*/ ctx[0]);
 		},
-		i: noop,
-		o: noop,
 		d(detaching) {
 			if (detaching) detach(div);
 		}
 	};
 }
 
-// (83:2) {#if recipes.length > 0}
+// (85:2) {#if recipes.length > 0}
 function create_if_block(ctx) {
 	let each_1_anchor;
-	let current;
 	let each_value = /*recipes*/ ctx[2];
 	let each_blocks = [];
 
 	for (let i = 0; i < each_value.length; i += 1) {
 		each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
 	}
-
-	const out = i => transition_out(each_blocks[i], 1, 1, () => {
-		each_blocks[i] = null;
-	});
 
 	return {
 		c() {
@@ -177,10 +168,9 @@ function create_if_block(ctx) {
 			}
 
 			insert(target, each_1_anchor, anchor);
-			current = true;
 		},
 		p(ctx, dirty) {
-			if (dirty & /*encodeURIComponent, recipes*/ 4) {
+			if (dirty & /*recipes, encodeURIComponent*/ 4) {
 				each_value = /*recipes*/ ctx[2];
 				let i;
 
@@ -189,41 +179,19 @@ function create_if_block(ctx) {
 
 					if (each_blocks[i]) {
 						each_blocks[i].p(child_ctx, dirty);
-						transition_in(each_blocks[i], 1);
 					} else {
 						each_blocks[i] = create_each_block(child_ctx);
 						each_blocks[i].c();
-						transition_in(each_blocks[i], 1);
 						each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
 					}
 				}
 
-				group_outros();
-
-				for (i = each_value.length; i < each_blocks.length; i += 1) {
-					out(i);
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
 				}
 
-				check_outros();
+				each_blocks.length = each_value.length;
 			}
-		},
-		i(local) {
-			if (current) return;
-
-			for (let i = 0; i < each_value.length; i += 1) {
-				transition_in(each_blocks[i]);
-			}
-
-			current = true;
-		},
-		o(local) {
-			each_blocks = each_blocks.filter(Boolean);
-
-			for (let i = 0; i < each_blocks.length; i += 1) {
-				transition_out(each_blocks[i]);
-			}
-
-			current = false;
 		},
 		d(detaching) {
 			destroy_each(each_blocks, detaching);
@@ -232,47 +200,149 @@ function create_if_block(ctx) {
 	};
 }
 
-// (84:4) {#each recipes as recipe}
-function create_each_block(ctx) {
-	let a;
-	let recipetitle;
-	let a_href_value;
-	let current;
-	recipetitle = new RecipeTitle({ props: { recipe: /*recipe*/ ctx[9] } });
+// (91:8) {#if recipe.categories}
+function create_if_block_1(ctx) {
+	let span;
+	let each_value_1 = /*recipe*/ ctx[9].categories;
+	let each_blocks = [];
+
+	for (let i = 0; i < each_value_1.length; i += 1) {
+		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+	}
 
 	return {
 		c() {
-			a = element("a");
-			create_component(recipetitle.$$.fragment);
-			attr(a, "class", "recipe-link svelte-14wmt40");
-			attr(a, "href", a_href_value = `#/recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`);
+			span = element("span");
+
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			attr(span, "class", "categories");
 		},
 		m(target, anchor) {
-			insert(target, a, anchor);
-			mount_component(recipetitle, a, null);
-			current = true;
-		},
-		p(ctx, dirty) {
-			const recipetitle_changes = {};
-			if (dirty & /*recipes*/ 4) recipetitle_changes.recipe = /*recipe*/ ctx[9];
-			recipetitle.$set(recipetitle_changes);
+			insert(target, span, anchor);
 
-			if (!current || dirty & /*recipes*/ 4 && a_href_value !== (a_href_value = `#/recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`)) {
-				attr(a, "href", a_href_value);
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(span, null);
 			}
 		},
-		i(local) {
-			if (current) return;
-			transition_in(recipetitle.$$.fragment, local);
-			current = true;
-		},
-		o(local) {
-			transition_out(recipetitle.$$.fragment, local);
-			current = false;
+		p(ctx, dirty) {
+			if (dirty & /*recipes*/ 4) {
+				each_value_1 = /*recipe*/ ctx[9].categories;
+				let i;
+
+				for (i = 0; i < each_value_1.length; i += 1) {
+					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+
+					if (each_blocks[i]) {
+						each_blocks[i].p(child_ctx, dirty);
+					} else {
+						each_blocks[i] = create_each_block_1(child_ctx);
+						each_blocks[i].c();
+						each_blocks[i].m(span, null);
+					}
+				}
+
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
+				}
+
+				each_blocks.length = each_value_1.length;
+			}
 		},
 		d(detaching) {
-			if (detaching) detach(a);
-			destroy_component(recipetitle);
+			if (detaching) detach(span);
+			destroy_each(each_blocks, detaching);
+		}
+	};
+}
+
+// (93:12) {#each recipe.categories as category}
+function create_each_block_1(ctx) {
+	let span;
+	let t_value = /*category*/ ctx[12] + "";
+	let t;
+
+	return {
+		c() {
+			span = element("span");
+			t = text(t_value);
+			attr(span, "class", "category");
+		},
+		m(target, anchor) {
+			insert(target, span, anchor);
+			append(span, t);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipes*/ 4 && t_value !== (t_value = /*category*/ ctx[12] + "")) set_data(t, t_value);
+		},
+		d(detaching) {
+			if (detaching) detach(span);
+		}
+	};
+}
+
+// (86:4) {#each recipes as recipe}
+function create_each_block(ctx) {
+	let div;
+	let a;
+	let span;
+	let t0_value = /*recipe*/ ctx[9].name + "";
+	let t0;
+	let a_href_value;
+	let t1;
+	let t2;
+	let if_block = /*recipe*/ ctx[9].categories && create_if_block_1(ctx);
+
+	return {
+		c() {
+			div = element("div");
+			a = element("a");
+			span = element("span");
+			t0 = text(t0_value);
+			t1 = space();
+			if (if_block) if_block.c();
+			t2 = space();
+			attr(span, "class", "list-recipe-title svelte-so1bbo");
+			attr(a, "class", "recipe-link svelte-so1bbo");
+			attr(a, "href", a_href_value = `#/recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`);
+			set_style(div, "display", "flex");
+			set_style(div, "align-items", "center");
+			set_style(div, "column-gap", "10pt");
+		},
+		m(target, anchor) {
+			insert(target, div, anchor);
+			append(div, a);
+			append(a, span);
+			append(span, t0);
+			append(div, t1);
+			if (if_block) if_block.m(div, null);
+			append(div, t2);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipes*/ 4 && t0_value !== (t0_value = /*recipe*/ ctx[9].name + "")) set_data(t0, t0_value);
+
+			if (dirty & /*recipes*/ 4 && a_href_value !== (a_href_value = `#/recipe/${encodeURIComponent(/*recipe*/ ctx[9].name)}`)) {
+				attr(a, "href", a_href_value);
+			}
+
+			if (/*recipe*/ ctx[9].categories) {
+				if (if_block) {
+					if_block.p(ctx, dirty);
+				} else {
+					if_block = create_if_block_1(ctx);
+					if_block.c();
+					if_block.m(div, t2);
+				}
+			} else if (if_block) {
+				if_block.d(1);
+				if_block = null;
+			}
+		},
+		d(detaching) {
+			if (detaching) detach(div);
+			if (if_block) if_block.d();
 		}
 	};
 }
@@ -285,31 +355,24 @@ function create_fragment(ctx) {
 	let div0;
 	let t2;
 	let div2;
-	let t3;
 	let input;
-	let t4;
-	let current_block_type_index;
-	let if_block;
-	let current;
+	let t3;
 	let mounted;
 	let dispose;
-	let each_value_1 = /*categories*/ ctx[3];
+	let each_value_2 = /*categories*/ ctx[3];
 	let each_blocks = [];
 
-	for (let i = 0; i < each_value_1.length; i += 1) {
-		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+	for (let i = 0; i < each_value_2.length; i += 1) {
+		each_blocks[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
 	}
-
-	const if_block_creators = [create_if_block, create_else_block];
-	const if_blocks = [];
 
 	function select_block_type(ctx, dirty) {
-		if (/*recipes*/ ctx[2].length > 0) return 0;
-		return 1;
+		if (/*recipes*/ ctx[2].length > 0) return create_if_block;
+		return create_else_block;
 	}
 
-	current_block_type_index = select_block_type(ctx, -1);
-	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+	let current_block_type = select_block_type(ctx, -1);
+	let if_block = current_block_type(ctx);
 
 	return {
 		c() {
@@ -326,13 +389,14 @@ function create_fragment(ctx) {
 
 			t2 = space();
 			div2 = element("div");
-			t3 = text("Search: ");
 			input = element("input");
-			t4 = space();
+			t3 = space();
 			if_block.c();
-			attr(div1, "class", "category_area svelte-14wmt40");
-			set_style(input, "font-size", "18pt");
-			set_style(div2, "font-size", "18pt");
+			attr(div1, "class", "category_area svelte-so1bbo");
+			attr(input, "placeholder", "Search...");
+			input.autofocus = true;
+			attr(input, "class", "svelte-so1bbo");
+			attr(div2, "class", "search-box svelte-so1bbo");
 		},
 		m(target, anchor) {
 			insert(target, div3, anchor);
@@ -347,12 +411,11 @@ function create_fragment(ctx) {
 
 			append(div3, t2);
 			append(div3, div2);
-			append(div2, t3);
 			append(div2, input);
 			set_input_value(input, /*search*/ ctx[0]);
-			append(div3, t4);
-			if_blocks[current_block_type_index].m(div3, null);
-			current = true;
+			append(div3, t3);
+			if_block.m(div3, null);
+			input.focus();
 
 			if (!mounted) {
 				dispose = listen(input, "input", /*input_input_handler*/ ctx[8]);
@@ -361,16 +424,16 @@ function create_fragment(ctx) {
 		},
 		p(ctx, [dirty]) {
 			if (dirty & /*filtered_categories, categories, toggle_exclude, toggle_include*/ 58) {
-				each_value_1 = /*categories*/ ctx[3];
+				each_value_2 = /*categories*/ ctx[3];
 				let i;
 
-				for (i = 0; i < each_value_1.length; i += 1) {
-					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+				for (i = 0; i < each_value_2.length; i += 1) {
+					const child_ctx = get_each_context_2(ctx, each_value_2, i);
 
 					if (each_blocks[i]) {
 						each_blocks[i].p(child_ctx, dirty);
 					} else {
-						each_blocks[i] = create_each_block_1(child_ctx);
+						each_blocks[i] = create_each_block_2(child_ctx);
 						each_blocks[i].c();
 						each_blocks[i].m(div0, null);
 					}
@@ -380,52 +443,31 @@ function create_fragment(ctx) {
 					each_blocks[i].d(1);
 				}
 
-				each_blocks.length = each_value_1.length;
+				each_blocks.length = each_value_2.length;
 			}
 
 			if (dirty & /*search*/ 1 && input.value !== /*search*/ ctx[0]) {
 				set_input_value(input, /*search*/ ctx[0]);
 			}
 
-			let previous_block_index = current_block_type_index;
-			current_block_type_index = select_block_type(ctx, dirty);
-
-			if (current_block_type_index === previous_block_index) {
-				if_blocks[current_block_type_index].p(ctx, dirty);
+			if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block) {
+				if_block.p(ctx, dirty);
 			} else {
-				group_outros();
+				if_block.d(1);
+				if_block = current_block_type(ctx);
 
-				transition_out(if_blocks[previous_block_index], 1, 1, () => {
-					if_blocks[previous_block_index] = null;
-				});
-
-				check_outros();
-				if_block = if_blocks[current_block_type_index];
-
-				if (!if_block) {
-					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+				if (if_block) {
 					if_block.c();
-				} else {
-					if_block.p(ctx, dirty);
+					if_block.m(div3, null);
 				}
-
-				transition_in(if_block, 1);
-				if_block.m(div3, null);
 			}
 		},
-		i(local) {
-			if (current) return;
-			transition_in(if_block);
-			current = true;
-		},
-		o(local) {
-			transition_out(if_block);
-			current = false;
-		},
+		i: noop,
+		o: noop,
 		d(detaching) {
 			if (detaching) detach(div3);
 			destroy_each(each_blocks, detaching);
-			if_blocks[current_block_type_index].d();
+			if_block.d();
 			mounted = false;
 			dispose();
 		}

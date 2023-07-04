@@ -2,7 +2,7 @@
   {
     "name": "Cocoa Nut Almond Butter",
     "categories": [
-      "dessert"
+      "Dessert"
     ],
     "versions": [
       {
@@ -21,7 +21,7 @@
   {
     "name": "Chicken or Tuna Sandwich",
     "categories": [
-      "simple"
+      "Simple"
     ],
     "versions": [
       {
@@ -43,7 +43,7 @@
   {
     "name": "Turkey Melt",
     "categories": [
-      "simple"
+      "Simple"
     ],
     "versions": [
       {
@@ -66,7 +66,7 @@
   {
     "name": "Avocado Toast",
     "categories": [
-      "simple"
+      "Simple"
     ],
     "versions": [
       {
@@ -88,8 +88,8 @@
   {
     "name": "Lettuce Wraps",
     "categories": [
-      "simple",
-      "thai"
+      "Simple",
+      "Thai"
     ],
     "versions": [
       {
@@ -112,7 +112,7 @@
   {
     "name": "Chili Beef/Pork Lettuce Wraps",
     "categories": [
-      "thai"
+      "Thai"
     ],
     "video": "https://www.youtube.com/watch?v=UzFoThs2Qpw",
     "versions": [
@@ -139,31 +139,6 @@
     ],
     "notes": [
       "This is awesome!  Maybe a little too intense, don't go crazy on brown sugar."
-    ]
-  },
-  {
-    "name": "Egg rolls",
-    "categories": [
-      "Chinese",
-      "simple"
-    ],
-    "versions": [
-      {
-        "ingredients": [
-          "egg roll wrappers",
-          "cabbage (napa, chinese) chopped",
-          "carrots (shredded)",
-          "ground pork"
-        ],
-        "instructions": [
-          "Heat oil in a wok, add scallions, ginger and garlic",
-          "Add carrots (shredded), cabbage and peppers, wilt down",
-          "Push to side of wok, add ground pork and fry it for color",
-          "Bring together.  Add soy sauce, sesame oil, oyster sauce, sugar for flavor",
-          "Add to egg roll wrapper, wrap it up",
-          "Heat oil in wok and fry it to finish"
-        ]
-      }
     ]
   },
   {
@@ -201,7 +176,7 @@
           "broccoli"
         ],
         "instructions": [
-          "Whisk soy sauce, cornstarch, oyester sauce and cooking wine to make a sauce",
+          "Whisk soy sauce, cornstarch, oyster sauce and cooking wine to make a sauce",
           "Marinade meat in soy sauce and sesame oil",
           "Add water to wok, add broccoli and salt.  Slightly steam broccoli until water is gone",
           "Clear Wok, add oil and beef for color.  Remove beef",
@@ -238,7 +213,7 @@
   {
     "name": "Gumbo",
     "categories": [
-      "cold weather"
+      "Cold Weather"
     ],
     "notes": [
       "It shares many ingredients with Chicken a la King, so maybe buy ingredients for both at once",
@@ -285,7 +260,7 @@
   {
     "name": "Chicken A La King",
     "categories": [
-      "cold weather"
+      "Cold Weather"
     ],
     "notes": [
       "It shares many ingredients with Gumbo, so maybe buy ingredients for both at once"
@@ -346,7 +321,7 @@
     "name": "Spinach Curry",
     "categories": [
       "revise",
-      "indian"
+      "Indian"
     ],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
@@ -378,8 +353,8 @@
     "name": "Indian Coconut Curry",
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "categories": [
-      "simple",
-      "indian"
+      "Simple",
+      "Indian"
     ],
     "versions": [
       {
@@ -402,8 +377,8 @@
   {
     "name": "Indian Eggplant Curry",
     "categories": [
-      "indian",
-      "simple"
+      "Indian",
+      "Simple"
     ],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
@@ -457,7 +432,7 @@
     "name": "Indian naan",
     "categories": [
       "revise",
-      "indian"
+      "Indian"
     ],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
@@ -511,7 +486,7 @@
   {
     "name": "Breakfast Casserole",
     "categories": [
-      "breakfast"
+      "Breakfast"
     ],
     "link": "https://sallysbakingaddiction.com/easy-make-ahead-breakfast-casserole/",
     "versions": [
@@ -549,7 +524,7 @@
   {
     "name": "Chicken / Turkey Wraps",
     "categories": [
-      "simple"
+      "Simple"
     ],
     "versions": [
       {
@@ -577,8 +552,8 @@
     ],
     "link": "https://www.youtube.com/watch?v=pn-W0DVQw8Y",
     "categories": [
-      "dessert",
-      "cold weather"
+      "Dessert",
+      "Cold Weather"
     ],
     "versions": [
       {
@@ -600,8 +575,8 @@
   {
     "name": "Mexican Hot Chocolate",
     "categories": [
-      "dessert",
-      "cold weather"
+      "Dessert",
+      "Cold Weather"
     ],
     "versions": [
       {
@@ -673,8 +648,8 @@
     ]
   },
   {
-    "name": "easy Braised Beef",
-    "categories": ["simple"],
+    "name": "Simple Braised Beef",
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -716,7 +691,7 @@
   {
     "name": "Garlicky Smashed Cucumbers",
     "notes": ["Good for leftover cucumbers"],
-    "categories": ["simple"],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -735,7 +710,7 @@
   {
     "name": "Chicken Tikka Masala",
     "link": "https://www.youtube.com/watch?v=pFeE8_VqdfA",
-    "categories": ["indian"],
+    "categories": ["Indian"],
     "versions": [
       {
         "ingredients": [
@@ -787,7 +762,7 @@
   },
   {
     "name": "Gordon Ramsay Easy Curry in a hurry",
-    "categories": ["indian"],
+    "categories": ["Indian"],
     "versions": [
       {
         "ingredients": [
@@ -829,7 +804,7 @@
     "name": "Caramelized Onion Jam",
     "link": "https://www.allrecipes.com/recipe/220546/onion-jam/",
     "notes": ["Great for leftover extra onions"],
-    "categories": [],
+    "categories": ["Side Dish"],
     "versions": [
       {
         "ingredients": [
@@ -909,7 +884,7 @@
     "name": "Breakfast Tacos",
     "link": "https://www.youtube.com/watch?v=j0gjlSgO7VU",
     "notes": ["Takes >30 minutes to prepare tortillas"],
-    "categories": [],
+    "categories": ["Breakfast"],
     "versions": [
       {
         "name": "Homemade flour tortilla",
@@ -1049,7 +1024,7 @@
   {
     "name": "Curried Lentil Soup",
     "link": "https://justthedarnrecipe.com/curried-lentil-soup",
-    "categories": ["to try", "cold weather"],
+    "categories": ["to try", "Cold Weather"],
     "versions": [
       {
         "ingredients": [
@@ -1190,7 +1165,7 @@
   {
     "name": "Macaroni Chili",
     "link": "https://www.pickuplimes.com/single-post/2020/01/23/Macaroni-Chili",
-    "categories": ["cold weather"],
+    "categories": ["Cold Weather"],
     "versions": [
       {
         "ingredients": [
@@ -1233,7 +1208,7 @@
   {
     "name": "Channa Dal / Lentils",
     "link": "https://www.youtube.com/watch?v=NOgPQvUWfHk",
-    "categories": ["cold weather"],
+    "categories": ["Cold Weather"],
     "versions": [
       {
         "ingredients": [
@@ -1265,7 +1240,7 @@
   {
     "name": "Shepherd's Pie",
     "link": "https://www.youtube.com/watch?v=zXQ9wX4cKlQ",
-    "categories": ["cold weather"],
+    "categories": ["Cold Weather"],
     "versions": [
       {
         "ingredients": [
@@ -1305,7 +1280,7 @@
   {
     "name": "Chocolate Mousse",
     "link": "https://www.youtube.com/watch?v=czPV8PpyqvM",
-    "categories": ["dessert"],
+    "categories": ["Dessert"],
     "versions": [
       {
         "ingredients": [
@@ -1347,7 +1322,7 @@
   {
     "name": "Pizza!",
     "link": "https://www.youtube.com/watch?v=9TjUWnAK0cg",
-    "categories": ["simple"],
+    "categories": ["Simple"],
     "versions": [
       {
         "name": "Dough",
@@ -1463,30 +1438,6 @@
     ]
   },
   {
-    "name": "Perfect Rice Every Time",
-    "categories": [],
-    "versions": [
-      {
-        "ingredients": [
-          "3 tbsp of canola oil",
-          "2 cups of jasmine rice (washed and dried) ",
-          "1 serrano pepper ",
-          "Half of onion",
-          "1 small roma tomato",
-          "2 and 1/2 cups of water",
-          "1/8 or 1/16 teaspoon of cumin",
-          "1 tbsp of tomato bouillion",
-          "1 tbsp of chicken bouillion",
-          "half of lime ",
-          "1 teaspoon of black pepper",
-          "Pinch of cilantro leafs"
-        ],
-        "instructions": [
-        ]
-      }
-    ]
-  },
-  {
     "name": "Shrimp sheet pan dinner",
     "link": "https://www.youtube.com/watch?v=L-mA3UCTDPI",
     "categories": [],
@@ -1568,7 +1519,7 @@
     "notes": [
       "It was okay but tasted a little heavy.  Maybe more tomatoes and onions.  Keep looking"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "versions": [
       {
         "name": "Marinade",
@@ -1629,7 +1580,7 @@
   {
     "name": "Breakfast Burritos",
     "link": "https://www.youtube.com/watch?v=ShKEzA9wo_I",
-    "categories": [],
+    "categories": ["Breakfast"],
     "versions": [
       {
         "name": "Night before prep",
@@ -1704,7 +1655,7 @@
   {
     "name": "Golden milk",
     "link": "https://minimalistbaker.com/5-minute-vegan-golden-milk/",
-    "categories": ["dessert","cold weather","to try"],
+    "categories": ["Dessert","Cold Weather","to try"],
     "versions": [
       {
         "ingredients": [
@@ -1729,7 +1680,7 @@
   {
     "name": "Beef Enchiladas",
     "link": "https://www.onceuponachef.com/recipes/beef-enchiladas.html",
-    "categories": ["cold weather", "to try"],
+    "categories": ["Cold Weather", "to try"],
     "versions": [
       {
         "ingredients": [
@@ -1805,7 +1756,7 @@
   {
     "name": "Buffalo Chicken Dip",
     "link": "https://www.youtube.com/watch?v=uNvQ-YIOaKk",
-    "categories": ["to try", "simple"],
+    "categories": ["to try", "Simple"],
     "versions": [
       {
         "ingredients": [
@@ -1857,7 +1808,7 @@
   {
     "name": "Crockpot Barbacoa",
     "link": "https://www.youtube.com/watch?v=VVcRFMG46fg",
-    "categories": ["to try", "simple"],
+    "categories": ["to try", "Simple"],
     "versions": [
       {
         "ingredients": [
@@ -1887,7 +1838,7 @@
     "notes": [
       "Pretty good"
     ],
-    "categories": ["indian"],
+    "categories": ["Indian"],
     "versions": [
       {
         "name": "Ingredients",
@@ -1962,9 +1913,9 @@
     ]
   },
   {
-    "name": "easy Queso",
+    "name": "Simple Queso",
     "link": "https://www.youtube.com/watch?v=vhc6331LTIA",
-    "categories": ["simple"],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -1994,13 +1945,26 @@
   },
   {
     "name": "Homemade English Muffins",
-    "link": "https://www.youtube.com/watch?v=ALR6ARxqyYY",
-    "categories": [],
+    "link": "https://www.youtube.com/watch?v=ALR6ARxqyYY&t=55s",
+    "categories": ["Breakfast"],
     "versions": [
       {
         "ingredients": [
+          "3/4 cup greek yogurt",
+          "1.25 cup water",
+          "3 Tbsp neutral oil",
+          "yeast - 3/4 tsp instant yeast or 1 tsp active dry yeast",
+          "4 cups all purpose flour",
+          "1.5 tsp sea salt",
+          "2 Tbsp sugar",
+          "cornmeal"
         ],
         "instructions": [
+          "combine yogurt, water, oil, yeast, flour, salt and sugar in a large bowl, stir into a dough",
+          "Let sit out for 30 minutes, stretch and fold (very light mixing). repeat 2 more times, let sit out for one hour, put in fridge for 10 hours (up to 48 hours)",
+          "Line a baking pan with cornmeal",
+          "Roll into a log and cut dough into 12 pieces.  Form 12 balls, put onto baking pan.  Add cornmeal to tops of balls, cover with plastic wrap, let proof for one or two hours",
+          "cook in a skillet, slap them down with a spatula, cover with a lid to capture steam"
         ]
       }
     ]
@@ -2009,7 +1973,7 @@
     "name": "Meatza Pizza Crust",
     "link": "https://www.youtube.com/watch?v=qmhAuXfTRVg",
     "notes": ["This was a banger!"],
-    "categories": ["simple"],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -2030,7 +1994,7 @@
   {
     "name": "Brazilian Stroganoff",
     "link": "https://braziliankitchenabroad.com/brazilian-chicken-stroganoff-recipe/",
-    "categories": ["simple"],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -2058,7 +2022,7 @@
   {
     "name": "Simple Stir Fry",
     "link": "https://www.youtube.com/shorts/SvfOK9eKfhg",
-    "categories": ["simple"],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -2090,7 +2054,7 @@
   {
     "name": "Red and Green Salsa",
     "link": "https://www.youtube.com/watch?v=Hpd_p7LRk_k",
-    "categories": ["simple","side"],
+    "categories": ["Simple","Side Dish"],
     "versions": [
       {
         "ingredients": [
@@ -2150,7 +2114,7 @@
   {
     "name": "Two ingredient pumpkin bread",
     "link": "https://www.youtube.com/watch?v=IyVYJ-WLVsQ",
-    "categories": ["simple", "dessert"],
+    "categories": ["Simple", "Dessert"],
     "versions": [
       {
         "ingredients": [
@@ -2168,7 +2132,7 @@
     "name": "Chili Colorado",
     "link": "https://www.youtube.com/watch?v=N8bgX6QsAnc",
     "notes": "official recipe calls for 4 cups stock, 3 was plenty.  Mine was undercooked but I cut larger chunks",
-    "categories": ["slow cooker"],
+    "categories": ["Slow Cooker"],
     "versions": [
       {
         "ingredients": [
@@ -2192,7 +2156,7 @@
   {
     "name": "Brazillian Lemonade",
     "link": "https://www.youtube.com/watch?v=2hF_w7X4fEY",
-    "categories": ["dessert"],
+    "categories": ["Dessert"],
     "versions": [
       {
         "ingredients": [
@@ -2211,7 +2175,7 @@
   {
     "name": "French Toast Pull Aparts",
     "link": "https://www.youtube.com/watch?v=sqS3_-MHT0Y",
-    "categories": [],
+    "categories": ["Breakfast", "Simple"],
     "versions": [
       {
         "ingredients": [
@@ -2232,7 +2196,7 @@
   {
     "name": "Oatmeal Cookies",
     "link": "https://www.youtube.com/watch?v=4ZeK_iLauko",
-    "categories": ["simple","dessert","breakfast"],
+    "categories": ["Simple","Dessert","Breakfast"],
     "versions": [
       {
         "ingredients": [
@@ -2272,7 +2236,7 @@
   {
     "name": "Cottage Cheese Ice Cream",
     "link": "https://www.youtube.com/watch?v=2Mr9GDb30zk",
-    "categories": ["dessert","simple"],
+    "categories": ["Dessert","Simple"],
     "versions": [
       {
         "ingredients": [
@@ -2290,7 +2254,7 @@
   {
     "name": "Simple Oatmeal Breakfast",
     "link": "https://www.youtube.com/watch?v=kmqWyyjCjTw",
-    "categories": ["simple","breakfast"],
+    "categories": ["Simple","Breakfast"],
     "versions": [
       {
         "name": "Main Dish",
@@ -2392,7 +2356,7 @@
       "Recipes disagree on PB amount",
       "There are other recipes with more ingredients.  This is a simple version"
     ],
-    "categories": ["simple", "dessert","totry"],
+    "categories": ["Simple", "Dessert","to try"],
     "versions": [
       {
         "ingredients": [
@@ -2410,7 +2374,7 @@
     ]
   },
   {
-    "name": "Ary Fryer Peruvian Chicken",
+    "name": "Air Fryer Peruvian Chicken",
     "link": "https://www.youtube.com/watch?v=1_l6EXvmV-M",
     "categories": ["Air Fryer"],
     "versions": [
