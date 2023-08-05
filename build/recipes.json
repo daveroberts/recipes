@@ -939,7 +939,7 @@
   },
   {
     "name": "Chicken Fried Rice",
-    "note": "Good for day-old rice",
+    "notes": ["Good for day-old rice"],
     "link": "https://www.youtube.com/watch?v=7AxydboW8v8",
     "categories": ["to try","Chinese"],
     "versions": [
@@ -2432,6 +2432,26 @@
         ],
         "instructions": [
           "Fry up the chicken at 370 for 18-25 minutes depending on chicken size (less for boneless, more for bone-in)"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cheat Lemon Pie",
+    "link": "https://www.youtube.com/watch?v=p0W9GuCHMJg",
+    "notes": ["Makes two pies, make sure you have enough room in your freezer"],
+    "categories": ["Dessert", "Simple"],
+    "versions": [
+      {
+        "ingredients": [
+          "2x Pre-made graham cracker crust (or any crust)",
+          "1 carton Cool Whip",
+          "1 can sweetened condensed milk",
+          "1 can lemonade concentrate, thawed"
+        ],
+        "instructions": [
+          "Combine ingredients into bowl, mix until combined",
+          "Pour into pie crusts and freeze"
         ]
       }
     ]
