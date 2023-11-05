@@ -1,7 +1,11 @@
-import App from './App.svelte.js'
+import App from "./App.svelte.js";
 
 let app = new App({
-  target: document.body
-})
+  target: document.body,
+});
 
-export default app
+let fib = (n) => {
+  return n + 2;
+};
+
+export default app;

@@ -41,6 +41,12 @@ function get_each_context_3(ctx, list, i) {
 	return child_ctx;
 }
 
+function get_each_context_4(ctx, list, i) {
+	const child_ctx = ctx.slice();
+	child_ctx[13] = list[i];
+	return child_ctx;
+}
+
 // (8:2) {#if recipe}
 function create_if_block(ctx) {
 	let t0;
@@ -49,7 +55,7 @@ function create_if_block(ctx) {
 	let each_1_anchor;
 	let if_block0 = /*recipe*/ ctx[0].notes && create_if_block_6(ctx);
 	let if_block1 = /*recipe*/ ctx[0].video && create_if_block_5(ctx);
-	let if_block2 = /*recipe*/ ctx[0].link && create_if_block_4(ctx);
+	let if_block2 = /*recipe*/ ctx[0].links && create_if_block_4(ctx);
 	let each_value = /*recipe*/ ctx[0].versions;
 	let each_blocks = [];
 
@@ -113,7 +119,7 @@ function create_if_block(ctx) {
 				if_block1 = null;
 			}
 
-			if (/*recipe*/ ctx[0].link) {
+			if (/*recipe*/ ctx[0].links) {
 				if (if_block2) {
 					if_block2.p(ctx, dirty);
 				} else {
@@ -165,11 +171,11 @@ function create_if_block(ctx) {
 // (9:4) {#if recipe.notes}
 function create_if_block_6(ctx) {
 	let each_1_anchor;
-	let each_value_3 = /*recipe*/ ctx[0].notes;
+	let each_value_4 = /*recipe*/ ctx[0].notes;
 	let each_blocks = [];
 
-	for (let i = 0; i < each_value_3.length; i += 1) {
-		each_blocks[i] = create_each_block_3(get_each_context_3(ctx, each_value_3, i));
+	for (let i = 0; i < each_value_4.length; i += 1) {
+		each_blocks[i] = create_each_block_4(get_each_context_4(ctx, each_value_4, i));
 	}
 
 	return {
@@ -189,16 +195,16 @@ function create_if_block_6(ctx) {
 		},
 		p(ctx, dirty) {
 			if (dirty & /*recipe*/ 1) {
-				each_value_3 = /*recipe*/ ctx[0].notes;
+				each_value_4 = /*recipe*/ ctx[0].notes;
 				let i;
 
-				for (i = 0; i < each_value_3.length; i += 1) {
-					const child_ctx = get_each_context_3(ctx, each_value_3, i);
+				for (i = 0; i < each_value_4.length; i += 1) {
+					const child_ctx = get_each_context_4(ctx, each_value_4, i);
 
 					if (each_blocks[i]) {
 						each_blocks[i].p(child_ctx, dirty);
 					} else {
-						each_blocks[i] = create_each_block_3(child_ctx);
+						each_blocks[i] = create_each_block_4(child_ctx);
 						each_blocks[i].c();
 						each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
 					}
@@ -208,7 +214,7 @@ function create_if_block_6(ctx) {
 					each_blocks[i].d(1);
 				}
 
-				each_blocks.length = each_value_3.length;
+				each_blocks.length = each_value_4.length;
 			}
 		},
 		d(detaching) {
@@ -219,11 +225,11 @@ function create_if_block_6(ctx) {
 }
 
 // (10:6) {#each recipe.notes as note}
-function create_each_block_3(ctx) {
+function create_each_block_4(ctx) {
 	let div;
 	let strong;
 	let t0;
-	let t1_value = /*note*/ ctx[10] + "";
+	let t1_value = /*note*/ ctx[13] + "";
 	let t1;
 
 	return {
@@ -241,7 +247,7 @@ function create_each_block_3(ctx) {
 			append(strong, t1);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t1_value !== (t1_value = /*note*/ ctx[10] + "")) set_data(t1, t1_value);
+			if (dirty & /*recipe*/ 1 && t1_value !== (t1_value = /*note*/ ctx[13] + "")) set_data(t1, t1_value);
 		},
 		d(detaching) {
 			if (detaching) detach(div);
@@ -287,11 +293,67 @@ function create_if_block_5(ctx) {
 	};
 }
 
-// (15:4) {#if recipe.link}
+// (15:4) {#if recipe.links}
 function create_if_block_4(ctx) {
+	let each_1_anchor;
+	let each_value_3 = /*recipe*/ ctx[0].links;
+	let each_blocks = [];
+
+	for (let i = 0; i < each_value_3.length; i += 1) {
+		each_blocks[i] = create_each_block_3(get_each_context_3(ctx, each_value_3, i));
+	}
+
+	return {
+		c() {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].c();
+			}
+
+			each_1_anchor = empty();
+		},
+		m(target, anchor) {
+			for (let i = 0; i < each_blocks.length; i += 1) {
+				each_blocks[i].m(target, anchor);
+			}
+
+			insert(target, each_1_anchor, anchor);
+		},
+		p(ctx, dirty) {
+			if (dirty & /*recipe*/ 1) {
+				each_value_3 = /*recipe*/ ctx[0].links;
+				let i;
+
+				for (i = 0; i < each_value_3.length; i += 1) {
+					const child_ctx = get_each_context_3(ctx, each_value_3, i);
+
+					if (each_blocks[i]) {
+						each_blocks[i].p(child_ctx, dirty);
+					} else {
+						each_blocks[i] = create_each_block_3(child_ctx);
+						each_blocks[i].c();
+						each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
+					}
+				}
+
+				for (; i < each_blocks.length; i += 1) {
+					each_blocks[i].d(1);
+				}
+
+				each_blocks.length = each_value_3.length;
+			}
+		},
+		d(detaching) {
+			destroy_each(each_blocks, detaching);
+			if (detaching) detach(each_1_anchor);
+		}
+	};
+}
+
+// (16:6) {#each recipe.links as link}
+function create_each_block_3(ctx) {
 	let div;
 	let a;
-	let t0_value = /*recipe*/ ctx[0].link + "";
+	let t0_value = /*link*/ ctx[10] + "";
 	let t0;
 	let t1;
 	let a_href_value;
@@ -304,7 +366,7 @@ function create_if_block_4(ctx) {
 			t1 = text(" 🔗");
 			attr(a, "class", "external_link");
 			attr(a, "target", "_blank");
-			attr(a, "href", a_href_value = /*recipe*/ ctx[0].link);
+			attr(a, "href", a_href_value = /*link*/ ctx[10]);
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -313,9 +375,9 @@ function create_if_block_4(ctx) {
 			append(a, t1);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*recipe*/ 1 && t0_value !== (t0_value = /*recipe*/ ctx[0].link + "")) set_data(t0, t0_value);
+			if (dirty & /*recipe*/ 1 && t0_value !== (t0_value = /*link*/ ctx[10] + "")) set_data(t0, t0_value);
 
-			if (dirty & /*recipe*/ 1 && a_href_value !== (a_href_value = /*recipe*/ ctx[0].link)) {
+			if (dirty & /*recipe*/ 1 && a_href_value !== (a_href_value = /*link*/ ctx[10])) {
 				attr(a, "href", a_href_value);
 			}
 		},
@@ -325,7 +387,7 @@ function create_if_block_4(ctx) {
 	};
 }
 
-// (17:6) {#if version.name}
+// (21:6) {#if version.name}
 function create_if_block_3(ctx) {
 	let h3;
 	let t_value = /*version*/ ctx[1].name + "";
@@ -349,7 +411,7 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (18:6) {#if version.ingredients}
+// (22:6) {#if version.ingredients}
 function create_if_block_2(ctx) {
 	let h4;
 	let t1;
@@ -414,7 +476,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (21:10) {#each version.ingredients as ingredient}
+// (25:10) {#each version.ingredients as ingredient}
 function create_each_block_2(ctx) {
 	let li;
 	let t_value = /*ingredient*/ ctx[7] + "";
@@ -438,7 +500,7 @@ function create_each_block_2(ctx) {
 	};
 }
 
-// (26:6) {#if version.instructions}
+// (30:6) {#if version.instructions}
 function create_if_block_1(ctx) {
 	let h4;
 	let t1;
@@ -508,7 +570,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (29:10) {#each version.instructions as instruction}
+// (33:10) {#each version.instructions as instruction}
 function create_each_block_1(ctx) {
 	let li;
 	let t_value = /*instruction*/ ctx[4] + "";
@@ -532,7 +594,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (16:4) {#each recipe.versions as version}
+// (20:4) {#each recipe.versions as version}
 function create_each_block(ctx) {
 	let t0;
 	let t1;

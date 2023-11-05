@@ -1,9 +1,7 @@
 [
   {
     "name": "Cocoa Nut Almond Butter",
-    "categories": [
-      "Dessert"
-    ],
+    "categories": ["Dessert"],
     "versions": [
       {
         "ingredients": [
@@ -20,9 +18,7 @@
   },
   {
     "name": "Chicken or Tuna Sandwich",
-    "categories": [
-      "Simple"
-    ],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -42,9 +38,7 @@
   },
   {
     "name": "Turkey Melt",
-    "categories": [
-      "Simple"
-    ],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -65,9 +59,7 @@
   },
   {
     "name": "Avocado Toast",
-    "categories": [
-      "Simple"
-    ],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -87,10 +79,7 @@
   },
   {
     "name": "Lettuce Wraps",
-    "categories": [
-      "Simple",
-      "Thai"
-    ],
+    "categories": ["Simple", "Thai"],
     "versions": [
       {
         "ingredients": [
@@ -111,9 +100,7 @@
   },
   {
     "name": "Chili Beef/Pork Lettuce Wraps",
-    "categories": [
-      "Thai"
-    ],
+    "categories": ["Thai"],
     "video": "https://www.youtube.com/watch?v=UzFoThs2Qpw",
     "versions": [
       {
@@ -143,10 +130,7 @@
   },
   {
     "name": "Lo Mein",
-    "categories": [
-      "revise",
-      "Chinese"
-    ],
+    "categories": ["revise", "Chinese"],
     "versions": [
       {
         "ingredients": [
@@ -165,10 +149,7 @@
   },
   {
     "name": "Beef and Brocolli",
-    "categories": [
-      "revise",
-      "Chinese"
-    ],
+    "categories": ["revise", "Chinese"],
     "versions": [
       {
         "ingredients": [
@@ -189,14 +170,10 @@
   },
   {
     "name": "General Tso's Chicken",
-    "categories": [
-      "Chinese"
-    ],
+    "categories": ["Chinese"],
     "versions": [
       {
-        "ingredients": [
-          "boneless chicken thighs, bite sized pieces"
-        ],
+        "ingredients": ["boneless chicken thighs, bite sized pieces"],
         "instructions": [
           "Beat egg, add soy sauce, cornstarch, wine, baking powder.  Mix together.",
           "Add chicken thighs.  Marinade for a few hours",
@@ -212,9 +189,7 @@
   },
   {
     "name": "Gumbo",
-    "categories": [
-      "Cold Weather"
-    ],
+    "categories": ["Cold Weather"],
     "notes": [
       "It shares many ingredients with Chicken a la King, so maybe buy ingredients for both at once",
       "Alternate recipe: https://www.youtube.com/watch?v=anKpOdElcZ4"
@@ -259,9 +234,7 @@
   },
   {
     "name": "Chicken A La King",
-    "categories": [
-      "Cold Weather"
-    ],
+    "categories": ["Cold Weather"],
     "notes": [
       "It shares many ingredients with Gumbo, so maybe buy ingredients for both at once"
     ],
@@ -284,29 +257,23 @@
           "egg yolk",
           "toast"
         ],
-        "instructions": [
-        ]
+        "instructions": []
       },
       {
         "name": "prepare chicken",
-        "ingredients": [
-        ],
+        "ingredients": [],
         "instructions": [
           "Cook chicken, let it cool, cut into pieces, save for recipe"
         ]
       },
       {
         "name": "prepare vegetables",
-        "ingredients": [
-        ],
-        "instructions": [
-          "Dice vegetables, peppers, fennel"
-        ]
+        "ingredients": [],
+        "instructions": ["Dice vegetables, peppers, fennel"]
       },
       {
         "name": "make",
-        "ingredients": [
-        ],
+        "ingredients": [],
         "instructions": [
           "Put vegetables in pan, cook then down",
           "Dust with some flour, cook out rawness from the flour",
@@ -319,10 +286,7 @@
   },
   {
     "name": "Spinach Curry",
-    "categories": [
-      "revise",
-      "Indian"
-    ],
+    "categories": ["revise", "Indian"],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
       {
@@ -352,10 +316,7 @@
   {
     "name": "Indian Coconut Curry",
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
-    "categories": [
-      "Simple",
-      "Indian"
-    ],
+    "categories": ["Simple", "Indian"],
     "versions": [
       {
         "ingredients": [
@@ -376,18 +337,11 @@
   },
   {
     "name": "Indian Eggplant Curry",
-    "categories": [
-      "Indian",
-      "Simple"
-    ],
+    "categories": ["Indian", "Simple"],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
       {
-        "ingredients": [
-          "4 Eggplants",
-          "2 cans diced tomatoes",
-          "cilantro"
-        ],
+        "ingredients": ["4 Eggplants", "2 cans diced tomatoes", "cilantro"],
         "instructions": [
           "Poke holes into eggplants, wrape in foil, put into 400F oven for about 90 minutes",
           "In a pot or dutch over, heat ghee and add cardamon pods, cumin seeds, green peppercorn (or black), fresh diced chilis.",
@@ -430,10 +384,7 @@
   },
   {
     "name": "Indian naan",
-    "categories": [
-      "revise",
-      "Indian"
-    ],
+    "categories": ["revise", "Indian"],
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
     "versions": [
       {
@@ -485,10 +436,10 @@
   },
   {
     "name": "Breakfast Casserole",
-    "categories": [
-      "Breakfast"
+    "categories": ["Breakfast"],
+    "links": [
+      "https://sallysbakingaddiction.com/easy-make-ahead-breakfast-casserole/"
     ],
-    "link": "https://sallysbakingaddiction.com/easy-make-ahead-breakfast-casserole/",
     "versions": [
       {
         "ingredients": [
@@ -517,15 +468,11 @@
         ]
       }
     ],
-    "notes": [
-      "Mom made this for Owen's baptism.  It was great!"
-    ]
+    "notes": ["Mom made this for Owen's baptism.  It was great!"]
   },
   {
     "name": "Chicken / Turkey Wraps",
-    "categories": [
-      "Simple"
-    ],
+    "categories": ["Simple"],
     "versions": [
       {
         "ingredients": [
@@ -539,9 +486,7 @@
         "instructions": []
       }
     ],
-    "notes": [
-      "Great for leftover chicken or turkey"
-    ]
+    "notes": ["Great for leftover chicken or turkey"]
   },
   {
     "name": "Thick Hot Chocolate",
@@ -550,11 +495,8 @@
       "Reduced corstarch and sugar, was better.  maybe reduced cornstarch and sugar too much.  2tsp cornstarch and 4tsp sugar?",
       "Tried with almond milk and no chocolate bar, total failure"
     ],
-    "link": "https://www.youtube.com/watch?v=pn-W0DVQw8Y",
-    "categories": [
-      "Dessert",
-      "Cold Weather"
-    ],
+    "links": ["https://www.youtube.com/watch?v=pn-W0DVQw8Y"],
+    "categories": ["Dessert", "Cold Weather"],
     "versions": [
       {
         "ingredients": [
@@ -574,10 +516,7 @@
   },
   {
     "name": "Mexican Hot Chocolate",
-    "categories": [
-      "Dessert",
-      "Cold Weather"
-    ],
+    "categories": ["Dessert", "Cold Weather"],
     "versions": [
       {
         "name": "8 servings",
@@ -613,16 +552,16 @@
           "pinch of salt",
           "cinnamon stick (garnish)"
         ],
-        "instructions": [
-          "Medium heat until melted, stir, divide into 2 mugs."
-        ]
+        "instructions": ["Medium heat until melted, stir, divide into 2 mugs."]
       }
     ]
   },
   {
     "name": "Faux Wendy's Spicy Chicken Sandwich",
-    "notes": ["This is great, but deep frying is kind of a pain.  Maybe half deep fry?  Added pickeled jalapenos because we had them and they were awesome"],
-    "link": "https://www.youtube.com/watch?v=SDAHsZGJ4AI",
+    "notes": [
+      "This is great, but deep frying is kind of a pain.  Maybe half deep fry?  Added pickeled jalapenos because we had them and they were awesome"
+    ],
+    "links": ["https://www.youtube.com/watch?v=SDAHsZGJ4AI"],
     "categories": [],
     "versions": [
       {
@@ -709,7 +648,7 @@
   },
   {
     "name": "Chicken Tikka Masala",
-    "link": "https://www.youtube.com/watch?v=pFeE8_VqdfA",
+    "links": ["https://www.youtube.com/watch?v=pFeE8_VqdfA"],
     "categories": ["Indian"],
     "versions": [
       {
@@ -790,7 +729,8 @@
           "Add broth to loosen curry (water is OK too).  Taste for seasoning.  Let cook for about 6 minutes to let chicken cook.",
           "Add spinach last minute"
         ]
-      }, {
+      },
+      {
         "name": "Roti bread",
         "instructions": [
           "Mix 1/2 cup flour, pinch of salt, glug of olive oil, 1/2 cup water in a bowl into a dough bowl.  Let rest for 15 minutes.",
@@ -802,7 +742,7 @@
   },
   {
     "name": "Caramelized Onion Jam",
-    "link": "https://www.allrecipes.com/recipe/220546/onion-jam/",
+    "links": ["https://www.allrecipes.com/recipe/220546/onion-jam/"],
     "notes": ["Great for leftover extra onions"],
     "categories": ["Side Dish"],
     "versions": [
@@ -822,9 +762,10 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "name": "Onion Pasta",
-    "link": "https://www.allrecipes.com/recipe/11868/onion-pasta/",
+    "links": ["https://www.allrecipes.com/recipe/11868/onion-pasta/"],
     "notes": ["Great for leftover extra onions"],
     "categories": [],
     "versions": [
@@ -847,42 +788,53 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "name": "French Onion Soup",
-    "link": "https://basicswithbabish.co/basicsepisodes/frenchonionsoup",
-    "notes": ["It's good, but I think the broth was way fancier than required.  Plain beef stock would have probably been 95% as good.  Also, I bought a brick of gruyere for this.  It would probably be just as good with any other cheese."],
-    "categories": [],
+    "categories": ["Slow Cooker", "to try"],
+    "notes": [],
     "versions": [
       {
+        "name": "Overnight in the slow cooker, caramelize the onions",
         "ingredients": [
-          "3 lbs Spanish onions (yields 4 servings)",
-          "6 cups high quality beef stock",
-          "2 Tbsp flour",
-          "1 cup alcohol (dry sherry or red wine for this recipe beef broth, white white for chicken stock)",
-          "Soy sauce (optional)",
-          "Fish sauce (optional)",
-          "Day old French baguette (for topping)",
-          "Shredded cheese topping: Gruyere or any other cheese"
+          "6 yellow onions (more is great too)",
+          "Balsamic vinegar",
+          "salt and pepper",
+          "1 Tbsp thyme",
+          "2 bay leaves",
+          "1 Tbsp brown sugar",
+          "1 stick butter"
+        ],
+        "instructions": [
+          "Slice onions, add everything to pot and cook overnight on low.",
+          "If you're around, you can take off the lid to release steam to aid carmelization.  Just set a reminder to check and stir if you do this"
         ]
       },
       {
-        "name": "Soup",
+        "name": "The next day in the slow cooker",
+        "ingredients": [
+          "4 cans beef stock",
+          "demi glaze (optional)",
+          "2 Tbsp Worcestershire sauce",
+          "2 Tbsp flour (optional)",
+          "1/2 cup alcohol (dry sherry, red wine or dark beer)"
+        ],
         "instructions": [
-          "Thinly slice onions.  Heat until bottom of pot is golden brown.",
-          "Add 2 Tbsp flour to onions, cook another 2 minutes.",
-          "Add one cup dry sherry to deglaze.  Cook off alcohol.",
-          "Strain off beef broth and add to onions.  Simmer 5-10 minutes",
-          "Add fish sauce and soy sauce.",
-          "Slice up old bread.  Drizzle with olive oil, salt and pepper, toast.  Rub with garlic.",
-          "Add soup to broiler safe bowls.  Put shredded cheese on top of soup, and bread on top of cheese, then more cheese on bread.",
-          "Put the bowls onto a baking sheet and put into an oven preheated to broil. Broil for 3-5 minutes until golden brown."
+          "Add ingredients to slow cooker, let it cook on low until lunch or dinner"
+        ]
+      },
+      {
+        "name": "Serving",
+        "ingredients": ["shredded cheese", "toast"],
+        "instructions": [
+          "Serve with shredded cheese on top.  Toast is a good side dish"
         ]
       }
     ]
   },
   {
     "name": "Breakfast Tacos",
-    "link": "https://www.youtube.com/watch?v=j0gjlSgO7VU",
+    "links": ["https://www.youtube.com/watch?v=j0gjlSgO7VU"],
     "notes": ["Takes >30 minutes to prepare tortillas"],
     "categories": ["Breakfast"],
     "versions": [
@@ -940,8 +892,8 @@
   {
     "name": "Chicken Fried Rice",
     "notes": ["Good for day-old rice"],
-    "link": "https://www.youtube.com/watch?v=7AxydboW8v8",
-    "categories": ["to try","Chinese"],
+    "links": ["https://www.youtube.com/watch?v=7AxydboW8v8"],
+    "categories": ["to try", "Chinese"],
     "versions": [
       {
         "name": "Rice",
@@ -994,7 +946,7 @@
   },
   {
     "name": "One Pot Lasagna",
-    "link": "https://www.youtube.com/watch?v=cs8OYby6RrA",
+    "links": ["https://www.youtube.com/watch?v=cs8OYby6RrA"],
     "categories": ["italian"],
     "versions": [
       {
@@ -1023,7 +975,7 @@
   },
   {
     "name": "Curried Lentil Soup",
-    "link": "https://justthedarnrecipe.com/curried-lentil-soup",
+    "links": ["https://justthedarnrecipe.com/curried-lentil-soup"],
     "categories": ["to try", "Cold Weather"],
     "versions": [
       {
@@ -1098,7 +1050,9 @@
   },
   {
     "name": "Kale Chips",
-    "link": "https://downshiftology.com/recipes/how-to-make-crispy-kale-chips/",
+    "links": [
+      "https://downshiftology.com/recipes/how-to-make-crispy-kale-chips/"
+    ],
     "categories": [],
     "versions": [
       {
@@ -1113,7 +1067,7 @@
   },
   {
     "name": "Sweet and Sour Chicken",
-    "link": "https://www.youtube.com/watch?v=lxXN4JOX4ak",
+    "links": ["https://www.youtube.com/watch?v=lxXN4JOX4ak"],
     "categories": ["Chinese"],
     "versions": [
       {
@@ -1144,7 +1098,7 @@
   },
   {
     "name": "Pickled carrots",
-    "link": "https://www.youtube.com/watch?v=NOgPQvUWfHk",
+    "links": ["https://www.youtube.com/watch?v=NOgPQvUWfHk"],
     "categories": [],
     "versions": [
       {
@@ -1163,7 +1117,9 @@
   },
   {
     "name": "Macaroni Chili",
-    "link": "https://www.pickuplimes.com/single-post/2020/01/23/Macaroni-Chili",
+    "links": [
+      "https://www.pickuplimes.com/single-post/2020/01/23/Macaroni-Chili"
+    ],
     "categories": ["Cold Weather"],
     "versions": [
       {
@@ -1188,10 +1144,7 @@
       },
       {
         "name": "Optional Toppics",
-        "ingredients": [
-          "chives",
-          "jalapeño slices"
-        ]
+        "ingredients": ["chives", "jalapeño slices"]
       },
       {
         "instructions": [
@@ -1206,7 +1159,7 @@
   },
   {
     "name": "Channa Dal / Lentils",
-    "link": "https://www.youtube.com/watch?v=NOgPQvUWfHk",
+    "links": ["https://www.youtube.com/watch?v=NOgPQvUWfHk"],
     "categories": ["Cold Weather"],
     "versions": [
       {
@@ -1238,7 +1191,7 @@
   },
   {
     "name": "Shepherd's Pie",
-    "link": "https://www.youtube.com/watch?v=zXQ9wX4cKlQ",
+    "links": ["https://www.youtube.com/watch?v=zXQ9wX4cKlQ"],
     "categories": ["Cold Weather"],
     "versions": [
       {
@@ -1278,14 +1231,11 @@
   },
   {
     "name": "Chocolate Mousse",
-    "link": "https://www.youtube.com/watch?v=czPV8PpyqvM",
+    "links": ["https://www.youtube.com/watch?v=czPV8PpyqvM"],
     "categories": ["Dessert"],
     "versions": [
       {
-        "ingredients": [
-          "Ricotta cheese",
-          "Semi sweet chocolate chips"
-        ],
+        "ingredients": ["Ricotta cheese", "Semi sweet chocolate chips"],
         "instructions": [
           "Add 2 cups ricotta cheese to food processor.  Process until smooth",
           "Add 3 Tbsp sugar. Pinch of salt",
@@ -1296,7 +1246,7 @@
   },
   {
     "name": "Pancakes",
-    "link": "https://www.youtube.com/watch?v=IY5ykPd3coo",
+    "links": ["https://www.youtube.com/watch?v=IY5ykPd3coo"],
     "versions": [
       {
         "ingredients": [
@@ -1320,7 +1270,7 @@
   },
   {
     "name": "Pizza!",
-    "link": "https://www.youtube.com/watch?v=9TjUWnAK0cg",
+    "links": ["https://www.youtube.com/watch?v=9TjUWnAK0cg"],
     "categories": ["Simple"],
     "versions": [
       {
@@ -1347,13 +1297,11 @@
           "~1/3 cup crushed or ground tomatoes",
           "marjoram, oregano, basil, chili flakes, sugar, black pepper, olive oil"
         ],
-        "instructions": [
-          "Mix together"
-        ]
+        "instructions": ["Mix together"]
       },
       {
         "name": "Pizza!",
-        "ingredients":[
+        "ingredients": [
           "Shredded Mozzarella.  Low-Moisture Part-Skim is best.  Grate it yourself",
           "Fake Parmesan Cheese"
         ],
@@ -1367,7 +1315,7 @@
   },
   {
     "name": "Filipino-style Picadillo",
-    "link": "https://www.youtube.com/watch?v=ZUFIQpbr9Fs",
+    "links": ["https://www.youtube.com/watch?v=ZUFIQpbr9Fs"],
     "categories": [],
     "versions": [
       {
@@ -1399,7 +1347,7 @@
   },
   {
     "name": "Garlic Naan",
-    "link": "https://www.youtube.com/watch?v=xqBJ0Lv7D-k",
+    "links": ["https://www.youtube.com/watch?v=xqBJ0Lv7D-k"],
     "categories": ["to try"],
     "versions": [
       {
@@ -1438,7 +1386,7 @@
   },
   {
     "name": "Shrimp sheet pan dinner",
-    "link": "https://www.youtube.com/watch?v=L-mA3UCTDPI",
+    "links": ["https://www.youtube.com/watch?v=L-mA3UCTDPI"],
     "categories": [],
     "versions": [
       {
@@ -1457,20 +1405,18 @@
   },
   {
     "name": "Focaccia bread",
-    "link": "https://youtube.com/shorts/AB3-RdmHKJE?feature=share",
+    "links": ["https://youtube.com/shorts/AB3-RdmHKJE?feature=share"],
     "categories": [],
     "versions": [
       {
-        "ingredients": [
-        ],
-        "instructions": [
-        ]
+        "ingredients": [],
+        "instructions": []
       }
     ]
   },
   {
     "name": "Mississippi Chicken",
-    "link": "https://www.plainchicken.com/oven-baked-mississippi-chicken/",
+    "links": ["https://www.plainchicken.com/oven-baked-mississippi-chicken/"],
     "categories": [],
     "versions": [
       {
@@ -1492,7 +1438,7 @@
   },
   {
     "name": "Everything Sauce",
-    "link": "https://www.youtube.com/watch?v=cNElghlPe54",
+    "links": ["https://www.youtube.com/watch?v=cNElghlPe54"],
     "categories": [],
     "versions": [
       {
@@ -1507,14 +1453,13 @@
           "paprika (1 teaspoon)",
           "seasoning salt (1 teaspoon)"
         ],
-        "instructions": [
-        ]
+        "instructions": []
       }
     ]
   },
   {
     "name": "Butter Chicken",
-    "link": "https://www.youtube.com/watch?v=ybpDRnVRtv4",
+    "links": ["https://www.youtube.com/watch?v=ybpDRnVRtv4"],
     "notes": [
       "It was okay but tasted a little heavy.  Maybe more tomatoes and onions.  Keep looking"
     ],
@@ -1532,8 +1477,7 @@
           "1 tsp Garam Masala ",
           "1/2 tsp cayenne pepper "
         ],
-        "instructions": [
-        ]
+        "instructions": []
       },
       {
         "name": "Main Dish",
@@ -1548,14 +1492,13 @@
           "1/3 cup cashews ",
           "1/2 cup heavy cream "
         ],
-        "instructions": [
-        ]
+        "instructions": []
       }
     ]
   },
   {
     "name": "Smashed Burger",
-    "link": "https://www.youtube.com/watch?v=lo8GVZkYEHE",
+    "links": ["https://www.youtube.com/watch?v=lo8GVZkYEHE"],
     "categories": [],
     "versions": [
       {
@@ -1578,7 +1521,7 @@
   },
   {
     "name": "Breakfast Burritos",
-    "link": "https://www.youtube.com/watch?v=ShKEzA9wo_I",
+    "links": ["https://www.youtube.com/watch?v=ShKEzA9wo_I"],
     "categories": ["Breakfast"],
     "versions": [
       {
@@ -1616,10 +1559,7 @@
       },
       {
         "name": "Putting it all together",
-        "ingredients":[
-          "eggs",
-          "american cheese"
-        ],
+        "ingredients": ["eggs", "american cheese"],
         "instructions": [
           "Scramble eggs",
           "Heat up veggie, potato, meat mixture",
@@ -1646,15 +1586,14 @@
           "red pepper flakes",
           "buns"
         ],
-        "instructions": [
-        ]
+        "instructions": []
       }
     ]
   },
   {
     "name": "Golden milk",
-    "link": "https://minimalistbaker.com/5-minute-vegan-golden-milk/",
-    "categories": ["Dessert","Cold Weather","to try"],
+    "links": ["https://minimalistbaker.com/5-minute-vegan-golden-milk/"],
+    "categories": ["Dessert", "Cold Weather", "to try"],
     "versions": [
       {
         "ingredients": [
@@ -1678,7 +1617,7 @@
   },
   {
     "name": "Beef Enchiladas",
-    "link": "https://www.onceuponachef.com/recipes/beef-enchiladas.html",
+    "links": ["https://www.onceuponachef.com/recipes/beef-enchiladas.html"],
     "categories": ["Cold Weather", "to try"],
     "versions": [
       {
@@ -1715,46 +1654,42 @@
   },
   {
     "name": "Barbacoa",
-    "link": "https://www.youtube.com/watch?v=VVcRFMG46fg",
+    "links": ["https://www.youtube.com/watch?v=VVcRFMG46fg"],
     "categories": ["to try"],
     "versions": [
       {
-        "ingredients": [
-        ],
-        "instructions": [
-        ]
+        "ingredients": [],
+        "instructions": []
       }
     ]
   },
   {
     "name": "Lamb Pulao",
-    "link": "https://joshicooks.com/lamb-pulao-instant-pot-recipe/",
+    "links": ["https://joshicooks.com/lamb-pulao-instant-pot-recipe/"],
     "categories": [],
     "versions": [
       {
-        "ingredients": [
-        ],
-        "instructions": [
-        ]
+        "ingredients": [],
+        "instructions": []
       }
     ]
   },
   {
     "name": "Easy Whole Chicken Stew",
-    "link": "https://www.google.com/search?client=firefox-b-1-d&q=chicken+stew+instant+pot",
+    "links": [
+      "https://www.google.com/search?client=firefox-b-1-d&q=chicken+stew+instant+pot"
+    ],
     "categories": ["to try"],
     "versions": [
       {
-        "ingredients": [
-        ],
-        "instructions": [
-        ]
+        "ingredients": [],
+        "instructions": []
       }
     ]
   },
   {
     "name": "Buffalo Chicken Dip",
-    "link": "https://www.youtube.com/watch?v=uNvQ-YIOaKk",
+    "links": ["https://www.youtube.com/watch?v=uNvQ-YIOaKk"],
     "categories": ["to try", "Simple"],
     "versions": [
       {
@@ -1766,15 +1701,13 @@
           "shredded cheese (mozzarella or other)",
           "red peppers (for dipping)"
         ],
-        "instructions": [
-          "throw ingredients into crock pot"
-        ]
+        "instructions": ["throw ingredients into crock pot"]
       }
     ]
   },
   {
     "name": "Lamb Pulao",
-    "link": "https://www.youtube.com/watch?v=320aYegXP-g",
+    "links": ["https://www.youtube.com/watch?v=320aYegXP-g"],
     "categories": [],
     "versions": [
       {
@@ -1806,7 +1739,7 @@
   },
   {
     "name": "Crockpot Barbacoa",
-    "link": "https://www.youtube.com/watch?v=VVcRFMG46fg",
+    "links": ["https://www.youtube.com/watch?v=VVcRFMG46fg"],
     "categories": ["to try", "Simple"],
     "versions": [
       {
@@ -1824,19 +1757,14 @@
           "salt and pepper",
           "1 cup beef broth"
         ],
-        "instructions": [
-          "throw all into crock pot",
-          "cook on low 6-8 hours"
-        ]
+        "instructions": ["throw all into crock pot", "cook on low 6-8 hours"]
       }
     ]
   },
   {
     "name": "Butter Chicken (Jamie Oliver)",
-    "link": "https://www.youtube.com/watch?v=JKs-cRneTyE",
-    "notes": [
-      "Pretty good"
-    ],
+    "links": ["https://www.youtube.com/watch?v=JKs-cRneTyE"],
+    "notes": ["Pretty good"],
     "categories": ["Indian"],
     "versions": [
       {
@@ -1906,14 +1834,13 @@
           "shredded cheese",
           "cilantro lime ranch"
         ],
-        "instructions": [
-        ]
+        "instructions": []
       }
     ]
   },
   {
     "name": "Simple Queso",
-    "link": "https://www.youtube.com/watch?v=vhc6331LTIA",
+    "links": ["https://www.youtube.com/watch?v=vhc6331LTIA"],
     "categories": ["Simple"],
     "versions": [
       {
@@ -1944,7 +1871,7 @@
   },
   {
     "name": "Homemade English Muffins",
-    "link": "https://www.youtube.com/watch?v=ALR6ARxqyYY&t=55s",
+    "links": ["https://www.youtube.com/watch?v=ALR6ARxqyYY&t=55s"],
     "categories": ["Breakfast"],
     "versions": [
       {
@@ -1970,7 +1897,7 @@
   },
   {
     "name": "Meatza Pizza Crust",
-    "link": "https://www.youtube.com/watch?v=qmhAuXfTRVg",
+    "links": ["https://www.youtube.com/watch?v=qmhAuXfTRVg"],
     "notes": ["This was a banger!"],
     "categories": ["Simple"],
     "versions": [
@@ -1992,7 +1919,9 @@
   },
   {
     "name": "Brazilian Stroganoff",
-    "link": "https://braziliankitchenabroad.com/brazilian-chicken-stroganoff-recipe/",
+    "links": [
+      "https://braziliankitchenabroad.com/brazilian-chicken-stroganoff-recipe/"
+    ],
     "categories": ["Simple"],
     "versions": [
       {
@@ -2020,7 +1949,7 @@
   },
   {
     "name": "Simple Stir Fry",
-    "link": "https://www.youtube.com/shorts/SvfOK9eKfhg",
+    "links": ["https://www.youtube.com/shorts/SvfOK9eKfhg"],
     "categories": ["Simple"],
     "versions": [
       {
@@ -2052,8 +1981,8 @@
   },
   {
     "name": "Red and Green Salsa",
-    "link": "https://www.youtube.com/watch?v=Hpd_p7LRk_k",
-    "categories": ["Simple","Side Dish"],
+    "links": ["https://www.youtube.com/watch?v=Hpd_p7LRk_k"],
+    "categories": ["Simple", "Side Dish"],
     "versions": [
       {
         "ingredients": [
@@ -2079,14 +2008,12 @@
   },
   {
     "name": "Crispy Chicken Tacos",
-    "link": "https://www.youtube.com/watch?v=AhbBmsPcJyo",
+    "links": ["https://www.youtube.com/watch?v=AhbBmsPcJyo"],
     "categories": [],
     "versions": [
       {
         "name": "Chicken",
-        "ingredients": [
-          "chicken thighs (Full pack and/or frozen is fine)"
-        ],
+        "ingredients": ["chicken thighs (Full pack and/or frozen is fine)"],
         "instructions": [
           "chicken, salt, pepper and garlic powder into slow cooker on low all day"
         ]
@@ -2112,14 +2039,11 @@
   },
   {
     "name": "Two ingredient pumpkin bread",
-    "link": "https://www.youtube.com/watch?v=IyVYJ-WLVsQ",
+    "links": ["https://www.youtube.com/watch?v=IyVYJ-WLVsQ"],
     "categories": ["Simple", "Dessert"],
     "versions": [
       {
-        "ingredients": [
-          "Spice cake mix",
-          "pumpkin puree"
-        ],
+        "ingredients": ["Spice cake mix", "pumpkin puree"],
         "instructions": [
           "Mix cake mix and puree in mixer",
           "Bake at 350 for 40 minutes"
@@ -2129,8 +2053,10 @@
   },
   {
     "name": "Chili Colorado",
-    "link": "https://www.youtube.com/watch?v=N8bgX6QsAnc",
-    "notes": ["official recipe calls for 4 cups stock, 3 was plenty.  Mine was undercooked but I cut larger chunks"],
+    "links": ["https://www.youtube.com/watch?v=N8bgX6QsAnc"],
+    "notes": [
+      "official recipe calls for 4 cups stock, 3 was plenty.  Mine was undercooked but I cut larger chunks"
+    ],
     "categories": ["Slow Cooker"],
     "versions": [
       {
@@ -2154,14 +2080,11 @@
   },
   {
     "name": "Brazillian Lemonade",
-    "link": "https://www.youtube.com/watch?v=2hF_w7X4fEY",
+    "links": ["https://www.youtube.com/watch?v=2hF_w7X4fEY"],
     "categories": ["Dessert"],
     "versions": [
       {
-        "ingredients": [
-          "3 limes",
-          "sweetened condensed milk"
-        ],
+        "ingredients": ["3 limes", "sweetened condensed milk"],
         "instructions": [
           "wash and half three limes, add to blender with water",
           "puree and strain out liquid",
@@ -2173,7 +2096,7 @@
   },
   {
     "name": "French Toast Pull Aparts",
-    "link": "https://www.youtube.com/watch?v=sqS3_-MHT0Y",
+    "links": ["https://www.youtube.com/watch?v=sqS3_-MHT0Y"],
     "categories": ["Breakfast", "Simple"],
     "versions": [
       {
@@ -2194,8 +2117,8 @@
   },
   {
     "name": "Oatmeal Cookies",
-    "link": "https://www.youtube.com/watch?v=4ZeK_iLauko",
-    "categories": ["Simple","Dessert","Breakfast"],
+    "links": ["https://www.youtube.com/watch?v=4ZeK_iLauko"],
+    "categories": ["Simple", "Dessert", "Breakfast"],
     "versions": [
       {
         "ingredients": [
@@ -2214,7 +2137,7 @@
   },
   {
     "name": "Air Fryer Pulled Chicken",
-    "link": "https://www.youtube.com/watch?v=NCP6VPf505A",
+    "links": ["https://www.youtube.com/watch?v=NCP6VPf505A"],
     "categories": ["Air Fryer"],
     "versions": [
       {
@@ -2234,8 +2157,8 @@
   },
   {
     "name": "Cottage Cheese Ice Cream",
-    "link": "https://www.youtube.com/watch?v=2Mr9GDb30zk",
-    "categories": ["Dessert","Simple"],
+    "links": ["https://www.youtube.com/watch?v=2Mr9GDb30zk"],
+    "categories": ["Dessert", "Simple"],
     "versions": [
       {
         "ingredients": [
@@ -2252,8 +2175,8 @@
   },
   {
     "name": "Simple Oatmeal Breakfast",
-    "link": "https://www.youtube.com/watch?v=kmqWyyjCjTw",
-    "categories": ["Simple","Breakfast"],
+    "links": ["https://www.youtube.com/watch?v=kmqWyyjCjTw"],
+    "categories": ["Simple", "Breakfast"],
     "versions": [
       {
         "name": "Main Dish",
@@ -2284,7 +2207,7 @@
   },
   {
     "name": "Halal Chicken and Rice",
-    "link": "https://www.youtube.com/watch?v=g728DTEUUlw",
+    "links": ["https://www.youtube.com/watch?v=g728DTEUUlw"],
     "categories": [],
     "versions": [
       {
@@ -2318,16 +2241,11 @@
           "salt",
           "(optional) dried flakes like parsley or oregano"
         ],
-        "instructions": [
-          "mix"
-        ]
+        "instructions": ["mix"]
       },
       {
         "name": "Chicken and rice",
-        "ingredients": [
-          "rice",
-          "(optional) stock"
-        ],
+        "ingredients": ["rice", "(optional) stock"],
         "instructions": [
           "Fry chicken in some oil, remove chicken when cooked",
           "Add rest of seasoning mix, add some more oil, add rice, toast for a bit",
@@ -2336,10 +2254,7 @@
       },
       {
         "name": "Serve",
-        "ingredients": [
-          "Lettuce",
-          "Tomatoes"
-        ],
+        "ingredients": ["Lettuce", "Tomatoes"],
         "instructions": [
           "Dice lettuce and tomatoes",
           "Serve chicken, rice, lettuce, tomatoes and sauce"
@@ -2349,13 +2264,13 @@
   },
   {
     "name": "Healthy Blondies",
-    "link": "https://www.youtube.com/watch?v=j9kHJJzXSCc",
+    "links": ["https://www.youtube.com/watch?v=j9kHJJzXSCc"],
     "notes": [
       "https://www.tiktok.com/@_jacobking/video/7227438764623170842",
       "Recipes disagree on PB amount",
       "There are other recipes with more ingredients.  This is a simple version"
     ],
-    "categories": ["Simple", "Dessert","to try"],
+    "categories": ["Simple", "Dessert", "to try"],
     "versions": [
       {
         "ingredients": [
@@ -2374,7 +2289,7 @@
   },
   {
     "name": "Air Fryer Peruvian Chicken",
-    "link": "https://www.youtube.com/watch?v=1_l6EXvmV-M",
+    "links": ["https://www.youtube.com/watch?v=1_l6EXvmV-M"],
     "categories": ["Air Fryer"],
     "versions": [
       {
@@ -2388,8 +2303,7 @@
           "paprika",
           "garlic"
         ],
-        "instructions": [
-        ]
+        "instructions": []
       },
       {
         "name": "marinade chicken",
@@ -2427,8 +2341,7 @@
       },
       {
         "name": "Air fry",
-        "ingredients": [
-        ],
+        "ingredients": [],
         "instructions": [
           "Fry up the chicken at 370 for 18-25 minutes depending on chicken size (less for boneless, more for bone-in)"
         ]
@@ -2437,7 +2350,7 @@
   },
   {
     "name": "Cheat Lemon Pie",
-    "link": "https://www.youtube.com/watch?v=p0W9GuCHMJg",
+    "links": ["https://www.youtube.com/watch?v=p0W9GuCHMJg"],
     "notes": ["Makes two pies, make sure you have enough room in your freezer"],
     "categories": ["Dessert", "Simple"],
     "versions": [
@@ -2456,15 +2369,258 @@
     ]
   },
   {
+    "name": "Protein Pumpkin Bread",
+    "links": ["https://www.youtube.com/watch?v=pIa8FoUk0zI"],
+    "categories": ["Simple", "Dessert"],
+    "versions": [
+      {
+        "name": "Wet Ingrediets",
+        "ingredients": [
+          "2 (4) eggs, mix really well",
+          "250g (500g) pumpkin puree",
+          "85g (170g) greek yogurt",
+          "small amount vanilla extract"
+        ]
+      },
+      {
+        "name": "Dry Ingrediets",
+        "ingredients": [
+          "75g (150g) flour",
+          "1 tsp (2 tsp) baking soda",
+          "1 tsp (2 tsp) baking powder",
+          "1 tsp (2 tsp) salt",
+          "45g (90g) sugar substitute (Erythritol or monk fruit or other)",
+          "2 (4) packets sweetener (Stevia, Spenda, etc)",
+          "50g (100g) whey protein powder (vanilla preferred)",
+          "1 tsp (2) pumpkin pie spice"
+        ]
+      },
+      {
+        "instructions": [
+          "Add wet and dry ingredients to separate bowls",
+          "Mix wet and try together",
+          "Pour half of mixture into a separate bowl",
+          "In one bowl, add the following:",
+          "12g (24) cocoa powder",
+          "cinnamon",
+          "cayenne",
+          "2 (4) packets sweetener (Stevia, Splenda, etc)",
+          "Alternate pouring the mixtures into 1 (2) loaf pans",
+          "Optionally, cut and swirl with a knife in the loaf pan",
+          "Bake at 275 for 45 minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chicken Shawarma",
+    "links": [
+      "https://www.youtube.com/watch?v=Qwm2W3ZOfVI",
+      "https://www.youtube.com/watch?v=TROZvPHqP1g"
+    ],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "name": "Spice Marinade",
+        "ingredients": [
+          "2 tsp garlic powder",
+          "1 tsp turmeric ",
+          "1 tsp cumin ",
+          "1 tsp coriander ",
+          "1 tsp all spice ",
+          "2 tsp smoked paprika ",
+          "1 tsp onion ",
+          "1 tsp cardamom ",
+          "1/2 tsp clove ",
+          "1/2 tsp cayenne pepper",
+          "1/2 tsp msg",
+          "1 Tbsp sugar ",
+          "1.5tsp salt",
+          "2 Tbsp olive oil",
+          "1.5 Tbsp lemon juice",
+          "4 Tbsp white vinegar",
+          "2 Tbsp tomato paste",
+          "liquid smoke (optional, or use real smoke, see below)"
+        ],
+        "instructions": [
+          "Mix dry ingredients",
+          "Add olive oil, lemon juice and tomato paste",
+          "optionally, add lemon zest"
+        ]
+      },
+      {
+        "name": "Chicken Prep",
+        "ingredients": ["2 pounds boneless skinless chicken thighs"],
+        "instructions": [
+          "Slice thighs into half inch pieces",
+          "Marinade overnight"
+        ]
+      },
+      {
+        "name": "Toum sauce",
+        "ingredients": [
+          "1 full bulb of garlic",
+          "1 cup neutral oil (corn, canola, vegetable, avocado, grapeseed, sunflower, peanut)",
+          "4 Tbsp lemon juice",
+          "pinch of salt"
+        ],
+        "instructions": ["Blend all ingredients together"]
+      },
+      {
+        "name": "Make fries (optional)",
+        "ingredients": ["frozen fries"],
+        "instructions": [
+          "Make some frensh friend in the air frier.  Goes well in/with Shawarma"
+        ]
+      },
+      {
+        "name": "Cooking the chicken",
+        "ingredients": ["dill relish or sliced pickes"],
+        "instructions": [
+          "Slice some dill pickles if you don't have dill relish",
+          "Sear the chicken on high heat.  Don't crowd the pan.  Allow a crust to develop"
+        ]
+      },
+      {
+        "name": "Smoke  the chicken (optional)",
+        "ingredients": [
+          "Pan with cover",
+          "Charcoal from indian / middle eastern"
+        ],
+        "instructions": [
+          "In a pan which has a cover, move the chicken to the edges to clear a cirlce in the center of the pan",
+          "Line a very small ramakin with aluminium foil.  Add neutral oil to the ramakin, put the ramakin in the center of the pan",
+          "Move the pan outside",
+          "Light a small charcoal and put it into the oil.  The oil will burn and make smoke.  Cover your pan.  Let the meat smoke for 5-10 minutes"
+        ]
+      },
+      {
+        "name": "Final Assembly",
+        "ingredients": [
+          "dill relish or sliced pickes",
+          "pomegranite molassses",
+          "french fries",
+          "pitas",
+          "parchment paper",
+          "aluminum foil"
+        ],
+        "instructions": [
+          "Add pita to pan to soak leftover chicken fat, spread toum sauce on pita in pan, add chicken and sliced dill pickles",
+          "Add fries (optional)",
+          "Add pomegranite molassses (optional)",
+          "Wrap pita in parchment paper",
+          "Wrap pita in aluminum foil, heat in pan, slice diagonally",
+          "Serve with Toum"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Simple Chicken Thighs",
+    "links": ["https://www.youtube.com/watch?v=fks2SyKc0gs"],
+    "categories": ["Simple"],
+    "notes": ["Good simple recipe"],
+    "versions": [
+      {
+        "name": "marinade",
+        "ingredients": [
+          "3-4 pounds boneless skinless chicken thighs",
+          "2 Tbsp olive oil",
+          "1 Tbsp sesame oil",
+          "4 Tbsp soy sauce",
+          "1 Tbsp W sauce",
+          "2 Tbsp lemon juice",
+          "5 Tbsp honey or maple syrup",
+          "3 Tbsp minced garlic (or more)",
+          "black pepper 1/2 tsp",
+          "2 tsp salt"
+        ],
+        "instructions": [
+          "Marinade chicken thighs overnight or longer",
+          "Add to baking pan and bake at 400 for 35 minutes",
+          "Put under broiler for 7 minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chicken and Potatoes, middle eastern style",
+    "links": ["https://www.youtube.com/watch?v=oz0psDghfDw"],
+    "categories": ["Cold Weather", "to try"],
+    "versions": [
+      {
+        "name": "Spice Blend",
+        "ingredients": [
+          "1 Tbp paprika",
+          "1 Tbsp Chili powder",
+          "1 Tbsp garlic powder",
+          "1 Tbsp salt",
+          "1 tsp cumin"
+        ]
+      },
+      {
+        "name": "Marinade",
+        "ingredients": [
+          "1 lemon",
+          "1 bulb garlic",
+          "1 shallot",
+          "1 bundle cilantro (reserve 1/4 for next day)",
+          "1 tsp fresh rosemary",
+          "1 tsp fresh thyme",
+          "1 tsp fresh sage",
+          "half of the spice blend",
+          "1/4 cup olive oil",
+          "1/4 cup white vinegar",
+          "lemon juice",
+          "5 pounts chicken thighs and drums"
+        ],
+        "instructions": [
+          "To a blender add lemon zest and its juice",
+          "garlic",
+          "shallot",
+          "cilantro",
+          "rosemary",
+          "thyme",
+          "sage",
+          "spice blend",
+          "olive oil",
+          "blend it up",
+          "Marinade chicken overnight"
+        ]
+      },
+      {
+        "name": "the next day",
+        "ingredients": ["3-4 large potatoes", "Sheet pan", "aluminum foil"],
+        "instructions": [
+          "Slice the potatoes into chunks, line a sheet tray, add olive oil and some of remaining spice blend",
+          "Add chicken and marinade on top of potatoes",
+          "Add remaining spice blend on top",
+          "Cover with aluminum foil",
+          "Bake at 375 for 40 minutes, remove foil, put back into oven",
+          "Add minced garlic to a pan, cook for a minute, then add lemon juice and chopped cilantro, add this mixture to the top of your chicken"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
-    "link": "",
+    "links": [""],
     "categories": [],
     "versions": [
       {
-        "ingredients": [
-        ],
-        "instructions": [
-        ]
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
       }
     ]
   }
