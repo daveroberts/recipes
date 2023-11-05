@@ -2603,13 +2603,58 @@
     ]
   },
   {
-    "name": "",
-    "links": [""],
-    "categories": [],
+    "name": "Cottage Cheese Pancakes",
+    "links": ["https://www.youtube.com/watch?v=pLyDIG9VOgw"],
+    "notes": [
+      "I deviated from the recipe and added more flour.  I am reducing the number of eggs here too because it was a bit too eggy"
+    ],
+    "categories": ["Breakfast"],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "ingredients": [
+          "1 cup cottage cheese",
+          "2 eggs",
+          "3/4 cup flour",
+          "1 tsp baking powder"
+        ],
+        "instructions": ["Blend all ingredients together"]
+      }
+    ]
+  },
+  {
+    "name": "Slow Cooker Beef",
+    "links": ["https://www.youtube.com/watch?v=m_GZ-0GI2FQ"],
+    "categories": ["Slow Cooker", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "instant pot (slow cooker OK)",
+          "Chuck Roast",
+          "beef flavoring (2 Tbsp Beef Better than Bouillon preferred, 2 cans beef broth or cubes OK)",
+          "Onion (white preferred, yellow OK)",
+          "Mushrooms (cremini, aka baby bella preferred, white button OK)",
+          "garlic, 18 cloves (yes, a lot)",
+          "3 Tbsp Dutch Process cocoa powder (regular OK)",
+          "3 Tbsp salt",
+          "Black Pepper"
+        ],
+        "instructions": [
+          "Trim excess fat from roast, salt and leave out",
+          "Slice onion",
+          "clean and slice mushrooms",
+          "mince the garlic",
+          "dry and sear beef in instant pot or pan",
+          "Add 2 Tbsp Better than Bouillon to two cups of water, or cubes",
+          "Add cocoa powder to liquid",
+          "Add salt to liquid",
+          "Remove meat from pot, add sliced onions with salt, brown just a bit",
+          "Add sliced mushrooms to pot, mix, cook a bit",
+          "Add minced garlic to pot, mix, cook a bit",
+          "Add meat back in the top of pot, add broth",
+          "If meat not covered, add water to cover meat",
+          "Add a lot of black pepper to pot",
+          "Cover and cook for six hours on low.  Don't use as pressure cooker"
+        ]
       }
     ]
   },
