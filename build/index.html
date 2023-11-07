@@ -1,0 +1,2289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Recipes I've collected over the years that I've either enjoyed, or want to try"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Recipes</title>
+  </head>
+  <body>
+    <h1>Recipes</h1>
+    <div class="category-area">
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Air Fryer"
+          onclick="toggle_category('Air Fryer')"
+          class="category-button"
+          >Air Fryer</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Breakfast"
+          onclick="toggle_category('Breakfast')"
+          class="category-button"
+          >Breakfast</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Chinese"
+          onclick="toggle_category('Chinese')"
+          class="category-button"
+          >Chinese</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Cold Weather"
+          onclick="toggle_category('Cold Weather')"
+          class="category-button"
+          >Cold Weather</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Dessert"
+          onclick="toggle_category('Dessert')"
+          class="category-button"
+          >Dessert</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Indian"
+          onclick="toggle_category('Indian')"
+          class="category-button"
+          >Indian</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Side Dish"
+          onclick="toggle_category('Side Dish')"
+          class="category-button"
+          >Side Dish</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Simple"
+          onclick="toggle_category('Simple')"
+          class="category-button"
+          >Simple</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Slow Cooker"
+          onclick="toggle_category('Slow Cooker')"
+          class="category-button"
+          >Slow Cooker</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Thai"
+          onclick="toggle_category('Thai')"
+          class="category-button"
+          >Thai</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="to revise"
+          onclick="toggle_category('to revise')"
+          class="category-button"
+          >to revise</a
+        >
+      </div>
+      
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="to try"
+          onclick="toggle_category('to try')"
+          class="category-button"
+          >to try</a
+        >
+      </div>
+      
+    </div>
+    <div class="search-box">
+      <input
+        id="search-text"
+        placeholder="Search..."
+        autofocus
+        oninput="search_changed(event)"
+      />
+    </div>
+      
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Air Fryer&#34;]"
+      data-recipe-name="Air Fryer Peruvian Chicken"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Air Fryer&#34;]"
+        data-recipe-name="Air Fryer Peruvian Chicken"
+        href="recipe/Air%20Fryer%20Peruvian%20Chicken.html"
+      >
+        <span class="list-recipe-title">Air Fryer Peruvian Chicken</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Air Fryer')"
+        >Air Fryer</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Air Fryer&#34;]"
+      data-recipe-name="Air Fryer Pulled Chicken"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Air Fryer&#34;]"
+        data-recipe-name="Air Fryer Pulled Chicken"
+        href="recipe/Air%20Fryer%20Pulled%20Chicken.html"
+      >
+        <span class="list-recipe-title">Air Fryer Pulled Chicken</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Air Fryer')"
+        >Air Fryer</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Avocado Toast"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Avocado Toast"
+        href="recipe/Avocado%20Toast.html"
+      >
+        <span class="list-recipe-title">Avocado Toast</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;]"
+      data-recipe-name="Barbacoa"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;]"
+        data-recipe-name="Barbacoa"
+        href="recipe/Barbacoa.html"
+      >
+        <span class="list-recipe-title">Barbacoa</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;,&#34;to try&#34;]"
+      data-recipe-name="Beef Enchiladas"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;,&#34;to try&#34;]"
+        data-recipe-name="Beef Enchiladas"
+        href="recipe/Beef%20Enchiladas.html"
+      >
+        <span class="list-recipe-title">Beef Enchiladas</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to revise&#34;,&#34;Chinese&#34;]"
+      data-recipe-name="Beef and Brocolli"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to revise&#34;,&#34;Chinese&#34;]"
+        data-recipe-name="Beef and Brocolli"
+        href="recipe/Beef%20and%20Brocolli.html"
+      >
+        <span class="list-recipe-title">Beef and Brocolli</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to revise')"
+        >to revise</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Chinese')"
+        >Chinese</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Brazilian Stroganoff"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Brazilian Stroganoff"
+        href="recipe/Brazilian%20Stroganoff.html"
+      >
+        <span class="list-recipe-title">Brazilian Stroganoff</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;]"
+      data-recipe-name="Brazillian Lemonade"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;]"
+        data-recipe-name="Brazillian Lemonade"
+        href="recipe/Brazillian%20Lemonade.html"
+      >
+        <span class="list-recipe-title">Brazillian Lemonade</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Breakfast Burritos"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Breakfast Burritos"
+        href="recipe/Breakfast%20Burritos.html"
+      >
+        <span class="list-recipe-title">Breakfast Burritos</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Breakfast Casserole"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Breakfast Casserole"
+        href="recipe/Breakfast%20Casserole.html"
+      >
+        <span class="list-recipe-title">Breakfast Casserole</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Breakfast Tacos"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Breakfast Tacos"
+        href="recipe/Breakfast%20Tacos.html"
+      >
+        <span class="list-recipe-title">Breakfast Tacos</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+      data-recipe-name="Buffalo Chicken Dip"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+        data-recipe-name="Buffalo Chicken Dip"
+        href="recipe/Buffalo%20Chicken%20Dip.html"
+      >
+        <span class="list-recipe-title">Buffalo Chicken Dip</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Indian&#34;]"
+      data-recipe-name="Butter Chicken"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Indian&#34;]"
+        data-recipe-name="Butter Chicken"
+        href="recipe/Butter%20Chicken.html"
+      >
+        <span class="list-recipe-title">Butter Chicken</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Indian&#34;]"
+      data-recipe-name="Butter Chicken (Jamie Oliver)"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Indian&#34;]"
+        data-recipe-name="Butter Chicken (Jamie Oliver)"
+        href="recipe/Butter%20Chicken%20(Jamie%20Oliver).html"
+      >
+        <span class="list-recipe-title">Butter Chicken (Jamie Oliver)</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Side Dish&#34;]"
+      data-recipe-name="Caramelized Onion Jam"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Side Dish&#34;]"
+        data-recipe-name="Caramelized Onion Jam"
+        href="recipe/Caramelized%20Onion%20Jam.html"
+      >
+        <span class="list-recipe-title">Caramelized Onion Jam</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="Channa Dal - Lentils"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="Channa Dal - Lentils"
+        href="recipe/Channa%20Dal%20-%20Lentils.html"
+      >
+        <span class="list-recipe-title">Channa Dal - Lentils</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+      data-recipe-name="Cheat Lemon Pie"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+        data-recipe-name="Cheat Lemon Pie"
+        href="recipe/Cheat%20Lemon%20Pie.html"
+      >
+        <span class="list-recipe-title">Cheat Lemon Pie</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="Chicken A La King"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="Chicken A La King"
+        href="recipe/Chicken%20A%20La%20King.html"
+      >
+        <span class="list-recipe-title">Chicken A La King</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;,&#34;Chinese&#34;]"
+      data-recipe-name="Chicken Fried Rice"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;,&#34;Chinese&#34;]"
+        data-recipe-name="Chicken Fried Rice"
+        href="recipe/Chicken%20Fried%20Rice.html"
+      >
+        <span class="list-recipe-title">Chicken Fried Rice</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Chinese')"
+        >Chinese</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;]"
+      data-recipe-name="Chicken Shawarma"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;]"
+        data-recipe-name="Chicken Shawarma"
+        href="recipe/Chicken%20Shawarma.html"
+      >
+        <span class="list-recipe-title">Chicken Shawarma</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Indian&#34;]"
+      data-recipe-name="Chicken Tikka Masala"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Indian&#34;]"
+        data-recipe-name="Chicken Tikka Masala"
+        href="recipe/Chicken%20Tikka%20Masala.html"
+      >
+        <span class="list-recipe-title">Chicken Tikka Masala</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;,&#34;to try&#34;]"
+      data-recipe-name="Chicken and Potatoes, Middle Eastern Style"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;,&#34;to try&#34;]"
+        data-recipe-name="Chicken and Potatoes, Middle Eastern Style"
+        href="recipe/Chicken%20and%20Potatoes%2C%20Middle%20Eastern%20Style.html"
+      >
+        <span class="list-recipe-title">Chicken and Potatoes, Middle Eastern Style</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Chicken or Tuna Sandwich"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Chicken or Tuna Sandwich"
+        href="recipe/Chicken%20or%20Tuna%20Sandwich.html"
+      >
+        <span class="list-recipe-title">Chicken or Tuna Sandwich</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Chicken or Turkey Wraps"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Chicken or Turkey Wraps"
+        href="recipe/Chicken%20or%20Turkey%20Wraps.html"
+      >
+        <span class="list-recipe-title">Chicken or Turkey Wraps</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Thai&#34;]"
+      data-recipe-name="Chili Beef or Pork Lettuce Wraps"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Thai&#34;]"
+        data-recipe-name="Chili Beef or Pork Lettuce Wraps"
+        href="recipe/Chili%20Beef%20or%20Pork%20Lettuce%20Wraps.html"
+      >
+        <span class="list-recipe-title">Chili Beef or Pork Lettuce Wraps</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Thai')"
+        >Thai</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Slow Cooker&#34;]"
+      data-recipe-name="Chili Colorado"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Slow Cooker&#34;]"
+        data-recipe-name="Chili Colorado"
+        href="recipe/Chili%20Colorado.html"
+      >
+        <span class="list-recipe-title">Chili Colorado</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Slow Cooker')"
+        >Slow Cooker</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;]"
+      data-recipe-name="Chocolate Mousse"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;]"
+        data-recipe-name="Chocolate Mousse"
+        href="recipe/Chocolate%20Mousse.html"
+      >
+        <span class="list-recipe-title">Chocolate Mousse</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;]"
+      data-recipe-name="Cocoa Nut Almond Butter"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;]"
+        data-recipe-name="Cocoa Nut Almond Butter"
+        href="recipe/Cocoa%20Nut%20Almond%20Butter.html"
+      >
+        <span class="list-recipe-title">Cocoa Nut Almond Butter</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Coconut Chickpea Rice"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Coconut Chickpea Rice"
+        href="recipe/Coconut%20Chickpea%20Rice.html"
+      >
+        <span class="list-recipe-title">Coconut Chickpea Rice</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+      data-recipe-name="Cottage Cheese Ice Cream"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+        data-recipe-name="Cottage Cheese Ice Cream"
+        href="recipe/Cottage%20Cheese%20Ice%20Cream.html"
+      >
+        <span class="list-recipe-title">Cottage Cheese Ice Cream</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Cottage Cheese Pancakes"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Cottage Cheese Pancakes"
+        href="recipe/Cottage%20Cheese%20Pancakes.html"
+      >
+        <span class="list-recipe-title">Cottage Cheese Pancakes</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Crispy Chicken Tacos"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Crispy Chicken Tacos"
+        href="recipe/Crispy%20Chicken%20Tacos.html"
+      >
+        <span class="list-recipe-title">Crispy Chicken Tacos</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+      data-recipe-name="Crockpot Barbacoa"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+        data-recipe-name="Crockpot Barbacoa"
+        href="recipe/Crockpot%20Barbacoa.html"
+      >
+        <span class="list-recipe-title">Crockpot Barbacoa</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;,&#34;Cold Weather&#34;]"
+      data-recipe-name="Curried Lentil Soup"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;,&#34;Cold Weather&#34;]"
+        data-recipe-name="Curried Lentil Soup"
+        href="recipe/Curried%20Lentil%20Soup.html"
+      >
+        <span class="list-recipe-title">Curried Lentil Soup</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;]"
+      data-recipe-name="Easy Whole Chicken Stew"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;]"
+        data-recipe-name="Easy Whole Chicken Stew"
+        href="recipe/Easy%20Whole%20Chicken%20Stew.html"
+      >
+        <span class="list-recipe-title">Easy Whole Chicken Stew</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Everything Sauce"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Everything Sauce"
+        href="recipe/Everything%20Sauce.html"
+      >
+        <span class="list-recipe-title">Everything Sauce</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Faux Wendy&#39;s Spicy Chicken Sandwich"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Faux Wendy&#39;s Spicy Chicken Sandwich"
+        href="recipe/Faux%20Wendy&#39;s%20Spicy%20Chicken%20Sandwich.html"
+      >
+        <span class="list-recipe-title">Faux Wendy&#39;s Spicy Chicken Sandwich</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Filipino-style Picadillo"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Filipino-style Picadillo"
+        href="recipe/Filipino-style%20Picadillo.html"
+      >
+        <span class="list-recipe-title">Filipino-style Picadillo</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Focaccia bread"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Focaccia bread"
+        href="recipe/Focaccia%20bread.html"
+      >
+        <span class="list-recipe-title">Focaccia bread</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Slow Cooker&#34;,&#34;to try&#34;]"
+      data-recipe-name="French Onion Soup"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Slow Cooker&#34;,&#34;to try&#34;]"
+        data-recipe-name="French Onion Soup"
+        href="recipe/French%20Onion%20Soup.html"
+      >
+        <span class="list-recipe-title">French Onion Soup</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Slow Cooker')"
+        >Slow Cooker</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;,&#34;Simple&#34;]"
+      data-recipe-name="French Toast Pull Aparts"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;,&#34;Simple&#34;]"
+        data-recipe-name="French Toast Pull Aparts"
+        href="recipe/French%20Toast%20Pull%20Aparts.html"
+      >
+        <span class="list-recipe-title">French Toast Pull Aparts</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to try&#34;]"
+      data-recipe-name="Garlic Naan"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to try&#34;]"
+        data-recipe-name="Garlic Naan"
+        href="recipe/Garlic%20Naan.html"
+      >
+        <span class="list-recipe-title">Garlic Naan</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Garlicky Smashed Cucumbers"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Garlicky Smashed Cucumbers"
+        href="recipe/Garlicky%20Smashed%20Cucumbers.html"
+      >
+        <span class="list-recipe-title">Garlicky Smashed Cucumbers</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Chinese&#34;]"
+      data-recipe-name="General Tso&#39;s Chicken"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Chinese&#34;]"
+        data-recipe-name="General Tso&#39;s Chicken"
+        href="recipe/General%20Tso&#39;s%20Chicken.html"
+      >
+        <span class="list-recipe-title">General Tso&#39;s Chicken</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Chinese')"
+        >Chinese</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Glazed Meatballs - Kale salad"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Glazed Meatballs - Kale salad"
+        href="recipe/Glazed%20Meatballs%20-%20Kale%20salad.html"
+      >
+        <span class="list-recipe-title">Glazed Meatballs - Kale salad</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;,&#34;to try&#34;]"
+      data-recipe-name="Golden milk"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;,&#34;to try&#34;]"
+        data-recipe-name="Golden milk"
+        href="recipe/Golden%20milk.html"
+      >
+        <span class="list-recipe-title">Golden milk</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Indian&#34;]"
+      data-recipe-name="Gordon Ramsay Easy Curry in a hurry"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Indian&#34;]"
+        data-recipe-name="Gordon Ramsay Easy Curry in a hurry"
+        href="recipe/Gordon%20Ramsay%20Easy%20Curry%20in%20a%20hurry.html"
+      >
+        <span class="list-recipe-title">Gordon Ramsay Easy Curry in a hurry</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="Gumbo"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="Gumbo"
+        href="recipe/Gumbo.html"
+      >
+        <span class="list-recipe-title">Gumbo</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Halal Chicken and Rice"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Halal Chicken and Rice"
+        href="recipe/Halal%20Chicken%20and%20Rice.html"
+      >
+        <span class="list-recipe-title">Halal Chicken and Rice</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;to try&#34;]"
+      data-recipe-name="Healthy Blondies"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;to try&#34;]"
+        data-recipe-name="Healthy Blondies"
+        href="recipe/Healthy%20Blondies.html"
+      >
+        <span class="list-recipe-title">Healthy Blondies</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Healthy Burrito Bowl"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Healthy Burrito Bowl"
+        href="recipe/Healthy%20Burrito%20Bowl.html"
+      >
+        <span class="list-recipe-title">Healthy Burrito Bowl</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Homemade English Muffins"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Homemade English Muffins"
+        href="recipe/Homemade%20English%20Muffins.html"
+      >
+        <span class="list-recipe-title">Homemade English Muffins</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
+      data-recipe-name="Hummus"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
+        data-recipe-name="Hummus"
+        href="recipe/Hummus.html"
+      >
+        <span class="list-recipe-title">Hummus</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Indian&#34;]"
+      data-recipe-name="Indian Coconut Curry"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Indian&#34;]"
+        data-recipe-name="Indian Coconut Curry"
+        href="recipe/Indian%20Coconut%20Curry.html"
+      >
+        <span class="list-recipe-title">Indian Coconut Curry</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Indian&#34;,&#34;Simple&#34;]"
+      data-recipe-name="Indian Eggplant Curry"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Indian&#34;,&#34;Simple&#34;]"
+        data-recipe-name="Indian Eggplant Curry"
+        href="recipe/Indian%20Eggplant%20Curry.html"
+      >
+        <span class="list-recipe-title">Indian Eggplant Curry</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to revise&#34;,&#34;Indian&#34;]"
+      data-recipe-name="Indian naan"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to revise&#34;,&#34;Indian&#34;]"
+        data-recipe-name="Indian naan"
+        href="recipe/Indian%20naan.html"
+      >
+        <span class="list-recipe-title">Indian naan</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to revise')"
+        >to revise</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Kale Chips"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Kale Chips"
+        href="recipe/Kale%20Chips.html"
+      >
+        <span class="list-recipe-title">Kale Chips</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Lamb Pulao"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Lamb Pulao"
+        href="recipe/Lamb%20Pulao.html"
+      >
+        <span class="list-recipe-title">Lamb Pulao</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Lamb Pulao"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Lamb Pulao"
+        href="recipe/Lamb%20Pulao.html"
+      >
+        <span class="list-recipe-title">Lamb Pulao</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Lentil Tacos"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Lentil Tacos"
+        href="recipe/Lentil%20Tacos.html"
+      >
+        <span class="list-recipe-title">Lentil Tacos</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Thai&#34;]"
+      data-recipe-name="Lettuce Wraps"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Thai&#34;]"
+        data-recipe-name="Lettuce Wraps"
+        href="recipe/Lettuce%20Wraps.html"
+      >
+        <span class="list-recipe-title">Lettuce Wraps</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Thai')"
+        >Thai</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to revise&#34;,&#34;Chinese&#34;]"
+      data-recipe-name="Lo Mein"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to revise&#34;,&#34;Chinese&#34;]"
+        data-recipe-name="Lo Mein"
+        href="recipe/Lo%20Mein.html"
+      >
+        <span class="list-recipe-title">Lo Mein</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to revise')"
+        >to revise</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Chinese')"
+        >Chinese</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="Macaroni Chili"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="Macaroni Chili"
+        href="recipe/Macaroni%20Chili.html"
+      >
+        <span class="list-recipe-title">Macaroni Chili</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Meatza Pizza Crust"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Meatza Pizza Crust"
+        href="recipe/Meatza%20Pizza%20Crust.html"
+      >
+        <span class="list-recipe-title">Meatza Pizza Crust</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;]"
+      data-recipe-name="Mexican Hot Chocolate"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;]"
+        data-recipe-name="Mexican Hot Chocolate"
+        href="recipe/Mexican%20Hot%20Chocolate.html"
+      >
+        <span class="list-recipe-title">Mexican Hot Chocolate</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Mississippi Chicken"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Mississippi Chicken"
+        href="recipe/Mississippi%20Chicken.html"
+      >
+        <span class="list-recipe-title">Mississippi Chicken</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;Breakfast&#34;]"
+      data-recipe-name="Oatmeal Cookies"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;Breakfast&#34;]"
+        data-recipe-name="Oatmeal Cookies"
+        href="recipe/Oatmeal%20Cookies.html"
+      >
+        <span class="list-recipe-title">Oatmeal Cookies</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="One Pot Lasagna"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="One Pot Lasagna"
+        href="recipe/One%20Pot%20Lasagna.html"
+      >
+        <span class="list-recipe-title">One Pot Lasagna</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Onion Pasta"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Onion Pasta"
+        href="recipe/Onion%20Pasta.html"
+      >
+        <span class="list-recipe-title">Onion Pasta</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories=""
+      data-recipe-name="Pancakes"
+    >
+      <a
+        class="recipe-link"
+        data-categories=""
+        data-recipe-name="Pancakes"
+        href="recipe/Pancakes.html"
+      >
+        <span class="list-recipe-title">Pancakes</span>
+      </a>
+      
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Pickled carrots"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Pickled carrots"
+        href="recipe/Pickled%20carrots.html"
+      >
+        <span class="list-recipe-title">Pickled carrots</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Pizza!"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Pizza!"
+        href="recipe/Pizza!.html"
+      >
+        <span class="list-recipe-title">Pizza!</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
+      data-recipe-name="Protein Pumpkin Bread"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
+        data-recipe-name="Protein Pumpkin Bread"
+        href="recipe/Protein%20Pumpkin%20Bread.html"
+      >
+        <span class="list-recipe-title">Protein Pumpkin Bread</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
+      data-recipe-name="Red and Green Salsa"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
+        data-recipe-name="Red and Green Salsa"
+        href="recipe/Red%20and%20Green%20Salsa.html"
+      >
+        <span class="list-recipe-title">Red and Green Salsa</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="Shepherd&#39;s Pie"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="Shepherd&#39;s Pie"
+        href="recipe/Shepherd&#39;s%20Pie.html"
+      >
+        <span class="list-recipe-title">Shepherd&#39;s Pie</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Shrimp sheet pan dinner"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Shrimp sheet pan dinner"
+        href="recipe/Shrimp%20sheet%20pan%20dinner.html"
+      >
+        <span class="list-recipe-title">Shrimp sheet pan dinner</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Simple Braised Beef"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Simple Braised Beef"
+        href="recipe/Simple%20Braised%20Beef.html"
+      >
+        <span class="list-recipe-title">Simple Braised Beef</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Simple Chicken Thighs"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Simple Chicken Thighs"
+        href="recipe/Simple%20Chicken%20Thighs.html"
+      >
+        <span class="list-recipe-title">Simple Chicken Thighs</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Breakfast&#34;]"
+      data-recipe-name="Simple Oatmeal Breakfast"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Breakfast&#34;]"
+        data-recipe-name="Simple Oatmeal Breakfast"
+        href="recipe/Simple%20Oatmeal%20Breakfast.html"
+      >
+        <span class="list-recipe-title">Simple Oatmeal Breakfast</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Simple Queso"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Simple Queso"
+        href="recipe/Simple%20Queso.html"
+      >
+        <span class="list-recipe-title">Simple Queso</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Simple Stir Fry"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Simple Stir Fry"
+        href="recipe/Simple%20Stir%20Fry.html"
+      >
+        <span class="list-recipe-title">Simple Stir Fry</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Sloppy Joes"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Sloppy Joes"
+        href="recipe/Sloppy%20Joes.html"
+      >
+        <span class="list-recipe-title">Sloppy Joes</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Slow Cooker&#34;,&#34;to try&#34;]"
+      data-recipe-name="Slow Cooker Beef"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Slow Cooker&#34;,&#34;to try&#34;]"
+        data-recipe-name="Slow Cooker Beef"
+        href="recipe/Slow%20Cooker%20Beef.html"
+      >
+        <span class="list-recipe-title">Slow Cooker Beef</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Slow Cooker')"
+        >Slow Cooker</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to try')"
+        >to try</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Smashed Burger"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Smashed Burger"
+        href="recipe/Smashed%20Burger.html"
+      >
+        <span class="list-recipe-title">Smashed Burger</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Spicy Chili Oil"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Spicy Chili Oil"
+        href="recipe/Spicy%20Chili%20Oil.html"
+      >
+        <span class="list-recipe-title">Spicy Chili Oil</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;to revise&#34;,&#34;Indian&#34;]"
+      data-recipe-name="Spinach Curry"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;to revise&#34;,&#34;Indian&#34;]"
+        data-recipe-name="Spinach Curry"
+        href="recipe/Spinach%20Curry.html"
+      >
+        <span class="list-recipe-title">Spinach Curry</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('to revise')"
+        >to revise</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Chinese&#34;]"
+      data-recipe-name="Sweet and Sour Chicken"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Chinese&#34;]"
+        data-recipe-name="Sweet and Sour Chicken"
+        href="recipe/Sweet%20and%20Sour%20Chicken.html"
+      >
+        <span class="list-recipe-title">Sweet and Sour Chicken</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Chinese')"
+        >Chinese</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;]"
+      data-recipe-name="Thick Hot Chocolate"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;]"
+        data-recipe-name="Thick Hot Chocolate"
+        href="recipe/Thick%20Hot%20Chocolate.html"
+      >
+        <span class="list-recipe-title">Thick Hot Chocolate</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;]"
+      data-recipe-name="Turkey Melt"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;]"
+        data-recipe-name="Turkey Melt"
+        href="recipe/Turkey%20Melt.html"
+      >
+        <span class="list-recipe-title">Turkey Melt</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
+      data-recipe-name="Two ingredient pumpkin bread"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
+        data-recipe-name="Two ingredient pumpkin bread"
+        href="recipe/Two%20ingredient%20pumpkin%20bread.html"
+      >
+        <span class="list-recipe-title">Two ingredient pumpkin bread</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Simple')"
+        >Simple</a
+      >
+      
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Dessert')"
+        >Dessert</a
+      >
+       
+    </div>
+    
+    <script type="text/javascript" src="bundle.js"></script>
+  </body>
+</html>

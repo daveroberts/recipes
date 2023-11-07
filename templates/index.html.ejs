@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Recipes I've collected over the years that I've either enjoyed, or want to try"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Recipes</title>
+  </head>
+  <body>
+    <h1>Recipes</h1>
+    <div class="category-area">
+      <% for(let category of categories) { %>
+      <div class="category-box">
+        <a
+          href="#void"
+          data-category="<%=category%>"
+          onclick="toggle_category('<%=category%>')"
+          class="category-button"
+          ><%= category %></a
+        >
+      </div>
+      <% } %>
+    </div>
+    <div class="search-box">
+      <input
+        id="search-text"
+        placeholder="Search..."
+        autofocus
+        oninput="search_changed(event)"
+      />
+    </div>
+    <% for(let recipe of recipes) { %> <% if (!recipe.name){ continue } %>
+    <div
+      class="list-recipe"
+      data-categories="<%=JSON.stringify(recipe.categories)%>"
+      data-recipe-name="<%=recipe.name%>"
+    >
+      <a
+        class="recipe-link"
+        data-categories="<%=JSON.stringify(recipe.categories)%>"
+        data-recipe-name="<%=recipe.name%>"
+        href="recipe/<%=encodeURIComponent(recipe.name)%>.html"
+      >
+        <span class="list-recipe-title"><%=recipe.name%></span>
+      </a>
+      <% if (recipe.categories) { %> <% for(let category of recipe.categories) {
+      %>
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('<%=category%>')"
+        ><%=category%></a
+      >
+      <% } %> <% } %>
+    </div>
+    <% } %>
+    <script type="text/javascript" src="bundle.js"></script>
+  </body>
+</html>
