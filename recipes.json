@@ -2655,6 +2655,84 @@
           "Add a lot of black pepper to pot",
           "Cover and cook for six hours on low.  Don't use as pressure cooker"
         ]
+      },
+      {
+        "name": "Sides",
+        "ingredients": ["Brussel Sprouts", "Carrots", "Brown Swerve"],
+        "instructions": [
+          "Half the brussel sprouts, Add to a bowl with oil, salt, pepper and cayenne to toss. Bake on a sheet pan at 450 for 20 minutes",
+          "Slice and saute the carrots in butter and brown swerve"
+        ]
+      },
+      {
+        "name": "Final Prep",
+        "instructions": [
+          "Remove the beef from the slow cooker to a large bowl",
+          "Drain and save the liquid, put meat chunks into meat bowl",
+          "In a blender, add a few cups of vegetables, some broth and butter, add xanthan gum or cornstarch to thicken the broth.",
+          "Plate and serve beef, gravy, brussel sprouts and carrots"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mac and Cheese",
+    "links": ["https://www.youtube.com/watch?v=37p8AxmUbug"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "1/2 pound macaroni noodles",
+          "block of cheddar (2 cups)",
+          "1/2 cup milk",
+          "1.5 tsp garlic powder",
+          "dijon mustard",
+          "2 eggs"
+        ],
+        "instructions": [
+          "Bring four cups of water to a rolling boil, add salt",
+          "add and stir half a pound macaroni",
+          "boil for 12 minutes then stop",
+          "shred two cups of cheddar",
+          "strain the paste, save all the water",
+          "Add pasta back to the pot, add half a cup of milk, add garlic powder, tsp dijon",
+          "Add two eggs to a small bowl, whisk",
+          "Put pot on low heat, add eggs and stir constantly for three minutes, then cut the heat",
+          "Add cheese and some pasta water if needed to make creamy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Raita",
+    "links": ["https://www.youtube.com/watch?v=xiRbqUky2P8"],
+    "categories": ["Side Dish", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "1/2 cup Greek Yogurt",
+          "1 Tomato",
+          "1/2 Red Onion",
+          "Small piece of cucumber",
+          "1 handfull cilantro",
+          "1/2 tsp cumin",
+          "1/2 tsp chili powder",
+          "black pepper",
+          "salt",
+          "2 tbsp Lemon Juice"
+        ],
+        "instructions": ["mix"]
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
       }
     ]
   },
