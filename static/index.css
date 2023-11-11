@@ -12,6 +12,7 @@ body {
   background-color: #333;
   color: white;
   font-size: 1.3em;
+  overflow-y: scroll;
 }
 a {
   color: inherit;
@@ -32,23 +33,19 @@ button:hover {
   flex-wrap: wrap;
   gap: 10pt;
 }
-.category-box {
-  width: 7em;
-  display: flex;
-  border: 1px solid white;
-  box-sizing: border-box;
-}
-
 .category-button {
   flex-grow: 1;
+  width: 12em;
   display: flex;
   justify-content: center;
   align-items: center;
   white-space: nowrap;
   font-size: 0.7em;
-  background-color: white;
-  border-width: 0;
-  color: #515151;
+  background-color: transparent;
+  color: white;
+  border: 0.2em solid white;
+  box-sizing: border-box;
+  border-radius: 0.8em;
   padding: 10pt;
 }
 .category-button:hover {
@@ -56,6 +53,7 @@ button:hover {
 }
 .in {
   background-color: #99ff66;
+  color: #308f00;
 }
 .out {
   background-color: #ff6666;

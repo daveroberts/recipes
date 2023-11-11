@@ -14,7 +14,6 @@
     <h1>Recipes</h1>
     <div class="category-area">
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Air Fryer"
@@ -22,9 +21,7 @@
           class="category-button"
           >Air Fryer</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Breakfast"
@@ -32,9 +29,7 @@
           class="category-button"
           >Breakfast</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Chinese"
@@ -42,9 +37,7 @@
           class="category-button"
           >Chinese</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Cold Weather"
@@ -52,9 +45,7 @@
           class="category-button"
           >Cold Weather</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Dessert"
@@ -62,9 +53,7 @@
           class="category-button"
           >Dessert</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Indian"
@@ -72,9 +61,15 @@
           class="category-button"
           >Indian</a
         >
-      </div>
       
-      <div class="category-box">
+        <a
+          href="#void"
+          data-category="Lunch"
+          onclick="toggle_category('Lunch')"
+          class="category-button"
+          >Lunch</a
+        >
+      
         <a
           href="#void"
           data-category="Side Dish"
@@ -82,19 +77,7 @@
           class="category-button"
           >Side Dish</a
         >
-      </div>
       
-      <div class="category-box">
-        <a
-          href="#void"
-          data-category="Simple"
-          onclick="toggle_category('Simple')"
-          class="category-button"
-          >Simple</a
-        >
-      </div>
-      
-      <div class="category-box">
         <a
           href="#void"
           data-category="Slow Cooker"
@@ -102,9 +85,7 @@
           class="category-button"
           >Slow Cooker</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="Thai"
@@ -112,9 +93,7 @@
           class="category-button"
           >Thai</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="to revise"
@@ -122,9 +101,7 @@
           class="category-button"
           >to revise</a
         >
-      </div>
       
-      <div class="category-box">
         <a
           href="#void"
           data-category="to try"
@@ -132,7 +109,6 @@
           class="category-button"
           >to try</a
         >
-      </div>
       
     </div>
     <div class="search-box">
@@ -143,7 +119,7 @@
         oninput="search_changed(event)"
       />
     </div>
-       
+      
     <div
       class="list-recipe"
       data-categories="[&#34;Air Fryer&#34;]"
@@ -192,25 +168,41 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Avocado Toast"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Avocado Toast!"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Avocado Toast"
-        href="recipe/Avocado%20Toast.html"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Avocado Toast!"
+        href="recipe/Avocado%20Toast!.html"
       >
-        <span class="list-recipe-title">Avocado Toast</span>
+        <span class="list-recipe-title">Avocado Toast!</span>
       </a>
        
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
       >
        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[]"
+      data-recipe-name="Baked Chicken Thighs"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Baked Chicken Thighs"
+        href="recipe/Baked%20Chicken%20Thighs.html"
+      >
+        <span class="list-recipe-title">Baked Chicken Thighs</span>
+      </a>
+        
     </div>
      
     <div
@@ -298,12 +290,35 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
+      data-categories="[&#34;Cold Weather&#34;]"
+      data-recipe-name="Braised Beef"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-recipe-name="Braised Beef"
+        href="recipe/Braised%20Beef.html"
+      >
+        <span class="list-recipe-title">Braised Beef</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Cold Weather&#34;]"
       data-recipe-name="Brazilian Stroganoff"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
+        data-categories="[&#34;Cold Weather&#34;]"
         data-recipe-name="Brazilian Stroganoff"
         href="recipe/Brazilian%20Stroganoff.html"
       >
@@ -313,8 +328,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Cold Weather')"
+        >Cold Weather</a
       >
        
     </div>
@@ -391,6 +406,29 @@
     <div
       class="list-recipe"
       data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Breakfast Pizza"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Breakfast Pizza"
+        href="recipe/Breakfast%20Pizza.html"
+      >
+        <span class="list-recipe-title">Breakfast Pizza</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
       data-recipe-name="Breakfast Tacos"
     >
       <a
@@ -413,12 +451,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+      data-categories="[&#34;to try&#34;,&#34;Side Dish&#34;]"
       data-recipe-name="Buffalo Chicken Dip"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+        data-categories="[&#34;to try&#34;,&#34;Side Dish&#34;]"
         data-recipe-name="Buffalo Chicken Dip"
         href="recipe/Buffalo%20Chicken%20Dip.html"
       >
@@ -435,8 +473,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
       >
        
     </div>
@@ -535,12 +573,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+      data-categories="[&#34;Dessert&#34;]"
       data-recipe-name="Cheat Lemon Pie"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+        data-categories="[&#34;Dessert&#34;]"
         data-recipe-name="Cheat Lemon Pie"
         href="recipe/Cheat%20Lemon%20Pie.html"
       >
@@ -552,13 +590,6 @@
         class="tag fake-link"
         onclick="toggle_category('Dessert')"
         >Dessert</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
       >
        
     </div>
@@ -694,12 +725,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
+      data-categories="[&#34;Lunch&#34;]"
       data-recipe-name="Chicken or Tuna Sandwich"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
+        data-categories="[&#34;Lunch&#34;]"
         data-recipe-name="Chicken or Tuna Sandwich"
         href="recipe/Chicken%20or%20Tuna%20Sandwich.html"
       >
@@ -709,31 +740,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Chicken or Turkey Wraps"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Chicken or Turkey Wraps"
-        href="recipe/Chicken%20or%20Turkey%20Wraps.html"
-      >
-        <span class="list-recipe-title">Chicken or Turkey Wraps</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Lunch')"
+        >Lunch</a
       >
        
     </div>
@@ -809,6 +817,29 @@
      
     <div
       class="list-recipe"
+      data-categories="[&#34;Breakfast&#34;]"
+      data-recipe-name="Cinnamon Oatmeal Breakfast"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Breakfast&#34;]"
+        data-recipe-name="Cinnamon Oatmeal Breakfast"
+        href="recipe/Cinnamon%20Oatmeal%20Breakfast.html"
+      >
+        <span class="list-recipe-title">Cinnamon Oatmeal Breakfast</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Breakfast')"
+        >Breakfast</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
       data-categories="[&#34;Dessert&#34;]"
       data-recipe-name="Cocoa Nut Almond Butter"
     >
@@ -848,12 +879,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+      data-categories="[&#34;Dessert&#34;]"
       data-recipe-name="Cottage Cheese Ice Cream"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Dessert&#34;,&#34;Simple&#34;]"
+        data-categories="[&#34;Dessert&#34;]"
         data-recipe-name="Cottage Cheese Ice Cream"
         href="recipe/Cottage%20Cheese%20Ice%20Cream.html"
       >
@@ -865,13 +896,6 @@
         class="tag fake-link"
         onclick="toggle_category('Dessert')"
         >Dessert</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
       >
        
     </div>
@@ -917,12 +941,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+      data-categories="[&#34;to try&#34;,&#34;Slow Cooker&#34;]"
       data-recipe-name="Crockpot Barbacoa"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;to try&#34;,&#34;Simple&#34;]"
+        data-categories="[&#34;to try&#34;,&#34;Slow Cooker&#34;]"
         data-recipe-name="Crockpot Barbacoa"
         href="recipe/Crockpot%20Barbacoa.html"
       >
@@ -939,8 +963,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Slow Cooker')"
+        >Slow Cooker</a
       >
        
     </div>
@@ -1094,12 +1118,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Breakfast&#34;,&#34;Simple&#34;]"
+      data-categories="[&#34;Breakfast&#34;]"
       data-recipe-name="French Toast Pull Aparts"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Breakfast&#34;,&#34;Simple&#34;]"
+        data-categories="[&#34;Breakfast&#34;]"
         data-recipe-name="French Toast Pull Aparts"
         href="recipe/French%20Toast%20Pull%20Aparts.html"
       >
@@ -1111,13 +1135,6 @@
         class="tag fake-link"
         onclick="toggle_category('Breakfast')"
         >Breakfast</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
       >
        
     </div>
@@ -1147,12 +1164,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
+      data-categories="[&#34;Side Dish&#34;]"
       data-recipe-name="Garlicky Smashed Cucumbers"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
+        data-categories="[&#34;Side Dish&#34;]"
         data-recipe-name="Garlicky Smashed Cucumbers"
         href="recipe/Garlicky%20Smashed%20Cucumbers.html"
       >
@@ -1162,8 +1179,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
       >
        
     </div>
@@ -1308,25 +1325,18 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;to try&#34;]"
+      data-categories="[&#34;Dessert&#34;,&#34;to try&#34;]"
       data-recipe-name="Healthy Blondies"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;to try&#34;]"
+        data-categories="[&#34;Dessert&#34;,&#34;to try&#34;]"
         data-recipe-name="Healthy Blondies"
         href="recipe/Healthy%20Blondies.html"
       >
         <span class="list-recipe-title">Healthy Blondies</span>
       </a>
        
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
       <a
         href="#void"
         class="tag fake-link"
@@ -1384,25 +1394,34 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
+      data-categories="[]"
+      data-recipe-name="Homemade Taco Seasoning"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Homemade Taco Seasoning"
+        href="recipe/Homemade%20Taco%20Seasoning.html"
+      >
+        <span class="list-recipe-title">Homemade Taco Seasoning</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Side Dish&#34;]"
       data-recipe-name="Hummus"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
+        data-categories="[&#34;Side Dish&#34;]"
         data-recipe-name="Hummus"
         href="recipe/Hummus.html"
       >
         <span class="list-recipe-title">Hummus</span>
       </a>
        
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
       <a
         href="#void"
         class="tag fake-link"
@@ -1414,12 +1433,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Indian&#34;]"
+      data-categories="[&#34;Indian&#34;]"
       data-recipe-name="Indian Coconut Curry"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Indian&#34;]"
+        data-categories="[&#34;Indian&#34;]"
         data-recipe-name="Indian Coconut Curry"
         href="recipe/Indian%20Coconut%20Curry.html"
       >
@@ -1429,45 +1448,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
         onclick="toggle_category('Indian')"
         >Indian</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Indian&#34;,&#34;Simple&#34;]"
-      data-recipe-name="Indian Eggplant Curry"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Indian&#34;,&#34;Simple&#34;]"
-        data-recipe-name="Indian Eggplant Curry"
-        href="recipe/Indian%20Eggplant%20Curry.html"
-      >
-        <span class="list-recipe-title">Indian Eggplant Curry</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Indian')"
-        >Indian</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
       >
        
     </div>
@@ -1552,6 +1534,29 @@
      
     <div
       class="list-recipe"
+      data-categories="[&#34;Lunch&#34;]"
+      data-recipe-name="Leftover Chicken or Turkey Wraps"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Lunch&#34;]"
+        data-recipe-name="Leftover Chicken or Turkey Wraps"
+        href="recipe/Leftover%20Chicken%20or%20Turkey%20Wraps.html"
+      >
+        <span class="list-recipe-title">Leftover Chicken or Turkey Wraps</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Lunch')"
+        >Lunch</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
       data-categories="[]"
       data-recipe-name="Lentil Tacos"
     >
@@ -1568,12 +1573,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Thai&#34;]"
+      data-categories="[&#34;Lunch&#34;,&#34;Thai&#34;]"
       data-recipe-name="Lettuce Wraps"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Thai&#34;]"
+        data-categories="[&#34;Lunch&#34;,&#34;Thai&#34;]"
         data-recipe-name="Lettuce Wraps"
         href="recipe/Lettuce%20Wraps.html"
       >
@@ -1583,8 +1588,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Lunch')"
+        >Lunch</a
       >
       
       <a
@@ -1622,6 +1627,29 @@
         class="tag fake-link"
         onclick="toggle_category('Chinese')"
         >Chinese</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Lunch&#34;]"
+      data-recipe-name="Low Carb Chicken Wrap"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Lunch&#34;]"
+        data-recipe-name="Low Carb Chicken Wrap"
+        href="recipe/Low%20Carb%20Chicken%20Wrap.html"
+      >
+        <span class="list-recipe-title">Low Carb Chicken Wrap</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Lunch')"
+        >Lunch</a
       >
        
     </div>
@@ -1674,25 +1702,18 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
+      data-categories="[]"
       data-recipe-name="Meatza Pizza Crust"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
+        data-categories="[]"
         data-recipe-name="Meatza Pizza Crust"
         href="recipe/Meatza%20Pizza%20Crust.html"
       >
         <span class="list-recipe-title">Meatza Pizza Crust</span>
       </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
+        
     </div>
      
     <div
@@ -1743,25 +1764,18 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;Breakfast&#34;]"
+      data-categories="[&#34;Dessert&#34;,&#34;Breakfast&#34;]"
       data-recipe-name="Oatmeal Cookies"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;,&#34;Breakfast&#34;]"
+        data-categories="[&#34;Dessert&#34;,&#34;Breakfast&#34;]"
         data-recipe-name="Oatmeal Cookies"
         href="recipe/Oatmeal%20Cookies.html"
       >
         <span class="list-recipe-title">Oatmeal Cookies</span>
       </a>
        
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
       <a
         href="#void"
         class="tag fake-link"
@@ -1851,48 +1865,57 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Pizza!"
+      data-categories="[&#34;Side Dish&#34;]"
+      data-recipe-name="Pineapple Salsa"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Pizza!"
-        href="recipe/Pizza!.html"
+        data-categories="[&#34;Side Dish&#34;]"
+        data-recipe-name="Pineapple Salsa"
+        href="recipe/Pineapple%20Salsa.html"
       >
-        <span class="list-recipe-title">Pizza!</span>
+        <span class="list-recipe-title">Pineapple Salsa</span>
       </a>
        
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
       >
        
     </div>
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
+      data-categories="[]"
+      data-recipe-name="Pizza!"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[]"
+        data-recipe-name="Pizza!"
+        href="recipe/Pizza!.html"
+      >
+        <span class="list-recipe-title">Pizza!</span>
+      </a>
+        
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Dessert&#34;]"
       data-recipe-name="Protein Pumpkin Bread"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
+        data-categories="[&#34;Dessert&#34;]"
         data-recipe-name="Protein Pumpkin Bread"
         href="recipe/Protein%20Pumpkin%20Bread.html"
       >
         <span class="list-recipe-title">Protein Pumpkin Bread</span>
       </a>
        
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
       <a
         href="#void"
         class="tag fake-link"
@@ -1904,18 +1927,48 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Side Dish&#34;,&#34;to try&#34;]"
+      data-categories="[&#34;Side Dish&#34;]"
+      data-recipe-name="Queso"
+    >
+      <a
+        class="recipe-link"
+        data-categories="[&#34;Side Dish&#34;]"
+        data-recipe-name="Queso"
+        href="recipe/Queso.html"
+      >
+        <span class="list-recipe-title">Queso</span>
+      </a>
+       
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Side Dish')"
+        >Side Dish</a
+      >
+       
+    </div>
+     
+    <div
+      class="list-recipe"
+      data-categories="[&#34;Indian&#34;,&#34;Side Dish&#34;,&#34;to try&#34;]"
       data-recipe-name="Raita"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Side Dish&#34;,&#34;to try&#34;]"
+        data-categories="[&#34;Indian&#34;,&#34;Side Dish&#34;,&#34;to try&#34;]"
         data-recipe-name="Raita"
         href="recipe/Raita.html"
       >
         <span class="list-recipe-title">Raita</span>
       </a>
        
+      <a
+        href="#void"
+        class="tag fake-link"
+        onclick="toggle_category('Indian')"
+        >Indian</a
+      >
+      
       <a
         href="#void"
         class="tag fake-link"
@@ -1928,36 +1981,6 @@
         class="tag fake-link"
         onclick="toggle_category('to try')"
         >to try</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
-      data-recipe-name="Red and Green Salsa"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Side Dish&#34;]"
-        data-recipe-name="Red and Green Salsa"
-        href="recipe/Red%20and%20Green%20Salsa.html"
-      >
-        <span class="list-recipe-title">Red and Green Salsa</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Side Dish')"
-        >Side Dish</a
       >
        
     </div>
@@ -1999,128 +2022,6 @@
         <span class="list-recipe-title">Shrimp sheet pan dinner</span>
       </a>
         
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Simple Braised Beef"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Simple Braised Beef"
-        href="recipe/Simple%20Braised%20Beef.html"
-      >
-        <span class="list-recipe-title">Simple Braised Beef</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Simple Chicken Thighs"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Simple Chicken Thighs"
-        href="recipe/Simple%20Chicken%20Thighs.html"
-      >
-        <span class="list-recipe-title">Simple Chicken Thighs</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Breakfast&#34;]"
-      data-recipe-name="Simple Oatmeal Breakfast"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Breakfast&#34;]"
-        data-recipe-name="Simple Oatmeal Breakfast"
-        href="recipe/Simple%20Oatmeal%20Breakfast.html"
-      >
-        <span class="list-recipe-title">Simple Oatmeal Breakfast</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Breakfast')"
-        >Breakfast</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Simple Queso"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Simple Queso"
-        href="recipe/Simple%20Queso.html"
-      >
-        <span class="list-recipe-title">Simple Queso</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
-      data-recipe-name="Simple Stir Fry"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
-        data-recipe-name="Simple Stir Fry"
-        href="recipe/Simple%20Stir%20Fry.html"
-      >
-        <span class="list-recipe-title">Simple Stir Fry</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
     </div>
      
     <div
@@ -2286,12 +2187,12 @@
      
     <div
       class="list-recipe"
-      data-categories="[&#34;Simple&#34;]"
+      data-categories="[&#34;Lunch&#34;]"
       data-recipe-name="Turkey Melt"
     >
       <a
         class="recipe-link"
-        data-categories="[&#34;Simple&#34;]"
+        data-categories="[&#34;Lunch&#34;]"
         data-recipe-name="Turkey Melt"
         href="recipe/Turkey%20Melt.html"
       >
@@ -2301,38 +2202,8 @@
       <a
         href="#void"
         class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-       
-    </div>
-     
-    <div
-      class="list-recipe"
-      data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
-      data-recipe-name="Two ingredient pumpkin bread"
-    >
-      <a
-        class="recipe-link"
-        data-categories="[&#34;Simple&#34;,&#34;Dessert&#34;]"
-        data-recipe-name="Two ingredient pumpkin bread"
-        href="recipe/Two%20ingredient%20pumpkin%20bread.html"
-      >
-        <span class="list-recipe-title">Two ingredient pumpkin bread</span>
-      </a>
-       
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Simple')"
-        >Simple</a
-      >
-      
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('Dessert')"
-        >Dessert</a
+        onclick="toggle_category('Lunch')"
+        >Lunch</a
       >
        
     </div>

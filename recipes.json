@@ -18,7 +18,7 @@
   },
   {
     "name": "Chicken or Tuna Sandwich",
-    "categories": ["Simple"],
+    "categories": ["Lunch"],
     "versions": [
       {
         "ingredients": [
@@ -38,7 +38,7 @@
   },
   {
     "name": "Turkey Melt",
-    "categories": ["Simple"],
+    "categories": ["Lunch"],
     "versions": [
       {
         "ingredients": [
@@ -58,8 +58,8 @@
     ]
   },
   {
-    "name": "Avocado Toast",
-    "categories": ["Simple"],
+    "name": "Avocado Toast!",
+    "categories": ["Breakfast"],
     "versions": [
       {
         "ingredients": [
@@ -79,7 +79,7 @@
   },
   {
     "name": "Lettuce Wraps",
-    "categories": ["Simple", "Thai"],
+    "categories": ["Lunch", "Thai"],
     "versions": [
       {
         "ingredients": [
@@ -316,7 +316,7 @@
   {
     "name": "Indian Coconut Curry",
     "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
-    "categories": ["Simple", "Indian"],
+    "categories": ["Indian"],
     "versions": [
       {
         "ingredients": [
@@ -330,26 +330,8 @@
           "Add chopped butternut squash.  Cook for a few minutes",
           "Add coconut milk.  Add turmeric",
           "Add mushrooms, add lime juice",
-          "Cover and cook for a few more minutes"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Indian Eggplant Curry",
-    "categories": ["Indian", "Simple"],
-    "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
-    "versions": [
-      {
-        "ingredients": ["4 Eggplants", "2 cans diced tomatoes", "cilantro"],
-        "instructions": [
-          "Poke holes into eggplants, wrape in foil, put into 400F oven for about 90 minutes",
-          "In a pot or dutch over, heat ghee and add cardamon pods, cumin seeds, green peppercorn (or black), fresh diced chilis.",
-          "Add diced onion and salt, cook for a few minutes",
-          "Add ginger garlic paste, cook one minute",
-          "Add 2 cans diced tomatoes.  Cook down for 10 minutes.",
-          "Scoup out eggplant meat, discard skins.  Add meat to tomato sauce",
-          "Add chopped cilantro"
+          "Cover and cook for a few more minutes",
+          "Blend"
         ]
       }
     ]
@@ -471,8 +453,8 @@
     "notes": ["Mom made this for Owen's baptism.  It was great!"]
   },
   {
-    "name": "Chicken or Turkey Wraps",
-    "categories": ["Simple"],
+    "name": "Leftover Chicken or Turkey Wraps",
+    "categories": ["Lunch"],
     "versions": [
       {
         "ingredients": [
@@ -587,8 +569,8 @@
     ]
   },
   {
-    "name": "Simple Braised Beef",
-    "categories": ["Simple"],
+    "name": "Braised Beef",
+    "categories": ["Cold Weather"],
     "versions": [
       {
         "ingredients": [
@@ -630,7 +612,7 @@
   {
     "name": "Garlicky Smashed Cucumbers",
     "notes": ["Good for leftover cucumbers"],
-    "categories": ["Simple"],
+    "categories": ["Side Dish"],
     "versions": [
       {
         "ingredients": [
@@ -1005,7 +987,7 @@
   },
   {
     "name": "Hummus",
-    "categories": ["Simple", "Side Dish"],
+    "categories": ["Side Dish"],
     "versions": [
       {
         "ingredients": [
@@ -1271,7 +1253,7 @@
   {
     "name": "Pizza!",
     "links": ["https://www.youtube.com/watch?v=9TjUWnAK0cg"],
-    "categories": ["Simple"],
+    "categories": [],
     "versions": [
       {
         "name": "Dough",
@@ -1690,7 +1672,7 @@
   {
     "name": "Buffalo Chicken Dip",
     "links": ["https://www.youtube.com/watch?v=uNvQ-YIOaKk"],
-    "categories": ["to try", "Simple"],
+    "categories": ["to try", "Side Dish"],
     "versions": [
       {
         "ingredients": [
@@ -1740,7 +1722,7 @@
   {
     "name": "Crockpot Barbacoa",
     "links": ["https://www.youtube.com/watch?v=VVcRFMG46fg"],
-    "categories": ["to try", "Simple"],
+    "categories": ["to try", "Slow Cooker"],
     "versions": [
       {
         "ingredients": [
@@ -1839,13 +1821,13 @@
     ]
   },
   {
-    "name": "Simple Queso",
+    "name": "Queso",
     "links": ["https://www.youtube.com/watch?v=vhc6331LTIA"],
-    "categories": ["Simple"],
+    "categories": ["Side Dish"],
     "versions": [
       {
         "ingredients": [
-          "1 pack American cheese",
+          "1 pack American cheese or melting cheese",
           "2-3 bell peppers, green, yellow, red",
           "1/2 red onion",
           "jalapenos",
@@ -1899,7 +1881,7 @@
     "name": "Meatza Pizza Crust",
     "links": ["https://www.youtube.com/watch?v=qmhAuXfTRVg"],
     "notes": ["This was a banger!"],
-    "categories": ["Simple"],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -1922,14 +1904,14 @@
     "links": [
       "https://braziliankitchenabroad.com/brazilian-chicken-stroganoff-recipe/"
     ],
-    "categories": ["Simple"],
+    "categories": ["Cold Weather"],
     "versions": [
       {
         "ingredients": [
           "Chicken (breasts or thighs)",
           "Butter",
           "Diced onion",
-          "Mminced garlic",
+          "Minced garlic",
           "Tomato sauce",
           "Ketchup",
           "Heavy cream (or crema)",
@@ -1943,65 +1925,6 @@
           "Optionally add mushrooms",
           "Dice the cooked chicken, add back into pan",
           "season with salt and pepper"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Simple Stir Fry",
-    "links": ["https://www.youtube.com/shorts/SvfOK9eKfhg"],
-    "categories": ["Simple"],
-    "versions": [
-      {
-        "ingredients": [
-          "protein (chicken, beef, pork, shrimp, etc)",
-          "white rice",
-          "cabbage",
-          "spring onions",
-          "carrots",
-          "zuchini",
-          "broccoli",
-          "garlic",
-          "ginger",
-          "soy sauce",
-          "stir fry sauce"
-        ],
-        "instructions": [
-          "Make more than enough rice",
-          "Fry protein in wok, remove and let sit",
-          "Fry hardest vegetables in wok (carrots, onions)",
-          "Add ginger, garlic next",
-          "add soft vegetables (cabbage, zuchini, brocoli",
-          "season with soy sauce",
-          "Dice and reintroduce protein",
-          "Serve with stir fry sauce on the side"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Red and Green Salsa",
-    "links": ["https://www.youtube.com/watch?v=Hpd_p7LRk_k"],
-    "categories": ["Simple", "Side Dish"],
-    "versions": [
-      {
-        "ingredients": [
-          "3-5 red tomatoes (cheap is fine, roma)",
-          "6 tomatillos",
-          "4, 10, or 20 chile de arbol (mild, medium, hot)",
-          "pepper (habanero preferred, jalapeno, bell, poblano, serrano, etc works too)",
-          "2-4 cloves of garlic",
-          "cilantro",
-          "1/2 onion"
-        ]
-      },
-      {
-        "instructions": [
-          "Roast red tomatoes, garlic and onion in pan under broiler, burn them",
-          "Boil tomatillos, all chile de arbol, habaneo, drain once water boiling",
-          "Put roasted tomatoes into bowl, add half cup water",
-          "Green salsa: blend tomatillos, habaneo and half chile de arbol, half garlic, 20 sprigs cilantro, 1/4 onion and salt",
-          "Red salsa: Blend red tomatoes, half chile de arbol, half clove garlic, 1/4 onion, oregano"
         ]
       }
     ]
@@ -2033,20 +1956,6 @@
         "instructions": [
           "toast the chilles, add the rest of the ingredients, let soften",
           "blend, strain back into liquid"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Two ingredient pumpkin bread",
-    "links": ["https://www.youtube.com/watch?v=IyVYJ-WLVsQ"],
-    "categories": ["Simple", "Dessert"],
-    "versions": [
-      {
-        "ingredients": ["Spice cake mix", "pumpkin puree"],
-        "instructions": [
-          "Mix cake mix and puree in mixer",
-          "Bake at 350 for 40 minutes"
         ]
       }
     ]
@@ -2097,7 +2006,7 @@
   {
     "name": "French Toast Pull Aparts",
     "links": ["https://www.youtube.com/watch?v=sqS3_-MHT0Y"],
-    "categories": ["Breakfast", "Simple"],
+    "categories": ["Breakfast"],
     "versions": [
       {
         "ingredients": [
@@ -2118,7 +2027,7 @@
   {
     "name": "Oatmeal Cookies",
     "links": ["https://www.youtube.com/watch?v=4ZeK_iLauko"],
-    "categories": ["Simple", "Dessert", "Breakfast"],
+    "categories": ["Dessert", "Breakfast"],
     "versions": [
       {
         "ingredients": [
@@ -2158,7 +2067,7 @@
   {
     "name": "Cottage Cheese Ice Cream",
     "links": ["https://www.youtube.com/watch?v=2Mr9GDb30zk"],
-    "categories": ["Dessert", "Simple"],
+    "categories": ["Dessert"],
     "versions": [
       {
         "ingredients": [
@@ -2174,9 +2083,9 @@
     ]
   },
   {
-    "name": "Simple Oatmeal Breakfast",
+    "name": "Cinnamon Oatmeal Breakfast",
     "links": ["https://www.youtube.com/watch?v=kmqWyyjCjTw"],
-    "categories": ["Simple", "Breakfast"],
+    "categories": ["Breakfast"],
     "versions": [
       {
         "name": "Main Dish",
@@ -2270,7 +2179,7 @@
       "Recipes disagree on PB amount",
       "There are other recipes with more ingredients.  This is a simple version"
     ],
-    "categories": ["Simple", "Dessert", "to try"],
+    "categories": ["Dessert", "to try"],
     "versions": [
       {
         "ingredients": [
@@ -2352,7 +2261,7 @@
     "name": "Cheat Lemon Pie",
     "links": ["https://www.youtube.com/watch?v=p0W9GuCHMJg"],
     "notes": ["Makes two pies, make sure you have enough room in your freezer"],
-    "categories": ["Dessert", "Simple"],
+    "categories": ["Dessert"],
     "versions": [
       {
         "ingredients": [
@@ -2371,7 +2280,7 @@
   {
     "name": "Protein Pumpkin Bread",
     "links": ["https://www.youtube.com/watch?v=pIa8FoUk0zI"],
-    "categories": ["Simple", "Dessert"],
+    "categories": ["Dessert"],
     "versions": [
       {
         "name": "Wet Ingrediets",
@@ -2516,13 +2425,13 @@
     ]
   },
   {
-    "name": "Simple Chicken Thighs",
+    "name": "Baked Chicken Thighs",
     "links": ["https://www.youtube.com/watch?v=fks2SyKc0gs"],
-    "categories": ["Simple"],
-    "notes": ["Good simple recipe"],
+    "categories": [],
+    "notes": ["Family loved it!"],
     "versions": [
       {
-        "name": "marinade",
+        "name": "Marinade",
         "ingredients": [
           "3-4 pounds boneless skinless chicken thighs",
           "2 Tbsp olive oil",
@@ -2538,7 +2447,7 @@
         "instructions": [
           "Marinade chicken thighs overnight or longer",
           "Add to baking pan and bake at 400 for 35 minutes",
-          "Put under broiler for 7 minutes"
+          "Put under broiler for 5 minutes"
         ]
       }
     ]
@@ -2575,17 +2484,7 @@
           "5 pounts chicken thighs and drums"
         ],
         "instructions": [
-          "To a blender add lemon zest and its juice",
-          "garlic",
-          "shallot",
-          "cilantro",
-          "rosemary",
-          "thyme",
-          "sage",
-          "spice blend",
-          "olive oil",
-          "blend it up",
-          "Marinade chicken overnight"
+          "Blend, marinade chicken overnight"
         ]
       },
       {
@@ -2706,7 +2605,7 @@
   {
     "name": "Raita",
     "links": ["https://www.youtube.com/watch?v=xiRbqUky2P8"],
-    "categories": ["Side Dish", "to try"],
+    "categories": ["Indian", "Side Dish", "to try"],
     "versions": [
       {
         "ingredients": [
@@ -2719,20 +2618,58 @@
           "1/2 tsp chili powder",
           "black pepper",
           "salt",
-          "2 tbsp Lemon Juice"
+          "2 tbsp Lemon Juice",
+          "ginger / garlic paste (optional)"
         ],
         "instructions": ["mix"]
       }
     ]
   },
   {
-    "name": "",
-    "links": [""],
+    "name": "Pineapple Salsa",
+    "links": ["https://www.youtube.com/watch?v=bbRB9tMWcGE"],
+    "categories": ["Side Dish"],
+    "versions": [
+      {
+        "ingredients": ["1/2 red onion, diced", "tomato, diced", "cilantro, chopped", "jalapeno, optional, minced", "pineapple, diced", "lime juice", "salt"],
+        "instructions": ["mix"]
+      }
+    ]
+  },
+  {
+    "name": "Homemade Taco Seasoning",
+    "links": ["https://www.youtube.com/watch?v=bbRB9tMWcGE"],
     "categories": [],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "ingredients": ["1 tbsp chili powder", "1/4 tsp garlic powder", "1/4 tsp onion powder", "1/4 tsp red pepper flakes", "1/4 tsp dried oregano", "1/2 tsp paprika", "1 1/2 tsp cumin", "1 tsp salt", "1 tsp pepper" ],
+        "instructions": ["mix"]
+      }
+    ]
+  },
+  {
+    "name": "Breakfast Pizza",
+    "links": ["https://www.youtube.com/watch?v=KbL5JxPqk-s"],
+    "categories": ["Breakfast"],
+    "versions": [
+      {
+        "ingredients": ["Turkey Pepperoni","Shredded Mozzarella", "Eggs", "Whole wheat tortilla"],
+        "instructions": ["Oil spray a small pan", "Add pepperoni, fry a bit", "add mozarella", "whisk 2 eggs, pour into pan", "Add tortilla to top and flip"]
+      }
+    ]
+  },
+  {
+    "name": "Low Carb Chicken Wrap",
+    "links": ["https://www.youtube.com/watch?v=mtAN4JarhLg"],
+    "categories": ["Lunch"],
+    "versions": [
+      {
+        "ingredients": ["Low carb tortilla","Light mozzarella cheese", "turkey or chicken breast slices", "pickled jalapenos or pickles"],
+        "instructions": ["Add all ingredients between two tortillas","spray with oil","air fry at 325F for 8 minutes"]
+      },
+      {
+        "name": "Dip",
+        "ingredients": ["greek yogurt","hot sauce"]
       }
     ]
   },
