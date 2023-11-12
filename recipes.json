@@ -432,7 +432,7 @@
           "1 cup fresh spinach",
           "1/2 medium yellow onion, diced",
           "1 teaspoon minced garlic",
-          "salt and fresh ground black pepper",
+          "salt and black pepper",
           "4 slices day-old bread (gluten free, whole wheat, white, sourdough, any kind you like)",
           "10 large eggs",
           "1/2 cup milk (I use almond milk, any milk works) (Mom used a can of coconut milk)",
@@ -504,9 +504,9 @@
         "name": "8 servings",
         "ingredients": [
           "6 12 oz cans evaporated milk",
-          "4 tsp ground cinnamon",
+          "4 tsp cinnamon",
           "1 Tbsp vanilla",
-          "1 tsp ground nutmeg",
+          "1 tsp nutmeg",
           "1/4 tsp salt",
           "1/4 tsp chili powder",
           "Pinch cayenne (optional heat)",
@@ -527,7 +527,7 @@
           "2 Tbsp cocoa powder",
           "1 ounce chocolate chips (bittersweet, or sweet and reduce sugar)",
           "2 Tbsp sugar",
-          "1/2 tsp ground cinnamon",
+          "1/2 tsp cinnamon",
           "1/4 tsp vanilla extract",
           "1/8  tsp chili powder",
           "1/8 tsp cayenne",
@@ -734,7 +734,7 @@
           "1/2 cup white sugar",
           "4 cups onion, coarsely chopped",
           "1/4 teaspoon salt",
-          "ground black pepper to taste",
+          "black pepper to taste",
           "1/2 cup red wine vinegar"
         ],
         "instructions": [
@@ -757,7 +757,7 @@
           "4 tablespoons butter",
           "5 onions, thinly sliced",
           "1 teaspoon dried basil",
-          "1 pinch ground black pepper",
+          "1 pinch black pepper",
           "1 cup water",
           "1 tablespoon chicken bouillon",
           "1 pound uncooked pasta, cooked according to package directions"
@@ -1581,11 +1581,11 @@
         "ingredients": [
           "1 ½ cups light coconut milk (canned is best, but carton or homemade works too)",
           "1 ½ cups unsweetened plain almond milk (DIY or store-bought)",
-          "1 ½ tsp ground turmeric",
-          "1/4 tsp ground ginger (or 1 tsp freshly grated ginger*)",
-          "1 whole cinnamon stick (or 1/4 tsp ground cinnamon)",
+          "1 ½ tsp turmeric",
+          "1/4 tsp ginger (or 1 tsp freshly grated ginger*)",
+          "1 whole cinnamon stick (or 1/4 tsp cinnamon)",
           "1 Tbsp coconut oil (optional for richness // see notes for oil-free)",
-          "1 pinch ground black pepper",
+          "1 pinch black pepper",
           "Sweetener of choice (i.e. maple syrup, coconut sugar, or stevia to taste)"
         ],
         "instructions": [
@@ -2483,9 +2483,7 @@
           "lemon juice",
           "5 pounts chicken thighs and drums"
         ],
-        "instructions": [
-          "Blend, marinade chicken overnight"
-        ]
+        "instructions": ["Blend, marinade chicken overnight"]
       },
       {
         "name": "the next day",
@@ -2577,7 +2575,10 @@
   {
     "name": "Mac and Cheese",
     "links": ["https://www.youtube.com/watch?v=37p8AxmUbug"],
-    "categories": ["to try"],
+    "categories": ["Lunch"],
+    "notes": [
+      "Fantastic recipe, really creamy.  Lunch with no leftovers.  Suggest more salt and add vegetables"
+    ],
     "versions": [
       {
         "ingredients": [
@@ -2585,10 +2586,12 @@
           "block of cheddar (2 cups)",
           "1/2 cup milk",
           "1.5 tsp garlic powder",
-          "dijon mustard",
-          "2 eggs"
+          "dijon mustard or lemon juice",
+          "2 eggs",
+          "Frozen vegetables"
         ],
         "instructions": [
+          "Microwave frozen vegetables, drain water",
           "Bring four cups of water to a rolling boil, add salt",
           "add and stir half a pound macaroni",
           "boil for 12 minutes then stop",
@@ -2597,7 +2600,9 @@
           "Add pasta back to the pot, add half a cup of milk, add garlic powder, tsp dijon",
           "Add two eggs to a small bowl, whisk",
           "Put pot on low heat, add eggs and stir constantly for three minutes, then cut the heat",
-          "Add cheese and some pasta water if needed to make creamy"
+          "Add cheese and some pasta water if needed to make creamy",
+          "Add salt",
+          "fold in vegetables"
         ]
       }
     ]
@@ -2631,7 +2636,15 @@
     "categories": ["Side Dish"],
     "versions": [
       {
-        "ingredients": ["1/2 red onion, diced", "tomato, diced", "cilantro, chopped", "jalapeno, optional, minced", "pineapple, diced", "lime juice", "salt"],
+        "ingredients": [
+          "1/2 red onion, diced",
+          "tomato, diced",
+          "cilantro, chopped",
+          "jalapeno, optional, minced",
+          "pineapple, diced",
+          "lime juice",
+          "salt"
+        ],
         "instructions": ["mix"]
       }
     ]
@@ -2642,7 +2655,17 @@
     "categories": [],
     "versions": [
       {
-        "ingredients": ["1 tbsp chili powder", "1/4 tsp garlic powder", "1/4 tsp onion powder", "1/4 tsp red pepper flakes", "1/4 tsp dried oregano", "1/2 tsp paprika", "1 1/2 tsp cumin", "1 tsp salt", "1 tsp pepper" ],
+        "ingredients": [
+          "1 tbsp chili powder",
+          "1/4 tsp garlic powder",
+          "1/4 tsp onion powder",
+          "1/4 tsp red pepper flakes",
+          "1/4 tsp dried oregano",
+          "1/2 tsp paprika",
+          "1 1/2 tsp cumin",
+          "1 tsp salt",
+          "1 tsp pepper"
+        ],
         "instructions": ["mix"]
       }
     ]
@@ -2653,8 +2676,19 @@
     "categories": ["Breakfast"],
     "versions": [
       {
-        "ingredients": ["Turkey Pepperoni","Shredded Mozzarella", "Eggs", "Whole wheat tortilla"],
-        "instructions": ["Oil spray a small pan", "Add pepperoni, fry a bit", "add mozarella", "whisk 2 eggs, pour into pan", "Add tortilla to top and flip"]
+        "ingredients": [
+          "Turkey Pepperoni",
+          "Shredded Mozzarella",
+          "Eggs",
+          "Whole wheat tortilla"
+        ],
+        "instructions": [
+          "Oil spray a small pan",
+          "Add pepperoni, fry a bit",
+          "add mozarella",
+          "whisk 2 eggs, pour into pan",
+          "Add tortilla to top and flip"
+        ]
       }
     ]
   },
@@ -2664,12 +2698,313 @@
     "categories": ["Lunch"],
     "versions": [
       {
-        "ingredients": ["Low carb tortilla","Light mozzarella cheese", "turkey or chicken breast slices", "pickled jalapenos or pickles"],
-        "instructions": ["Add all ingredients between two tortillas","spray with oil","air fry at 325F for 8 minutes"]
+        "ingredients": [
+          "Low carb tortilla",
+          "Light mozzarella cheese",
+          "turkey or chicken breast slices",
+          "pickled jalapenos or pickles"
+        ],
+        "instructions": [
+          "Add all ingredients between two tortillas",
+          "spray with oil",
+          "air fry at 325F for 8 minutes"
+        ]
       },
       {
         "name": "Dip",
-        "ingredients": ["greek yogurt","hot sauce"]
+        "ingredients": ["greek yogurt", "hot sauce"]
+      }
+    ]
+  },
+  {
+    "name": "Pizza (Meal Prep Edition)",
+    "links": ["https://www.youtube.com/watch?v=j5ZtA82n8yM"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "6 32oz deli containers for dough, sauce",
+          "500g flour",
+          "100g vital wheat gluten",
+          "10g salt",
+          "5g instant yeast",
+          "1.75 cups water"
+        ],
+        "instructions": [
+          "Put flour, wheat gluten, salt and yeast into a large food processor or bowl, blend/mix for a bit to mix",
+          "Add cool water to blender/bowl slowly",
+          "form into a ball, divide into five parts",
+          "spray five containers with oil, ball dough and place into the container, add oil spray on top, place four intothe  fridge for up to five days",
+          "extra dough can be stored in the freezer.  Spread as a pancake and put into a ziplock first",
+          "Let one dough container rise in the container on the countertop"
+        ]
+      },
+      {
+        "name": "Pizza Sauce",
+        "ingredients": [
+          "28oz Crushed Tomatos (Cento preferred)",
+          "1.5g Garlic Powder",
+          "6g salt"
+        ],
+        "instructions": [
+          "open crushed tomatoes, add garlic powder and salt to can, mix"
+        ]
+      },
+      {
+        "name": "Cheese",
+        "ingredients": ["Block of part-skim low moisture mozzarella"],
+        "instructions": ["Shred it yourself"]
+      },
+      {
+        "name": "Final Prep",
+        "instructions": [
+          "Spray a 10 inch pan and your hands.  Place ball of dough onto pan, press out evenly.",
+          "Spread sauce onto pizza",
+          "Add cheese to pizza",
+          "Bake at 425F for 14 minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ham and Noodle Casserole",
+    "links": ["https://www.youtube.com/watch?v=oXWr23_GQ3U"],
+    "categories": ["Slow Cooker", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "Instant Pot as a slow cooker",
+          "1 cup noodles",
+          "1 cup cubed cooked ham",
+          "1 10oz can cream of chicken soup",
+          "1 can whole kernel corn, drained",
+          "1 Tbsp chopped pimiento",
+          "1/2 cup grated cheddar cheese",
+          "1/4 cup chopped green pepper"
+        ],
+        "instructions": [
+          "Cook noodles until barely tender, drain and toss with oil",
+          "Add everything to the instant pot",
+          "cook on low for four hours"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Burger 'n Bean Hot Dish",
+    "links": ["https://www.youtube.com/watch?v=oXWr23_GQ3U"],
+    "categories": ["Slow Cooker", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "Slow cooker liner",
+          "corn bread (optional)",
+          "1 pound ground beef",
+          "1 16oz can barbecue beans",
+          "1 11.5 oz can bean with bacon soup",
+          "1/4 tsp black pepper",
+          "1/4 tsp chili powder",
+          "1/2 tsp garlic salt",
+          "1 Tbsp minced onion",
+          "shredded cheese (american preferred, cheddar OK)"
+        ],
+        "instructions": [
+          "Line slow cooker",
+          "combine all ingredients except cheese",
+          "Cover and cook on low for 4 hours",
+          "Serve with corn bread"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": ["https://www.youtube.com/watch?v=oXWr23_GQ3U"],
+    "categories": ["Slow Cooker", "to try"],
+    "versions": [
+      {
+        "name": "sauce",
+        "ingredients": [
+          "1 14oz can whole or diced tomatoes",
+          "1/2 onion (or small onion)",
+          "garlic (pinch of powder or one clove)",
+          "1/2 tsp chili powder",
+          "1/2 tsp salt",
+          "1/2 tsp cayenne pepper (optional)",
+          "1 6oz can tomato paste"
+        ],
+        "instructions": [
+          "Add all ingredients to blender and puree to make sauce",
+          "Add blended sauce to a sauce pan, simmer 5-10 minutes"
+        ]
+      },
+      {
+        "name": "Final Prep",
+        "ingredients": [
+          "1 pound ground beef",
+          "corn tortillas",
+          "8oz block cheddar, shredded"
+        ],
+        "instructions": [
+          "line the slow cooker",
+          "brown the beef",
+          "Add three tortillas to the bottom of the slow cooker, add 1/3 of the beef, 1/3 tomato sauce, 1/3 of the cheese",
+          "repeat until out of ingredients",
+          "cook on low for four hours"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "channa masala",
+    "links": ["https://www.youtube.com/watch?v=5OdpRelOCiU"],
+    "categories": ["Indian", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "1 onion, chopped",
+          "5-6 cloves garlic, minced",
+          "lemon juice, 1.5 tbsp",
+          "cilantro, 1 handful, ~15 sprigs, minced",
+          "ginger",
+          "1 can fire roasted tomatoes",
+          "1 can chickpeas, drained",
+          "kasuri methi, 1-2 tbsp",
+          "2 tbsp tahini",
+          "2 tbsp tomato paste",
+          "salt, 1 tsp",
+          "black pepper, 1 tsp",
+          "cumin, 1/2 tsp",
+          "turmeric, 1/2 tsp",
+          "garam masala, 1 tsp",
+          "coriander, 1.5 tsps",
+          "red chili powder, 1 tsp",
+          "paprika, 1/2 tsp",
+          "1 bay leaf"
+        ],
+        "instructions": [
+          "fry onions in pan, add bay leaf",
+          "add ginger and garlic",
+          "add spices",
+          "add tomatoes",
+          "Optionally, stop and blend here",
+          "add chickpeas",
+          "cover and cook for 20 minutes",
+          "add tahini, mix well,",
+          "add kasuri methi, cilantro, lemon juice"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Breakfast Snack Taco",
+    "links": ["https://www.youtube.com/watch?v=PBa09Z0scDA"],
+    "categories": ["Lunch"],
+    "versions": [
+      {
+        "ingredients": [
+          "2 eggs",
+          "chipotle garlic seasoning (or any)",
+          "low fat cheese (feta, mozarella)",
+          "low carb tortilla"
+        ],
+        "instructions": [
+          "Add oil spray to a small pan and add two eggs",
+          "Add seasoning to top, break the yolks and flip",
+          "Add cheese",
+          "Remove from pan and add to a tortilla",
+          "Add ketchup, roll, and fry seal closed"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Onion Gravy",
+    "links": ["https://www.youtube.com/watch?v=7L2tYhtIngs"],
+    "categories": ["Side Dish", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "Lots of onions",
+          "two cups broth",
+          "kitchen bouquet or gravy master (basically for food coloring)",
+          "seasonings (optional, black pepper, garlic powder, etc)"
+        ],
+        "instructions": [
+          "In a cast iron skillet, fry down a lot of onions until golden",
+          "You can add a quarter tsp to the onions to help make them fry faster",
+          "Take onions out of pan, deglaze with two cups of broth",
+          "Transfer broth into something easier to pout (saucepan or large mug)",
+          "Add onions to blender",
+          "Add seasonings to blender",
+          "Add about 1 tsp kitchen bouquest",
+          "Add broth in little by little, until you get the desired thickness of the gravy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Healthier Stir Fry",
+    "links": ["https://www.youtube.com/watch?v=DGGGafCOR90"],
+    "categories": [],
+    "notes": ["Lots of ideas in the video"],
+    "versions": []
+  },
+  {
+    "name": "Cheaper Beef and Broccoli",
+    "links": ["https://youtu.be/JpcQPwbS5wc?si=_wGqBFOd7eQbWppG"],
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [
+          "1/4 cup water",
+          "1/2 cup soy sauce",
+          "1 Tbsp corn starch",
+          "1 Tbsp brown sugar",
+          "1 tsp ginger",
+          "1 spoonful minced garlic",
+          "rice",
+          "1 pound lean beef",
+          "2 pound bag of frozen broccoli"
+        ],
+        "instructions": [
+          "Start the rice",
+          "microwave and drain the broccoli",
+          "mix water, soy sauce, corn starch, sugar, ginger and garlic to make a sauce",
+          "brown beef, move beef to the side and add broccoli to pan",
+          "Add sauce, let it simmer",
+          "Serve with rice"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Baked Apple",
+    "links": ["https://www.youtube.com/watch?v=syF6FHoaACQ"],
+    "categories": ["to try", "Dessert", "Cold Weather"],
+    "versions": [
+      {
+        "ingredients": [
+          "4 apples",
+          "1/3 cup sliced almonds",
+          "1/3 cup brown sugar",
+          "1/4 tsp nutmeg (fresh grated preferred)",
+          "1/2 tsp cinnamon",
+          "vanilla",
+          "butter"
+        ],
+        "instructions": [
+          "chop nuts if not pre-sliced",
+          "mix brown sugar, nutmeg, cinnamon, nuts in a bowl",
+          "Wash apples and carve out tops with a spoon, getting all the core but not drilling through",
+          "Add apples to a baking dish  (8x8 works)",
+          "fill apples with mixture",
+          "Add a splash (~ 1 tsp) vanilla to each apple",
+          "Add a pad of butter to each apple",
+          "Add 1.5 cups water to the bottom of dish",
+          "bake at 350F for 50 minutes",
+          "Optionally, halfway through baking, remove and baste apples with juice at bottom"
+        ]
       }
     ]
   },
