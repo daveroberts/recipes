@@ -2610,20 +2610,23 @@
   {
     "name": "Raita",
     "links": ["https://www.youtube.com/watch?v=xiRbqUky2P8"],
-    "categories": ["Indian", "Side Dish", "to try"],
+    "categories": ["Indian", "Side Dish"],
+    "notes": [
+      "Way too strong.  I've increased the yogurt and decreased the spices"
+    ],
     "versions": [
       {
         "ingredients": [
-          "1/2 cup Greek Yogurt",
+          "1 cup Greek Yogurt",
           "1 Tomato",
           "1/2 Red Onion",
           "Small piece of cucumber",
           "1 handfull cilantro",
-          "1/2 tsp cumin",
-          "1/2 tsp chili powder",
+          "1/4 tsp cumin",
+          "1/4 tsp chili powder",
           "black pepper",
           "salt",
-          "2 tbsp Lemon Juice",
+          "1 tbsp Lemon Juice",
           "ginger / garlic paste (optional)"
         ],
         "instructions": ["mix"]
@@ -2981,17 +2984,21 @@
   {
     "name": "Baked Apple",
     "links": ["https://www.youtube.com/watch?v=syF6FHoaACQ"],
-    "categories": ["to try", "Dessert", "Cold Weather"],
+    "categories": ["Dessert", "Cold Weather"],
+    "notes": [
+      "Great fall treat!  If made with brown stevia it's a tad healthier."
+    ],
     "versions": [
       {
         "ingredients": [
           "4 apples",
           "1/3 cup sliced almonds",
-          "1/3 cup brown sugar",
+          "1/3 cup brown stevia (or brown sugar)",
           "1/4 tsp nutmeg (fresh grated preferred)",
           "1/2 tsp cinnamon",
           "vanilla",
-          "butter"
+          "butter",
+          "vanilla ice cream (optional)"
         ],
         "instructions": [
           "chop nuts if not pre-sliced",
@@ -3003,7 +3010,8 @@
           "Add a pad of butter to each apple",
           "Add 1.5 cups water to the bottom of dish",
           "bake at 350F for 50 minutes",
-          "Optionally, halfway through baking, remove and baste apples with juice at bottom"
+          "Optionally, halfway through baking, remove and baste apples with juice at bottom",
+          "Serve with vanilla ice cream"
         ]
       }
     ]
