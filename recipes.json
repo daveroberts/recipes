@@ -2453,53 +2453,6 @@
     ]
   },
   {
-    "name": "Chicken and Potatoes, Middle Eastern Style",
-    "links": ["https://www.youtube.com/watch?v=oz0psDghfDw"],
-    "categories": ["Cold Weather", "to try"],
-    "versions": [
-      {
-        "name": "Spice Blend",
-        "ingredients": [
-          "1 Tbp paprika",
-          "1 Tbsp Chili powder",
-          "1 Tbsp garlic powder",
-          "1 Tbsp salt",
-          "1 tsp cumin"
-        ]
-      },
-      {
-        "name": "Marinade",
-        "ingredients": [
-          "1 lemon",
-          "1 bulb garlic",
-          "1 shallot",
-          "1 bundle cilantro (reserve 1/4 for next day)",
-          "1 tsp fresh rosemary",
-          "1 tsp fresh thyme",
-          "1 tsp fresh sage",
-          "half of the spice blend",
-          "1/4 cup olive oil",
-          "1/4 cup white vinegar",
-          "lemon juice",
-          "5 pounts chicken thighs and drums"
-        ],
-        "instructions": ["Blend, marinade chicken overnight"]
-      },
-      {
-        "name": "the next day",
-        "ingredients": ["3-4 large potatoes", "Sheet pan", "aluminum foil"],
-        "instructions": [
-          "Slice the potatoes into chunks, line a sheet tray, add olive oil and some of remaining spice blend",
-          "Add chicken and marinade on top of potatoes",
-          "Add remaining spice blend on top",
-          "Cover with aluminum foil",
-          "Bake at 375 for 40 minutes, remove foil, put back into oven",
-          "Add minced garlic to a pan, cook for a minute, then add lemon juice and chopped cilantro, add this mixture to the top of your chicken"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Cottage Cheese Pancakes",
     "links": ["https://www.youtube.com/watch?v=pLyDIG9VOgw"],
     "notes": [

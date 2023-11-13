@@ -14,13 +14,13 @@
     <h1>Recipes</h1>
     <div class="category-area">
       <% for(let category of categories) { %>
-        <a
-          href="#void"
-          data-category="<%=category%>"
-          onclick="toggle_category('<%=category%>')"
-          class="category-button"
-          ><%= category %></a
-        >
+      <a
+        href="#void"
+        data-category="<%=category%>"
+        onclick="toggle_category('<%=category%>')"
+        class="category-button"
+        ><%= category %></a
+      >
       <% } %>
     </div>
     <div class="search-box">
