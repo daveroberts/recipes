@@ -2970,6 +2970,25 @@
     ]
   },
   {
+    "name": "Ranch Pickles",
+    "links": ["https://www.youtube.com/watch?v=54fXWzBLTTo"],
+    "categories": ["to try", "Side Dish"],
+    "versions": [
+      {
+        "ingredients": [
+          "jar of pickle spears",
+          "ranch seasoning packet",
+          "bacon",
+          "light ranch dressing and/or greek yogurt for dipping"
+        ],
+        "instructions": [
+          "Add ranch seasoning to jar of pickles, let it sit for a day",
+          "Wrap pickles in bacon, air fry at 350F for 9 minutes"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [""],
     "categories": [],
