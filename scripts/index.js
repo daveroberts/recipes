@@ -43,9 +43,16 @@ function render_list() {
     if (state.search) {
       search_match = false;
       let recipe_name = el.dataset.recipeName;
-      search_match = recipe_name
+      let ingredients = el.dataset.ingredients
+        ? JSON.parse(el.dataset.ingredients)
+        : [];
+      name_match = recipe_name
         .toLowerCase()
         .includes(state.search.toLowerCase());
+      let matched_ingredient = ingredients.find((ingredient) =>
+        ingredient.toLowerCase().includes(state.search.toLowerCase())
+      );
+      search_match = !!name_match || !!matched_ingredient;
     }
 
     if (show_all || (is_in && search_match)) {

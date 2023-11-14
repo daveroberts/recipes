@@ -40,7 +40,8 @@ for (let recipe of state.recipes) {
   }
   state.recipe = recipe;
   let recipe_rendered_html = ejs.render(recipe_template_html, state);
-  let output_file = recipe.name + ".html";
+  let output_file =
+    recipe.name.replaceAll("/", "").replaceAll("\\", "") + ".html";
   fs.writeFileSync(
     path.join(BUILD_DIR, "recipe", output_file),
     recipe_rendered_html

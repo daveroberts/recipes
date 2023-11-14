@@ -35,25 +35,15 @@
     <div
       class="list-recipe"
       data-categories="<%=JSON.stringify(recipe.categories)%>"
+      data-ingredients="<%=JSON.stringify(recipe.versions.map(v=>v.ingredients || []).flat())%>"
       data-recipe-name="<%=recipe.name%>"
     >
       <a
         class="recipe-link"
-        data-categories="<%=JSON.stringify(recipe.categories)%>"
-        data-recipe-name="<%=recipe.name%>"
-        href="recipe/<%=encodeURIComponent(recipe.name)%>.html"
+        href="recipe/<%=encodeURIComponent(recipe.name.replaceAll("/","").replaceAll("\\",""))%>.html"
       >
         <span class="list-recipe-title"><%=recipe.name%></span>
       </a>
-      <% if (recipe.categories) { %> <% for(let category of recipe.categories) {
-      %>
-      <a
-        href="#void"
-        class="tag fake-link"
-        onclick="toggle_category('<%=category%>')"
-        ><%=category%></a
-      >
-      <% } %> <% } %>
     </div>
     <% } %>
     <script type="text/javascript" src="bundle.js"></script>

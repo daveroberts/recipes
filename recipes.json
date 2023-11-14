@@ -2989,6 +2989,121 @@
     ]
   },
   {
+    "name": "Meat and Potatoes sheet pan dinner",
+    "links": ["https://www.youtube.com/watch?v=p65wbSOcswI"],
+    "categories": ["to try", "Cold Weather"],
+    "versions": [
+      {
+        "ingredients": [
+          "8oz black mozarella",
+          "3 large potatoes",
+          "1 pound lean ground beef",
+          "shallot",
+          "mushrooms",
+          "1 cup (8oz) tomato puree",
+          "dijon mustard",
+          "garlic (3 cloves or minced)"
+        ],
+        "instructions": [
+          "spray a sheet pan with olive oil",
+          "grate mozarella cheese, sprinkle 2/3 on pan, reserving some",
+          "peel and slice potatoes into 1/4 inch rounds, add to pan, salt, pepper and oil the top",
+          "bake for 30 minutes at 400F",
+          "start cooking beef in a skillet",
+          "finely dice the shallot, add to beef and mix",
+          "wash and slice mushrooms, add to skillet",
+          "add tomato puree, 1 squirt mustard, salt and pepper to skillet",
+          "mince garlice, add to skillet",
+          "Spread skillet contents on top of potatoes",
+          "Add leftover cheese to top",
+          "Bake at 400F for 15 minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Canned Chicken skillet meal",
+    "links": ["https://www.youtube.com/watch?v=6TpC3I9VYCQ"],
+    "categories": ["to try", "Cheap"],
+    "versions": [
+      {
+        "ingredients": [
+          "rice or noodles",
+          "2 cans chicken breast",
+          "Tomato",
+          "Zuchini",
+          "bouillon"
+        ],
+        "instructions": [
+          "fry up chicken, tomato and zuchini in pan (with lid if possible) with oil or button",
+          "Add water, bouillon and moodles or rice",
+          "close lid, let cook",
+          "season if needed"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Homemade tomato soup and grilled cheese",
+    "links": ["https://www.youtube.com/watch?v=6TpC3I9VYCQ"],
+    "categories": ["to try", "Cheap", "Slow Cooker"],
+    "versions": [
+      {
+        "name": "Tomato soup",
+        "ingredients": [
+          "5 tomatoes",
+          "1 bulb garlic",
+          "1 onion",
+          "bouillon (tomato or chicken or both)",
+          "basil"
+        ],
+        "instructions": [
+          "quarter tomatoes and onion, peel garlic",
+          "Add garlic, onion, tomatoes, basil, salt and pepper to slow cooker with 2 cups of water",
+          "Cook on high for four hours, or 6 on low",
+          "Blend"
+        ]
+      },
+      {
+        "name": "Grilled Cheese",
+        "ingredients": [
+          "bread (Hamburger buns work well here)",
+          "American cheese"
+        ],
+        "instructions": [
+          "Butter a large skilled, add unbuttered bread",
+          "Add bread, then cheese, then cheese again, then bread.  If using hamburger buns, turn them \"inside out\", so what's normally touching the inside of the hamburger, is the outside of your grilled cheese",
+          "Keep flipping and add more butter if it starts the burn"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beef/Turkey Stroganoff",
+    "links": ["https://www.youtube.com/watch?v=6TpC3I9VYCQ"],
+    "categories": ["to try", "Cold Weather", "Cheap"],
+    "versions": [
+      {
+        "ingredients": [
+          "12oz macaroni noodles (bowties preferred)",
+          "8oz sour cream",
+          "1 can cream of mushroom",
+          "Brown gravy mix packet",
+          "1 pound ground turkey/beef"
+        ],
+        "instructions": [
+          "start macaroni",
+          "brown meat, season with salt, pepper, garlic powder, onion powder",
+          "If using fatty meat, drain excess oil",
+          "In a bowl, mix brown gravy mix and milk/water, add to skillet",
+          "Add sour cream to skillet",
+          "Add cream of mushroom soup to skillet",
+          "drain and add pasta, season and serve"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [""],
     "categories": [],
