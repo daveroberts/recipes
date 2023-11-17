@@ -3104,9 +3104,182 @@
     ]
   },
   {
+    "name": "Pizza Quesadillas",
+    "links": ["https://www.youtube.com/watch?v=Yk0EWFU5qOI"],
+    "categories": ["Cheap", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "Pepperoni",
+          "shredded cheese",
+          "tortilla",
+          "sauce for dipping (ketchup, ranch, pizza sauce)"
+        ],
+        "instructions": ["fry on a skillet and go!"]
+      }
+    ]
+  },
+  {
+    "name": "Hash Brown dinner",
+    "links": ["https://www.youtube.com/watch?v=Yk0EWFU5qOI"],
+    "categories": ["Cheap", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "Hash Browns w/ Onions & Peppers",
+          "12 eggs",
+          "bacon pieces",
+          "shredded cheese"
+        ],
+        "instructions": [
+          "cook hash browns in oil, add salt and pepper and seasoning, don't over-fry",
+          "mix 12 eggs in a bowl",
+          "oil a casserole dish, add potatoes, bacon and eggs in layers",
+          "Bake at 375F until eggs are firm"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": ["https://www.youtube.com/watch?v=Yk0EWFU5qOI"],
+    "categories": ["Cheap", "to try", "Slow Cooker"],
+    "versions": [
+      {
+        "ingredients": [
+          "onion",
+          "chicken",
+          "1 can cream of chicken",
+          "1 can cream of mushroom",
+          "1 cup water",
+          "1 tsp garlic salt",
+          "mushrooms (optional)",
+          "black pepper",
+          "rice (not in crock pot)",
+          "1 can green beans (not in crock pot)"
+        ],
+        "instructions": [
+          "dice onion",
+          "Add all to crock pot, 6 hours on low",
+          "serve with rice and green beans"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Salisbury Steak",
+    "links": ["https://www.youtube.com/watch?v=XjzMbFMSCgI"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Palak Paneer",
+    "links": ["https://www.youtube.com/watch?v=v-Lug0hLejk"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Spinach Chickpea Curry",
+    "links": ["https://www.youtube.com/watch?v=4TMgzZJeuBM"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Chickpea Spinach Curry",
+    "links": ["https://www.youtube.com/watch?v=wsvfA0YOLUs"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Meal Prep Chicken Stir Fry",
+    "links": ["https://www.youtube.com/watch?v=7DVxD19BFlg"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Meal Prep Sweet and Sour Chicken",
+    "links": ["https://www.youtube.com/watch?v=1N6hbRbyAeQ"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Meal Prep Beef Stir Fry",
+    "links": ["https://www.youtube.com/watch?v=kBivrTwvTVU"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Budget Crockpot Meals",
+    "links": ["https://www.youtube.com/watch?v=_o6EmIlMC2U"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [""],
-    "categories": [],
+    "categories": [""],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": [""],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": [""],
     "versions": [
       {
         "ingredients": [],
