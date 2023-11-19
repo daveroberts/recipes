@@ -610,25 +610,6 @@
     ]
   },
   {
-    "name": "Garlicky Smashed Cucumbers",
-    "notes": ["Good for leftover cucumbers"],
-    "categories": ["Side Dish"],
-    "versions": [
-      {
-        "ingredients": [
-          "6 cucumbers",
-          "2 Tbsp spicy chili oil",
-          "1 Tbsp sesame oil",
-          "salt"
-        ],
-        "instructions": [
-          "Cut cucumber into pieces.  Smash them up to help them absorb other incredients.",
-          "Mix it all together.  Season with salt"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Chicken Tikka Masala",
     "links": ["https://www.youtube.com/watch?v=pFeE8_VqdfA"],
     "categories": ["Indian"],
@@ -2995,7 +2976,7 @@
     "versions": [
       {
         "ingredients": [
-          "8oz black mozarella",
+          "8oz block mozarella",
           "3 large potatoes",
           "1 pound lean ground beef",
           "shallot",
@@ -3255,9 +3236,57 @@
     ]
   },
   {
-    "name": "",
-    "links": [""],
-    "categories": [""],
+    "name": "Burritos",
+    "links": ["https://www.youtube.com/watch?v=uJQuJqxenMY"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "name": "Meat",
+        "ingredients": ["Chicken Breast"],
+        "instructions": [
+          "Can use any meat, but chicken breast is good.  sous vide it then dice it small"
+        ]
+      },
+      {
+        "name": "Spice blend",
+        "ingredients": [
+          "1/2 tsp paprika (smoked preferred)",
+          "1 Tbsp chili powder",
+          "1/2 tsp coriander",
+          "1/2 Tbsp cumin",
+          "2 tsp onion powder",
+          "1 tsp garlic powder",
+          "1 tsp salt",
+          "1 tsp black pepper"
+        ]
+      },
+      {
+        "ingredients": [
+          "cilantro",
+          "green pepper",
+          "jalapeno",
+          "1 can beans (pinto preferred)",
+          "1 can tomato sauce",
+          "lime juice",
+          "cream cheese",
+          "Shredded Mozzarella",
+          "tortillas"
+        ],
+        "instructions": [
+          "Dice peppers and jalapenos",
+          "mince cilantro, add lime juice and salt",
+          "mostly drain a can of beans, add beans, peppers and jalapenos to skillet",
+          "Add tomato sauce and spices, add lime juice and salt if needed",
+          "Add diced chicken and cheese",
+          "Put into burritos"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crockpot Meals",
+    "links": ["https://www.youtube.com/watch?v=nGTmpP59CC8"],
+    "categories": ["to revise"],
     "versions": [
       {
         "ingredients": [],
@@ -3266,12 +3295,60 @@
     ]
   },
   {
-    "name": "",
-    "links": [""],
-    "categories": [""],
+    "name": "Brocolli Fries",
+    "links": ["https://youtube.com/shorts/YKXaLlY1ywY?si=dmBxMiVA7y5U_zEu"],
+    "categories": ["to revise"],
     "versions": [
       {
         "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Homemade Wraps",
+    "links": ["https://youtube.com/shorts/sG0UW_XWu9I?feature=share"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Fall Meals",
+    "links": ["https://www.youtube.com/watch?v=vmve31IXnG4"],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Tortellini Soup",
+    "links": [
+      "https://www.365daysofcrockpot.com/slow-cooker-tortellini-spinach-soup/"
+    ],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "African Chicken Peanut Stew",
+    "links": [
+      "https://www.simplyrecipes.com/recipes/african_chicken_peanut_stew/"
+    ],
+    "categories": ["to revise"],
+    "versions": [
+      {
+        "ingredients": ["Kale too"],
         "instructions": []
       }
     ]
