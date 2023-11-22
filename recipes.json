@@ -2706,22 +2706,22 @@
   {
     "name": "Ham and Noodle Casserole",
     "links": ["https://www.youtube.com/watch?v=oXWr23_GQ3U"],
-    "categories": ["Slow Cooker", "to try"],
+    "categories": ["Slow Cooker"],
     "versions": [
       {
         "ingredients": [
-          "Instant Pot as a slow cooker",
-          "1 cup noodles",
-          "1 cup cubed cooked ham",
-          "1 10oz can cream of chicken soup",
-          "1 can whole kernel corn, drained",
-          "1 Tbsp chopped pimiento",
-          "1/2 cup grated cheddar cheese",
-          "1/4 cup chopped green pepper"
+          "Instant Pot if single serving, slow cooker if double",
+          "1 (2) cup noodles",
+          "1 (2) cup cubed cooked ham",
+          "1 (2) 10oz can cream of chicken soup",
+          "1 (2) can whole kernel corn, drained",
+          "1 (2) Tbsp chopped pimiento",
+          "1/2 cup (1 cup) grated cheddar cheese",
+          "1 (2) chopped green pepper",
+          "corn bread (optional)"
         ],
         "instructions": [
-          "Cook noodles until barely tender, drain and toss with oil",
-          "Add everything to the instant pot",
+          "If using a slow cooker, add liner",
           "cook on low for four hours"
         ]
       }
@@ -2730,26 +2730,27 @@
   {
     "name": "Burger 'n Bean Hot Dish",
     "links": ["https://www.youtube.com/watch?v=oXWr23_GQ3U"],
-    "categories": ["Slow Cooker", "to try"],
+    "categories": ["Slow Cooker"],
     "versions": [
       {
         "ingredients": [
           "Slow cooker liner",
           "corn bread (optional)",
-          "1 pound ground beef",
           "1 16oz can barbecue beans",
           "1 11.5 oz can bean with bacon soup",
           "1/4 tsp black pepper",
           "1/4 tsp chili powder",
           "1/2 tsp garlic salt",
           "1 Tbsp minced onion",
+          "1 pound ground beef",
           "shredded cheese (american preferred, cheddar OK)"
         ],
         "instructions": [
           "Line slow cooker",
-          "combine all ingredients except cheese",
+          "combine all ingredients except ground beef and cheese",
           "Cover and cook on low for 4 hours",
-          "Serve with corn bread"
+          "Add beef one hour before done, break it up",
+          "Top with cheese and serve with corn bread"
         ]
       }
     ]
