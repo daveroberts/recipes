@@ -1653,18 +1653,18 @@
   {
     "name": "Buffalo Chicken Dip",
     "links": ["https://www.youtube.com/watch?v=uNvQ-YIOaKk"],
-    "categories": ["to try", "Side Dish"],
+    "categories": ["Side Dish"],
     "versions": [
       {
         "ingredients": [
           "2 cans chicken (12.5oz can)",
           "cream cheese block",
-          "hot sauce",
+          "hot sauce (overpowering, go easy)",
           "ranch seasoning packet",
           "shredded cheese (mozzarella or other)",
           "red peppers (for dipping)"
         ],
-        "instructions": ["throw ingredients into crock pot"]
+        "instructions": ["throw ingredients into crock pot / instant pot"]
       }
     ]
   },
@@ -2587,7 +2587,7 @@
     ]
   },
   {
-    "name": "Homemade Taco Seasoning",
+    "name": "Taco Seasoning",
     "links": ["https://www.youtube.com/watch?v=bbRB9tMWcGE"],
     "categories": [],
     "versions": [
@@ -3027,16 +3027,16 @@
     ]
   },
   {
-    "name": "Homemade tomato soup and grilled cheese",
+    "name": "Tomato soup and grilled cheese",
     "links": ["https://www.youtube.com/watch?v=6TpC3I9VYCQ"],
-    "categories": ["to try", "Cheap", "Slow Cooker"],
+    "categories": ["Cheap", "Slow Cooker"],
     "versions": [
       {
         "name": "Tomato soup",
         "ingredients": [
           "5 tomatoes",
-          "1 bulb garlic",
           "1 onion",
+          "1 bulb garlic",
           "bouillon (tomato or chicken or both)",
           "basil"
         ],
@@ -3089,16 +3089,20 @@
   {
     "name": "Pizza Quesadillas",
     "links": ["https://www.youtube.com/watch?v=Yk0EWFU5qOI"],
-    "categories": ["Cheap", "to try"],
+    "categories": ["Cheap"],
     "versions": [
       {
         "ingredients": [
           "Pepperoni",
           "shredded cheese",
+          "pizza seasoning",
           "tortilla",
-          "sauce for dipping (ketchup, ranch, pizza sauce)"
+          "sauce for dipping (Crushed Tomatoes, ketchup, ranch, pizza sauce)"
         ],
-        "instructions": ["fry on a skillet and go!"]
+        "instructions": [
+          "Sandwich pepperoni and cheese between two quesadillas.  You want to use more cheese that a normal pizza topping.  Optionally, add pizza seasoning",
+          "Fry on a skillet and cut into dunkable strips"
+        ]
       }
     ]
   },
@@ -3240,7 +3244,10 @@
   {
     "name": "Burritos",
     "links": ["https://www.youtube.com/watch?v=uJQuJqxenMY"],
-    "categories": ["to try"],
+    "notes": [
+      "A winner!  I added more beans and more chicken, but it wasn't necessary"
+    ],
+    "categories": [],
     "versions": [
       {
         "name": "Meat",
