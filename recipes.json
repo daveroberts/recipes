@@ -590,26 +590,6 @@
     ]
   },
   {
-    "name": "Spicy Chili Oil",
-    "notes": ["Good to use up leftover chicken fat"],
-    "categories": [],
-    "versions": [
-      {
-        "ingredients": [
-          "1/2 cup chicken fat",
-          "3 cloves garlic, 1\" piece ginger",
-          "minced fresh chili",
-          "1 Tbsp sesame seeds",
-          "pinch of salt"
-        ],
-        "instructions": [
-          "Heat up chicken fat until completely liquified.",
-          "In another bowl, add other ingredients, slowly pour liquid chicken into bowl.  Whisk together."
-        ]
-      }
-    ]
-  },
-  {
     "name": "Chicken Tikka Masala",
     "links": ["https://www.youtube.com/watch?v=pFeE8_VqdfA"],
     "categories": ["Indian"],
@@ -2453,13 +2433,13 @@
     ]
   },
   {
-    "name": "Slow Cooker Beef",
+    "name": "Slow Cooker Chuck Roast",
     "links": ["https://www.youtube.com/watch?v=m_GZ-0GI2FQ"],
-    "categories": ["Slow Cooker", "to try"],
+    "categories": ["Slow Cooker"],
     "versions": [
       {
         "ingredients": [
-          "instant pot (slow cooker OK)",
+          "instant pot",
           "Chuck Roast",
           "beef flavoring (2 Tbsp Beef Better than Bouillon preferred, 2 cans beef broth or cubes OK)",
           "Onion (white preferred, yellow OK)",
@@ -2477,18 +2457,18 @@
           "dry and sear beef in instant pot or pan",
           "Add 2 Tbsp Better than Bouillon to two cups of water, or cubes",
           "Add cocoa powder to liquid",
-          "Add salt to liquid",
+          "If water used, add salt",
           "Remove meat from pot, add sliced onions with salt, brown just a bit",
           "Add sliced mushrooms to pot, mix, cook a bit",
           "Add minced garlic to pot, mix, cook a bit",
           "Add meat back in the top of pot, add broth",
           "If meat not covered, add water to cover meat",
           "Add a lot of black pepper to pot",
-          "Cover and cook for six hours on low.  Don't use as pressure cooker"
+          "Cover and cook for eight hours on low.  Don't use as pressure cooker"
         ]
       },
       {
-        "name": "Sides",
+        "name": "Side Suggestions",
         "ingredients": ["Brussel Sprouts", "Carrots", "Brown Swerve"],
         "instructions": [
           "Half the brussel sprouts, Add to a bowl with oil, salt, pepper and cayenne to toss. Bake on a sheet pan at 450 for 20 minutes",
@@ -2498,9 +2478,8 @@
       {
         "name": "Final Prep",
         "instructions": [
-          "Remove the beef from the slow cooker to a large bowl",
-          "Drain and save the liquid, put meat chunks into meat bowl",
-          "In a blender, add a few cups of vegetables, some broth and butter, add xanthan gum or cornstarch to thicken the broth.",
+          "Remove the beef from the slow cooker",
+          "Add most liquid / onion mix to blender, add xanthan gum to make a gravy.  Butter optionally too",
           "Plate and serve beef, gravy, brussel sprouts and carrots"
         ]
       }
@@ -2650,56 +2629,6 @@
       {
         "name": "Dip",
         "ingredients": ["greek yogurt", "hot sauce"]
-      }
-    ]
-  },
-  {
-    "name": "Pizza (Meal Prep Edition)",
-    "links": ["https://www.youtube.com/watch?v=j5ZtA82n8yM"],
-    "categories": ["to try"],
-    "versions": [
-      {
-        "ingredients": [
-          "6 32oz deli containers for dough, sauce",
-          "500g flour",
-          "100g vital wheat gluten",
-          "10g salt",
-          "5g instant yeast",
-          "1.75 cups water"
-        ],
-        "instructions": [
-          "Put flour, wheat gluten, salt and yeast into a large food processor or bowl, blend/mix for a bit to mix",
-          "Add cool water to blender/bowl slowly",
-          "form into a ball, divide into five parts",
-          "spray five containers with oil, ball dough and place into the container, add oil spray on top, place four intothe  fridge for up to five days",
-          "extra dough can be stored in the freezer.  Spread as a pancake and put into a ziplock first",
-          "Let one dough container rise in the container on the countertop"
-        ]
-      },
-      {
-        "name": "Pizza Sauce",
-        "ingredients": [
-          "28oz Crushed Tomatos (Cento preferred)",
-          "1.5g Garlic Powder",
-          "6g salt"
-        ],
-        "instructions": [
-          "open crushed tomatoes, add garlic powder and salt to can, mix"
-        ]
-      },
-      {
-        "name": "Cheese",
-        "ingredients": ["Block of part-skim low moisture mozzarella"],
-        "instructions": ["Shred it yourself"]
-      },
-      {
-        "name": "Final Prep",
-        "instructions": [
-          "Spray a 10 inch pan and your hands.  Place ball of dough onto pan, press out evenly.",
-          "Spread sauce onto pizza",
-          "Add cheese to pizza",
-          "Bake at 425F for 14 minutes"
-        ]
       }
     ]
   },
@@ -3358,6 +3287,66 @@
     "versions": [
       {
         "ingredients": ["Kale too"],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Breakfast Burrito",
+    "links": ["https://www.youtube.com/watch?v=xdwLxfJBOWE"],
+    "categories": ["Breakfast", "to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "ground turkey",
+          "spice blend",
+          "lowfat cottage cheese",
+          "eggs",
+          "kale",
+          "tortillas"
+        ],
+        "instructions": [
+          "Cook turkey adding spice blend",
+          "add cottage cheese, add kale",
+          "clear pan and cook eegs",
+          "Wrap and enjoy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "White Chili",
+    "links": ["https://natashaskitchen.com/chicken-cream-cheese-chili/"],
+    "categories": ["Slow Cooker", "Cold Weather"],
+    "versions": [
+      {
+        "ingredients": [
+          "2 Chicken Breasts or 4 chicken thighs",
+          "1 can black beans, drained",
+          "1 can white beans, drained",
+          "1 onion, diced",
+          "1 can corn with liquid",
+          "1 can diced tomatoes with chilies",
+          "1 Tbsp chili powder",
+          "1/2 bag ranch dressing mix (or whole bag)",
+          "half package cream cheese"
+        ],
+        "instructions": [
+          "Add all to slow cooker, in order",
+          "If using breasts, cook for five hours then removed breasts to shred.  Don't re-add until end to prevent drying",
+          "slow cook the rest for 8 hours",
+          "Service with cheddar cheese and corn bread"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": [""],
+    "versions": [
+      {
+        "ingredients": [],
         "instructions": []
       }
     ]
