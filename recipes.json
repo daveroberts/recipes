@@ -129,25 +129,6 @@
     ]
   },
   {
-    "name": "Lo Mein",
-    "categories": ["to revise", "Chinese"],
-    "versions": [
-      {
-        "ingredients": [
-          "Lo Mein Noodles (or spaghetti)",
-          "Pork (Loin, cut to strips)"
-        ],
-        "instructions": [
-          "Cook Pasta, drain, set aside",
-          "Heat oil in wok, add pork strips, get color on strips; remove pork strips",
-          "Add ginger and garlic to oil.  Cook for a bit.  Add carrot, yellow onion, peppers, cook",
-          "Add back in pork strips, add sesame oil, add scallions, add sugar and soy sauce",
-          "drop in noodles, mix and serve"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Beef and Brocolli",
     "categories": ["to revise", "Chinese"],
     "versions": [
@@ -2288,7 +2269,7 @@
       "https://www.youtube.com/watch?v=Qwm2W3ZOfVI",
       "https://www.youtube.com/watch?v=TROZvPHqP1g"
     ],
-    "categories": ["to try"],
+    "categories": [],
     "versions": [
       {
         "name": "Spice Marinade",
@@ -2322,7 +2303,7 @@
         "name": "Chicken Prep",
         "ingredients": ["2 pounds boneless skinless chicken thighs"],
         "instructions": [
-          "Slice thighs into half inch pieces",
+          "Slice thighs into little strips",
           "Marinade overnight"
         ]
       },
@@ -3283,11 +3264,33 @@
     "links": [
       "https://www.simplyrecipes.com/recipes/african_chicken_peanut_stew/"
     ],
-    "categories": ["to revise"],
+    "categories": [],
     "versions": [
       {
-        "ingredients": ["Kale too"],
-        "instructions": []
+        "ingredients": [
+          "Chicken (Thighs or wings or drums or all)",
+          "1-2 onions, sliced",
+          "3 sweet potatoes, cubed",
+          "Tomatoes, 1 can cruashed or whole ~15 oz",
+          "1 quart chicken stock",
+          "ginger (3 inches, minced)",
+          "garlic (1 small bulb, minced)",
+          "1 cup peanut butter",
+          "1 cup peanuts",
+          "Kale (or any additional veggies)",
+          "1 Tbsp ground coriander",
+          "1 tsp cayenne",
+          "chopped cilantro (optional)"
+        ],
+        "instructions": [
+          "brown chicken in air fryer",
+          "Saute onions, then add ginger and garlic",
+          "Add tomatoes, sweet potatoes, chicken broth, peanut butter, peanuts and spices.  Stew for ~1 hour",
+          "Add chicken and let it finish, maybe 30 minutes",
+          "Put out chicken and de-bone / shred",
+          "immersion blender on rest of stew, add lots of salt and pepper",
+          "Add cilentra and chicken, let cook for 10 more minutes and serve"
+        ]
       }
     ]
   },
@@ -3369,9 +3372,113 @@
     ]
   },
   {
+    "name": "Oklahoma Onion Burger",
+    "links": ["https://www.youtube.com/watch?v=NZWtGNIzUQQ"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Spaghetti and Meat Sauce",
+    "links": ["https://www.youtube.com/watch?v=vrFQkLyGLzc"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "French Chicken Stew",
+    "links": ["https://www.youtube.com/watch?v=OjP9fH-h1Cg"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Super Veggie",
+    "links": [
+      "https://www.youtube.com/watch?v=wHx51zMqmcg",
+      "https://protocol.bryanjohnson.com/#step-1-meal-prep"
+    ],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [
+          "cauliflower",
+          "broccoli",
+          "shitake mushrooms",
+          "black lentils",
+          "garlic",
+          "ginger",
+          "lime",
+          "cumin",
+          "Apple cider vinegar",
+          "hemp seeds",
+          "evoo",
+          "dark chocolate"
+        ],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Chicken Bowl",
+    "links": ["https://www.youtube.com/watch?v=IFaBnC0guUo"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [""],
-    "categories": [""],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": ["to try"],
     "versions": [
       {
         "ingredients": [],
