@@ -572,94 +572,35 @@
   },
   {
     "name": "Chicken Tikka Masala",
-    "links": ["https://www.youtube.com/watch?v=pFeE8_VqdfA"],
-    "categories": ["Indian"],
+    "links": [
+      "https://www.ambitiouskitchen.com/healthy-slow-cooker-chicken-tikka-masala/",
+      "https://ministryofcurry.com/slow-cooker-chicken-tikka-masala/"
+    ],
+    "categories": ["Indian", "Slow Cooker"],
     "versions": [
       {
         "ingredients": [
-          "whole milk yogurt",
-          "2 pounds chicken thighs, boneless skinless",
-          "basmati rice, cardamon pods",
-          "28oz can tomatoes",
-          "heavy cream - 1 1/4 cup",
-          "cilantro (garnish)",
-          "2 chilis",
-          "corriander seeds, cumin seeds, garlic, ginger, garam masala, turmeric, butter, paprika, kashmiri chili powder",
-          "1 onion"
-        ]
-      },
-      {
-        "name": "Curry Paste",
-        "instructions": [
-          "Toast in a dry pan: 1 Tbsp corriander seeds, 1/2 tsp cumin seeds for a couple minutes, remove from heat and add to bowl.  Add to a blender and break apart the spices.",
-          "Add to blender 7 cloves garlic, 2\" knob ginger, 1 Tbsp garam masala, 1 tsp turmeric, 2 chilis de-stemmed, 1/4 cup water. blend it until smooth",
-          "Add to blender 2 Tbsp canola oil, keep blending until smooth."
-        ]
-      },
-      {
-        "name": "Chicken Marinade",
-        "instructions": [
-          "Add to a bowl 1 cup plain whole milk yogurt, two Tbsp curry paste, 2tsp kosher salt, whisk together.",
-          "Cut 2 pounds boneless skinless chicken thighs into bite sized pieces.  Add to bowl with marinade, cover and put in fridge for 30 minutes to overnight."
-        ]
-      },
-      {
-        "name": "Rice",
-        "instructions": [
-          "In pressure cooker, 1 to 1 ratio of washed basmati rice and water with some cardamon pods.  Cook 6 minutes, natural release about 8 minutes."
-        ]
-      },
-      {
-        "name": "Curry",
-        "instructions": [
-          "Blend 28 oz can whole tomatoes, set aside",
-          "In saute pan, heat oil and seer chicken on all sides.  Remove chicken from pan and set aside.",
-          "Reduce heat in pan and add 4 Tbsp butter.  Add one diced onion. Cook five minutes",
-          "Add all remaining curry paste, add 1 Tbsp paprika, 1 tsp kashmiri chili powder, heat another minute",
-          "Add pureed tomatoes. Simmer 10 minutes.",
-          "(Optional).  Wait to cool and blend mixture for smoother texture.",
-          "Add 1 1/4 cup heavy whipping cream, mix.  Re-add chicken.  Simmer 10 more minutes, serve over rice.  Garnish with cilantro"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Gordon Ramsay Easy Curry in a hurry",
-    "categories": ["Indian"],
-    "versions": [
-      {
-        "ingredients": [
-          "red onion",
-          "butternut squash, grated",
-          "ginger (or ginger garlic paste)",
-          "2 fresh chilis",
-          "chicken (breast or thighs), diced into bite sized pieces",
-          "frozen peas",
-          "coconut milk",
-          "canned tomatoes",
-          "broth (few tablespoons)",
-          "curry powder or garam masala, 1 Tbsp",
-          "Baby spinach",
-          "cilantro (garnish)"
+          "2 pounds boneless skinless chicken thighs or breasts",
+          "1 onion, diced",
+          "ginger garlic paste",
+          "1 28oz can crushed tomatoes",
+          "1 cup coconut milk or 3 Tbsp greek yogurt",
+          "2 Tbsp lemon juice",
+          "1 Tbsp garam masala",
+          "1 tsp paprika",
+          "1/2 tsp cayenne",
+          "1/2 tsp turmeric",
+          "1/2 tsp curry powder",
+          "salt and pepper",
+          "cilantro for garnish",
+          "rice or naan as side"
         ],
         "instructions": [
-          "In a non-stick pan, add oil and grated butternut squash, salt and curry powder.",
-          "Grate the red onion, add to pan, season with more salt and stir",
-          "Dice chilis, add to pan.",
-          "Microplane grate ginger into pan. (or use paste), stir",
-          "Create hole in center of pan, add raw chicken, season with salt, mix into pan",
-          "Add peas, add chopped tomatoes, stir.",
-          "Add coconut milk, mix",
-          "Add broth to loosen curry (water is OK too).  Taste for seasoning.  Let cook for about 6 minutes to let chicken cook.",
-          "Add spinach last minute"
-        ]
-      },
-      {
-        "name": "Roti bread",
-        "instructions": [
-          "Mix 1/2 cup flour, pinch of salt, glug of olive oil, 1/2 cup water in a bowl into a dough bowl.  Let rest for 15 minutes.",
-          "Cut into four parts, roll each part into flatbread.  In a clean non-stick pan, add pinch of salt, splash of oil, add flatbread, let it bubble up and turn over.",
-          "Slice bread into pieces for dipping."
+          "saute onion, spices, transfer to slow cooker",
+          "Add allexpect coconut milk and/or yogurt to slow cooker",
+          "cook for 6 hours on low",
+          "Remove chicken and shred, re-add to slow cooker with coconut milk",
+          "Finish cooking uncovered to thicken, taste for additional salt"
         ]
       }
     ]
@@ -2915,28 +2856,6 @@
     ]
   },
   {
-    "name": "Canned Chicken skillet meal",
-    "links": ["https://www.youtube.com/watch?v=6TpC3I9VYCQ"],
-    "categories": ["to try", "Cheap"],
-    "versions": [
-      {
-        "ingredients": [
-          "rice or noodles",
-          "2 cans chicken breast",
-          "Tomato",
-          "Zuchini",
-          "bouillon"
-        ],
-        "instructions": [
-          "fry up chicken, tomato and zuchini in pan (with lid if possible) with oil or button",
-          "Add water, bouillon and moodles or rice",
-          "close lid, let cook",
-          "season if needed"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Tomato soup and grilled cheese",
     "links": ["https://www.youtube.com/watch?v=6TpC3I9VYCQ"],
     "categories": ["Cheap", "Slow Cooker"],
@@ -3264,7 +3183,7 @@
     "links": [
       "https://www.simplyrecipes.com/recipes/african_chicken_peanut_stew/"
     ],
-    "categories": [],
+    "categories": ["Slow Cooker"],
     "versions": [
       {
         "ingredients": [
@@ -3434,17 +3353,40 @@
   {
     "name": "Chicken Bowl",
     "links": ["https://www.youtube.com/watch?v=IFaBnC0guUo"],
-    "categories": ["to try"],
+    "categories": ["Cheap"],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "name": "Mint sauce",
+        "ingredients": [
+          "10g basil",
+          "10g mint",
+          "10g mustard",
+          "10g vinegar",
+          "15g olive oil",
+          "200g greek yogurt",
+          "garlic powder, salt and pepper"
+        ]
+      },
+      {
+        "ingredients": [
+          "Potatos (Sweet or Russet)",
+          "Chicken (Breast or Thigh)",
+          "1 Onion (Red preffered)",
+          "1 Bell Pepper (Red preffered)"
+        ],
+        "instructions": [
+          "peel and chunk potatoes, boil for a bit to soften",
+          "onions in a skillet, then red pepper, then potatoes, then chicken"
+        ]
       }
     ]
   },
   {
-    "name": "",
-    "links": [""],
+    "name": "Pizza Meal Prep Edition",
+    "links": [
+      "https://www.youtube.com/watch?v=j5ZtA82n8yM",
+      "https://www.youtube.com/watch?v=9C5SpmnHI3Y"
+    ],
     "categories": ["to try"],
     "versions": [
       {
