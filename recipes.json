@@ -550,27 +550,6 @@
     ]
   },
   {
-    "name": "Braised Beef",
-    "categories": ["Cold Weather"],
-    "versions": [
-      {
-        "ingredients": [
-          "Tough meat cut: beef or lamb",
-          "carrots, onions, celery",
-          "aromatics: bay leaves, orange peels"
-        ],
-        "instructions": [
-          "Preheat oven to 350F",
-          "Bring meat up to room temperature, season with salt and pepper, fry in a dutch oven to get it charred on all sides",
-          "Remove meat, add carrots, onions and celery.  Let cook until carmelized",
-          "Add red wine to pot to deglaze.  Let alcohol cook off.",
-          "Add water halfway up the pot and bring to a boil",
-          "Lower to a simmer, add aromatics and cover.  Move to oven.  Cook for 1-2 hours depending on how much meat you have.  Pull out when tender."
-        ]
-      }
-    ]
-  },
-  {
     "name": "Chicken Tikka Masala",
     "links": [
       "https://www.ambitiouskitchen.com/healthy-slow-cooker-chicken-tikka-masala/",
@@ -2587,15 +2566,15 @@
       {
         "ingredients": [
           "Slow cooker liner",
-          "corn bread (optional)",
-          "1 16oz can barbecue beans",
+          "1 16oz can barbecue beans (or regular beans plus barbecue sauce)",
           "1 11.5 oz can bean with bacon soup",
           "1/4 tsp black pepper",
           "1/4 tsp chili powder",
-          "1/2 tsp garlic salt",
-          "1 Tbsp minced onion",
+          "1/2 tsp garlic salt (garlic powder is fine)",
+          "1 chopped onion",
           "1 pound ground beef",
-          "shredded cheese (american preferred, cheddar OK)"
+          "shredded cheese (american preferred, cheddar OK)",
+          "corn bread (optional)"
         ],
         "instructions": [
           "Line slow cooker",
@@ -3304,11 +3283,33 @@
   {
     "name": "Spaghetti and Meat Sauce",
     "links": ["https://www.youtube.com/watch?v=vrFQkLyGLzc"],
-    "categories": ["to try"],
+    "categories": ["Cheap", "Cold Weather"],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "ingredients": [
+          "1 pound ground beef (85% or leaner preferred)",
+          "2 hot italian pork sausages",
+          "1 onion, diced",
+          "1tsp garlic powder",
+          "1 tsp oregano",
+          "1/2 tsp red chili flakes",
+          "1/3 cup tomato paste",
+          "1 Tbsp better than bouillin beef",
+          "1 28oz can Cento crushed tomatoes",
+          "1 28oz can water",
+          "2 tsp sugar",
+          "basil (fresh preferred)",
+          "12oz dried spaghetti"
+        ],
+        "instructions": [
+          "Preheat oven to 425F",
+          "In large pot add ground beef",
+          "remove casing from sausages and add meat",
+          "add diced onion, let all cook",
+          "add spices, tomato paste, better than boullon, let cook",
+          "Add crushed tomatoes and water, add dried spaghetti and mix",
+          "cover pot and put in oven for 15 minutes"
+        ]
       }
     ]
   },
