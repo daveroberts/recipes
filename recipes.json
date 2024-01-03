@@ -1953,13 +1953,14 @@
         "name": "Main Dish",
         "ingredients": [
           "quick oats",
-          "grated apple or applesauce",
+          "Applesauce",
           "yogurt (plain or vanilla)",
-          "cinnamon"
+          "cinnamon",
+          "brown sugar",
+          "coconut milk (or other milk)",
+          "Flax seed (optional)"
         ],
-        "instructions": [
-          "mix quick oats, yogurt, cinnamon and either apple sauce or grated apple in a bowl, let sit for 10 minutes"
-        ]
+        "instructions": ["mix and heat either stovetop or microwave"]
       },
       {
         "name": "(Optional) Toppings",
@@ -3388,6 +3389,50 @@
       "https://www.youtube.com/watch?v=j5ZtA82n8yM",
       "https://www.youtube.com/watch?v=9C5SpmnHI3Y"
     ],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Hidden Vegetable Butter Chicken",
+    "links": ["https://mealprepmanual.com/hidden-vegetable-butter-chicken/"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Healthy Chicken Tikka",
+    "links": ["https://www.youtube.com/watch?v=2w4p-HgCp3A"],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [""],
     "categories": ["to try"],
     "versions": [
       {

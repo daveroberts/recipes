@@ -31,21 +31,17 @@
         oninput="search_changed(event)"
       />
     </div>
-    <% for(let recipe of recipes) { %> <% if (!recipe.name){ continue } %>
-    <div
-      class="list-recipe"
-      data-categories="<%=JSON.stringify(recipe.categories)%>"
-      data-ingredients="<%=JSON.stringify(recipe.versions.map(v=>v.ingredients || []).flat())%>"
-      data-recipe-name="<%=recipe.name%>"
-    >
+    <div class="recipe-list">
+      <% for(let recipe of recipes) { %> <% if (!recipe.name){ continue } %>
       <a
-        class="recipe-link"
+        class="recipe-list-item"
+        data-categories="<%=JSON.stringify(recipe.categories)%>"
+        data-ingredients="<%=JSON.stringify(recipe.versions.map(v=>v.ingredients || []).flat())%>"
+        data-recipe-name="<%=recipe.name%>"
         href="recipe/<%=encodeURIComponent(recipe.name.replaceAll("/","").replaceAll("\\",""))%>.html"
-      >
-        <span class="list-recipe-title"><%=recipe.name%></span>
-      </a>
+        ><%=recipe.name%></a>
+      <% } %>
     </div>
-    <% } %>
     <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>

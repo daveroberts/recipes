@@ -83,18 +83,20 @@ button:hover {
   font-size: 2em;
   width: 100%;
 }
-.list-recipe {
-  margin: 3pt 0;
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10pt;
+}
+.recipe-list-item {
+  flex: 1 1 10em;
+  padding: 10pt;
+  border: 2px solid white;
+  text-align: center;
+  justify-content: center;
   display: flex;
   align-items: center;
   column-gap: 10pt;
-}
-.recipe-link {
-  flex-grow: 1;
-  padding: 5pt 0;
-}
-.list-recipe-title {
-  font-size: 1em;
 }
 .hidden {
   display: none;

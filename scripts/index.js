@@ -23,7 +23,7 @@ function search_changed(ev) {
 }
 
 function render_list() {
-  let el_recipes = Array.from(document.querySelectorAll(".list-recipe"));
+  let el_recipes = Array.from(document.querySelectorAll(".recipe-list-item"));
   let show_all = true;
   if (state.categories_selected.length > 0 || state.search) {
     show_all = false;
