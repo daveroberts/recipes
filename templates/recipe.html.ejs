@@ -11,10 +11,9 @@
     <a href="../">← Back to recipe list</a>
     <div style="margin: 1em 0">
       <span style="display: flex; align-items: center; column-gap: 10pt">
-        <a
-          class="recipe-title"
-          href="<%=encodeURIComponent(recipe.name.replaceAll("/","").replaceAll("\\",""))%>.html"
-          ><%=recipe.name%></a>
+        <a class="recipe-title" href="<%=url_from(recipe.name)%>.html"
+          ><%=recipe.name%></a
+        >
         <% if (recipe.categories){ %> <% for(let category of recipe.categories){
         %>
         <span class="tag"><%=category%></span>
@@ -22,8 +21,11 @@
       </span>
     </div>
     <div>
-      <% let body = recipe.versions.map(v => `${v?.name ||
-      ""}%0D%0A${v?.ingredients?.join("%0D%0A")}%0D%0A%0D%0A${v?.instructions?.join("%0D%0A")}`).join("%0D%0A")
+      <% const LF = "%0D%0A" %> <% let link =
+      `https://daveroberts.github.io/recipes/build/recipe/${recipe.name.replaceAll("/","").replaceAll("\\","")}.html`
+      %> <% let body = recipe.name + LF + link + LF + recipe.versions.map(v =>
+      `${v?.name ||
+      ""}${LF}${v?.ingredients?.join(LF)}${LF}${LF}${v?.instructions?.join(LF)}`).join(LF)
       %>
       <a
         target="_blank"

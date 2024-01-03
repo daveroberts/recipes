@@ -38,8 +38,9 @@
         data-categories="<%=JSON.stringify(recipe.categories)%>"
         data-ingredients="<%=JSON.stringify(recipe.versions.map(v=>v.ingredients || []).flat())%>"
         data-recipe-name="<%=recipe.name%>"
-        href="recipe/<%=encodeURIComponent(recipe.name.replaceAll("/","").replaceAll("\\",""))%>.html"
-        ><%=recipe.name%></a>
+        href="recipe/<%=url_from(recipe.name)%>.html"
+        ><%=recipe.name%></a
+      >
       <% } %>
     </div>
     <script type="text/javascript" src="bundle.js"></script>

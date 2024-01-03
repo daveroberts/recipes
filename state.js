@@ -12,5 +12,12 @@ recipes.sort((a, b) => (a.name > b.name ? 1 : -1));
 
 state.recipes = recipes;
 state.categories = categories;
-
+state.url_from = (name) =>
+  name
+    .toLowerCase()
+    .trim()
+    .replaceAll(" ", "-")
+    .replaceAll("/", "-")
+    .replaceAll("\\", "-")
+    .replaceAll(/-+/g, "-");
 module.exports = state;
