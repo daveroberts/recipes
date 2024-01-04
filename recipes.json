@@ -295,29 +295,6 @@
     ]
   },
   {
-    "name": "Indian Coconut Curry",
-    "video": "https://www.youtube.com/watch?v=h_qsg8Gof4Q",
-    "categories": ["Indian"],
-    "versions": [
-      {
-        "ingredients": [
-          "Butternut squash (or yams or carrots)",
-          "Coconut milk",
-          "chopped mushrooms (optional)"
-        ],
-        "instructions": [
-          "In a large skillet.  Heat coconut oil.  Add corriander, fenugreek, cinnamon sticks, mustard seeds, dried chilis.  Heat until seeds start to pop.",
-          "Add onions. Heat until brown.  Add ginger garlic paste.  Heat for another minute.",
-          "Add chopped butternut squash.  Cook for a few minutes",
-          "Add coconut milk.  Add turmeric",
-          "Add mushrooms, add lime juice",
-          "Cover and cook for a few more minutes",
-          "Blend"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Glazed Meatballs - Kale salad",
     "video": "https://www.youtube.com/watch?v=Acs7ZnIdo4o",
     "categories": [],
@@ -3420,8 +3397,8 @@
     ]
   },
   {
-    "name": "",
-    "links": [""],
+    "name": "Chicken Curry",
+    "links": ["https://www.youtube.com/watch?v=47vGRCTN5Kg"],
     "categories": ["to try"],
     "versions": [
       {
