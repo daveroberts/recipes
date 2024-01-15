@@ -1474,28 +1474,6 @@
     ]
   },
   {
-    "name": "Barbacoa",
-    "links": ["https://www.youtube.com/watch?v=VVcRFMG46fg"],
-    "categories": ["to try"],
-    "versions": [
-      {
-        "ingredients": [],
-        "instructions": []
-      }
-    ]
-  },
-  {
-    "name": "Lamb Pulao",
-    "links": ["https://joshicooks.com/lamb-pulao-instant-pot-recipe/"],
-    "categories": [],
-    "versions": [
-      {
-        "ingredients": [],
-        "instructions": []
-      }
-    ]
-  },
-  {
     "name": "Easy Whole Chicken Stew",
     "links": [
       "https://www.google.com/search?client=firefox-b-1-d&q=chicken+stew+instant+pot"
@@ -1561,7 +1539,10 @@
   {
     "name": "Crockpot Barbacoa",
     "links": ["https://www.youtube.com/watch?v=VVcRFMG46fg"],
-    "categories": ["to try", "Slow Cooker"],
+    "categories": ["Slow Cooker"],
+    "notes": [
+      "Meat was dry after cooking eight hours.  Don't let it go too long"
+    ],
     "versions": [
       {
         "ingredients": [
@@ -1578,7 +1559,7 @@
           "salt and pepper",
           "1 cup beef broth"
         ],
-        "instructions": ["throw all into crock pot", "cook on low 6-8 hours"]
+        "instructions": ["throw all into crock pot", "cook on low 4 hours"]
       }
     ]
   },
@@ -2007,31 +1988,6 @@
         "instructions": [
           "Dice lettuce and tomatoes",
           "Serve chicken, rice, lettuce, tomatoes and sauce"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Healthy Blondies",
-    "links": ["https://www.youtube.com/watch?v=j9kHJJzXSCc"],
-    "notes": [
-      "https://www.tiktok.com/@_jacobking/video/7227438764623170842",
-      "Recipes disagree on PB amount",
-      "There are other recipes with more ingredients.  This is a simple version"
-    ],
-    "categories": ["Dessert", "to try"],
-    "versions": [
-      {
-        "ingredients": [
-          "Natural smooth peanut butter, amount varies between 2 1/2 cups or one 16oz jar",
-          "2 cans chickpeas, drained",
-          "5 tablespoons maple syrup",
-          "dark chocolate chips"
-        ],
-        "instructions": [
-          "Mix PB, chickpeats and maple syrup in a food processor",
-          "fold in dark chocolate chips",
-          "Add to baking pan, bake at 350 for 25 minutes"
         ]
       }
     ]
@@ -2565,44 +2521,6 @@
     ]
   },
   {
-    "name": "",
-    "links": ["https://www.youtube.com/watch?v=oXWr23_GQ3U"],
-    "categories": ["Slow Cooker", "to try"],
-    "versions": [
-      {
-        "name": "sauce",
-        "ingredients": [
-          "1 14oz can whole or diced tomatoes",
-          "1/2 onion (or small onion)",
-          "garlic (pinch of powder or one clove)",
-          "1/2 tsp chili powder",
-          "1/2 tsp salt",
-          "1/2 tsp cayenne pepper (optional)",
-          "1 6oz can tomato paste"
-        ],
-        "instructions": [
-          "Add all ingredients to blender and puree to make sauce",
-          "Add blended sauce to a sauce pan, simmer 5-10 minutes"
-        ]
-      },
-      {
-        "name": "Final Prep",
-        "ingredients": [
-          "1 pound ground beef",
-          "corn tortillas",
-          "8oz block cheddar, shredded"
-        ],
-        "instructions": [
-          "line the slow cooker",
-          "brown the beef",
-          "Add three tortillas to the bottom of the slow cooker, add 1/3 of the beef, 1/3 tomato sauce, 1/3 of the cheese",
-          "repeat until out of ingredients",
-          "cook on low for four hours"
-        ]
-      }
-    ]
-  },
-  {
     "name": "channa masala",
     "links": ["https://www.youtube.com/watch?v=5OdpRelOCiU"],
     "categories": ["Indian", "to try"],
@@ -2914,7 +2832,7 @@
     ]
   },
   {
-    "name": "",
+    "name": "Cracker Barrel Slow Cooker Stew",
     "links": ["https://www.youtube.com/watch?v=Yk0EWFU5qOI"],
     "categories": ["Cheap", "to try", "Slow Cooker"],
     "versions": [
@@ -3250,11 +3168,14 @@
   {
     "name": "Oklahoma Onion Burger",
     "links": ["https://www.youtube.com/watch?v=NZWtGNIzUQQ"],
-    "categories": ["to try"],
+    "categories": [],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "ingredients": ["onion", "ground beef", "buns", "cheese"],
+        "instructions": [
+          "Flatten out beef patties onto griddle",
+          "Remove, put down layer of onions and beef patty on top, cheese on beef"
+        ]
       }
     ]
   },
@@ -3288,44 +3209,6 @@
           "Add crushed tomatoes and water, add dried spaghetti and mix",
           "cover pot and put in oven for 15 minutes"
         ]
-      }
-    ]
-  },
-  {
-    "name": "French Chicken Stew",
-    "links": ["https://www.youtube.com/watch?v=OjP9fH-h1Cg"],
-    "categories": ["to try"],
-    "versions": [
-      {
-        "ingredients": [],
-        "instructions": []
-      }
-    ]
-  },
-  {
-    "name": "Super Veggie",
-    "links": [
-      "https://www.youtube.com/watch?v=wHx51zMqmcg",
-      "https://protocol.bryanjohnson.com/#step-1-meal-prep"
-    ],
-    "categories": ["to try"],
-    "versions": [
-      {
-        "ingredients": [
-          "cauliflower",
-          "broccoli",
-          "shitake mushrooms",
-          "black lentils",
-          "garlic",
-          "ginger",
-          "lime",
-          "cumin",
-          "Apple cider vinegar",
-          "hemp seeds",
-          "evoo",
-          "dark chocolate"
-        ],
-        "instructions": []
       }
     ]
   },
@@ -3377,17 +3260,6 @@
   {
     "name": "Hidden Vegetable Butter Chicken",
     "links": ["https://mealprepmanual.com/hidden-vegetable-butter-chicken/"],
-    "categories": ["to try"],
-    "versions": [
-      {
-        "ingredients": [],
-        "instructions": []
-      }
-    ]
-  },
-  {
-    "name": "Healthy Chicken Tikka",
-    "links": ["https://www.youtube.com/watch?v=2w4p-HgCp3A"],
     "categories": ["to try"],
     "versions": [
       {
