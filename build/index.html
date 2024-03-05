@@ -11,7 +11,14 @@
     <title>Recipes</title>
   </head>
   <body>
-    <h1>Recipes</h1>
+    <div class="search-box">
+      <input
+        id="search-text"
+        placeholder="Search..."
+        autofocus
+        oninput="search_changed(event)"
+      />
+    </div>
     <div class="category-area">
       
       <a
@@ -118,14 +125,6 @@
         >to try</a
       >
       
-    </div>
-    <div class="search-box">
-      <input
-        id="search-text"
-        placeholder="Search..."
-        autofocus
-        oninput="search_changed(event)"
-      />
     </div>
     <div class="recipe-list">
           

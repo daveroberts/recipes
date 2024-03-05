@@ -11,7 +11,14 @@
     <title>Recipes</title>
   </head>
   <body>
-    <h1>Recipes</h1>
+    <div class="search-box">
+      <input
+        id="search-text"
+        placeholder="Search..."
+        autofocus
+        oninput="search_changed(event)"
+      />
+    </div>
     <div class="category-area">
       <% for(let category of categories) { %>
       <a
@@ -22,14 +29,6 @@
         ><%= category %></a
       >
       <% } %>
-    </div>
-    <div class="search-box">
-      <input
-        id="search-text"
-        placeholder="Search..."
-        autofocus
-        oninput="search_changed(event)"
-      />
     </div>
     <div class="recipe-list">
       <% for(let recipe of recipes) { %> <% if (!recipe.name){ continue } %>
