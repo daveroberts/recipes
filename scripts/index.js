@@ -1,8 +1,8 @@
 let state = {
   categories_selected: [],
+  search: "",
 };
 function toggle_category(category) {
-  event?.preventDefault();
   let idx = state.categories_selected.findIndex((item) => item == category);
   let el = document.querySelector(`a[data-category="${category}"]`);
   if (idx == -1) {
@@ -13,16 +13,22 @@ function toggle_category(category) {
     el.classList.remove("in");
   }
 
-  render_list();
+  render();
 }
 
 function search_changed(ev) {
   let el = document.querySelector("#search-text");
   state.search = el.value;
-  render_list();
+  render();
 }
 
-function render_list() {
+function render() {
+  let el_category_area = document.getElementById("category-area");
+  if (state.search) {
+    el_category_area.classList.add("hidden");
+  } else {
+    el_category_area.classList.remove("hidden");
+  }
   let el_recipes = Array.from(document.querySelectorAll(".recipe-list-item"));
   let show_all = true;
   if (state.categories_selected.length > 0 || state.search) {
