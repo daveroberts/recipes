@@ -455,48 +455,6 @@
     ]
   },
   {
-    "name": "Mexican Hot Chocolate",
-    "categories": ["Dessert", "Cold Weather"],
-    "versions": [
-      {
-        "name": "8 servings",
-        "ingredients": [
-          "6 12 oz cans evaporated milk",
-          "4 tsp cinnamon",
-          "1 Tbsp vanilla",
-          "1 tsp nutmeg",
-          "1/4 tsp salt",
-          "1/4 tsp chili powder",
-          "Pinch cayenne (optional heat)",
-          "2 12oz bags semisweet Hershey’s chocolate chips",
-          "cinnamon stick (garnish)",
-          "Cocoa powder (garnish)"
-        ],
-        "instructions": [
-          "Stovetop: Combine into large pot, heat and stir until chocolate chips are melted, turn heat to low.",
-          "Slow cooker: combine and cook on low for 2-3 hours, stir every 15-20 minutes",
-          "Serve with dusting of cocoa powder and cinnamon stick"
-        ]
-      },
-      {
-        "name": "Double Serving",
-        "ingredients": [
-          "2 cups milk",
-          "2 Tbsp cocoa powder",
-          "1 ounce chocolate chips (bittersweet, or sweet and reduce sugar)",
-          "2 Tbsp sugar",
-          "1/2 tsp cinnamon",
-          "1/4 tsp vanilla extract",
-          "1/8  tsp chili powder",
-          "1/8 tsp cayenne",
-          "pinch of salt",
-          "cinnamon stick (garnish)"
-        ],
-        "instructions": ["Medium heat until melted, stir, divide into 2 mugs."]
-      }
-    ]
-  },
-  {
     "name": "Faux Wendy's Spicy Chicken Sandwich",
     "notes": [
       "This is great, but deep frying is kind of a pain.  Maybe half deep fry?  Added pickeled jalapenos because we had them and they were awesome"
@@ -3291,22 +3249,131 @@
           "1 block reduced fat cream cheese",
           "2 cups non fat light vanilla greek yogurt (Add vanilla if plain)",
           "2 eggs",
-          "2/3 cup erythritol",
+          "2/3 cup sugar substitute",
           "1/4 cup flour",
           "1/4 tsp salt"
         ],
         "instructions": [
           "Mix, put into pie crust",
-          "Bake at 325F for 55 minutes",
+          "Bake at 325F for 65 minutes",
           "Remove and let it cool",
-          "Place in fridge for four hours"
+          "Place in fridge"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beef Enchiladas Slow Cooker",
+    "links": ["https://www.youtube.com/watch?v=BLdNFgzpOFI"],
+    "notes": ["requires some prep work, not just a dump and go"],
+    "categories": ["Slow Cooker"],
+    "versions": [
+      {
+        "ingredients": [
+          "onion",
+          "lean ground beef",
+          "taco seasoning",
+          "black beans",
+          "rotel",
+          "sweet corn",
+          "mexican cheese",
+          "enchilada sauce",
+          "corn tortillas",
+          "light sour cream"
+        ],
+        "instructions": [
+          "In a pan, fry up diced onion, ground beef and spices",
+          "Add drained black beans, drained rotel, drained corn, cheese, and half of enchilada sauce to a separate bowl",
+          "Add beef and onions to bowl, mix it up",
+          "One option is to layer the slow cooker with corn tortillas and the mix.  Top with cheese",
+          "Another option is to forget the slow cooker and roll them up, placing onto a baking sheet and putting them in the oven."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chocolate Chip Pancake Bites",
+    "links": [
+      "https://www.youtube.com/watch?v=jB4GteV3wUo",
+      "https://mealprepmanual.com/lil-chocolate-chip-protein-pancake-bites/"
+    ],
+    "categories": ["to try"],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Salad Dressing",
+    "links": ["https://www.youtube.com/watch?v=puWE8yKa-tY"],
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [
+          "4 parts greek yogurt, by weight, to 1 part rice vinegar",
+          "Flavoring, lime juice, lemeon juice, herbs, PB powder",
+          "salt and pepper",
+          "Water to thin out"
+        ],
+        "instructions": ["Don't make too much, better when fresh"]
+      }
+    ]
+  },
+  {
+    "name": "Healthier Chili Cheese Fries",
+    "links": [],
+    "categories": ["Side Dish"],
+    "versions": [
+      {
+        "ingredients": [
+          "Frozen Fries",
+          "ground meat",
+          "Red pepper",
+          "onion",
+          "80g low fat cottage cheese",
+          "30g low fat cheddar or mozzarella",
+          "30g low fat milk",
+          "salt, pepper, garlic, paprika, cayenne"
+        ],
+        "instructions": [
+          "Make fries in air fryer",
+          "Cook up beef and onions, add red pepper at end",
+          "In a blender, add cheeses and spices,blend until smooth",
+          "Add beef then cheese mixture to fries"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beans and Rice",
+    "links": ["https://www.youtube.com/watch?v=SmmCgGLvdlQ&t=322s"],
+    "categories": ["Cheap"],
+    "versions": [
+      {
+        "ingredients": [
+          "1 pound dried beans (pinto, lima)",
+          "4 cups broth (or water + better than bouillon",
+          "1/2 cup evoo",
+          "3 cloves garlic",
+          "1 tsp dried thyme",
+          "1 tsp dried rosemary",
+          "2 bay leaves",
+          "1 tsp salt"
+        ],
+        "instructions": [
+          "soak beans the night before in water with 1 tsp baking soda",
+          "heat oil in instant pot, add minced garlic then add drained beans and everything else",
+          "Cook on high pressure for 45 minutes.  Takes about 1 hour",
+          "Take out two cups of beans and blend them with an immersion blender"
         ]
       }
     ]
   },
   {
     "name": "",
-    "links": [""],
+    "links": [],
     "categories": ["to try"],
     "versions": [
       {
@@ -3317,7 +3384,7 @@
   },
   {
     "name": "",
-    "links": [""],
+    "links": [],
     "categories": ["to try"],
     "versions": [
       {
@@ -3328,7 +3395,7 @@
   },
   {
     "name": "",
-    "links": [""],
+    "links": [],
     "categories": ["to try"],
     "versions": [
       {
