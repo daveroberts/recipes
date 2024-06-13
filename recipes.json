@@ -3326,7 +3326,7 @@
   },
   {
     "name": "Beans and Rice",
-    "links": ["https://www.youtube.com/watch?v=SmmCgGLvdlQ&t=322s"],
+    "links": ["https://www.youtube.com/watch?v=SmmCgGLvdlQ"],
     "categories": ["Cheap"],
     "versions": [
       {
@@ -3350,13 +3350,44 @@
     ]
   },
   {
-    "name": "",
-    "links": [],
-    "categories": ["to try"],
+    "name": "Mediterranean Chicken Pasta Salad",
+    "links": [
+      "https://youtu.be/sqq10hxSj04?si=VjmaxHiTbNREVxfE",
+      "https://mealprepmanual.com/mediterranean-chicken-pasta-salad/"
+    ],
+    "categories": [],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "name": "Chicken",
+        "ingredients": ["2-3 Chicken breasts"],
+        "instructions": [
+          "Roast in air fryer for 25 minutes at 400F.  Less time if small, more if large"
+        ]
+      },
+      {
+        "name": "pasta",
+        "ingredients": ["8ox chickpea pasta"]
+      },
+      {
+        "name": "veggies",
+        "ingredients": [
+          "1 cucumber",
+          "5oz Spinach",
+          "cherry tomatoes, sliced",
+          "red onion, diced"
+        ]
+      },
+      {
+        "name": "dressing",
+        "ingredients": [
+          "1 cup fat free crumbled feta",
+          "6 tbsp evoo",
+          "4 tbsp red wine vinegar",
+          "1 tbsp lemon juice",
+          "garlic powder",
+          "2 tsp oregano",
+          "1 tsp salt"
+        ]
       }
     ]
   },

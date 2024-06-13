@@ -105,3 +105,6 @@ button:hover {
 .recipe-title {
   font-size: 2em;
 }
+.version {
+  margin-left: 1em;
+}

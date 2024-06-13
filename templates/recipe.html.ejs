@@ -48,21 +48,25 @@
     <% } %> <% } %> <% for(let version of recipe.versions){ %> <% if
     (version.name){ %>
     <h3><%=version.name%></h3>
-    <% } %> <% if (version.ingredients){ %>
-    <h4>Ingredients</h4>
-    <ul>
-      <% for(let ingredient of version.ingredients){ %>
-      <li><%=ingredient%></li>
+    <% } %>
+    <div class="version">
+      <% if (version.ingredients){ %>
+      <h4>Ingredients</h4>
+      <ul>
+        <% for(let ingredient of version.ingredients){ %>
+        <li><%=ingredient%></li>
+        <% } %>
+      </ul>
+      <% } %> <% if (version.instructions){ %>
+      <h4>Instructions</h4>
+      <ol>
+        <% for(let instruction of version.instructions){ %>
+        <li><%=instruction%></li>
+        <% } %>
+      </ol>
       <% } %>
-    </ul>
-    <% } %> <% if (version.instructions){ %>
-    <h4>Instructions</h4>
-    <ol>
-      <% for(let instruction of version.instructions){ %>
-      <li><%=instruction%></li>
-      <% } %>
-    </ol>
-    <% } %> <% } %>
+    </div>
+    <% } %>
     <script type="text/javascript" src="../bundle.js"></script>
   </body>
 </html>
