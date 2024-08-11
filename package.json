@@ -7,7 +7,7 @@
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
     "dev": "npm run build:watch",
     "build": "npm run build:clean && node build.js",
-    "build:watch": "nodemon --ext * --watch templates/* --watch static/* --watch scripts/* --watch recipes.json build.js",
+    "build:watch": "nodemon --ext * --watch stylesheets/* --watch templates/* --watch static/* --watch scripts/* --watch recipes.json build.js",
     "build:clean": "rimraf build",
     "publish": "npm run build && git add . && git commit -m autobuild && git checkout -b gh-pages && git push -f --set-upstream origin gh-pages && git checkout master && git branch -D gh-pages",
     "serve": "browser-sync start --server build/ --files ./build --reload-debounce 100"
@@ -24,5 +24,8 @@
     "http-server": "^14.1.1",
     "nodemon": "^3.0.1",
     "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "less": "^4.2.0"
   }
 }

@@ -23,6 +23,14 @@
       
       <a
         href="#void"
+        data-category="Favorite"
+        onclick="toggle_category('Favorite')"
+        class="category-button"
+        >❤️Favorite</a
+      >
+      
+      <a
+        href="#void"
         data-category="Air Fryer"
         onclick="toggle_category('Air Fryer')"
         class="category-button"
@@ -79,14 +87,6 @@
       
       <a
         href="#void"
-        data-category="Lunch"
-        onclick="toggle_category('Lunch')"
-        class="category-button"
-        >Lunch</a
-      >
-      
-      <a
-        href="#void"
         data-category="Side Dish"
         onclick="toggle_category('Side Dish')"
         class="category-button"
@@ -99,14 +99,6 @@
         onclick="toggle_category('Slow Cooker')"
         class="category-button"
         >Slow Cooker</a
-      >
-      
-      <a
-        href="#void"
-        data-category="Thai"
-        onclick="toggle_category('Thai')"
-        class="category-button"
-        >Thai</a
       >
       
       <a
@@ -157,15 +149,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
-        data-ingredients="[&#34;Pickles&#34;,&#34;Avocado&#34;,&#34;jarred roasted peppers&#34;,&#34;bread (regular is fine)&#34;]"
-        data-recipe-name="Avocado Toast!"
-        href="recipe/avocado-toast!.html"
-        >Avocado Toast!</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;]"
         data-ingredients="[&#34;4 apples&#34;,&#34;1/3 cup sliced almonds&#34;,&#34;1/3 cup brown stevia (or brown sugar)&#34;,&#34;1/4 tsp nutmeg (fresh grated preferred)&#34;,&#34;1/2 tsp cinnamon&#34;,&#34;vanilla&#34;,&#34;butter&#34;,&#34;vanilla ice cream (optional)&#34;]"
         data-recipe-name="Baked Apple"
@@ -193,20 +176,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Cold Weather&#34;,&#34;to try&#34;]"
-        data-ingredients="[&#34;ground beef&#34;,&#34;tortillas&#34;,&#34;onion&#34;,&#34;jalapenos&#34;,&#34;shredded mexican cheese&#34;,&#34;baking soda&#34;,&#34;chicken broth&#34;,&#34;tomato sauce&#34;,&#34;garlic&#34;,&#34;chili powder&#34;,&#34;cumin&#34;,&#34;oregano&#34;,&#34;flour&#34;]"
+        data-categories="[&#34;Cold Weather&#34;]"
+        data-ingredients="[&#34;ground beef&#34;,&#34;tortillas&#34;,&#34;onion&#34;,&#34;shredded cheddar/mexican cheese&#34;,&#34;can beans&#34;,&#34;can diced tomatoes&#34;,&#34;2 cans red enchilada sauce&#34;]"
         data-recipe-name="Beef Enchiladas"
         href="recipe/beef-enchiladas.html"
         >Beef Enchiladas</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Slow Cooker&#34;]"
-        data-ingredients="[&#34;onion&#34;,&#34;lean ground beef&#34;,&#34;taco seasoning&#34;,&#34;black beans&#34;,&#34;rotel&#34;,&#34;sweet corn&#34;,&#34;mexican cheese&#34;,&#34;enchilada sauce&#34;,&#34;corn tortillas&#34;,&#34;light sour cream&#34;]"
-        data-recipe-name="Beef Enchiladas Slow Cooker"
-        href="recipe/beef-enchiladas-slow-cooker.html"
-        >Beef Enchiladas Slow Cooker</a
       >
        
       <a
@@ -229,15 +203,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Cold Weather&#34;]"
-        data-ingredients="[&#34;Chicken (breasts or thighs)&#34;,&#34;Butter&#34;,&#34;Diced onion&#34;,&#34;Minced garlic&#34;,&#34;Tomato sauce&#34;,&#34;Ketchup&#34;,&#34;Heavy cream (or crema)&#34;,&#34;Salt and pepper&#34;,&#34;Mushrooms (optional)&#34;]"
-        data-recipe-name="Brazilian Stroganoff"
-        href="recipe/brazilian-stroganoff.html"
-        >Brazilian Stroganoff</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;Dessert&#34;]"
         data-ingredients="[&#34;3 limes&#34;,&#34;sweetened condensed milk&#34;]"
         data-recipe-name="Brazillian Lemonade"
@@ -247,29 +212,20 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;,&#34;to try&#34;]"
-        data-ingredients="[&#34;ground turkey&#34;,&#34;spice blend&#34;,&#34;lowfat cottage cheese&#34;,&#34;eggs&#34;,&#34;kale&#34;,&#34;tortillas&#34;]"
-        data-recipe-name="Breakfast Burrito"
-        href="recipe/breakfast-burrito.html"
-        >Breakfast Burrito</a
+        data-categories="[&#34;Breakfast&#34;]"
+        data-ingredients="[&#34;breakfast sausage or chorizo or ground turkey/beef or bacon&#34;,&#34;eggs&#34;,&#34;bell pepper&#34;,&#34;1/2 onion&#34;,&#34;potato&#34;,&#34;breakfast sausage or ground turkey/beef&#34;,&#34;eggs&#34;,&#34;bell pepper&#34;,&#34;1/2 onion&#34;,&#34;potato&#34;]"
+        data-recipe-name="Breakfast Burritos / Tacos"
+        href="recipe/breakfast-burritos-tacos.html"
+        >Breakfast Burritos / Tacos</a
       >
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
-        data-ingredients="[&#34;breakfast sausage or ground beef&#34;,&#34;bell pepper&#34;,&#34;1/2 onion&#34;,&#34;potato&#34;,&#34;2 Jalapenos&#34;,&#34;10 oz AP Flour (2 Cups plus 2 tablespoons)&#34;,&#34;3 oz or 1/2 Cup of Lard, Bacon Fat, butter or Veg Shortening, melted&#34;,&#34;5 oz or 1/2 Cup plus 2 tablespoons of Warm Water around 150˚F&#34;,&#34;1 1/4 teaspoon Baking Powder&#34;,&#34;1 1/2 teaspoon of Salt&#34;,&#34;eggs&#34;,&#34;american cheese&#34;]"
-        data-recipe-name="Breakfast Burritos"
-        href="recipe/breakfast-burritos.html"
-        >Breakfast Burritos</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
+        data-categories="[&#34;Breakfast&#34;,&#34;Favorite&#34;]"
         data-ingredients="[&#34;3/4 pound uncooked sausage, casings removed (You can use ground turkey, ground beef or ground chicken instead)&#34;,&#34;optional: 1 teaspoon dried rosemary to give the sausage more flavor&#34;,&#34;2 bell peppers, diced (any color you prefer; about 2 cups)&#34;,&#34;1 cup sliced mushrooms&#34;,&#34;1 cup fresh spinach&#34;,&#34;1/2 medium yellow onion, diced&#34;,&#34;1 teaspoon minced garlic&#34;,&#34;salt and black pepper&#34;,&#34;4 slices day-old bread (gluten free, whole wheat, white, sourdough, any kind you like)&#34;,&#34;10 large eggs&#34;,&#34;1/2 cup milk (I use almond milk, any milk works) (Mom used a can of coconut milk)&#34;,&#34;1/2 cup shredded cheese - any works - pepper jack, mozzarella, gouda, swiss, cheddar&#34;]"
         data-recipe-name="Breakfast Casserole"
         href="recipe/breakfast-casserole.html"
-        >Breakfast Casserole</a
+        >❤️Breakfast Casserole</a
       >
        
       <a
@@ -283,20 +239,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;]"
+        data-categories="[]"
         data-ingredients="[&#34;2 eggs&#34;,&#34;chipotle garlic seasoning (or any)&#34;,&#34;low fat cheese (feta, mozarella)&#34;,&#34;low carb tortilla&#34;]"
         data-recipe-name="Breakfast Snack Taco"
         href="recipe/breakfast-snack-taco.html"
         >Breakfast Snack Taco</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
-        data-ingredients="[&#34;2 1/2 cups flour&#34;,&#34;2 tsp kosher salt&#34;,&#34;1 1/2 tsp baking powder&#34;,&#34;fat - 1/2 cup, lard, shortening or bacon fat&#34;]"
-        data-recipe-name="Breakfast Tacos"
-        href="recipe/breakfast-tacos.html"
-        >Breakfast Tacos</a
       >
        
       <a
@@ -351,15 +298,6 @@
         data-recipe-name="Butter Chicken"
         href="recipe/butter-chicken.html"
         >Butter Chicken</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Indian&#34;]"
-        data-ingredients="[&#34;Chicken Thighs&#34;,&#34;1 ½ tbsp unsalted butter&#34;,&#34;5 green cardamom pods lightly crushed&#34;,&#34;1” cinnamon stick&#34;,&#34;4 cloves&#34;,&#34;1 small onion finely chopped&#34;,&#34;1 heaped tbsp grated ginger&#34;,&#34;2 green chillies slit lengthwise&#34;,&#34;1 tsp kashmiri chilli powder (or mild paprika)&#34;,&#34;½ tsp garam masala powder&#34;,&#34;3 tbsp tomato puree&#34;,&#34;1/2 cup heavy cream&#34;,&#34;2 tbsp honey&#34;,&#34;1/2 Tbsp Kasoori methi/ fenugreek leaf powder&#34;,&#34;Salt to taste&#34;,&#34;Chopped coriander for garnish&#34;]"
-        data-recipe-name="Butter Chicken (Jamie Oliver)"
-        href="recipe/butter-chicken-(jamie-oliver).html"
-        >Butter Chicken (Jamie Oliver)</a
       >
        
       <a
@@ -437,7 +375,7 @@
       <a
         class="recipe-list-item"
         data-categories="[]"
-        data-ingredients="[&#34;2 tsp garlic powder&#34;,&#34;1 tsp turmeric &#34;,&#34;1 tsp cumin &#34;,&#34;1 tsp coriander &#34;,&#34;1 tsp all spice &#34;,&#34;2 tsp smoked paprika &#34;,&#34;1 tsp onion &#34;,&#34;1 tsp cardamom &#34;,&#34;1/2 tsp clove &#34;,&#34;1/2 tsp cayenne pepper&#34;,&#34;1/2 tsp msg&#34;,&#34;1 Tbsp sugar &#34;,&#34;1.5tsp salt&#34;,&#34;2 Tbsp olive oil&#34;,&#34;1.5 Tbsp lemon juice&#34;,&#34;4 Tbsp white vinegar&#34;,&#34;2 Tbsp tomato paste&#34;,&#34;liquid smoke (optional, or use real smoke, see below)&#34;,&#34;2 pounds boneless skinless chicken thighs&#34;,&#34;1 full bulb of garlic&#34;,&#34;1 cup neutral oil (corn, canola, vegetable, avocado, grapeseed, sunflower, peanut)&#34;,&#34;4 Tbsp lemon juice&#34;,&#34;pinch of salt&#34;,&#34;frozen fries&#34;,&#34;dill relish or sliced pickes&#34;,&#34;Pan with cover&#34;,&#34;Charcoal from indian / middle eastern&#34;,&#34;dill relish or sliced pickes&#34;,&#34;pomegranite molassses&#34;,&#34;french fries&#34;,&#34;pitas&#34;,&#34;parchment paper&#34;,&#34;aluminum foil&#34;]"
+        data-ingredients="[&#34;2 tsp garlic powder&#34;,&#34;1 tsp turmeric &#34;,&#34;1 tsp cumin &#34;,&#34;1 tsp coriander &#34;,&#34;1 tsp all spice &#34;,&#34;2 tsp smoked paprika &#34;,&#34;1 tsp onion &#34;,&#34;1 tsp cardamom &#34;,&#34;1/2 tsp clove &#34;,&#34;1/2 tsp cayenne pepper&#34;,&#34;1/2 tsp msg&#34;,&#34;1 Tbsp sugar &#34;,&#34;1.5tsp salt&#34;,&#34;2 Tbsp olive oil&#34;,&#34;1.5 Tbsp lemon juice&#34;,&#34;4 Tbsp white vinegar&#34;,&#34;2 Tbsp tomato paste&#34;,&#34;liquid smoke (optional, or use real smoke, see below)&#34;,&#34;2 pounds boneless skinless chicken thighs&#34;,&#34;1 full bulb of garlic&#34;,&#34;1 cup neutral oil (corn, canola, vegetable, avocado, grapeseed, sunflower, peanut)&#34;,&#34;4 Tbsp lemon juice&#34;,&#34;pinch of salt&#34;,&#34;frozen fries&#34;,&#34;dill relish or sliced pickes&#34;,&#34;dill relish or sliced pickes&#34;,&#34;pomegranite molassses&#34;,&#34;french fries&#34;,&#34;pitas&#34;,&#34;parchment paper&#34;,&#34;aluminum foil&#34;]"
         data-recipe-name="Chicken Shawarma"
         href="recipe/chicken-shawarma.html"
         >Chicken Shawarma</a
@@ -454,7 +392,7 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;]"
+        data-categories="[]"
         data-ingredients="[&#34;mayo&#34;,&#34;salsa (optional)&#34;,&#34;Tuna or Chicken (canned or sous vide)&#34;,&#34;Shredded Cheese (optional, mozzarella)&#34;,&#34;Flour tortilla&#34;]"
         data-recipe-name="Chicken or Tuna Sandwich"
         href="recipe/chicken-or-tuna-sandwich.html"
@@ -468,24 +406,6 @@
         data-recipe-name="Chickpea Spinach Curry"
         href="recipe/chickpea-spinach-curry.html"
         >Chickpea Spinach Curry</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Thai&#34;]"
-        data-ingredients="[&#34;lettuce (baby gem, napa)&#34;,&#34;Ground Pork (can be half pork and half beef)&#34;,&#34;Chili&#34;,&#34;fish sauce&#34;,&#34;lime&#34;,&#34;cilantro&#34;,&#34;spring onions&#34;]"
-        data-recipe-name="Chili Beef or Pork Lettuce Wraps"
-        href="recipe/chili-beef-or-pork-lettuce-wraps.html"
-        >Chili Beef or Pork Lettuce Wraps</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Slow Cooker&#34;]"
-        data-ingredients="[&#34;2 pounds chuck roast&#34;,&#34;3 ancho, 3 guajillo chilies&#34;,&#34;5-10 chile de arbol (optional)&#34;,&#34;3 cups beef stock&#34;,&#34;1 onion&#34;,&#34;2 teaspoons cumin&#34;,&#34;1 teaspoon oregano&#34;]"
-        data-recipe-name="Chili Colorado"
-        href="recipe/chili-colorado.html"
-        >Chili Colorado</a
       >
        
       <a
@@ -508,11 +428,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
+        data-categories="[&#34;Breakfast&#34;,&#34;Favorite&#34;]"
         data-ingredients="[&#34;quick oats&#34;,&#34;Applesauce&#34;,&#34;yogurt (plain or vanilla)&#34;,&#34;cinnamon&#34;,&#34;brown sugar&#34;,&#34;coconut milk (or other milk)&#34;,&#34;Flax seed (optional)&#34;,&#34;quick oats&#34;,&#34;almonds&#34;,&#34;honey or maple syrup&#34;,&#34;diced apple&#34;]"
-        data-recipe-name="Cinnamon Oatmeal Breakfast"
-        href="recipe/cinnamon-oatmeal-breakfast.html"
-        >Cinnamon Oatmeal Breakfast</a
+        data-recipe-name="Cinnamon Oatmeal"
+        href="recipe/cinnamon-oatmeal.html"
+        >❤️Cinnamon Oatmeal</a
       >
        
       <a
@@ -531,15 +451,6 @@
         data-recipe-name="Coconut Chickpea Rice"
         href="recipe/coconut-chickpea-rice.html"
         >Coconut Chickpea Rice</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Dessert&#34;]"
-        data-ingredients="[&#34;cottage cheese (full fat)&#34;,&#34;honey (optional)&#34;,&#34;peanut butter (optional)&#34;]"
-        data-recipe-name="Cottage Cheese Ice Cream"
-        href="recipe/cottage-cheese-ice-cream.html"
-        >Cottage Cheese Ice Cream</a
       >
        
       <a
@@ -643,15 +554,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[]"
-        data-ingredients="[]"
-        data-recipe-name="Focaccia bread"
-        href="recipe/focaccia-bread.html"
-        >Focaccia bread</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;Slow Cooker&#34;,&#34;to try&#34;]"
         data-ingredients="[&#34;6 yellow onions (more is great too)&#34;,&#34;Balsamic vinegar&#34;,&#34;salt and pepper&#34;,&#34;1 Tbsp thyme&#34;,&#34;2 bay leaves&#34;,&#34;1 Tbsp brown sugar&#34;,&#34;1 stick butter&#34;,&#34;4 cans beef stock&#34;,&#34;demi glaze (optional)&#34;,&#34;2 Tbsp Worcestershire sauce&#34;,&#34;2 Tbsp flour (optional)&#34;,&#34;1/2 cup alcohol (dry sherry, red wine or dark beer)&#34;,&#34;shredded cheese&#34;,&#34;toast&#34;]"
         data-recipe-name="French Onion Soup"
@@ -661,20 +563,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
+        data-categories="[&#34;Breakfast&#34;,&#34;Favorite&#34;]"
         data-ingredients="[&#34;6 pieces of bread&#34;,&#34;4 eggs&#34;,&#34;2 Tbsp Cream (or milk)&#34;,&#34;1 Tbsp Vanilla&#34;,&#34;cinnamon&#34;]"
         data-recipe-name="French Toast Pull Aparts"
         href="recipe/french-toast-pull-aparts.html"
-        >French Toast Pull Aparts</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;to try&#34;]"
-        data-ingredients="[&#34;2 tsp active dry yeast&#34;,&#34;1 tsp sugar&#34;,&#34;1/2 cup lukewarm water&#34;,&#34;1 large egg&#34;,&#34;1/3 cup avocado oil&#34;,&#34;1/4 cup plain yoghurt&#34;,&#34;2 3/4 cups ap flour&#34;,&#34;3/4 tsp salt&#34;,&#34;1 stick unsalted butter&#34;,&#34;3 cloves minced garlic&#34;,&#34;3/4 cup chopped cilantro&#34;,&#34;salt and pepper to taste&#34;]"
-        data-recipe-name="Garlic Naan"
-        href="recipe/garlic-naan.html"
-        >Garlic Naan</a
+        >❤️French Toast Pull Aparts</a
       >
        
       <a
@@ -697,20 +590,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Dessert&#34;,&#34;Cold Weather&#34;,&#34;to try&#34;]"
-        data-ingredients="[&#34;1 ½ cups light coconut milk (canned is best, but carton or homemade works too)&#34;,&#34;1 ½ cups unsweetened plain almond milk (DIY or store-bought)&#34;,&#34;1 ½ tsp turmeric&#34;,&#34;1/4 tsp ginger (or 1 tsp freshly grated ginger*)&#34;,&#34;1 whole cinnamon stick (or 1/4 tsp cinnamon)&#34;,&#34;1 Tbsp coconut oil (optional for richness // see notes for oil-free)&#34;,&#34;1 pinch black pepper&#34;,&#34;Sweetener of choice (i.e. maple syrup, coconut sugar, or stevia to taste)&#34;]"
-        data-recipe-name="Golden milk"
-        href="recipe/golden-milk.html"
-        >Golden milk</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Cold Weather&#34;]"
+        data-categories="[&#34;Cold Weather&#34;,&#34;Favorite&#34;]"
         data-ingredients="[&#34;1 pound chicken thighs&#34;,&#34;1 pound sausage (andouille, smoked)&#34;,&#34;oil (grapeseed or vegetable oil for higher smoke point)&#34;,&#34;celery (2-5 ribs or so)&#34;,&#34;1-2 green bell pepper&#34;,&#34;1 yellow onion&#34;,&#34;1 jalapeno pepper (optional)&#34;,&#34;amber-style beer (lager, etc)&#34;,&#34;6 large cloves of garlic or garlic powder&#34;,&#34;garlic powder, onion powder, w sauce&#34;,&#34;1 quart stock (chicken or seafood)&#34;,&#34;fresh thyme&#34;,&#34;5 bay leaves&#34;,&#34;creole seasoning&#34;,&#34;shrimp (optional)&#34;,&#34;green onions&#34;,&#34;rice&#34;]"
         data-recipe-name="Gumbo"
         href="recipe/gumbo.html"
-        >Gumbo</a
+        >❤️Gumbo</a
       >
        
       <a
@@ -787,15 +671,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Breakfast&#34;]"
-        data-ingredients="[&#34;3/4 cup greek yogurt&#34;,&#34;1.25 cup water&#34;,&#34;3 Tbsp neutral oil&#34;,&#34;yeast - 3/4 tsp instant yeast or 1 tsp active dry yeast&#34;,&#34;4 cups all purpose flour&#34;,&#34;1.5 tsp sea salt&#34;,&#34;2 Tbsp sugar&#34;,&#34;cornmeal&#34;]"
-        data-recipe-name="Homemade English Muffins"
-        href="recipe/homemade-english-muffins.html"
-        >Homemade English Muffins</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;to revise&#34;]"
         data-ingredients="[]"
         data-recipe-name="Homemade Wraps"
@@ -814,15 +689,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;to revise&#34;,&#34;Indian&#34;]"
-        data-ingredients="[]"
-        data-recipe-name="Indian naan"
-        href="recipe/indian-naan.html"
-        >Indian naan</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[]"
         data-ingredients="[]"
         data-recipe-name="Kale Chips"
@@ -833,15 +699,6 @@
       <a
         class="recipe-list-item"
         data-categories="[]"
-        data-ingredients="[&#34;1/2 tbsp Black Pepper Corns&#34;,&#34;1 tbsp Cumin Seeds&#34;,&#34;1 tbsp Coriander Seeds&#34;,&#34;1 Cinnamon Stick&#34;,&#34;3 Black Cardamom Pods&#34;,&#34;5 Cardamom pods&#34;,&#34;1/2 tsp cloves&#34;,&#34;2 small Onions&#34;,&#34;1 whole head of Garlic&#34;,&#34;3 lbs Lamb Shoulder&#34;,&#34;1/2 cup canola oil&#34;,&#34;1 tbsp Ginger Turmeric and Garlic Paste.&#34;,&#34;3 cups of washed Basmati rice&#34;]"
-        data-recipe-name="Lamb Pulao"
-        href="recipe/lamb-pulao.html"
-        >Lamb Pulao</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;]"
         data-ingredients="[&#34;chicken or turkey leftovers&#34;,&#34;pickles&#34;,&#34;pickled jalapenos&#34;,&#34;american cheese&#34;,&#34;barbeque sauce&#34;,&#34;wraps&#34;]"
         data-recipe-name="Leftover Chicken or Turkey Wraps"
         href="recipe/leftover-chicken-or-turkey-wraps.html"
@@ -859,16 +716,7 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;,&#34;Thai&#34;]"
-        data-ingredients="[&#34;Roast Beef lunch meat slices&#34;,&#34;Lettuce&#34;,&#34;Carrots (shredded)&#34;,&#34;Sesame Seeds&#34;,&#34;Soy Sauce&#34;]"
-        data-recipe-name="Lettuce Wraps"
-        href="recipe/lettuce-wraps.html"
-        >Lettuce Wraps</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;]"
+        data-categories="[]"
         data-ingredients="[&#34;Low carb tortilla&#34;,&#34;Light mozzarella cheese&#34;,&#34;turkey or chicken breast slices&#34;,&#34;pickled jalapenos or pickles&#34;,&#34;greek yogurt&#34;,&#34;hot sauce&#34;]"
         data-recipe-name="Low Carb Chicken Wrap"
         href="recipe/low-carb-chicken-wrap.html"
@@ -886,11 +734,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;]"
-        data-ingredients="[&#34;1/2 pound macaroni noodles&#34;,&#34;block of cheddar (2 cups)&#34;,&#34;1/2 cup milk&#34;,&#34;1.5 tsp garlic powder&#34;,&#34;dijon mustard or lemon juice&#34;,&#34;2 eggs&#34;,&#34;Frozen vegetables&#34;]"
-        data-recipe-name="Mac and Cheese"
-        href="recipe/mac-and-cheese.html"
-        >Mac and Cheese</a
+        data-categories="[&#34;Favorite&#34;]"
+        data-ingredients="[&#34;1/2 pound macaroni noodles&#34;,&#34;block of cheddar (2 cups)&#34;,&#34;1/2 cup milk&#34;,&#34;1.5 tsp garlic powder&#34;,&#34;dijon mustard or lemon juice&#34;,&#34;2 eggs&#34;,&#34;Frozen peas&#34;]"
+        data-recipe-name="Mac and Cheese and peas"
+        href="recipe/mac-and-cheese-and-peas.html"
+        >❤️Mac and Cheese and peas</a
       >
        
       <a
@@ -967,15 +815,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[]"
-        data-ingredients="[&#34;onion&#34;,&#34;ground beef&#34;,&#34;buns&#34;,&#34;cheese&#34;]"
-        data-recipe-name="Oklahoma Onion Burger"
-        href="recipe/oklahoma-onion-burger.html"
-        >Oklahoma Onion Burger</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;Cold Weather&#34;]"
         data-ingredients="[&#34;10 sheets lasagna&#34;,&#34;Italian sausage&#34;,&#34;28oz can crushed tomatoes&#34;,&#34;8oz can tomato sauce&#34;,&#34;grated parmesan&#34;,&#34;8oz mozarella cubed or grated (full fat preferred)&#34;,&#34;1/2 large onion, chopped&#34;,&#34;2 cloves garlic&#34;]"
         data-recipe-name="One Pot Lasagna"
@@ -1012,11 +851,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories=""
+        data-categories="[&#34;Breakfast&#34;,&#34;Favorite&#34;]"
         data-ingredients="[&#34;2 Tablespoons butter&#34;,&#34;2 Tablespoons sugar&#34;,&#34;1 egg&#34;,&#34;splash vanilla&#34;,&#34;1 heaped Tablespoon baking powder&#34;,&#34;water or milk&#34;,&#34;Flour, bread or regular (almond flour won&#39;t work)&#34;]"
         data-recipe-name="Pancakes"
         href="recipe/pancakes.html"
-        >Pancakes</a
+        >❤️Pancakes</a
       >
        
       <a
@@ -1030,15 +869,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[]"
-        data-ingredients="[&#34;2-4 carrots, enough to fill non-metal jar&#34;,&#34;white vinegar, 1/2 cup&#34;,&#34;1.5 Tbsp sugar&#34;,&#34;1 tsp salt&#34;]"
-        data-recipe-name="Pickled carrots"
-        href="recipe/pickled-carrots.html"
-        >Pickled carrots</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;Side Dish&#34;]"
         data-ingredients="[&#34;1/2 red onion, diced&#34;,&#34;tomato, diced&#34;,&#34;cilantro, chopped&#34;,&#34;jalapeno, optional, minced&#34;,&#34;pineapple, diced&#34;,&#34;lime juice&#34;,&#34;salt&#34;]"
         data-recipe-name="Pineapple Salsa"
@@ -1048,20 +878,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;to try&#34;]"
-        data-ingredients="[]"
-        data-recipe-name="Pizza Meal Prep Edition"
-        href="recipe/pizza-meal-prep-edition.html"
-        >Pizza Meal Prep Edition</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[]"
+        data-categories="[&#34;Favorite&#34;]"
         data-ingredients="[&#34;turkey pepperoni&#34;,&#34;mozzarella cheese&#34;,&#34;flour tortillas&#34;,&#34;pizza sauce&#34;]"
         data-recipe-name="Pizza Pockets"
         href="recipe/pizza-pockets.html"
-        >Pizza Pockets</a
+        >❤️Pizza Pockets</a
       >
        
       <a
@@ -1071,15 +892,6 @@
         data-recipe-name="Pizza Quesadillas"
         href="recipe/pizza-quesadillas.html"
         >Pizza Quesadillas</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[]"
-        data-ingredients="[&#34;1 cup bread flour&#34;,&#34;1/2 teaspoon salt&#34;,&#34;1/2 teaspoon sugar&#34;,&#34;1/2 teaspoon dry yeast&#34;,&#34;glug of olive oil (~2 teaspoons)&#34;,&#34;garlic powder&#34;,&#34;1/2 cup water&#34;,&#34;~1/3 cup crushed or ground tomatoes&#34;,&#34;marjoram, oregano, basil, chili flakes, sugar, black pepper, olive oil&#34;,&#34;Shredded Mozzarella.  Low-Moisture Part-Skim is best.  Grate it yourself&#34;,&#34;Fake Parmesan Cheese&#34;]"
-        data-recipe-name="Pizza!"
-        href="recipe/pizza!.html"
-        >Pizza!</a
       >
        
       <a
@@ -1098,15 +910,6 @@
         data-recipe-name="Queso"
         href="recipe/queso.html"
         >Queso</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[&#34;Indian&#34;,&#34;Side Dish&#34;]"
-        data-ingredients="[&#34;1 cup Greek Yogurt&#34;,&#34;1 Tomato&#34;,&#34;1/2 Red Onion&#34;,&#34;Small piece of cucumber&#34;,&#34;1 handfull cilantro&#34;,&#34;1/4 tsp cumin&#34;,&#34;1/4 tsp chili powder&#34;,&#34;black pepper&#34;,&#34;salt&#34;,&#34;1 tbsp Lemon Juice&#34;,&#34;ginger / garlic paste (optional)&#34;]"
-        data-recipe-name="Raita"
-        href="recipe/raita.html"
-        >Raita</a
       >
        
       <a
@@ -1147,20 +950,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[]"
-        data-ingredients="[&#34;1 lb (454g) shrimp (bigger ones are more likely to cook in the same time as the veggies)&#34;,&#34;1 lb (454g) asparagus&#34;,&#34;2 ears fresh sweet corn&#34;,&#34;2-3 shallots&#34;,&#34;2-3 garlic cloves&#34;,&#34;1 lemon&#34;,&#34;salt, pepper, oil and spices (I used garlic powder, onion powder and smoked paprika)&#34;,&#34;fresh herb for garnish (I used lemon balm but parsley would be good)&#34;]"
-        data-recipe-name="Shrimp sheet pan dinner"
-        href="recipe/shrimp-sheet-pan-dinner.html"
-        >Shrimp sheet pan dinner</a
-      >
-       
-      <a
-        class="recipe-list-item"
-        data-categories="[]"
+        data-categories="[&#34;Favorite&#34;]"
         data-ingredients="[&#34;ground meat&#34;,&#34;bell peppers&#34;,&#34;onion&#34;,&#34;tomato sauce&#34;,&#34;garlic&#34;,&#34;ketchup&#34;,&#34;brown sugar&#34;,&#34;Worcestershire sauce&#34;,&#34;black pepper&#34;,&#34;red pepper flakes&#34;,&#34;buns&#34;]"
         data-recipe-name="Sloppy Joes"
         href="recipe/sloppy-joes.html"
-        >Sloppy Joes</a
+        >❤️Sloppy Joes</a
       >
        
       <a
@@ -1174,11 +968,11 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[]"
+        data-categories="[&#34;Favorite&#34;]"
         data-ingredients="[&#34;Brioche Buns&#34;,&#34;Ground beef (lean preferred)&#34;,&#34;American cheese&#34;,&#34;Onion&#34;]"
         data-recipe-name="Smashed Burger"
         href="recipe/smashed-burger.html"
-        >Smashed Burger</a
+        >❤️Smashed Burger</a
       >
        
       <a
@@ -1201,15 +995,6 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;to revise&#34;,&#34;Indian&#34;]"
-        data-ingredients="[&#34;2 bags of spinach&#34;,&#34;fresh chilis&#34;,&#34;ghee, corriander seeds, cardamon pods, cumin seeds, garam masala&#34;,&#34;ginger, garlic&#34;,&#34;onion&#34;,&#34;lentils (optional)&#34;]"
-        data-recipe-name="Spinach Curry"
-        href="recipe/spinach-curry.html"
-        >Spinach Curry</a
-      >
-       
-      <a
-        class="recipe-list-item"
         data-categories="[&#34;Chinese&#34;]"
         data-ingredients="[&#34;Chicken Thighs, cut into bite sized pieces&#34;,&#34;20oz can of pineapple slices&#34;,&#34;green pepper, diced&#34;,&#34;red food coloring&#34;,&#34;sugar, vinegar, cornstarch, baking powder, egg&#34;]"
         data-recipe-name="Sweet and Sour Chicken"
@@ -1224,6 +1009,15 @@
         data-recipe-name="Taco Seasoning"
         href="recipe/taco-seasoning.html"
         >Taco Seasoning</a
+      >
+       
+      <a
+        class="recipe-list-item"
+        data-categories="[]"
+        data-ingredients="[&#34;Ground Pork (or beef); Lazy version, roast beef&#34;,&#34;lettuce (baby gem, napa)&#34;,&#34;Carrots (shredded)&#34;,&#34;Sesame oil&#34;,&#34;Sesame Seeds&#34;,&#34;Soy Sauce&#34;,&#34;brown sugar&#34;,&#34;lime juice&#34;,&#34;cilantro&#34;,&#34;spring onions&#34;]"
+        data-recipe-name="Thai Lettuce Wraps"
+        href="recipe/thai-lettuce-wraps.html"
+        >Thai Lettuce Wraps</a
       >
        
       <a
@@ -1255,7 +1049,7 @@
        
       <a
         class="recipe-list-item"
-        data-categories="[&#34;Lunch&#34;]"
+        data-categories="[]"
         data-ingredients="[&#34;Sliced Turkey&#34;,&#34;Flatbread&#34;,&#34;Lettuce&#34;,&#34;Salad Dressing (Honey Mustard)&#34;,&#34;Sriracha&#34;,&#34;Shredded Cheese (cheddar)&#34;]"
         data-recipe-name="Turkey Melt"
         href="recipe/turkey-melt.html"

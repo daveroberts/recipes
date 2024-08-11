@@ -2,9 +2,11 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
 const esbuild = require("esbuild");
+const less = require("less");
 
 const BUILD_DIR = "build";
 const TEMPLATES_DIR = "templates";
+const STYLESEETS_DIR = "stylesheets";
 const STATIC_DIR = "static";
 
 const state = require("./state.js");
@@ -23,6 +25,13 @@ esbuild.buildSync({
   outfile: "build/bundle.js",
   minify: true,
   sourcemap: true,
+});
+
+let index_less = fs
+  .readFileSync(path.join(STYLESEETS_DIR, "index.less"))
+  .toString();
+less.render(index_less).then((index_css) => {
+  fs.writeFileSync(path.join(BUILD_DIR, "index.css"), index_css.css);
 });
 
 let index_template_html = fs
