@@ -2617,7 +2617,7 @@
   {
     "name": "Healthier Cheesecake",
     "links": ["https://thebigmansworld.com/healthy-cheesecake/"],
-    "categories": ["Dessert"],
+    "categories": ["Favorite", "Dessert"],
     "notes": ["This recipe rocks!"],
     "versions": [
       {
