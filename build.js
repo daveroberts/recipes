@@ -55,11 +55,3 @@ for (let recipe of state.recipes) {
     recipe_rendered_html
   );
 }
-
-let static_files = fs.readdirSync(STATIC_DIR);
-for (let static_file of static_files) {
-  fs.copyFileSync(
-    path.join(STATIC_DIR, static_file),
-    path.join(BUILD_DIR, static_file)
-  );
-}
