@@ -3242,6 +3242,152 @@
     ]
   },
   {
+    "name": "Blueberry Muffin Sausage Bites",
+    "links": ["https://www.youtube.com/shorts/FKPH9dyF8wI"],
+    "categories": [
+      "Breakfast"
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "2 packs Martha White muffix mix (blueberry or other)",
+          "1 pound breakfast sausage",
+          "1 block cream cheese"
+        ],
+        "instructions": [
+          "Mix everything together into a dough, separate into small balls",
+          "Bake at 350 for 25 minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caesar Chicken Sliders",
+    "links": ["https://www.youtube.com/shorts/i3dM3001orE"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "1 pack of slider buns",
+          "1 head romaine lettuce",
+          "Caesar dressing",
+          "shredded parmesan cheese",
+          "chicken thighs"
+        ],
+        "instructions": [
+          "Slice lettuce, add to bowl with dressing and cheese",
+          "Saute or grill chicken",
+          "Add to buns"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chopped Italian Sandwich",
+    "links": ["https://www.youtube.com/shorts/EMRIi0wzwIs","https://youtube.com/shorts/t0mjhfqI_DI?si=aoyr5Dd7yJIuscUw"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "bread (sliders, grinders, pita)",
+          "lettuce (romaine or other)",
+          "dill pickles",
+          "yellow peppers",
+          "red onion",
+          "mayo",
+          "italian dressing",
+          "pepperoni",
+          "salami",
+          "ham"
+        ],
+        "instructions": [
+          "Other than bread, dice everything and combine in a bowl",
+          "Toast bread and add ingredients"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Garlic Butter Chicken",
+    "links": ["https://youtube.com/shorts/-KC--RwWHrc?si=7JrLCEaQ0VHKlPKd"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "Chicken Thighs"
+        ],
+        "instructions": [
+          "After you saute the chicke, remove from the pan and cut into bite sized pieces",
+          "Melt butter and garlic powder in the pan,  Can add other spices",
+          "Re-add chicken and coat with sauce"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cowboy Caviar Bean Salad",
+    "links": ["https://youtube.com/shorts/eQfrPqJh6d4?si=sw5tVQoGcQYlsktB"],
+    "notes": ["Ben didn't love it"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "chickpeas (with juice)",
+          "black beans (with juice)",
+          "cucumbers",
+          "cherry tomatoes",
+          "mozzarella pearls",
+          "kalamata olives",
+          "banana peppers",
+          "cilantro",
+          "jalapeno",
+          "avocado",
+          "corn",
+          "olive oil",
+          "lime juice",
+          "red wine vinegar",
+          "banana pepper liquid",
+          "dijon mustard",
+          "maple syrup"
+        ],
+        "instructions": ["mix and enjoy"]
+      }
+    ]
+  },
+  {
+    "name": "Mexican Street Corn Bean Salad",
+    "links": ["https://youtube.com/shorts/3g3xGsRCrNM?si=UrLUUa7dPsY5Ro8F"],
+    "notes": ["Bangin!"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "1 can beans (white or black, rinsed)",
+          "corn (4 stalks worth, or 1 bag frozen)",
+          "Red Bell Pepper",
+          "1 avocado (Can be on the side)",
+          "1-2 jalapenos, diced",
+          "cilantro, diced",
+          "cheese (cojita, or queso, or mexican blend)",
+          "1/4 - 1/2 cup mayo",
+          "Plain greek yogurt",
+          "chipotle powder",
+          "Smoked paprika",
+          "garlic powder",
+          "lime juice"
+        ],
+        "instructions": [
+          "Mix and enjoy"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [],
     "categories": [
