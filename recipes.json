@@ -3388,6 +3388,32 @@
     ]
   },
   {
+    "name": "Ham Fried Rice",
+    "links": ["https://youtube.com/shorts/HbssEY72Z9U?si=g7nXGD3Hd4LMfmBM"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "4 eggs",
+          "onion (spring or yellow)",
+          "ginger powder",
+          "garlic powder",
+          "Ham",
+          "Rice (ready rice, jasmine)",
+          "peas",
+          "carrots",
+          "soy sauce"          
+        ],
+        "instructions": [
+          "fried up and mash egg, put to the side",
+          "Add onions and some oil, fry, add seasoning",
+          "Add the rest of the ingredients"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [],
     "categories": [
