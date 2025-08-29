@@ -3242,26 +3242,6 @@
     ]
   },
   {
-    "name": "Blueberry Muffin Sausage Bites",
-    "links": ["https://www.youtube.com/shorts/FKPH9dyF8wI"],
-    "categories": [
-      "Breakfast"
-    ],
-    "versions": [
-      {
-        "ingredients": [
-          "2 packs Martha White muffix mix (blueberry or other)",
-          "1 pound breakfast sausage",
-          "1 block cream cheese"
-        ],
-        "instructions": [
-          "Mix everything together into a dough, separate into small balls",
-          "Bake at 350 for 25 minutes"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Caesar Chicken Sliders",
     "links": ["https://www.youtube.com/shorts/i3dM3001orE"],
     "categories": [
@@ -3414,6 +3394,48 @@
     ]
   },
   {
+    "name": "Ziti",
+    "links": ["https://youtube.com/shorts/70mZ76Hqx7o?si=dQJQyL3NJl4Gm_zc"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "high protein pasta (1 box)",
+          "ground beef, 1 pound",
+          "zucchini",
+          "onion",
+          "mushrooms",
+          "cottage cheese (blended)",
+          "pasta sauce, 1 jar",
+          "mozzarella cheese",
+          "parmesan cheese"
+        ],
+        "instructions": [
+          "cook and drain pasta",
+          "dice onion, zucchini, mushrooms, cook with ground beef",
+          "blend cottage cheese",
+          "Add all to a bowl and mix",
+          "Add mixture to a baking dish and bake at 350F for 45 minutes",
+          "top with some cheese, melt, serve"
+        ]
+      }
+    ]
+  },
+    {
+    "name": "",
+    "links": [],
+    "categories": [
+      "to try"
+    ],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+    {
     "name": "",
     "links": [],
     "categories": [
