@@ -3223,29 +3223,50 @@
     ],
     "versions": [
       {
-        "ingredients": ["Smoked Turkey Leg"],
-        "instructions": ["Literally just throw it in the slow cooker.  Nothing else needed"]
+        "ingredients": [
+          "Smoked Turkey Leg"
+        ],
+        "instructions": [
+          "Literally just throw it in the slow cooker.  Nothing else needed"
+        ]
       }
     ]
   },
   {
     "name": "Taco (Tortilla) Soup",
-    "links": ["https://www.youtube.com/watch?v=BPSggAiM9gA"],
+    "links": [
+      "https://www.youtube.com/watch?v=BPSggAiM9gA"
+    ],
     "categories": [
-      "Cold Weather","Slow Cooker","Cheap"
+      "Cold Weather",
+      "Slow Cooker",
+      "Cheap"
     ],
     "versions": [
       {
-        "ingredients": ["1 diced onion","1 can black beans","1 can chili beans","1 can rotel","1 can tomato sauce","1 can corn","1 can chicken broth", "1 packet taco seasoning", "2 chicken breasts"],
-        "instructions": ["Crockpot on low for 8h+"]
+        "ingredients": [
+          "1 diced onion",
+          "1 can black beans",
+          "1 can chili beans",
+          "1 can rotel",
+          "1 can tomato sauce",
+          "1 can corn",
+          "1 can chicken broth",
+          "1 packet taco seasoning",
+          "2 chicken breasts"
+        ],
+        "instructions": [
+          "Crockpot on low for 8h+"
+        ]
       }
     ]
   },
   {
     "name": "Caesar Chicken Sliders",
-    "links": ["https://www.youtube.com/shorts/i3dM3001orE"],
-    "categories": [
+    "links": [
+      "https://www.youtube.com/shorts/i3dM3001orE"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3265,9 +3286,11 @@
   },
   {
     "name": "Chopped Italian Sandwich",
-    "links": ["https://www.youtube.com/shorts/EMRIi0wzwIs","https://youtube.com/shorts/t0mjhfqI_DI?si=aoyr5Dd7yJIuscUw"],
-    "categories": [
+    "links": [
+      "https://www.youtube.com/shorts/EMRIi0wzwIs",
+      "https://youtube.com/shorts/t0mjhfqI_DI?si=aoyr5Dd7yJIuscUw"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3291,9 +3314,10 @@
   },
   {
     "name": "Garlic Butter Chicken",
-    "links": ["https://youtube.com/shorts/-KC--RwWHrc?si=7JrLCEaQ0VHKlPKd"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/-KC--RwWHrc?si=7JrLCEaQ0VHKlPKd"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3309,10 +3333,13 @@
   },
   {
     "name": "Cowboy Caviar Bean Salad",
-    "links": ["https://youtube.com/shorts/eQfrPqJh6d4?si=sw5tVQoGcQYlsktB"],
-    "notes": ["Ben didn't love it"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/eQfrPqJh6d4?si=sw5tVQoGcQYlsktB"
     ],
+    "notes": [
+      "Ben didn't love it"
+    ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3334,16 +3361,21 @@
           "dijon mustard",
           "maple syrup"
         ],
-        "instructions": ["mix and enjoy"]
+        "instructions": [
+          "mix and enjoy"
+        ]
       }
     ]
   },
   {
     "name": "Mexican Street Corn Bean Salad",
-    "links": ["https://youtube.com/shorts/3g3xGsRCrNM?si=UrLUUa7dPsY5Ro8F"],
-    "notes": ["Bangin!"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/3g3xGsRCrNM?si=UrLUUa7dPsY5Ro8F"
     ],
+    "notes": [
+      "Bangin!"
+    ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3369,9 +3401,10 @@
   },
   {
     "name": "Ham Fried Rice",
-    "links": ["https://youtube.com/shorts/HbssEY72Z9U?si=g7nXGD3Hd4LMfmBM"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/HbssEY72Z9U?si=g7nXGD3Hd4LMfmBM"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3383,7 +3416,7 @@
           "Rice (ready rice, jasmine)",
           "peas",
           "carrots",
-          "soy sauce"          
+          "soy sauce"
         ],
         "instructions": [
           "fried up and mash egg, put to the side",
@@ -3395,9 +3428,10 @@
   },
   {
     "name": "Ziti",
-    "links": ["https://youtube.com/shorts/70mZ76Hqx7o?si=dQJQyL3NJl4Gm_zc"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/70mZ76Hqx7o?si=dQJQyL3NJl4Gm_zc"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3422,20 +3456,50 @@
       }
     ]
   },
-    {
-    "name": "",
-    "links": [],
-    "categories": [
-      "to try"
+  {
+    "name": "Lasagna",
+    "links": [
+      "https://www.youtube.com/watch?v=ZlsrmJvk9f4"
     ],
+    "categories": [],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "ingredients": [
+          "2 lbs 93% ground beef",
+          "1 zucchini",
+          "shredded carrots",
+          "1 red bell pepper",
+          "mushrooms",
+          "1 shallot (or onion)",
+          "3 cans of tomato sauce",
+          "1 tsp salt",
+          "1 tsp garlic powder",
+          "2 tsp onion powder",
+          "1 tsp black pepper",
+          "2.5 tsp dried oregano*",
+          "5 tsp dried basil*",
+          "2 16 oz containers of 2% fat cottage cheese",
+          "2 tbsp cornstarch",
+          "2 large eggs (Grade A)",
+          "1 cup skim shredded mozzarella cheese",
+          "1 cup parmigian cheese (shredded or powdered)",
+          "12 oz oven ready lasagna noodles"
+        ],
+        "instructions": [
+          "Preheat oven to 400F",
+          "Add veggies to food processor",
+          "Cook meat and veggies in large sauce pot",
+          "Add tomato sauce and spices to sauce pot",
+          "In a separate large bowl, add cottage cheese, eggs, and cornstarch.  Mix well",
+          "Add 1 cup shredded mozarella and parigian to cheese bowl",
+          "In a casserole, add sauce, cheese, noodles, repeat, top with extra mozarella cheese",
+          "Cover in aluminum, put onto sheet, bake at 400F for 30 minutes",
+          "Finish uncovered at 450F"
+        ]
       }
     ]
   },
-    {
+  {
     "name": "",
     "links": [],
     "categories": [
