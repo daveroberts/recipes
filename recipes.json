@@ -3500,6 +3500,25 @@
     ]
   },
   {
+    "name": "Ninja Creami Ice Cream",
+    "links": [],
+    "categories": [
+      "Dessert"
+        ],
+    "versions": [
+      {
+        "ingredients": [
+          "600g fat free milk (Fairlife)",
+          "67g sweetener",
+          "8g vanilla extract",
+          "1/4+ tsp salt",
+          "1/4+ tsp xanthan gum"
+        ],
+        "instructions": []
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [],
     "categories": [
