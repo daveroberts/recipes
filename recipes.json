@@ -3519,6 +3519,28 @@
     ]
   },
   {
+    "name": "Marshmallow Ice Cream Bars",
+    "links": ["https://www.youtube.com/watch?v=Ix6BfuGm4Hw"],
+    "categories": [
+      "Dessert"
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "graham crackers",
+          "cool whip (can be zero sugar)",
+          "1 scoop protein powder (vanilla, marshmallow, or any flavor)",
+          "peanut butter powder",
+          "calorie free sweetener"
+        ],
+        "instructions": [
+          "combine all but graham crackers in a bowl and mix",
+          "Put parchment paper on a sheet pan, put mixture between crackers, freeze for 15 minutes"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [],
     "categories": [
@@ -3528,6 +3550,18 @@
       {
         "ingredients": [],
         "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "Wonton Cheese Sticks",
+    "links": ["https://youtube.com/shorts/evRjsoqrS4U?si=6oESnEuPeA8IT4A6"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": ["wonton wrappers","cheese sticks","pasta sauce"],
+        "instructions": ["cut cheese sticks in half, put into wrappers","air fry at 350F for 4 minutes"]
       }
     ]
   }
