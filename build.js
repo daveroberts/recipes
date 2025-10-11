@@ -55,3 +55,5 @@ for (let recipe of state.recipes) {
     recipe_rendered_html
   );
 }
+
+fs.cpSync(STATIC_DIR, BUILD_DIR, {recursive: true});
