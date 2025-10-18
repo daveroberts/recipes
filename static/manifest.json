@@ -1,6 +1,7 @@
 {
-  "short_name": "Recipes",
   "name": "Recipes",
+  "short_name": "Recipes",
+  "description": "Recipes",
   "icons": [
     {
       "src": "./icon.png",
