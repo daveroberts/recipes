@@ -3541,6 +3541,67 @@
     ]
   },
   {
+    "name": "Wonton Cheese Sticks",
+    "links": ["https://youtube.com/shorts/evRjsoqrS4U?si=6oESnEuPeA8IT4A6"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": ["wonton wrappers","cheese sticks","pasta sauce"],
+        "instructions": ["cut cheese sticks in half, put into wrappers","air fry at 350F for 4 minutes"]
+      }
+    ]
+  },
+  {
+    "name": "Biscuit Calzones",
+    "links": ["https://www.youtube.com/watch?v=xtWLuGMJyd4"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "Biscuits",
+          "Pizza sauce"
+        ],
+        "instructions": [
+          "flatten biscuits",
+          "Add 1 spoonful pizza sauce",
+          "Close with fork",
+          "Brush with garlic butter",
+          "Air fry, add cheese to top",
+          "dunk in more pizza sauce"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oatmeal Cake",
+    "links": ["https://youtube.com/shorts/SLUiw7RzGIE?si=C3nlAeZQzwINKD6i"],
+    "categories": [
+    ],
+    "versions": [
+      {
+        "ingredients": [
+          "2-3 bananas",
+          "200g oats",
+          "Protein powder (whey and cassein)",
+          "1tsp baking powder",
+          "1 Tbsp maple syrup",
+          "Sweetener",
+          "Milk (almond or other)",
+          "Topping: frozen blueberries",
+          "Toggping: Yogurt"
+        ],
+        "instructions": [
+          "Add ingredients and mix.  Use enough sweetener so it's about the consistency of oatmeal",
+          "Add toppings",
+          "Put in fridge",
+          "350F for 35 minutes"
+        ]
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [],
     "categories": [
@@ -3554,14 +3615,28 @@
     ]
   },
   {
-    "name": "Wonton Cheese Sticks",
-    "links": ["https://youtube.com/shorts/evRjsoqrS4U?si=6oESnEuPeA8IT4A6"],
+    "name": "",
+    "links": [],
     "categories": [
+      "to try"
     ],
     "versions": [
       {
-        "ingredients": ["wonton wrappers","cheese sticks","pasta sauce"],
-        "instructions": ["cut cheese sticks in half, put into wrappers","air fry at 350F for 4 minutes"]
+        "ingredients": [],
+        "instructions": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "links": [],
+    "categories": [
+      "to try"
+    ],
+    "versions": [
+      {
+        "ingredients": [],
+        "instructions": []
       }
     ]
   }
