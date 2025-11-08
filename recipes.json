@@ -100,7 +100,7 @@
           "broccoli"
         ],
         "instructions": [
-          "Whisk soy sauce, cornstarch, oyster sauce and cooking wine to make a sauce",
+          "Whisk soy sauce, cornstarch to make a sauce",
           "Marinade meat in soy sauce and sesame oil",
           "Add water to wok, add broccoli and salt.  Slightly steam broccoli until water is gone",
           "Clear Wok, add oil and beef for color.  Remove beef",
@@ -273,46 +273,6 @@
     ]
   },
   {
-    "name": "Coconut Chickpea Rice",
-    "categories": [],
-    "links": [
-      "https://www.youtube.com/watch?v=i9EmC0pM1YE"
-    ],
-    "versions": [
-      {
-        "ingredients": [
-          "1 cup basmati rice",
-          "1 cup coconut milk",
-          "1/2 red onion",
-          "1/4 cup peanuts",
-          "1 cup broccolini (chopped)",
-          "1 tbsp coconut oil",
-          "1 cup canned chickpeas",
-          "1/2 tbsp garlic powder",
-          "1 tsp chili powder",
-          "1 tbsp smoked paprika",
-          "2 tsp turmeric",
-          "generous pinch of salt",
-          "1/2 cup shredded coconut",
-          "few sprigs cilantro"
-        ],
-        "instructions": [
-          "Place 1 cup of basmati rice into a small sauce pan.  Wash and drain the rice a couple of times to get rid of the excess starch",
-          "Toast the rice for a couple of minutes on medium high heat.  Then, add in 1 cup of coconut milk",
-          "When the milk starts to bubble, give the rice a good stir to make sure nothing is grabbing the bottom of the pan.  Then, cover and cook on medium low for 15min",
-          "Dice the red onion, coarsely chop the peanuts, and chop the broccolini",
-          "After 15min, turn the heat off and let the rice steam further for 10min",
-          "Heat up a non stick pan on medium heat.  Add the coconut oil",
-          "Add the red onion and chickpeas followed by the garlic powder, chili powder, smoked paprika, turmeric, and salt",
-          "Add in the hazelnuts and broccolini",
-          "Sauté for 3-4min",
-          "Add the shredded coconut.  Sauté for another couple of minutes and taste and adjust the seasoning if needed",
-          "Plate the rice and add the coconut chickpeas on top.  Garnish with some freshly chopped cilantro"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Breakfast Casserole",
     "categories": [
       "Breakfast",
@@ -432,44 +392,6 @@
           "Dredge chicken through dry bowl, then wet bowl, then dry again. Freeze chicken if possible.",
           "In a small skillet, heat vegetable oil on medium.  Use enough vegetable oil to almost submerge breasts.  Fry for 3-4 minutes per side.  After pulling out, add salt to fried chicken",
           "Serve on toasted buns with mayo, lettuce and tomato"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Chicken Tikka Masala",
-    "links": [
-      "https://www.ambitiouskitchen.com/healthy-slow-cooker-chicken-tikka-masala/",
-      "https://ministryofcurry.com/slow-cooker-chicken-tikka-masala/"
-    ],
-    "categories": [
-      "Indian",
-      "Slow Cooker"
-    ],
-    "versions": [
-      {
-        "ingredients": [
-          "2 pounds boneless skinless chicken thighs or breasts",
-          "1 onion, diced",
-          "ginger garlic paste",
-          "1 28oz can crushed tomatoes",
-          "1 cup coconut milk or 3 Tbsp greek yogurt",
-          "2 Tbsp lemon juice",
-          "1 Tbsp garam masala",
-          "1 tsp paprika",
-          "1/2 tsp cayenne",
-          "1/2 tsp turmeric",
-          "1/2 tsp curry powder",
-          "salt and pepper",
-          "cilantro for garnish",
-          "rice or naan as side"
-        ],
-        "instructions": [
-          "saute onion, spices, transfer to slow cooker",
-          "Add allexpect coconut milk and/or yogurt to slow cooker",
-          "cook for 6 hours on low",
-          "Remove chicken and shred, re-add to slow cooker with coconut milk",
-          "Finish cooking uncovered to thicken, taste for additional salt"
         ]
       }
     ]
@@ -986,40 +908,6 @@
           "Add egg and a splash of vanilla, 1 teaspoon of salt, 1 Tablespoon of baking powder, whisk together",
           "Add liquid to fill to 2 cup line",
           "Add flour, about 1 cup and a half, until consistency like pancakes, fold with liquid"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Filipino-style Picadillo",
-    "links": [
-      "https://www.youtube.com/watch?v=ZUFIQpbr9Fs"
-    ],
-    "categories": [],
-    "versions": [
-      {
-        "ingredients": [
-          "1 tablespoon canola oil",
-          "1 onion, peeled and chopped",
-          "2 cloves garlic, peeled and minced",
-          "1 1/2 pounds ground beef",
-          "2 tablespoons fish sauce",
-          "1 cup tomato sauce",
-          "1/2 cup crushed tomatoes",
-          "1/2 cup water or beef broth",
-          "2 medium potatoes, peeled and cubed",
-          "peas and carrots",
-          "2 tablespoons raisins",
-          "salt and pepper to taste"
-        ],
-        "instructions": [
-          "In a pan over medium heat, heat oil. Add onions and garlic and cook until limp.",
-          "Add ground beef and cook, breaking to pieces with the back of a spoon, until lightly browned. Drain excess fat, if any. ",
-          "Add fish sauce and cook for about 1 to 2 minutes.",
-          "Add tomato sauce and crushed tomatoes.",
-          "Add water and bring to a boil. Lower heat, cover and cook for about 10 to 15 minutes or until beef is cooked through. ",
-          "Add potatoes, carrots, peas, raisins. Cover and continue to simmer for about 3 to 5 minutes or until tender. ",
-          "Continue to cook until sauce is reduced and thickened. Season with salt and pepper to taste."
         ]
       }
     ]
@@ -3614,15 +3502,58 @@
     ]
   },
   {
-    "name": "",
-    "links": [],
+    "name": "Crunchwraps",
+    "links": [
+      "https://www.youtube.com/watch?v=XuT6mnndEX8"
+    ],
     "categories": [
-      "to try"
+      "Mexican"
     ],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "name": "Meat filling",
+        "ingredients": [
+          "ground beef (can be vegan)",
+          "taco seasoning",
+          "onion (optional)",
+          "mushrooms (optional)",
+          "beans (black/pinto) (optional)",
+          "red lentils (optional)"
+        ],
+        "instructions": [
+          "Brown off meat, add in other ingredients"
+        ]
+      },
+      {
+        "name": "Base Layer",
+        "ingredients": [
+          "large flour tortillas",
+          "shredded mexican cheese"
+        ],
+        "instructions": [
+          "Add 7 tortillas to pan",
+          "Add meat layer, add cheese layer"
+        ]
+      },
+      {
+        "name": "Second layer",
+        "ingredients": [
+          "rotel",
+          "corn",
+          "tortilla chips",
+          "lettuce",
+          "sour cream"
+        ],
+        "instructions": [
+          "Add in next layer.  All ingredients optional"
+        ]
+      },
+      {
+        "name": "Bake",
+        "instructions": [
+          "Place another baking sheet on top, Into the oven at 420F for 20 minutes",
+          "serve with taco sauce"
+        ]
       }
     ]
   },
@@ -3659,6 +3590,21 @@
     ]
   },
   {
+    "name": "Bean Burritos",
+    "links": [
+      "https://www.youtube.com/shorts/Bfq8KjE0cEg"
+    ],
+    "categories": [],
+    "versions": [
+      {
+        "ingredients": [
+          ""
+        ],
+        "instructions": []
+      }
+    ]
+  },
+  {
     "name": "",
     "links": [],
     "categories": [
@@ -3667,18 +3613,6 @@
     "versions": [
       {
         "ingredients": [],
-        "instructions": []
-      }
-    ]
-  },
-  {
-    "name": "Bean Burritos",
-    "links": ["https://www.youtube.com/shorts/Bfq8KjE0cEg"],
-    "categories": [
-    ],
-    "versions": [
-      {
-        "ingredients": [""],
         "instructions": []
       }
     ]
