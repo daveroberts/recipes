@@ -3520,7 +3520,9 @@
   },
   {
     "name": "Marshmallow Ice Cream Bars",
-    "links": ["https://www.youtube.com/watch?v=Ix6BfuGm4Hw"],
+    "links": [
+      "https://www.youtube.com/watch?v=Ix6BfuGm4Hw"
+    ],
     "categories": [
       "Dessert"
     ],
@@ -3542,21 +3544,30 @@
   },
   {
     "name": "Wonton Cheese Sticks",
-    "links": ["https://youtube.com/shorts/evRjsoqrS4U?si=6oESnEuPeA8IT4A6"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/evRjsoqrS4U?si=6oESnEuPeA8IT4A6"
     ],
+    "categories": [],
     "versions": [
       {
-        "ingredients": ["wonton wrappers","cheese sticks","pasta sauce"],
-        "instructions": ["cut cheese sticks in half, put into wrappers","air fry at 350F for 4 minutes"]
+        "ingredients": [
+          "wonton wrappers",
+          "cheese sticks",
+          "pasta sauce"
+        ],
+        "instructions": [
+          "cut cheese sticks in half, put into wrappers",
+          "air fry at 350F for 4 minutes"
+        ]
       }
     ]
   },
   {
     "name": "Biscuit Calzones",
-    "links": ["https://www.youtube.com/watch?v=xtWLuGMJyd4"],
-    "categories": [
+    "links": [
+      "https://www.youtube.com/watch?v=xtWLuGMJyd4"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3576,9 +3587,10 @@
   },
   {
     "name": "Oatmeal Cake",
-    "links": ["https://youtube.com/shorts/SLUiw7RzGIE?si=C3nlAeZQzwINKD6i"],
-    "categories": [
+    "links": [
+      "https://youtube.com/shorts/SLUiw7RzGIE?si=C3nlAeZQzwINKD6i"
     ],
+    "categories": [],
     "versions": [
       {
         "ingredients": [
@@ -3615,15 +3627,34 @@
     ]
   },
   {
-    "name": "",
+    "name": "Burger Stew",
     "links": [],
     "categories": [
-      "to try"
+      "Cold Weather"
     ],
     "versions": [
       {
-        "ingredients": [],
-        "instructions": []
+        "ingredients": [
+          "1 pound ground beef",
+          "onion, diced",
+          "carrots, diced",
+          "celery, diced",
+          "seasoning: basil, salt, pepper",
+          "1 quart chicken stock",
+          "4 cups potatoes, diced",
+          "milk",
+          "1 pound melting cheese (velveeta or other)",
+          "sour cream or cream cheese",
+          "bacon (optional)"
+        ],
+        "instructions": [
+          "Cook beef and diced onion until crispy, remove and set aside",
+          "Dice / mince carrots and celery, add seasoning (basil, salt, pepper), saute in oil and butter until soft",
+          "Add 1/4 cup flour, cook for a couple minutes",
+          "Add chicken stock and potatoes, simmer until potatoes are tender",
+          "Add milk, cheese, and a few large spoonfuls of sour cream, simmer until cheese is melted",
+          "Add ground beef and crumbled bacon"
+        ]
       }
     ]
   },
