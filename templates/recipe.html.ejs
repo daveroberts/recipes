@@ -22,7 +22,7 @@
     </div>
     <div>
       <% const LF = "%0D%0A" %> <% let link =
-      `https://daveroberts.github.io/recipes/build/recipe/${recipe.name.toLowerCase().replaceAll("/","-").replaceAll("\\","-")}.html`
+      `https://daveroberts.github.io/recipes/build/recipe/${url_from(recipe.name)}.html`
       %> <% let body = recipe.name + LF + link + LF + recipe.versions.map(v =>
       `${v?.name ||
       ""}${LF}${v?.ingredients?.join(LF)}${LF}${LF}${v?.instructions?.join(LF)}`).join(LF)
