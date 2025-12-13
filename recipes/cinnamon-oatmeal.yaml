@@ -1,0 +1,27 @@
+name: Cinnamon Oatmeal
+links:
+  - https://www.youtube.com/watch?v=kmqWyyjCjTw
+categories:
+  - Breakfast
+  - Favorite
+versions:
+  - name: Main Dish
+    ingredients:
+      - quick oats
+      - Applesauce
+      - yogurt (plain or vanilla)
+      - cinnamon
+      - brown sugar
+      - coconut milk (or other milk)
+      - Flax seed (optional)
+    instructions:
+      - mix and heat either stovetop or microwave
+  - name: (Optional) Toppings
+    ingredients:
+      - quick oats
+      - almonds
+      - honey or maple syrup
+      - diced apple
+    instructions:
+      - Toast almonds, oats and some diced apples
+      - Top bowls with toasted mix and honey or maple sytrup

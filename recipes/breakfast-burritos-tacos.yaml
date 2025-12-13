@@ -1,0 +1,31 @@
+name: Breakfast Burritos / Tacos
+links:
+  - https://www.youtube.com/watch?v=ShKEzA9wo_I
+  - https://www.youtube.com/watch?v=xdwLxfJBOWE
+categories:
+  - Breakfast
+versions:
+  - name: Sausage
+    ingredients:
+      - breakfast sausage or chorizo or ground turkey/beef or bacon
+      - eggs
+      - bell pepper
+      - 1/2 onion
+      - potato
+    instructions:
+      - Break down sausage and fry.  Remove from pan.
+      - Dice potatoes into small cubes and fry until golden, remove from pan
+      - Scramble eggs, remove from pan
+      - Dice and Saute veggies
+  - name: Sausage
+    ingredients:
+      - breakfast sausage or ground turkey/beef
+      - eggs
+      - bell pepper
+      - 1/2 onion
+      - potato
+    instructions:
+      - Break down sausage and fry.  Remove from pan.
+      - Dice potatoes into small cubes and fry until golden, remove from pan
+      - Scramble eggs, remove from pan
+      - Dice and Saute veggies

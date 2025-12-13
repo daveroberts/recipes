@@ -1,0 +1,41 @@
+name: Chicken A La King
+categories:
+  - Cold Weather
+notes:
+  - It shares many ingredients with Gumbo, so maybe buy ingredients for both at
+    once
+links:
+  - https://www.youtube.com/watch?v=WvO8EuM1egc
+versions:
+  - name: gather
+    ingredients:
+      - butter
+      - green pepper
+      - orange pepper
+      - red pepper
+      - Fennel
+      - red onion
+      - flour
+      - chicken stock
+      - sherry
+      - chicken pieces
+      - heavy cream
+      - egg yolk
+      - toast
+    instructions: []
+  - name: prepare chicken
+    ingredients: []
+    instructions:
+      - Cook chicken, let it cool, cut into pieces, save for recipe
+  - name: prepare vegetables
+    ingredients: []
+    instructions:
+      - Dice vegetables, peppers, fennel
+  - name: make
+    ingredients: []
+    instructions:
+      - Put vegetables in pan, cook then down
+      - Dust with some flour, cook out rawness from the flour
+      - Deglaze with stock and sherry, cook off alcohol
+      - Add heavy cream, egg yolk to thicken
+      - Serve over toast

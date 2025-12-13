@@ -1,0 +1,17 @@
+name: Breakfast Pizza
+links:
+  - https://www.youtube.com/watch?v=KbL5JxPqk-s
+categories:
+  - Breakfast
+versions:
+  - ingredients:
+      - Turkey Pepperoni
+      - Shredded Mozzarella
+      - Eggs
+      - Whole wheat tortilla
+    instructions:
+      - Oil spray a small pan
+      - Add pepperoni, fry a bit
+      - add mozarella
+      - whisk 2 eggs, pour into pan
+      - Add tortilla to top and flip

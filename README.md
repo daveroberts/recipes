@@ -6,7 +6,7 @@ How hard can it be to build one of these?
 
 # Updating
 
-1. Update recipes.json
+1. Update recipes/
 3. `npm run publish`
 
 

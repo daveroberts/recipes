@@ -1,0 +1,36 @@
+name: Crunchwraps
+links:
+  - https://www.youtube.com/watch?v=XuT6mnndEX8
+categories:
+  - Mexican
+versions:
+  - name: Meat filling
+    ingredients:
+      - ground beef (can be vegan)
+      - taco seasoning
+      - onion (optional)
+      - mushrooms (optional)
+      - beans (black/pinto) (optional)
+      - red lentils (optional)
+    instructions:
+      - Brown off meat, add in other ingredients
+  - name: Base Layer
+    ingredients:
+      - large flour tortillas
+      - shredded mexican cheese
+    instructions:
+      - Add 7 tortillas to pan
+      - Add meat layer, add cheese layer
+  - name: Second layer
+    ingredients:
+      - rotel
+      - corn
+      - tortilla chips
+      - lettuce
+      - sour cream
+    instructions:
+      - Add in next layer.  All ingredients optional
+  - name: Bake
+    instructions:
+      - Place another baking sheet on top, Into the oven at 420F for 20 minutes
+      - serve with taco sauce

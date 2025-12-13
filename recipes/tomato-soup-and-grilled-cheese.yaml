@@ -1,0 +1,30 @@
+name: Tomato soup and grilled cheese
+links:
+  - https://www.youtube.com/watch?v=6TpC3I9VYCQ
+categories:
+  - Cheap
+  - Slow Cooker
+versions:
+  - name: Tomato soup
+    ingredients:
+      - 5 tomatoes
+      - 1 onion
+      - 1 bulb garlic
+      - bouillon (tomato or chicken or both)
+      - basil
+    instructions:
+      - quarter tomatoes and onion, peel garlic
+      - Add garlic, onion, tomatoes, basil, salt and pepper to slow cooker with
+        2 cups of water
+      - Cook on high for four hours, or 6 on low
+      - Blend
+  - name: Grilled Cheese
+    ingredients:
+      - bread (Hamburger buns work well here)
+      - American cheese
+    instructions:
+      - Butter a large skilled, add unbuttered bread
+      - Add bread, then cheese, then cheese again, then bread.  If using
+        hamburger buns, turn them "inside out", so what's normally touching the
+        inside of the hamburger, is the outside of your grilled cheese
+      - Keep flipping and add more butter if it starts the burn

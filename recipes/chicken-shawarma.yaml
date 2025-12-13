@@ -1,0 +1,73 @@
+name: Chicken Shawarma
+links:
+  - https://www.youtube.com/watch?v=Qwm2W3ZOfVI
+  - https://www.youtube.com/watch?v=TROZvPHqP1g
+categories: []
+versions:
+  - name: Spice Marinade
+    ingredients:
+      - 2 tsp garlic powder
+      - "1 tsp turmeric "
+      - "1 tsp cumin "
+      - "1 tsp coriander "
+      - "1 tsp all spice "
+      - "2 tsp smoked paprika "
+      - "1 tsp onion "
+      - "1 tsp cardamom "
+      - "1/2 tsp clove "
+      - 1/2 tsp cayenne pepper
+      - 1/2 tsp msg
+      - "1 Tbsp sugar "
+      - 1.5tsp salt
+      - 2 Tbsp olive oil
+      - 1.5 Tbsp lemon juice
+      - 4 Tbsp white vinegar
+      - 2 Tbsp tomato paste
+      - liquid smoke (optional, or use real smoke, see below)
+    instructions:
+      - Mix dry ingredients
+      - Add olive oil, lemon juice and tomato paste
+      - optionally, add lemon zest
+  - name: Chicken Prep
+    ingredients:
+      - 2 pounds boneless skinless chicken thighs
+    instructions:
+      - Slice thighs into little strips
+      - Marinade overnight
+  - name: Toum sauce
+    ingredients:
+      - 1 full bulb of garlic
+      - 1 cup neutral oil (corn, canola, vegetable, avocado, grapeseed,
+        sunflower, peanut)
+      - 4 Tbsp lemon juice
+      - pinch of salt
+    instructions:
+      - Blend all ingredients together
+  - name: Make fries (optional)
+    ingredients:
+      - frozen fries
+    instructions:
+      - Make some frensh friend in the air frier.  Goes well in/with Shawarma
+  - name: Cooking the chicken
+    ingredients:
+      - dill relish or sliced pickes
+    instructions:
+      - Slice some dill pickles if you don't have dill relish
+      - Sear the chicken on high heat.  Don't crowd the pan.  Allow a crust to
+        develop
+  - name: Final Assembly
+    ingredients:
+      - dill relish or sliced pickes
+      - pomegranite molassses
+      - french fries
+      - pitas
+      - parchment paper
+      - aluminum foil
+    instructions:
+      - Add pita to pan to soak leftover chicken fat, spread toum sauce on pita
+        in pan, add chicken and sliced dill pickles
+      - Add fries (optional)
+      - Add pomegranite molassses (optional)
+      - Wrap pita in parchment paper
+      - Wrap pita in aluminum foil, heat in pan, slice diagonally
+      - Serve with Toum

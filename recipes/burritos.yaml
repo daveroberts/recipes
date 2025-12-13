@@ -1,0 +1,40 @@
+name: Burritos
+links:
+  - https://www.youtube.com/watch?v=uJQuJqxenMY
+notes:
+  - A winner!  I added more beans and more chicken, but it wasn't necessary..
+categories: []
+versions:
+  - name: Meat
+    ingredients:
+      - Chicken Breast
+    instructions:
+      - Can use any meat, but chicken breast is good.  sous vide it then dice it
+        small
+  - name: Spice blend
+    ingredients:
+      - 1/2 tsp paprika (smoked preferred)
+      - 1 Tbsp chili powder
+      - 1/2 tsp coriander
+      - 1/2 Tbsp cumin
+      - 2 tsp onion powder
+      - 1 tsp garlic powder
+      - 1 tsp salt
+      - 1 tsp black pepper
+  - ingredients:
+      - cilantro
+      - green pepper
+      - jalapeno
+      - 1 can beans (pinto preferred)
+      - 1 can tomato sauce
+      - lime juice
+      - cream cheese
+      - Shredded Mozzarella
+      - tortillas
+    instructions:
+      - Dice peppers and jalapenos
+      - mince cilantro, add lime juice and salt
+      - mostly drain a can of beans, add beans, peppers and jalapenos to skillet
+      - Add tomato sauce and spices, add lime juice and salt if needed
+      - Add diced chicken and cheese
+      - Put into burritos

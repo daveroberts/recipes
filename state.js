@@ -1,6 +1,13 @@
 let state = {};
 
-const recipes = require("./recipes.json");
+const fs = require('fs')
+const libyaml = require('yaml')
+let files = fs.readdirSync("./recipes/")
+let recipes = []
+for(let filename of files){
+  let recipe = libyaml.parse(fs.readFileSync(`./recipes/${filename}`).toString())
+  recipes.push(recipe)
+}
 let categories = recipes
   .map((r) => r.categories)
   .flat()
