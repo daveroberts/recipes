@@ -2,13 +2,13 @@ import * as fs from 'node:fs';
 import * as path from 'path';
 import * as libyaml from 'yaml'
 let recipe_dirs = fs.readdirSync("./recipes/")
-import sharp from 'sharp'
 import category_to_icon from "./icons.json" with { type: 'json'};
 export async function generate_state(){
   let state = {};
   let recipes = []
   for(let recipe_dir of recipe_dirs){
     let recipe = libyaml.parse(fs.readFileSync(path.join('recipes', recipe_dir, 'recipe.yaml')).toString())
+    recipe.filename = recipe_dir
     let allowed_filenames = ['image.jpg', 'image.jpeg', 'image.png', 'image.gif', 'image.webp'];
     let files_in_recipe_dir = fs.readdirSync(path.join('recipes', recipe_dir))
     let image_files_in_recipe_dir = files_in_recipe_dir.filter(file => allowed_filenames.includes(file))

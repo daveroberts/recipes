@@ -1,18 +1,22 @@
 let state = {
-  categories_selected: [],
+  category_selected: null,
   search: "",
 };
 function toggle_category(category) {
-  let idx = state.categories_selected.findIndex((item) => item == category);
-  let el = document.querySelector(`a[data-category="${category}"]`);
-  if (idx == -1) {
-    state.categories_selected.push(category);
-    el.classList.add("in");
+  if (state.category_selected == category){
+    state.category_selected = null
   } else {
-    state.categories_selected.splice(idx, 1);
-    el.classList.remove("in");
+    state.category_selected = category
   }
-
+  let category_buttons = document.querySelectorAll(`a.category-button`);
+  for(let category_button of category_buttons){
+    let cat = category_button.dataset.category
+    if (cat == state.category_selected){
+      category_button.classList.add("in");
+    } else {
+      category_button.classList.remove("in")
+    }
+  }
   render();
 }
 
@@ -31,23 +35,16 @@ function render() {
   }
   let el_recipes = Array.from(document.querySelectorAll(".recipe-list-item"));
   let show_all = true;
-  if (state.categories_selected.length > 0 || state.search) {
+  if (state.category_selected || state.search) {
     show_all = false;
   }
   for (let el of el_recipes) {
     let recipe_categories = el.dataset.categories
       ? JSON.parse(el.dataset.categories)
       : [];
-    let is_in = true;
-    for (let cat of state.categories_selected) {
-      if (!recipe_categories.includes(cat)) {
-        is_in = false;
-        break;
-      }
-    }
-    let search_match = true;
+    let does_category_match = recipe_categories.includes(state.category_selected)
+    let search_match = false;
     if (state.search) {
-      search_match = false;
       let recipe_name = el.dataset.recipeName;
       let ingredients = el.dataset.ingredients
         ? JSON.parse(el.dataset.ingredients)
@@ -61,7 +58,7 @@ function render() {
       search_match = !!name_match || !!matched_ingredient;
     }
 
-    if (show_all || (is_in && search_match)) {
+    if (show_all || (state.search && search_match) || (!state.search && does_category_match)) {
       el.classList.remove("hidden");
     } else {
       el.classList.add("hidden");

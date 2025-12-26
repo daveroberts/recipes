@@ -18,8 +18,6 @@ export async function generate({ categories = [], recipes = [] } = {}) {
     <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#db7093">
     <script>`;
-  let service_worker_script = fs.readFileSync('./templates/service_worker.js').toString()
-  output += service_worker_script
   output += /*html*/`</script>
   </head>
   <body>
@@ -41,8 +39,8 @@ export async function generate({ categories = [], recipes = [] } = {}) {
   for (let category of categories) {
     output += /*html*/`
       <a href="#void"
-        data-category="<%=category%>"
-        onclick="toggle_category('<%=category%>')"
+        data-category="${category}"
+        onclick="toggle_category('${category}')"
         class="category-button"
         >${category_icon(category)}${category}</a>`
   }
@@ -71,8 +69,8 @@ export async function generate({ categories = [], recipes = [] } = {}) {
     output += /*html*/`
       <a
         class="recipe-list-item"
-        data-categories="${JSON.stringify(recipe.categories)}"
-        data-ingredients="${JSON.stringify(recipe.versions.map(v => v.ingredients || []).flat())}"
+        data-categories="${JSON.stringify(recipe.categories).replace(/"/g, `&quot;`)}"
+        data-ingredients="${JSON.stringify(recipe.versions.map(v => v.ingredients || []).flat()).replace(/"/g, `&quot;`)}"
         data-recipe-name="${recipe.name}"
         href="recipe/${recipe.filename}.html"
         >${image_tag_html}<div class="recipe-list-title">${recipe_icons(recipe)}${recipe.name}</div></a>`
