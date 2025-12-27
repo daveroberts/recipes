@@ -1,8 +1,14 @@
 name: Bean Burritos
 links:
   - https://www.youtube.com/shorts/Bfq8KjE0cEg
-categories: []
+categories: ["Mexican"]
 versions:
   - ingredients:
-      - ""
-    instructions: []
+      - Beans, black or pinto
+      - hot salsa
+      - flour tortillas
+      - Shredded cheese
+    instructions:
+      - Blend beans and salsa into a puree
+      - Cook in a saucepan for a bit to thicken
+      - Add to a tortilla with cheese
