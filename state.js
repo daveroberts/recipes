@@ -33,7 +33,7 @@ export async function generate_state(){
     categories.splice(fav_idx, 1);
     categories.unshift("Favorite");
   }
-  recipes.sort((a, b) => (a.name > b.name ? 1 : -1));
+  recipes.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1));
 
   state.recipes = recipes;
   state.categories = categories;
