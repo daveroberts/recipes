@@ -1,8 +1,8 @@
 # Recipes
 
-How hard can it be to build one of these?
+How hard can it be to make one of these?
 
-[https://daveroberts.github.io/recipes/build](https://daveroberts.github.io/recipes/build)
+[https://daveroberts.github.io/recipes/output](https://daveroberts.github.io/recipes/output)
 
 # Updating
 
