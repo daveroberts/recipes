@@ -38,11 +38,11 @@ export async function generate({ categories = [], recipes = [] } = {}) {
   };
   for (let category of categories) {
     output += /*html*/`
-      <a href="#void"
+      <a href="#"
         data-category="${category}"
         onclick="toggle_category('${category}')"
         class="category-button"
-        >${category_icon(category)}${category}</a>`
+        >${category_icon(category)} ${category}</a>`
   }
   output += /*html*/`
     </div>
@@ -73,7 +73,7 @@ export async function generate({ categories = [], recipes = [] } = {}) {
         data-ingredients="${JSON.stringify(recipe.versions.map(v => v.ingredients || []).flat()).replace(/"/g, `&quot;`)}"
         data-recipe-name="${recipe.name}"
         href="recipe/${recipe.filename}.html"
-        >${image_tag_html}<div class="recipe-list-title">${recipe_icons(recipe)}${recipe.name}</div></a>`
+        >${image_tag_html}<div class="recipe-list-title">${recipe_icons(recipe)} ${recipe.name}</div></a>`
   }
   output += /*html*/`
     </div>
