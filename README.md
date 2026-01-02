@@ -2,7 +2,7 @@
 
 How hard can it be to make one of these?
 
-[https://daveroberts.github.io/recipes/output](https://daveroberts.github.io/recipes/output)
+[https://daveroberts.github.io/recipes/build](https://daveroberts.github.io/recipes/build)
 
 # Updating
 

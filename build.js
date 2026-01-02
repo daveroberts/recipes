@@ -5,7 +5,7 @@ import less from 'less';
 import * as index_builder from './templates/index_builder.js'
 import * as recipe_builder from './templates/recipe_builder.js'
 
-const OUTPUT_DIR = "output";
+const OUTPUT_DIR = "build";
 const STYLESEETS_DIR = "stylesheets";
 const STATIC_DIR = "static";
 
@@ -23,7 +23,7 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 esbuild.buildSync({
   entryPoints: ["./scripts/"],
   bundle: false,
-  outfile: "output/bundle.js",
+  outfile: "build/bundle.js",
   minify: true,
   sourcemap: true,
 });
