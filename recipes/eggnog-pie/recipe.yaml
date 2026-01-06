@@ -1,10 +1,10 @@
 name: Eggnog Pie
-categories: ["Dessert", "Cold Weather"]
+categories: [ "Dessert", "Cold Weather" ]
 versions:
-  - ingredients:
-      - 2 cups eggnog
-      - 1 family size sugar free pudding
-      - 1 cool whip container
-      - 1 pie crust
-    instructions:
-      - Mix all ingredients, add to pie crust, refrigerate
+- ingredients:
+  - 2 cups eggnog
+  - 1 family size sugar free pudding
+  - 1 cool whip container
+  - 1 pie crust
+  instructions:
+  - Mix all ingredients, add to pie crust, refrigerate
