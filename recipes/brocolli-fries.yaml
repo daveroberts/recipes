@@ -1,8 +1,18 @@
 name: Brocolli Fries
 links:
-  - https://youtube.com/shorts/YKXaLlY1ywY?si=dmBxMiVA7y5U_zEu
+- https://youtube.com/shorts/YKXaLlY1ywY?si=dmBxMiVA7y5U_zEu
 categories:
-  - to revise
+- to revise
 versions:
-  - ingredients: []
-    instructions: []
+- ingredients:
+  - 1 package brocolli
+  - 1 cup shredded cheddar cheese
+  - 1/2 cup parmesan cheese
+  - 2 eggs
+  - 1/2 packet ranch seasoning
+  instructions:
+  - Microwave brocolli
+  - Add brocolli to food processor
+  - In a large bowl, mix brocolli, cheese, eggs, ranch
+  - Form into fries
+  - Air fry until golden brown

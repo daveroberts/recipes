@@ -12,18 +12,14 @@ const STATIC_DIR = "static";
 import * as libstate from './state.js';
 let state = await libstate.generate_state();
 
-// Used to remove and recreate build dir here, but browsersync can't watch that for changes
-if (!fs.existsSync(OUTPUT_DIR)) {
-  fs.mkdirSync(OUTPUT_DIR);
-  if (!fs.existsSync(path.join(OUTPUT_DIR, "recipe"))) {
-    fs.mkdirSync(path.join(OUTPUT_DIR, "recipe"));
-  }
+if (!fs.existsSync(path.join(OUTPUT_DIR, "recipe"))) {
+  fs.mkdirSync(path.join(OUTPUT_DIR, "recipe"), { recursive: true });
 }
 
 esbuild.buildSync({
   entryPoints: ["./scripts/"],
   bundle: false,
-  outfile: "build/bundle.js",
+  outfile: `${OUTPUT_DIR}/bundle.js`,
   minify: true,
   sourcemap: true,
 });
@@ -44,7 +40,7 @@ for (let recipe of state.recipes) {
   }
   state.recipe = recipe;
   let recipe_rendered_html = await recipe_builder.generate(recipe)
-  let output_file = path.join(OUTPUT_DIR, "recipe", recipe.filename + ".html")
+  let output_file = path.join(OUTPUT_DIR, "recipe", recipe.pathname + ".html")
   fs.writeFileSync(output_file, recipe_rendered_html);
 }
 

@@ -58,6 +58,8 @@ export async function generate({ categories = [], recipes = [] } = {}) {
     return icons.join();
   };
   for (let recipe of recipes) {
+    // Uncomment for debugging
+    // console.log(recipe.pathname)
     if (!recipe.name) { continue }
     let image_tag_html = ""
     if (recipe.image_file_path){
@@ -72,7 +74,7 @@ export async function generate({ categories = [], recipes = [] } = {}) {
         data-categories="${JSON.stringify(recipe.categories).replace(/"/g, `&quot;`)}"
         data-ingredients="${JSON.stringify(recipe.versions.map(v => v.ingredients || []).flat()).replace(/"/g, `&quot;`)}"
         data-recipe-name="${recipe.name}"
-        href="recipe/${recipe.filename}.html"
+        href="recipe/${recipe.pathname}.html"
         >${image_tag_html}<div class="recipe-list-title">${recipe_icons(recipe)} ${recipe.name}</div></a>`
   }
   output += /*html*/`

@@ -1,16 +1,19 @@
 name: Lentil Tacos
 categories: []
 versions:
-  - ingredients:
-      - Flour tortillas
-      - 1 cup lentils
-      - 1 small onion
-      - 1 small red bell pepper
-      - 1 small can of corn
-      - 14oz can green chilies
-      - 1.5 Tablespoons of taco seasoning
-      - 1/2 cup sour cream
-      - 1 lime
-    instructions:
-      - Mix all ingredients other than sour cream in a pan
-      - Combine sour cream, lime juice and water to make a smooth creamy topping
+- ingredients:
+  - Flour tortillas
+  - 1 cup lentils
+  - onion, diced
+  - red bell pepper, diced
+  - 1 can of corn, drained
+  - 14oz can green chilies
+  - 1/2 packet taco seasoning
+  - sour cream
+  - lime juice
+  - shredded cheese
+  instructions:
+  - Cook lentils
+  - Combine lentils, onion, bell pepper, corn, chilies and taco seasoning in a pan
+  - Cook for a bit, top with cheese
+  - Combine sour cream, lime juice and water to make a smooth creamy topping

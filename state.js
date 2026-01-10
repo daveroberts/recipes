@@ -8,7 +8,7 @@ export async function generate_state(){
   let recipes = []
   for(let recipe_file of recipe_files){
     let recipe = libyaml.parse(fs.readFileSync(path.join('recipes', recipe_file)).toString())
-    recipe.filename = recipe_file
+    recipe.pathname = recipe_file.replace(/\.yaml$/, "")
     recipes.push(recipe)
   }
   let categories = recipes

@@ -16,7 +16,7 @@ export async function generate(recipe){
     <a href="../">← Back to recipe list</a>
     <div style="margin: 1em 0">
       <span style="display: flex; align-items: center; column-gap: 10pt">
-        <a class="recipe-title" href="${recipe.filename}.html"
+        <a class="recipe-title" href="${recipe.pathname}.html"
           >${recipe.name}</a>`
 if (recipe.categories){
   for(let category of recipe.categories){
@@ -26,7 +26,7 @@ if (recipe.categories){
     </div>
     <div>`
 const LF = "%0D%0A"
-let link = `https://daveroberts.github.io/recipes/build/recipe/${recipe.filename}.html`
+let link = `https://daveroberts.github.io/recipes/build/recipe/${recipe.pathname}.html`
 let body = recipe.name + LF + link + LF + recipe.versions.map(v => `${v?.name ||""}${LF}${v?.ingredients?.join(LF)}${LF}${LF}${v?.instructions?.join(LF)}`).join(LF)
   output += /*html*/`<a target="_blank"
     href="mailto:?subject=Recipe: ${recipe.name}&body=${body}">Share Recipe 📧</a></div>`
