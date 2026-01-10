@@ -37,7 +37,7 @@ export async function generate({ categories = [], recipes = [] } = {}) {
      stroke-linejoin="round"
      stroke-linecap="round">
 
-  <!-- Centered 3D die -->
+  <!-- Centered 3D die --->
   <g transform="translate(14 20) rotate(-18)">
     <!-- top face -->
     <polygon points="0,0 18,-8 36,0 18,8"/>
