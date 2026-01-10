@@ -18,6 +18,7 @@ export async function generate({ categories = [], recipes = [] } = {}) {
     <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#db7093">
     <script>`;
+      output += `let recipe_pathnames = ${JSON.stringify(recipes.map(r => r.pathname))}`
   output += /*html*/`</script>
   </head>
   <body>
@@ -28,6 +29,41 @@ export async function generate({ categories = [], recipes = [] } = {}) {
         autofocus
         oninput="search_changed(event)"
       />
+      <button onclick="let idx = Math.floor(Math.random() * recipe_pathnames.length);let pathname = recipe_pathnames[idx];  window.location = 'recipe/' + pathname + '.html'"><svg viewBox="0 0 64 64"
+     xmlns="http://www.w3.org/2000/svg"
+     fill="none"
+     stroke="black"
+     stroke-width="2"
+     stroke-linejoin="round"
+     stroke-linecap="round">
+
+  <!-- Centered 3D die -->
+  <g transform="translate(14 20) rotate(-18)">
+    <!-- top face -->
+    <polygon points="0,0 18,-8 36,0 18,8"/>
+    <!-- left face -->
+    <polygon points="0,0 0,22 18,30 18,8"/>
+    <!-- right face -->
+    <polygon points="36,0 36,22 18,30 18,8"/>
+
+    <!-- pips -->
+    <!-- top face (1) -->
+    <circle cx="18" cy="0" r="2" fill="black"/>
+
+    <!-- right face (2) -->
+    <circle cx="26" cy="12" r="2" fill="black"/>
+    <circle cx="32" cy="18" r="2" fill="black"/>
+
+    <!-- left face (3) -->
+    <circle cx="6" cy="10" r="2" fill="black"/>
+    <circle cx="10" cy="16" r="2" fill="black"/>
+    <circle cx="14" cy="22" r="2" fill="black"/>
+  </g>
+
+</svg>
+
+ Random Recipe</button>
+      
     </div>
     <div id="category-area">`;
   function category_icon(category) {

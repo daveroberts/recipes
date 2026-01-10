@@ -80,10 +80,22 @@ button:hover {
 }
 .search-box {
   margin: 10pt 0;
+  position: relative;
 }
 .search-box input {
   font-size: 2em;
   width: 100%;
+}
+.search-box button {
+  position: absolute;
+  right: 5pt;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background: none;
 }
 .recipe-list {
   display: flex;
