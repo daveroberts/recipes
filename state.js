@@ -1,23 +1,14 @@
 import * as fs from 'node:fs';
 import * as path from 'path';
 import * as libyaml from 'yaml'
-let recipe_dirs = fs.readdirSync("./recipes/")
+let recipe_files = fs.readdirSync("./recipes/")
 import category_to_icon from "./icons.json" with { type: 'json'};
 export async function generate_state(){
   let state = {};
   let recipes = []
-  for(let recipe_dir of recipe_dirs){
-    let recipe = libyaml.parse(fs.readFileSync(path.join('recipes', recipe_dir, 'recipe.yaml')).toString())
-    recipe.filename = recipe_dir
-    let allowed_filenames = ['image.jpg', 'image.jpeg', 'image.png', 'image.gif', 'image.webp'];
-    let files_in_recipe_dir = fs.readdirSync(path.join('recipes', recipe_dir))
-    let image_files_in_recipe_dir = files_in_recipe_dir.filter(file => allowed_filenames.includes(file))
-    recipe.image_file_path = null;
-    if (image_files_in_recipe_dir.length){
-      let image_file = image_files_in_recipe_dir[0]
-      let image_file_path = path.join('recipes',recipe_dir, image_file)
-      recipe.image_file_path = image_file_path
-    }
+  for(let recipe_file of recipe_files){
+    let recipe = libyaml.parse(fs.readFileSync(path.join('recipes', recipe_file)).toString())
+    recipe.filename = recipe_file
     recipes.push(recipe)
   }
   let categories = recipes
